@@ -1,4 +1,21 @@
 node_modules
+1_Daily/Beauty
+1_Daily/Chores
+1_Daily/Daily-Drawing
+1_Daily/Daily-Routine
+1_Daily/Diary
+1_Daily/Diet
+1_Daily/Dreams
+1_Daily/Drinks
+1_Daily/Health
+1_Daily/Meditation
+1_Daily/Savings
+1_Daily/Wants-Needs
+1_Daily/Workout
+10_Fleeting
+.obsidian
+.smart-env
+Utilities
 dist
 netlify/functions/search/data.json
 netlify/functions/search/index.json
@@ -11,3 +28,4 @@ src/site/styles/_theme.*.css
 .cache
 _site/
 **/.DS_Store
+ 
