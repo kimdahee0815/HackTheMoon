@@ -1383,16 +1383,16 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
 
 /* theme-change */
 #floating-control {
-    position: fixed;
+    position: absolute;
     color: var(--link-color);
-    top: 3vmax;
-    right: 2vmax;
+    bottom: 2vmax;
+    right: 4vmax;
     font-size: 24px;
     z-index: 999999;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
     .svg-icon,
     i {
         cursor: pointer;
