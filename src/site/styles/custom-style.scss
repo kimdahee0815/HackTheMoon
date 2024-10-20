@@ -1383,7 +1383,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
 
 /* theme-change */
 #floating-control {
-    position: absolute;
+    position: fixed;
     color: var(--link-color);
     bottom: 2vmax;
     right: 4vmax;
