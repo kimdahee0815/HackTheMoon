@@ -1463,7 +1463,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1780px) {
     #floating-control {
         position: absolute;
         color: var(--link-color);
@@ -1482,8 +1482,8 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     #floating-control {
         position: absolute;
         color: var(--link-color);
-        top: 5.1vmax;
-        right: 13vmax;
+        top: 5.2vmax;
+        right: 13.2vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1497,8 +1497,8 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     #floating-control {
         position: absolute;
         color: var(--link-color);
-        top: 5.6vmax;
-        right: 13.7vmax;
+        top: 5.7vmax;
+        right: 14vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1508,7 +1508,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399px) {
     #floating-control {
         position: absolute;
         color: var(--link-color);
