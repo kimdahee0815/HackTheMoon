@@ -1538,7 +1538,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1398px) {
     #floating-control {
         position: fixed;
         color: var(--link-color);
@@ -1558,7 +1558,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 1.5vmax;
-        right: 15vmax;
+        right: 12vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
