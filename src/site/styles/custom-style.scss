@@ -1523,12 +1523,12 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 1476px) {
+@media screen and (max-width: 1490px) {
     #floating-control {
         position: fixed;
         color: var(--link-color);
         top: 5.6vmax;
-        right: 14.9vmax;
+        right: 15.1vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
