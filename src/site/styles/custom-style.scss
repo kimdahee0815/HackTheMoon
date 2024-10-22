@@ -1438,7 +1438,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 4.5vmax;
-        right: 11.8vmax;
+        right: 12vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1453,7 +1453,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 4.6vmax;
-        right: 12.1vmax;
+        right: 12.2vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1468,7 +1468,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 4.9vmax;
-        right: 12.5vmax;
+        right: 12.6vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1483,7 +1483,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 5.1vmax;
-        right: 13vmax;
+        right: 13.2vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1498,7 +1498,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 5.2vmax;
-        right: 13.5vmax;
+        right: 13.7vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1528,7 +1528,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
         position: fixed;
         color: var(--link-color);
         top: 5.6vmax;
-        right: 14.7vmax;
+        right: 14.9vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
@@ -1553,7 +1553,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (min-width: 1240px) and (max-width: 1400px) {
+@media screen and (min-width: 1339px) and (max-width: 1400px) {
     #floating-control {
         position: fixed;
         color: var(--link-color);
@@ -1568,7 +1568,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1339px) {
     #floating-control {
         position: fixed;
         color: var(--link-color);
@@ -1583,7 +1583,7 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1130px) {
     #floating-control {
         position: fixed;
         color: var(--link-color);
@@ -1598,12 +1598,12 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 950px) {
     #floating-control {
         position: fixed;
         color: var(--link-color);
         top: 2vmax;
-        right: 22vmax;
+        right: 22.3vmax;
         font-size: 24px;
         z-index: 999999;
         display: flex;
