@@ -247,6 +247,15 @@ dg-content-classes: dashboard
 	LIMIT 10
 ```
 
+🔖 Draft: need to check!
+
+```dataview
+	LIST
+	FROM ""
+	WHERE contains(tags, "draft") and file.folder != "Utilities/Templates" 
+	SORT date DESC
+```
+
 -   〽️ Stats
     -   File Count: `$=dv.pages('""').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
     -   Daily Routines: `$=dv.pages('"2_Routine/1_Daily/Daily-Routine"').length`
