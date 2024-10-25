@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import "@kfonts/nanum-handwritting-dahaengche";
 /* @settings
 name: AnuPpuccin Themes Extended
 id: anuppuccin-theme-settings-extended
@@ -108,7 +108,9 @@ settings:
             label: Solarized
             value: ctp-solarized-dark
 */
+
 body {
+    font-family: "나눔손글씨 다행체", "나눔손글씨다행체", "nanum-handwritting-dahaengche";
     --note-icon-1: url(/img/moon.svg);
     --note-icon-fallback: url(/img/icon.svg);
 }
