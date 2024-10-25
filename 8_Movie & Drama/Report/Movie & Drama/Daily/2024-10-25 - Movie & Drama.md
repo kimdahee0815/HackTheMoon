@@ -7,7 +7,8 @@ tags:
   - movie
   - drama
   - daily-report
-aliases:
+aliases: 
+dg-publish: true
 ---
 ```dataviewjs
 let dgPublish = undefined;
