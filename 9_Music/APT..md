@@ -1,0 +1,24 @@
+---
+{"dg-permalink":"9_Music/APT.","created-date":"2024-10-25 5:16:28 pm","date":"2024-10-25","type":"entertainment","tags":["music"],"aliases":null,"title":"APT.","music-url":"https://open.spotify.com/track/2vDkR3ctidSd17d2CygVzS","album":"APT.","album-release-date":"2024-10-18","album-url":"https://open.spotify.com/album/5EtwY9I5SXbAFJRMr3rkab","cover":"![APT.](https://i.scdn.co/image/ab67616d00001e0259639b3440e708daa35987be)","cover-url":"https://i.scdn.co/image/ab67616d00001e0259639b3440e708daa35987be","artists":"ROSÉ, Bruno Mars","added-at":"Fri Oct 25 2024 - 오후 5:16:36","rating":"⭐⭐⭐⭐⭐⭐","dg-publish":true,"permalink":"/9_Music/APT./","dgPassFrontmatter":true,"noteIcon":"1"}
+---
+
+# [[9_Music/APT.\|APT.]]
+![](https://i.scdn.co/image/ab67616d00001e0259639b3440e708daa35987be)
+
+
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:6:21)</pre>
+
+
+
+
+### Music References
+##### Music Report
+[[9_Music/Report/2024-10-25 - APT.\|2024-10-25 - APT. Report]]
+[[9_Music/Report/Daily/2024-10-25 - Music\|2024-10-25 - Music Daily Report]]
+[[9_Music/Report/Weekly/2024-W43 - Music\|2024-W43 - Music Weekly Report]]
+
+
+
+
+
