@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-permalink":"index","title":"Hack The Moon","cssclasses":["dashboard"],"dg-content-classes":"dashboard","permalink":"/index/","contentClasses":"dashboard","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-permalink":"index","title":"Hack The Moon","cssclasses":["dashboard"],"dg-content-classes":"dashboard","permalink":"/index/","contentClasses":"dashboard","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
@@ -128,6 +128,9 @@
 
 🗄️ Recent file updates
 
+- [[index\|index]]
+- [[README\|README]]
+- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/APT.\|APT.]]
 - [[9_Music/Overview/music\|music]]
 - [[8_Movie & Drama/Overview/shadowing\|shadowing]]
@@ -135,9 +138,6 @@
 - [[8_Movie & Drama/Overview/drama\|drama]]
 - [[7_Stuff/Overview/stuff\|stuff]]
 - [[6_People/Overview/people\|people]]
-- [[6_People/Overview/author\|author]]
-- [[5_Event/Overview/meeting\|meeting]]
-- [[5_Event/Overview/event\|event]]
 
 { .block-language-dataview}
 
@@ -152,7 +152,7 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 107
+    -   File Count: 108
     -   Daily Routines: 
     -   Daily Drawings: 
     -   Class: 
