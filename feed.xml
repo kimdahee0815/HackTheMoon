@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://kimdahee0815.github.io/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://kimdahee0815.github.io">
     <title>Hack The Moon</title>
-    <link href="https://kimdahee0815.github.io//feed.xml" rel="self" >
-    <link href="https://kimdahee0815.github.io/" >
-    <updated>2024-10-27T12:00:30Z</updated>
-    <id>https://kimdahee0815.github.io/</id>
+    <link href="https://kimdahee0815.github.io/feed.xml" rel="self" >
+    <link href="https://kimdahee0815.github.io" >
+    <updated>2024-10-27T12:04:01Z</updated>
+    <id>https://kimdahee0815.github.io</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-10-27T12:00:20Z</updated>
-            <id>https://kimdahee0815.github.io//</id>
+            <updated>2024-10-27T12:03:54Z</updated>
+            <id>https://kimdahee0815.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;projects&quot; tabindex=&quot;-1&quot;&gt;Projects&lt;/h1&gt;
 &lt;p&gt;💼 Career&lt;/p&gt;
@@ -94,6 +94,6 @@
 &lt;/ul&gt;
 
             </content>
-            <link href="https://kimdahee0815.github.io//" >
+            <link href="https://kimdahee0815.github.io/" >
         </entry>
 </feed>
