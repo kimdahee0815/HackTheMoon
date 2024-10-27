@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url("//cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/style/RIDIBatang-subset-web.css");
+/* @settings
+name: AnuPpuccin Themes Extended
+id: anuppuccin-theme-settings-extended
+settings:
+  -
+    id: anp-theme-ext-light
+    title: Toggle extended light theme
+    type: class-toggle
+  -
+    id: anp-theme-ext-dark
+    title: Toggle extended dark theme
+    type: class-toggle
+  -
+    id: anp-theme-ext-amoled
+    title: Toggle amoled black on all themes
+    type: class-toggle
+  - 
+    id: catppuccin-theme-extended
+    title: Light theme flavor
+    description: Select your preferred light mode flavor
+    type: class-select
+    allowEmpty: false
+    default: ctp-nord-light
+    options:
+        - 
+            label: Atom
+            value: ctp-atom-light
+        - 
+            label: Everforest
+            value: ctp-everforest-light
+        - 
+            label: Gruvbox
+            value: ctp-gruvbox-light
+        - 
+            label: Material Mint
+            value: ctp-material-mint-light
+        - 
+            label: Luminescence
+            value: ctp-luminescence-light
+        - 
+            label: Nord
+            value: ctp-nord-light
+        - 
+            label: Notion
+            value: ctp-notion-light
+        - 
+            label: Sandy Beaches
+            value: ctp-sandy-beaches-light
+        - 
+            label: Solarized
+            value: ctp-solarized-light
+  - 
+    id: catppuccin-theme-dark-extended
+    title: Dark theme flavor
+    description: Select your preferred dark mode flavor
+    type: class-select
+    allowEmpty: false
+    default: ctp-nord-dark
+    options:
+        -
+            label: AMOLED Dark
+            value: ctp-amoled-dark
+        -
+            label: Atom
+            value: ctp-atom-dark
+        -
+            label: Coffee
+            value: ctp-coffee-dark
+        -
+            label: Dark (Generic)
+            value: ctp-generic-dark
+        -
+            label: Dracula
+            value: ctp-dracula
+        -
+            label: Everforest
+            value: ctp-everforest-dark
+        -
+            label: Gruvbox
+            value: ctp-gruvbox-dark
+        -
+            label: Kanagawa
+            value: ctp-kanagawa-dark
+        -
+            label: Material Mint
+            value: ctp-material-mint-dark
+        -
+            label: Nord
+            value: ctp-nord-dark
+        -
+            label: Notion
+            value: ctp-notion-dark
+        -
+            label: Nord Dark (Custom palette)
+            value: ctp-nord-darker
+        -
+            label: Rosé Pine
+            value: ctp-rosepine-dark
+        -
+            label: Rosebox
+            value: ctp-rosebox
+        -
+            label: Royal Velvet
+            value: ctp-royal-velvet
+        -
+            label: Solarized
+            value: ctp-solarized-dark
+*/
+
+body {
+    font-family: "RIDIBatang";
+    --note-icon-1: url(/img/moon.svg);
+    --note-icon-fallback: url(/img/icon.svg);
+}
+
+@font-face {
+    font-family: "RIDIBatang";
+    src: url("./Utilities/Fonts/RIDIBatang.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="moon"]::before,
+body.filetree-note-icon .filename[data-note-icon="moon"]::before,
+body.links-note-icon .internal-link[data-note-icon="moon"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="moon"]::before {
+    background-image: url(/img/moon.svg);
+}
