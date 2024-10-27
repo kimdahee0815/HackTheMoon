@@ -110,9 +110,9 @@
     content: "🔖 ";
 }
 
-.data-link-icon-after[data-link-status]:hover::after {
+/* .data-link-icon-after[data-link-status]:hover::after {
     content: attr(data-link-status);
-}
+} */
 
 .data-link-icon[data-link-img^="https" i]:empty {
     width: 1.5em;
