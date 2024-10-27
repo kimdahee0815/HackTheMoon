@@ -3,14 +3,14 @@
     <title>Hack The Moon</title>
     <link href="https://kimdahee0815.github.io//feed.xml" rel="self" >
     <link href="https://kimdahee0815.github.io/" >
-    <updated>2024-10-27T12:54:35Z</updated>
+    <updated>2024-10-27T12:54:40Z</updated>
     <id>https://kimdahee0815.github.io/</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-10-27T12:54:21Z</updated>
+            <updated>2024-10-27T12:54:29Z</updated>
             <id>https://kimdahee0815.github.io//</id>
             <content type="html">
                 &lt;h1 id=&quot;projects&quot; tabindex=&quot;-1&quot;&gt;Projects&lt;/h1&gt;
@@ -113,8 +113,7 @@
             <content type="html">
                 &lt;h1 id=&quot;9-music-the-way-the-way&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;1&quot; href=&quot;https://kimdahee0815.github.io/9_Music/The-Way/&quot;&gt;The Way&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.scdn.co/image/ab67616d00001e02ea28881e9e363244a4a2347b&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;pre class=&quot;dataview dataview-error&quot;&gt;Evaluation Error: TypeError: Cannot set properties of undefined (setting &#39;innerHTML&#39;)
-    at eval (eval at &amp;lt;anonymous&amp;gt; (plugin:dataview), &amp;lt;anonymous&amp;gt;:6:21)&lt;/pre&gt;
+&lt;div class=&quot;container-root&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;container-root&quot;&gt;&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/0S4RKPbRDA72tvKwVdXQqe?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;152&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h3 id=&quot;music-references&quot; tabindex=&quot;-1&quot;&gt;Music References&lt;/h3&gt;
 &lt;h5 id=&quot;music-report&quot; tabindex=&quot;-1&quot;&gt;Music Report&lt;/h5&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2024-10-27 - The Way Report&lt;/a&gt;&lt;br /&gt;
