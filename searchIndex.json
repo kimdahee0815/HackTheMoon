@@ -75,13 +75,13 @@
 		"title": "That's Hilarious",
 		"date":"Mon Oct 28 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
 		"url":"/9_Music/That&#39;s-Hilarious/",
-		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n\nEvaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:6:21)\nMusic References\nMusic Report\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-28 - That's Hilarious Report</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Report/Daily/2024-10-28---Music/\">2024-10-28 - Music Daily Report</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-5th - Music Weekly Report</a>",
+		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n\nMusic References\nMusic Report\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-28 - That's Hilarious Report</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Report/Daily/2024-10-28---Music/\">2024-10-28 - Music Daily Report</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-5th - Music Weekly Report</a>",
 		"tags": [ "note","music"]
 },
 
 {
 		"title": "affirmation",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/affirmation/",
 		"content": "Affirmation\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","affirmation","overview"]
@@ -89,7 +89,7 @@
 
 {
 		"title": "arrangingDesk",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/arrangingDesk/",
 		"content": "Arranging Desk\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","arrangingDesk","overview"]
@@ -97,7 +97,7 @@
 
 {
 		"title": "bodyScan",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/bodyScan/",
 		"content": "Body Scan\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","bodyScan","overview"]
@@ -105,7 +105,7 @@
 
 {
 		"title": "brushHair",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/brushHair/",
 		"content": "Brush hair\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","brushHair","overview"]
@@ -113,7 +113,7 @@
 
 {
 		"title": "cleaningHouse",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/cleaningHouse/",
 		"content": "Morning Cleaning House\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031\nEvening Cleaning House\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","cleaningHouse","overview"]
@@ -121,7 +121,7 @@
 
 {
 		"title": "coffee",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/coffee/",
 		"content": "Coffee\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","coffee","overview"]
@@ -129,7 +129,7 @@
 
 {
 		"title": "diary",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/diary/",
 		"content": "Diary\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","diary","overview"]
@@ -137,7 +137,7 @@
 
 {
 		"title": "eveningSkincare",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/eveningSkincare/",
 		"content": "Evening skincare\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","eveningSkincare","overview"]
@@ -145,7 +145,7 @@
 
 {
 		"title": "eyeDrop",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/eyeDrop/",
 		"content": "Eye Drop\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","eyeDrop","overview"]
@@ -153,7 +153,7 @@
 
 {
 		"title": "eyeRelief",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/eyeRelief/",
 		"content": "Eye Relief\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","eyeRelief","overview"]
@@ -161,7 +161,7 @@
 
 {
 		"title": "facialMask",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/facialMask/",
 		"content": "Facial Mask\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","facialMask","overview"]
@@ -169,7 +169,7 @@
 
 {
 		"title": "floss",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/floss/",
 		"content": "Floss\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","floss","overview"]
@@ -177,7 +177,7 @@
 
 {
 		"title": "footCare",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/footCare/",
 		"content": "Foot Care\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","footCare","overview"]
@@ -185,7 +185,7 @@
 
 {
 		"title": "gratitude",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/gratitude/",
 		"content": "Gratitude\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","gratitude","overview"]
@@ -193,7 +193,7 @@
 
 {
 		"title": "mToQueen",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/mToQueen/",
 		"content": "M to Queen\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","mToQueen","overview"]
@@ -201,7 +201,7 @@
 
 {
 		"title": "meditation",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/meditation/",
 		"content": "Meditation\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","meditation","overview"]
@@ -209,7 +209,7 @@
 
 {
 		"title": "morningSkincare",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/morningSkincare/",
 		"content": "Morning skincare\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","morningSkincare","overview"]
@@ -217,7 +217,7 @@
 
 {
 		"title": "nails",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/nails/",
 		"content": "Nails\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","nails","overview"]
@@ -225,7 +225,7 @@
 
 {
 		"title": "omega3",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/omega3/",
 		"content": "Omega3\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","omega3","overview"]
@@ -233,7 +233,7 @@
 
 {
 		"title": "pantotin",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/pantotin/",
 		"content": "Pantotin\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","pantotin","overview"]
@@ -241,7 +241,7 @@
 
 {
 		"title": "probiotics",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/probiotics/",
 		"content": "Probiotics\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","probiotics","overview"]
@@ -249,7 +249,7 @@
 
 {
 		"title": "sleep",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/sleep/",
 		"content": "Sleep\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","sleep","overview"]
@@ -257,7 +257,7 @@
 
 {
 		"title": "snack",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/snack/",
 		"content": "Snack\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","snack","overview"]
@@ -265,7 +265,7 @@
 
 {
 		"title": "stretching",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/stretching/",
 		"content": "Stretching\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","stretching","overview"]
@@ -273,7 +273,7 @@
 
 {
 		"title": "tea",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/tea/",
 		"content": "Tea\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","tea","overview"]
@@ -281,7 +281,7 @@
 
 {
 		"title": "todoList",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/todoList/",
 		"content": "TodoList\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","todoList","overview"]
@@ -289,7 +289,7 @@
 
 {
 		"title": "visualization",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/visualization/",
 		"content": "Visualization\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","visualization","overview"]
@@ -297,7 +297,7 @@
 
 {
 		"title": "wantsNeeds",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/wantsNeeds/",
 		"content": "Wants &amp; Needs\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","wantsNeeds","overview"]
@@ -305,7 +305,7 @@
 
 {
 		"title": "washingDishes",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/washingDishes/",
 		"content": "Morning Washing Dishes\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031\nAfternoon Washing Dishes\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031\nEvening Washing Dishes\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","washingDishes","overview"]
@@ -313,7 +313,7 @@
 
 {
 		"title": "water",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/water/",
 		"content": "Water\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","water","overview"]
@@ -321,7 +321,7 @@
 
 {
 		"title": "workout",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/workout/",
 		"content": "Workout\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
 		"tags": [ "note","monthly","workout","overview"]
@@ -329,7 +329,7 @@
 
 {
 		"title": "affirmation",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/affirmation/",
 		"content": "Arranging Desk\n💕 Affirmation 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","affirmation","overview"]
@@ -337,7 +337,7 @@
 
 {
 		"title": "arrangingDesk",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/arrangingDesk/",
 		"content": "Arranging Desk\n✨ Arranging-Desk 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","arrangingDesk","overview"]
@@ -345,7 +345,7 @@
 
 {
 		"title": "bodyScan",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/bodyScan/",
 		"content": "Body Scan\n🧍‍♀️ Body-Scan 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","bodyScan","overview"]
@@ -353,7 +353,7 @@
 
 {
 		"title": "brushHair",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/brushHair/",
 		"content": "Brush Hair\n🪮 Brush-Hair 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","brushHair","overview"]
@@ -361,7 +361,7 @@
 
 {
 		"title": "cleaningHouse",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/cleaningHouse/",
 		"content": "Morning Cleaning House\n🧹 Morning Cleaning House 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun\nEvening Cleaning House\n🧹 Evening Cleaning House 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","cleaningHouse","overview"]
@@ -369,7 +369,7 @@
 
 {
 		"title": "coffee",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/coffee/",
 		"content": "Coffee\n☕ Coffee 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","coffee","overview"]
@@ -377,7 +377,7 @@
 
 {
 		"title": "diary",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/diary/",
 		"content": "Diary\n🖊️ Diary 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","diary","overview"]
@@ -385,7 +385,7 @@
 
 {
 		"title": "eveningSkincare",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/eveningSkincare/",
 		"content": "Evening Skincare\n😌 Evening-Skincare24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","eveningSkincare","overview"]
@@ -393,7 +393,7 @@
 
 {
 		"title": "eyeDrop",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/eyeDrop/",
 		"content": "Eye Drop\n💧 Eye-Drop 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","eyeDrop","overview"]
@@ -401,7 +401,7 @@
 
 {
 		"title": "eyeRelief",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/eyeRelief/",
 		"content": "Eye Relief\n🥽 Eye-Relief 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","eyeRelief","overview"]
@@ -409,7 +409,7 @@
 
 {
 		"title": "facialMask",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/facialMask/",
 		"content": "Facial Mask\n😶‍🌫️ Facial-Mask 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","facialMask","overview"]
@@ -417,7 +417,7 @@
 
 {
 		"title": "floss",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/floss/",
 		"content": "Floss\n🦷 Floss 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","floss","overview"]
@@ -425,7 +425,7 @@
 
 {
 		"title": "footCare",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/footCare/",
 		"content": "Foot Care\n🦶 Foot-care 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","footCare","overview"]
@@ -433,7 +433,7 @@
 
 {
 		"title": "gratitude",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/gratitude/",
 		"content": "Gratitude\n💗 Gratitude 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","gratitude","overview"]
@@ -441,7 +441,7 @@
 
 {
 		"title": "mToQueen",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/mToQueen/",
 		"content": "M to Queen\n💊 M to Queen 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","mToQueen","overview"]
@@ -449,7 +449,7 @@
 
 {
 		"title": "meditation",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/meditation/",
 		"content": "Meditation\n🧘 Meditation 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","meditation","overview"]
@@ -457,7 +457,7 @@
 
 {
 		"title": "morningSkincare",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/morningSkincare/",
 		"content": "Morning Skincare\n😌 Morning-Skincare24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","morningSkincare","overview"]
@@ -465,7 +465,7 @@
 
 {
 		"title": "nails",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/nails/",
 		"content": "Nails\n💅 Nails 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","nails","overview"]
@@ -473,7 +473,7 @@
 
 {
 		"title": "omega3",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/omega3/",
 		"content": "Omega3\n💊 Omega3 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","omega3","overview"]
@@ -481,7 +481,7 @@
 
 {
 		"title": "pantotin",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/pantotin/",
 		"content": "Pantotin\n💊 Pantotin 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","pantotin","overview"]
@@ -489,7 +489,7 @@
 
 {
 		"title": "probiotics",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/probiotics/",
 		"content": "Probiotics\n💊 Probiotics 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","probiotics","overview"]
@@ -497,7 +497,7 @@
 
 {
 		"title": "sleep",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/sleep/",
 		"content": "Sleep\n💤 Sleep 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","sleep","overview"]
@@ -505,7 +505,7 @@
 
 {
 		"title": "snack",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/snack/",
 		"content": "Snack\n🍪 Snack 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","snack","overview"]
@@ -513,7 +513,7 @@
 
 {
 		"title": "stretching",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/stretching/",
 		"content": "Stretching\n🤸‍♀️ Stretching 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","stretching","overview"]
@@ -521,7 +521,7 @@
 
 {
 		"title": "tea",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/tea/",
 		"content": "Tea\n🍵 Tea 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","tea","overview"]
@@ -529,7 +529,7 @@
 
 {
 		"title": "todoList",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/todoList/",
 		"content": "Todo-List\n✅ Todo-List 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","todoList","overview"]
@@ -537,7 +537,7 @@
 
 {
 		"title": "visualization",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/visualization/",
 		"content": "Arranging Desk\n✨ Visualization 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","visualization","overview"]
@@ -545,7 +545,7 @@
 
 {
 		"title": "wantsNeeds",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/wantsNeeds/",
 		"content": "Wants &amp; Needs\n🔮 Wants &amp; Needs 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","wantsNeeds","overview"]
@@ -553,7 +553,7 @@
 
 {
 		"title": "washingDishes",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/washingDishes/",
 		"content": "Morning Washing Dishes\n🧽 Morning Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun\nAfternoon Washing Dishes\n🧽 Afternoon Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun\nEvening Washing Dishes\n🧽 Evening Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","washingDishes","overview"]
@@ -561,7 +561,7 @@
 
 {
 		"title": "water",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/water/",
 		"content": "Water\n🫗 Water 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","water","overview"]
@@ -569,7 +569,7 @@
 
 {
 		"title": "workout",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/workout/",
 		"content": "Workout\n💪 Workout 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","workout","overview"]
@@ -577,7 +577,7 @@
 
 {
 		"title": "class",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/class/",
 		"content": "Class Overview\n\nFile\ndate",
 		"tags": [ "note","class","overview"]
@@ -585,7 +585,7 @@
 
 {
 		"title": "developing",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/developing/",
 		"content": "Developing Overview\n\nFile\ndate",
 		"tags": [ "note","developing","overview"]
@@ -593,7 +593,7 @@
 
 {
 		"title": "english-podcast",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/english-podcast/",
 		"content": "English-Podcast Overview\n\nFile\nImg\ndate",
 		"tags": [ "note","english","podcast","overview"]
@@ -601,7 +601,7 @@
 
 {
 		"title": "web-surfing",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/web-surfing/",
 		"content": "Web-Surfing Overview\n\nFile\nImg\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Character-Alignment/\">Character Alignment</a>\n!<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">200</a>\n2024. 10. 25.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Magic-The-Gathering-Colors/\">Magic The Gathering Colors</a>\n!<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">100</a>\n2024. 10. 25.",
 		"tags": [ "note","web-surfing","overview"]
@@ -609,7 +609,7 @@
 
 {
 		"title": "work",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/work/",
 		"content": "Work Overview\n\nFile\ndate",
 		"tags": [ "note","work","overview"]
@@ -617,7 +617,7 @@
 
 {
 		"title": "youtube",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/youtube/",
 		"content": "Youtube Overview\n\nFile\nImg\ndate",
 		"tags": [ "note","youtube","overview"]
@@ -625,7 +625,7 @@
 
 {
 		"title": "book",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/4_Book/Overview/book/",
 		"content": "book Overview\n\nFile\nCover\nRating⭐\nAuthor\nGenre\npages\ndate",
 		"tags": [ "note","book","overview"]
@@ -633,7 +633,7 @@
 
 {
 		"title": "event",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/5_Event/Overview/event/",
 		"content": "Event Overview\n\nFile\nImg\nRating⭐\ndate",
 		"tags": [ "note","event","overview"]
@@ -641,7 +641,7 @@
 
 {
 		"title": "meeting",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/5_Event/Overview/meeting/",
 		"content": "Meeting Overview\n\nFile\nSummary\nImg\nRating⭐\ndate",
 		"tags": [ "note","event","meeting","overview"]
@@ -649,7 +649,7 @@
 
 {
 		"title": "author",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/6_People/Overview/author/",
 		"content": "Author Overview\n\nFile\nImg\ndate",
 		"tags": [ "note","people","author","overview"]
@@ -657,7 +657,7 @@
 
 {
 		"title": "people",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/6_People/Overview/people/",
 		"content": "People Overview\nSocial\n\nFile\nImg\ndate\n\nPersonal\n\nFile\nImg\ndate",
 		"tags": [ "note","people","overview"]
@@ -665,7 +665,7 @@
 
 {
 		"title": "stuff",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/7_Stuff/Overview/stuff/",
 		"content": "Stuff Overview\n\nFile\nImg\nRating⭐\ndate",
 		"tags": [ "note","stuff","overview"]
@@ -673,7 +673,7 @@
 
 {
 		"title": "drama",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Overview/drama/",
 		"content": "Drama Overview\n\nFile\nPoster\nRating⭐\nEpisodeLength\nGenre\nImdb⭐\ndate",
 		"tags": [ "note","drama","overview"]
@@ -681,7 +681,7 @@
 
 {
 		"title": "movie",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Overview/movie/",
 		"content": "Movie Overview\n\nFile\nPoster\nRating⭐\nLength\nGenre\nImdb⭐\ndate",
 		"tags": [ "note","movie","overview"]
@@ -689,7 +689,7 @@
 
 {
 		"title": "shadowing",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Overview/shadowing/",
 		"content": "Shadowing Overview\n\nFile\ndate",
 		"tags": [ "note","shadowing","overview"]
@@ -697,7 +697,7 @@
 
 {
 		"title": "music",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/9_Music/Overview/music/",
 		"content": "Music Overview\n\nFile\nArtists\nCover\nAlbum\nRating⭐\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\nCharlie Puth\n\nCHARLIE\n⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 28.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Papercuts/\">Papercuts</a>\nLandon Conrath\n\nPapercuts\n⭐⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 28.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\nCarlos Rafael Rivera\n\nThe Queen's Gambit (Music from the Netflix Limited Series)\n⭐⭐⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 28.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Cruel-Summer/\">Cruel Summer</a>\nTaylor Swift\n\nLover\n⭐⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 27.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/New-Woman-(feat.-ROSALíA)/\">New Woman (feat. ROSALIA)</a>\nLISA, ROSALÍA\n\nNew Woman (feat. ROSALÍA)\n⭐⭐⭐⭐⭐\n2024. 10. 27.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\nAriana Grande, Mac Miller\n\nYours Truly\n⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 27.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\nROSÉ, Bruno Mars\n\nAPT.\n⭐⭐⭐⭐⭐⭐\n2024. 10. 25.",
 		"tags": [ "note","music","overview"]
@@ -705,7 +705,7 @@
 
 {
 		"title": "Hack The Moon Info",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/Hack-The-Moon-Info/",
 		"content": "Projects\n💼 Career\n\n🧭 Life Explorer\n\nEveryday Self-Development\n💻 Developing\n\n📖 Books\n\n🎧 English\n\nResource Notes\n👩🏻‍🏫 Classes\n\n💼 Work\n\n🤝 Meeting\n\n✒️ Author\n\n🧸 Stuff\n\n🖥️ Web-Surfing\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Character-Alignment/\">Character Alignment</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Magic-The-Gathering-Colors/\">Magic The Gathering Colors</a>\n\n🧑‍🤝‍🧑People\n\nEvent Notes\n💃 meTime\n\n🙂 friends\n\n😍 dates\n\n👨‍👩‍👧‍👦 Family\n\n🌅 Exotic Vacations\n\nEntertainment\n🎞️ Movies/Dramas Watched\n\n🎥 Movies/Dramas to Watch\n\n🎶 Music\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Papercuts/\">Papercuts</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Cruel-Summer/\">Cruel Summer</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/New-Woman-(feat.-ROSALíA)/\">New Woman (feat. ROSALIA)</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\n\n▶️ Youtube\n\nVault Info\n🗄️ Recent file updates\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/New-Woman-(feat.-ROSALíA)/\">New Woman (feat. ROSALIA)</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Cruel-Summer/\">Cruel Summer</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Papercuts/\">Papercuts</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Report/Daily/2024-10-28---Music/\">2024-10-28 - Music</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Overview/music/\">music</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Overview/shadowing/\">shadowing</a>\n\n🔖 Draft: need to check!\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-5th - Music</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-4th - Music</a>\n\n〽️ Stats\n\nFile Count: 114\nDaily Routines:\nDaily Drawings:\nClass:\nDeveloping:\nEnglish:\nWeb-Surfing: 2\nWork:\nYoutube:\nBook:\nEvent:\nMeeting:\nAuthor:\nPeople:\nStuff:\nMovie/Drama:\nMusic: 10",
 		"tags": [ "note"]
@@ -713,7 +713,7 @@
 
 {
 		"title": "Home",
-		"date":"Mon Oct 28 2024 16:16:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Mon Oct 28 2024 16:16:28 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "WELCOME!\n\nWell, Hello, there! 😀\nFirst of all, Welcome Welcome Welcome!\nWelcome to my safe place where I share all of my stories and life journeys 😆🥰\nIf you have found this place just now, think of me as your future close friend you haven't met yet.\nBecause I am going to be honest here and share my lessons and learning, feelings and life journeys just like your best friend does. 😄\nHopefully, you can enjoy reading my posts and feel that you just met 'best-friend material'.\n(Just in case you haven't felt that, you can just think of me as a human being who shares interesting life stories online😜🫰🏻)\nWHAT DOES 'HACK THE MOON' MEAN?\nWell, 'HACK THE MOON' is the name I came up with while I was thinking about my English name.\nI have always loved Greek Mythology since I was a child.\n\nAmong all of the goddesses, my favorite goddess was Artemis[1].\nI always admired her since she was really brave and good at hunting just like men.\nAlso, I liked the fact that she is the goddess of chastity.\nBeing an independent woman like her was my dream when I was a little kid.\nSo, I wanted my English name to be 'Artemis'.. but that name sounded so obvious, meaning it was NOT FUN. 🤔\nI looked up online, I found out that there was a name 'Diana', which is another name of 'Artemis'!\nThat's how my English name became 'Diana'.\n\n[!quote]+ Your Questions now..\nOkay.. so?\nWhat does your 'English name' story have anything to do with that?\n\nAlright, Alright.\nGetting to that noww! (DON'T BE SO IMPATIENT)\n\nWell, Artemis' symbol is moon.\nThe moon has been a challenge until human beings created spaceship.\nAs a human being, (since I am not Artemis sadly) I can't reach the moon by myself, (without spacecraft) but I thought I could reach 'seemingly' impossible goals, if you put a lot of efforts into it.\nJust like human beings created space shift.\nMeaning, I would HACK(figure out) THE way to the MOON until my life ends.\nMeaning that,\n\n[!important] I WILL CHALLENGE MYSELF MY WHOLE LIFE AND NEVER GIVE UP.\n\nSo, there. Now you know what it means! 🙂🙂\nLet me see the map here!\nWell, you can basically find all the things you need when you go to <a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/Hack-The-Moon-Info/\">Hack The Moon Info</a> page. 🫠\nThere, you can find 10 recent files for each section.\nMost of the information would go into 3_Learning section.\nOther files, well folder names are very obvious, you know the drill. 🙂\nIf you couldn't find the file, you can search files in the search bar on the left side!\n\ngoddess of hunt, the wilderness, wild animals, nature vegetation, childbirth, care of children and chastity ↩︎",
 		"tags": [ "note","gardenEntry"]
