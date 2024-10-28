@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/Hack-The-Moon-Info","cssclasses":["dashboard"],"dg-content-classes":"dashboard","permalink":"/Hack-The-Moon-Info/","contentClasses":"dashboard","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-permalink":"Hack-The-Moon-Info","cssclasses":["dashboard"],"dg-content-classes":"dashboard","permalink":"/Hack-The-Moon-Info/","contentClasses":"dashboard","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
