@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-permalink":"/index","title":"Home","permalink":"/index/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-home":true,"dg-permalink":"index","title":"Home","permalink":"/index/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 # WELCOME!
