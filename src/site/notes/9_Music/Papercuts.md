@@ -6,7 +6,8 @@
 ![](https://i.scdn.co/image/ab67616d00001e02c19d9cd49577d6a06190784a)
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1uAkU42SNZn4PlUFrS8zmg?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:6:21)</pre>
 
 
 
@@ -14,7 +15,7 @@
 ##### Music Report
 [[9_Music/Report/2024-10-28 - Papercuts\|2024-10-28 - Papercuts Report]]
 [[9_Music/Report/Daily/2024-10-28 - Music\|2024-10-28 - Music Daily Report]]
-[[9_Music/Report/Weekly/2024-W44 - Music\|2024-W44 - Music Weekly Report]]
+[[9_Music/Report/Weekly/2024-10-5th - Music\|2024-10-5th - Music Weekly Report]]
 
 
 
