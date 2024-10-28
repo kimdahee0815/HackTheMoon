@@ -63,8 +63,6 @@
 
 - [[3_Learning/Character Alignment\|Character Alignment]]
 - [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
-- [[src/site/notes/3_Learning/Character Alignment\|Character Alignment]]
-- [[src/site/notes/3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
 
 { .block-language-dataview}
 
@@ -117,11 +115,7 @@
 - [[9_Music/Cruel Summer\|Cruel Summer]]
 - [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/The Way\|The Way]]
-- [[src/site/notes/9_Music/Cruel Summer\|Cruel Summer]]
-- [[src/site/notes/9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
-- [[src/site/notes/9_Music/The Way\|The Way]]
 - [[9_Music/APT.\|APT.]]
-- [[src/site/notes/9_Music/APT.\|APT.]]
 
 { .block-language-dataview}
 
@@ -134,21 +128,16 @@
 
 🗄️ Recent file updates
 
-- [[index\|index]]
-- [[src/site/notes/9_Music/Overview/music\|music]]
-- [[src/site/notes/9_Music/The Way\|The Way]]
-- [[src/site/notes/9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
-- [[src/site/notes/9_Music/Cruel Summer\|Cruel Summer]]
-- [[src/site/notes/9_Music/APT.\|APT.]]
-- [[src/site/notes/8_Movie & Drama/Overview/shadowing\|shadowing]]
-- [[src/site/notes/8_Movie & Drama/Overview/drama\|drama]]
-- [[src/site/notes/8_Movie & Drama/Overview/movie\|movie]]
-- [[src/site/notes/7_Stuff/Overview/stuff\|stuff]]
-
-{ .block-language-dataview}
-
-🔖 Fleeting: need to check!
-
+- [[3_Learning/Character Alignment\|Character Alignment]]
+- [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
+- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
+- [[9_Music/APT.\|APT.]]
+- [[9_Music/Overview/music\|music]]
+- [[8_Movie & Drama/Overview/shadowing\|shadowing]]
+- [[8_Movie & Drama/Overview/movie\|movie]]
+- [[8_Movie & Drama/Overview/drama\|drama]]
+- [[7_Stuff/Overview/stuff\|stuff]]
+- [[6_People/Overview/people\|people]]
 
 { .block-language-dataview}
 
@@ -164,7 +153,7 @@
     -   Class: 
     -   Developing: 
     -   English: 
-    -   Web-Surfing: 4
+    -   Web-Surfing: 2
     -   Work: 
     -   Youtube: 
     -   Book: 
@@ -174,4 +163,4 @@
     -   People: 
     -   Stuff: 
     -   Movie/Drama: 
-    -   Music: 8
+    -   Music: 4
