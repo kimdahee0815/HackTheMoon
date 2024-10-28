@@ -2,276 +2,57 @@
 dg-publish: true
 dg-home: true
 dg-permalink: index
-title: Hack The Moon
-cssclasses:
-  - dashboard
-dg-content-classes: dashboard
+title: Home
 ---
+# WELCOME!
+![[Utilities/Images/Pasted image 20241028014706.jpeg]]
 
-# Projects
+Well, Hello, there! 😀
+First of all, Welcome Welcome Welcome!
+Welcome to my safe place where I share all of my stories and life journeys 😆🥰
+If you have found this place just now, think of me as your future close friend you haven't met yet. 
+Because I am going to be honest here and share my lessons and learning, feelings and life journeys just like your best friend does. 😄
+Hopefully, you can enjoy reading my posts and feel that you just met 'best-friend material'.
+(Just in case you haven't felt that, you can just think of me as a human being who shares interesting life stories online😜🫰🏻)
 
-💼 Career
+## WHAT DOES 'HACK THE MOON' MEAN?
+Well, 'HACK THE MOON' is the name I came up with while I was thinking about my English name.
+I have always loved Greek Mythology since I was a child.
 
-```dataview
-	LIST
-	FROM "1_Project"
-	WHERE contains(tags, "work") 
-	SORT date DESC
-```
+![[Utilities/Images/Pasted image 20241028172405.jpeg]]
+Among all of the goddesses, my favorite goddess was Artemis[^1]. 
+I always admired her since she was really brave and good at hunting just like men. 
+Also, I liked the fact that she is the goddess of chastity.
+Being an independent woman like her was my dream when I was a little kid.
+So, I wanted my English name to be 'Artemis'.. but that name sounded so obvious, meaning it was NOT FUN. 🤔
+I looked up online, I found out that there was a name 'Diana', which is another name of 'Artemis'!
+That's how my English name became 'Diana'.
 
-🧭 Life Explorer
+>[!quote]+ Your Questions now..
+>Okay.. so?
+What does your 'English name' story have anything to do with that?
 
-```dataview
-	LIST
-	FROM "1_Project"
-	WHERE contains(tags, "life")
-	SORT date DESC
-```
+Alright, Alright.
+Getting to that noww! (DON'T BE SO IMPATIENT)
 
-# Everyday Self-Development
+![[Utilities/Images/Pasted image 20241028173605.jpeg]]
+Well, Artemis' symbol is moon.
+The moon has been a challenge until human beings created spaceship.
+As a human being, (since I am not Artemis sadly) I can't reach the moon by myself, (without spacecraft) but I thought I could reach 'seemingly' impossible goals, if you put a lot of efforts into it. 
+Just like human beings created space shift.
+Meaning, I would **HACK**(figure out) **THE** way to the **MOON** until my life ends. 
 
-💻 Developing
+Meaning that,
+>[!important] I WILL CHALLENGE MYSELF MY WHOLE LIFE AND NEVER GIVE UP.
 
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
+So, there. Now you know what it means! 🙂🙂
 
-📖 Books
+## Let me see the map here!
+Well, you can basically find all the things you need when you go to [[Hack The Moon Info]] page. 🫠
+There, you can find 10 recent files for each section. 
+Most of the information would go into 3_Learning section.
 
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "book") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
 
-🎧 English
 
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "english") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
 
-# Resource Notes
-
-👩🏻‍🏫 Classes
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "class") and !contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-💼 Work
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "work") and !contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🤝 Meeting
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-✒️ Author
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🧸 Stuff
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "stuff") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🖥️ Web-Surfing
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "web-surfing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🧑‍🤝‍🧑People
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "people") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-# Event Notes
-
-💃 meTime
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "me-time") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🙂 friends
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "friends") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-😍 dates
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "dates") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-👨‍👩‍👧‍👦 Family
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "family") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🌅 Exotic Vacations
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "vacation") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-# Entertainment
-
-🎞️ Movies/Dramas Watched
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "movie") or contains(tags, "drama") and !contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🎥 Movies/Dramas to Watch
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-🎶 Music
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "music") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-▶️ Youtube
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "youtube") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
-	SORT date DESC
-	LIMIT 10
-```
-
-# Vault Info
-
-🗄️ Recent file updates
-
-```dataview
-	LIST
-	from ""
-	SORT file.mtime DESC
-	where dg-publish = true
-	LIMIT 10
-```
-
-🔖 Fleeting: need to check!
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "fleeting")
-	SORT date DESC
-	LIMIT 10
-```
-
-🔖 Draft: need to check!
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "draft") and file.folder != "Utilities/Templates" 
-	SORT date DESC
-```
-
--   〽️ Stats
-    -   File Count: `$=dv.pages('""').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
-    -   Daily Routines: `$=dv.pages('"2_Routine/1_Daily/Daily-Routine"').length`
-    -   Daily Drawings: `$=dv.pages('"2_Routine/1_Daily/Daily-Drawing"').length`
-    -   Class: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("class") && !p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Developing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   English: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("english") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Web-Surfing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("web-surfing") && !p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview")  && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Work: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("work") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Youtube: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("youtube") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Book: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("book") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Event: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("event") && !p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Meeting: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Author: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   People: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("people") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Stuff: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Movie/Drama: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return (p.tags.contains("movie") || p.tags.contains("drama")) && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Music: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("music") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
+[^1]: goddess of hunt, the wilderness, wild animals, nature vegetation, childbirth, care of children and chastity
