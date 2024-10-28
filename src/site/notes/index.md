@@ -46,7 +46,7 @@ Meaning that,
 So, there. Now you know what it means! 🙂🙂
 
 ## Let me see the map here!
-Well, you can basically find all the things you need when you go to Hack The Moon Info page. 🫠
+Well, you can basically find all the things you need when you go to [[Hack The Moon Info\|Hack The Moon Info]] page. 🫠
 There, you can find 10 recent files for each section. 
 Most of the information would go into 3_Learning section.
 
