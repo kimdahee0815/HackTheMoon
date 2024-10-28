@@ -1,10 +1,10 @@
 ---
-{"dg-permalink":"3_Learning/Magic-The-Gathering-Colors","created-date":"2024-10-25 11:40:30 am","date":"2024-10-25","type":"web-surfing","tags":["web-surfing"],"aliases":null,"img":"![[Utilities/Images/Pasted image 20241024091610.jpeg|100]]","dg-publish":true,"permalink":"/3_Learning/Magic-The-Gathering-Colors/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Magic-The-Gathering-Colors","created-date":"2024-10-25 11:40:30 am","date":"2024-10-25","type":"web-surfing","tags":["web-surfing"],"aliases":null,"img":"![Utilities/Images/Pasted image 20241028153201.jpeg|100](/img/user/Utilities/Images/Pasted%20image%2020241028153201.jpeg)","dg-publish":true,"permalink":"/3_Learning/Magic-The-Gathering-Colors/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
 # [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
-![[Utilities/Images/Pasted image 20241024091610.jpeg\|Utilities/Images/Pasted image 20241024091610.jpeg]]
+![Utilities/Images/Pasted image 20241028153201.jpeg](/img/user/Utilities/Images/Pasted%20image%2020241028153201.jpeg)
 
 white:: Peace, law, structure, selflessness, equality
 blue:: knowledge, deception, caution, deliberation, perfection
