@@ -112,6 +112,9 @@
 
 🎶 Music
 
+- [[9_Music/That's Hilarious\|That's Hilarious]]
+- [[9_Music/Papercuts\|Papercuts]]
+- [[9_Music/Ceiling Games\|Ceiling Games]]
 - [[9_Music/Cruel Summer\|Cruel Summer]]
 - [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/The Way\|The Way]]
@@ -128,16 +131,16 @@
 
 🗄️ Recent file updates
 
-- [[3_Learning/Character Alignment\|Character Alignment]]
-- [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
-- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
-- [[9_Music/APT.\|APT.]]
+- [[9_Music/Report/Weekly/2024-W44 - Music\|2024-W44 - Music]]
+- [[9_Music/That's Hilarious\|That's Hilarious]]
+- [[9_Music/Papercuts\|Papercuts]]
+- [[9_Music/Report/Daily/2024-10-28 - Music\|2024-10-28 - Music]]
+- [[9_Music/Ceiling Games\|Ceiling Games]]
 - [[9_Music/Overview/music\|music]]
 - [[8_Movie & Drama/Overview/shadowing\|shadowing]]
 - [[8_Movie & Drama/Overview/movie\|movie]]
 - [[8_Movie & Drama/Overview/drama\|drama]]
 - [[7_Stuff/Overview/stuff\|stuff]]
-- [[6_People/Overview/people\|people]]
 
 { .block-language-dataview}
 
@@ -147,7 +150,7 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 108
+    -   File Count: 113
     -   Daily Routines: 
     -   Daily Drawings: 
     -   Class: 
@@ -163,4 +166,4 @@
     -   People: 
     -   Stuff: 
     -   Movie/Drama: 
-    -   Music: 4
+    -   Music: 9
