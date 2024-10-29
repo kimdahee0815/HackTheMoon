@@ -124,7 +124,7 @@
 
 ▶️ Youtube
 
-- [[3_Learning/이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도\|이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도]]
+- [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 
 { .block-language-dataview}
 
@@ -132,6 +132,7 @@
 
 🗄️ Recent file updates
 
+- [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 - [[9_Music/The Way\|The Way]]
 - [[9_Music/APT.\|APT.]]
 - [[9_Music/Report/Weekly/2024-10-5th - Music\|2024-10-5th - Music]]
@@ -141,18 +142,18 @@
 - [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/Cruel Summer\|Cruel Summer]]
 - [[9_Music/Papercuts\|Papercuts]]
-- [[9_Music/Report/Daily/2024-10-28 - Music\|2024-10-28 - Music]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
-- [[3_Learning/이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도\|이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도]]
+- [[3_Learning/Report/Youtube/Daily/2024-10-29 - Youtube\|2024-10-29 - Youtube]]
+- [[3_Learning/Report/Youtube/Weekly/2024-10-5th - Youtube\|2024-10-5th - Youtube]]
 
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 115
+    -   File Count: 117
     -   Daily Routines: 
     -   Daily Drawings: 
     -   Class: 
@@ -160,7 +161,7 @@
     -   English: 
     -   Web-Surfing: 2
     -   Work: 
-    -   Youtube: 1
+    -   Youtube: 3
     -   Book: 
     -   Event: 
     -   Meeting: 
