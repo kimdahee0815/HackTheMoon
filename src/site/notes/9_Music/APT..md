@@ -15,7 +15,7 @@
 ##### Music Report
 [[9_Music/Report/2024-10-25 - APT.\|2024-10-25 - APT. Report]]
 [[9_Music/Report/Daily/2024-10-25 - Music\|2024-10-25 - Music Daily Report]]
-[[9_Music/Report/Weekly/2024-W43 - Music\|2024-W43 - Music Weekly Report]]
+[[9_Music/Report/Weekly/2024-10-4th - Music\|2024-10-4th - Music Weekly Report]]
 
 
 

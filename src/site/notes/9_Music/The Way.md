@@ -14,7 +14,7 @@
 ##### Music Report
 [[9_Music/Report/2024-10-27 - The Way\|2024-10-27 - The Way Report]]
 [[9_Music/Report/Daily/2024-10-27 - Music\|2024-10-27 - Music Daily Report]]
-[[9_Music/Report/Weekly/2024-W44 - Music\|2024-W44 - Music Weekly Report]]
+[[9_Music/Report/Weekly/2024-10-4th - Music\|2024-10-4th - Music Weekly Report]]
 
 
 
