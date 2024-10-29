@@ -6,7 +6,8 @@
 # [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/-CVvWNwjU48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
 
 ## My Thoughts
 A few days ago, I watched TV program called 'Black White Cook', which is '흑백 요리사' in korean.
@@ -15,7 +16,7 @@ The man in the video is the final winner of the program, and he is called 'Napol
 He is really good at cooking Italian Dish.
 I don't know a whole lot about him, but I could tell he is a really professional cook by watching him cooking in the TV show.
 In this video, he cooks some traditional Italian dish for Italians football players who came for Nexon Icon match in Korea.
-They were very disappointed at Italian dishes first time they tried in Korea, but after they tasted some dishes from him, they are very impressed and satisfied about his cooking skills and praised that they felt like they are in hometown. 😀
+They were very disappointed at Italian dishes first time they tried in Korea, but after they tasted some dishes from him, they are very impressed and satisfied about his cooking skills and praised that they felt like they were in hometown. 😀
 After I watched this video, I became to want more to try his dishes, but his dishes are quite expensive unfortunately. (6-7 courses dishes for one meal, 100,000 won, which is about $75)
 Maybe on a special day, I might try some of his dishes. 😋
 
