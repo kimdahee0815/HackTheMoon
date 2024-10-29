@@ -5,40 +5,8 @@
 
 # [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot read properties of undefined (reading 'extension')
-    at e.&lt;anonymous&gt; (app://obsidian.md/app.js:1:1327518)
-    at app://obsidian.md/app.js:1:237228
-    at Object.next (app://obsidian.md/app.js:1:237333)
-    at app://obsidian.md/app.js:1:236249
-    at new Promise (&lt;anonymous&gt;)
-    at v (app://obsidian.md/app.js:1:235994)
-    at e.processFrontMatter (app://obsidian.md/app.js:1:1327420)
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:22:28)
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:25:4)
-    at DataviewInlineApi.eval (plugin:dataview:18885:16)
-    at evalInContext (plugin:dataview:18886:7)
-    at asyncEvalInContext (plugin:dataview:18893:16)
-    at DataviewJSRenderer.render (plugin:dataview:18922:19)
-    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at e.load (app://obsidian.md/app.js:1:1230132)
-    at DataviewApi.executeJs (plugin:dataview:19465:18)
-    at DataviewCompiler.eval (plugin:digitalgarden:10760:23)
-    at Generator.next (&lt;anonymous&gt;)
-    at eval (plugin:digitalgarden:90:61)
-    at new Promise (&lt;anonymous&gt;)
-    at __async (plugin:digitalgarden:74:10)
-    at eval (plugin:digitalgarden:10699:41)
-    at GardenPageCompiler.eval (plugin:digitalgarden:17175:50)
-    at Generator.next (&lt;anonymous&gt;)
-    at eval (plugin:digitalgarden:90:61)
-    at new Promise (&lt;anonymous&gt;)
-    at __async (plugin:digitalgarden:74:10)
-    at eval (plugin:digitalgarden:17173:50)
-    at GardenPageCompiler.eval (plugin:digitalgarden:17126:36)
-    at Generator.next (&lt;anonymous&gt;)
-    at fulfilled (plugin:digitalgarden:77:24)</pre>
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/-CVvWNwjU48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 ## My Thoughts
 A few days ago, I watched TV program called 'Black White Cook', which is '흑백 요리사' in korean.
