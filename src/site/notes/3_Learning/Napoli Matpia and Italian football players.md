@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/이탈리아-레전드들이-평가하는-나폴리-맛피아-음식-수준-ㄷㄷㄷ-진짜-이탈리아인의-반응이-이정도","created-date":"2024-10-29 10:56:01 am","date":"2024-10-29","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"슛포러브","channelName":"슛포러브","link":"https://www.youtube.com/watch?v=-CVvWNwjU48","img":"https://img.youtube.com/vi/-CVvWNwjU48/0.jpg","dg-publish":true,"permalink":"/3_Learning/이탈리아-레전드들이-평가하는-나폴리-맛피아-음식-수준-ㄷㄷㄷ-진짜-이탈리아인의-반응이-이정도/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Napoli-Matpia-and-Italian-football-players","created-date":"2024-10-29 10:56:01 am","date":"2024-10-29","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"슛포러브","channelName":"슛포러브","link":"https://www.youtube.com/watch?v=-CVvWNwjU48","img":"https://img.youtube.com/vi/-CVvWNwjU48/0.jpg","dg-publish":true,"permalink":"/3_Learning/Napoli-Matpia-and-Italian-football-players/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
@@ -32,7 +32,7 @@ Maybe on a special day, I might try some of his dishes. 😋
 
 ### Youtube Reference
 ##### Youtube Report
-[[3_Learning/Report/Youtube/2024-10-29 - 이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도\|2024-10-29 - 이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도 Report]]
+[[3_Learning/Report/Youtube/2024-10-29 - Napoli Matpia and Italian football players\|2024-10-29 - Napoli Matpia and Italian football players Report]]
 [[3_Learning/Report/Youtube/Daily/2024-10-29 - Youtube\|2024-10-29 - Youtube Daily Report]]
 [[3_Learning/Report/Youtube/Weekly/2024-10-5th - Youtube\|2024-10-5th - Youtube Weekly Report]]
 
