@@ -19,6 +19,7 @@
 
 💻 Developing
 
+- [[3_Learning/Binary Search Tree\|Binary Search Tree]]
 
 { .block-language-dataview}
 
@@ -102,6 +103,7 @@
 
 🎞️ Movies/Dramas Watched
 
+- [[8_Movie & Drama/Fury\|Fury]]
 
 { .block-language-dataview}
 
@@ -113,10 +115,10 @@
 🎶 Music
 
 - [[9_Music/That's Hilarious\|That's Hilarious]]
-- [[9_Music/Papercuts\|Papercuts]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
-- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
+- [[9_Music/Papercuts\|Papercuts]]
 - [[9_Music/Cruel Summer\|Cruel Summer]]
+- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/The Way\|The Way]]
 - [[9_Music/APT.\|APT.]]
 
@@ -124,7 +126,7 @@
 
 ▶️ Youtube
 
-- [[3_Learning/이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도\|이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도]]
+- [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 
 { .block-language-dataview}
 
@@ -132,40 +134,43 @@
 
 🗄️ Recent file updates
 
+- [[8_Movie & Drama/Report/Movie & Drama/Weekly/2024-10-5th - Movie & Drama\|2024-10-5th - Movie & Drama]]
+- [[8_Movie & Drama/Report/Movie & Drama/Daily/2024-10-29 - Movie & Drama\|2024-10-29 - Movie & Drama]]
+- [[8_Movie & Drama/Fury\|Fury]]
+- [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 - [[9_Music/The Way\|The Way]]
 - [[9_Music/APT.\|APT.]]
 - [[9_Music/Report/Weekly/2024-10-5th - Music\|2024-10-5th - Music]]
 - [[9_Music/Report/Weekly/2024-10-4th - Music\|2024-10-4th - Music]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
 - [[9_Music/That's Hilarious\|That's Hilarious]]
-- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
-- [[9_Music/Cruel Summer\|Cruel Summer]]
-- [[9_Music/Papercuts\|Papercuts]]
-- [[9_Music/Report/Daily/2024-10-28 - Music\|2024-10-28 - Music]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
-- [[3_Learning/이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도\|이탈리아 레전드들이 평가하는 나폴리 맛피아 음식 수준 ㄷㄷㄷ 진짜 이탈리아인의 반응이 이정도]]
+- [[3_Learning/Report/Youtube/Weekly/2024-10-5th - Youtube\|2024-10-5th - Youtube]]
+- [[3_Learning/Report/Youtube/Daily/2024-10-29 - Youtube\|2024-10-29 - Youtube]]
+- [[3_Learning/Binary Search Tree\|Binary Search Tree]]
+- [[8_Movie & Drama/Report/Movie & Drama/2024-10-29 - Fury\|2024-10-29 - Fury]]
 
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 115
-    -   Daily Routines: 
+    -   File Count: 124
+    -   Daily Routines: 1
     -   Daily Drawings: 
     -   Class: 
-    -   Developing: 
+    -   Developing: 1
     -   English: 
     -   Web-Surfing: 2
     -   Work: 
-    -   Youtube: 1
+    -   Youtube: 3
     -   Book: 
     -   Event: 
     -   Meeting: 
     -   Author: 
     -   People: 
     -   Stuff: 
-    -   Movie/Drama: 
+    -   Movie/Drama: 3
     -   Music: 10
