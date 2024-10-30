@@ -51,7 +51,8 @@ And, In case if you clicked the page and there was nothing there, there's a good
 Also, you can find some nice overviews of the section when you go to each section.
 In case you are wondering about the report, they show how many hours I spent for specific activities/experiences, what I did for the day and the week for each section. 
 
-Also, before you get into any posts..!
+#### DISCLAIMER
+Before you get into any posts..!
 I am writing these posts in English, but my native language is Korean.
 Sometimes, it is much easier for me to write posts in Korean than English.
 However, I will try to write my posts mostly in English, because English is global language, I want everyone who doesn't know Korean can also read my posts as well.
