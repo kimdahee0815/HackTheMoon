@@ -46,6 +46,7 @@ Let me show you the map before you explore this place.
 you can find all the things you need when you go to Hack The Moon Info page. 🫠
 There, you can find 10 recent files for each section. 
 If you couldn't find the file, you can try searching files in the search bar on the left side!
+And, In case if you clicked the page and there was nothing there, there's a good chance that it didn't get published yet! It will be soon published. 🙂
 
 Also, you can find some nice overviews of the section when you go to each section.
 In case you are wondering about the report, they show how many hours I spent for specific activities/experiences, what I did for the day and the week for each section. 
