@@ -5,8 +5,7 @@
 # [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/5X1erD5W67M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OBsE0comSNE?si=Mxwz8-DtpnJfETHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
