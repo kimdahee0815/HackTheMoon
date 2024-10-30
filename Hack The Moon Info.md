@@ -13,7 +13,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "1_Project"
-	WHERE contains(tags, "work") 
+	WHERE contains(tags, "work") and file.folder != "src"
 	SORT date DESC
 ```
 
@@ -64,7 +64,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "3_Learning"
 	WHERE contains(tags, "class") and !contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -74,7 +74,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "3_Learning"
 	WHERE contains(tags, "work") and !contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -84,7 +84,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "5_Event"
 	WHERE contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -94,7 +94,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "6_People"
 	WHERE contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -104,7 +104,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "7_Stuff"
 	WHERE contains(tags, "stuff") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -114,7 +114,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "3_Learning"
 	WHERE contains(tags, "web-surfing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -124,7 +124,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "6_People"
 	WHERE contains(tags, "people") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -136,7 +136,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "5_Event"
 	WHERE contains(tags, "me-time") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -146,7 +146,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "5_Event"
 	WHERE contains(tags, "friends") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -156,7 +156,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "5_Event"
 	WHERE contains(tags, "dates") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -166,7 +166,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "5_Event"
 	WHERE contains(tags, "family") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -176,7 +176,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "5_Event"
 	WHERE contains(tags, "vacation") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -188,7 +188,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "8_Movie & Drama"
 	WHERE contains(tags, "movie") or contains(tags, "drama") and !contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -198,7 +198,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "8_Movie & Drama"
 	WHERE contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -208,7 +208,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "9_Music"
 	WHERE contains(tags, "music") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -218,7 +218,7 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "3_Learning"
 	WHERE contains(tags, "youtube") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
 	SORT date DESC
 	LIMIT 10
@@ -230,19 +230,9 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	from ""
+	from "0_Myself" or "1_Project" or "2_Routine" or "3_Learning" or "4_Book" or "5_Event" or "6_People" or "7_Stuff" or "8_Movie & Drama" or "9_Music"
 	SORT file.mtime DESC
 	where dg-publish = true
-	LIMIT 10
-```
-
-🔖 Fleeting: need to check!
-
-```dataview
-	LIST
-	FROM ""
-	WHERE contains(tags, "fleeting")
-	SORT date DESC
 	LIMIT 10
 ```
 
@@ -250,26 +240,26 @@ dg-content-classes: dashboard
 
 ```dataview
 	LIST
-	FROM ""
+	FROM "0_Myself" or "1_Project" or "2_Routine" or "3_Learning" or "4_Book" or "5_Event" or "6_People" or "7_Stuff" or "8_Movie & Drama" or "9_Music"
 	WHERE contains(tags, "draft") and file.folder != "Utilities/Templates" 
 	SORT date DESC
 ```
 
 -   〽️ Stats
     -   File Count: `$=dv.pages('""').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
-    -   Daily Routines: `$=dv.pages('"2_Routine/1_Daily/Daily-Routine"').length`
-    -   Daily Drawings: `$=dv.pages('"2_Routine/1_Daily/Daily-Drawing"').length`
-    -   Class: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("class") && !p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Developing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   English: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("english") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Web-Surfing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("web-surfing") && !p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview")  && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Work: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("work") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Youtube: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("youtube") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Book: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("book") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Event: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("event") && !p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Meeting: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Author: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   People: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("people") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Stuff: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Movie/Drama: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return (p.tags.contains("movie") || p.tags.contains("drama")) && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
-    -   Music: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("music") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates"}}).length`
+    -   Daily Routines: `$=dv.pages('"2_Routine/1_Daily/Daily-Routine"').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
+    -   Daily Drawings: `$=dv.pages('"2_Routine/1_Daily/Daily-Drawing"').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
+    -   Class: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("class") && !p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Developing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   English: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("english") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Web-Surfing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("web-surfing") && !p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview")  && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Work: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("work") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Youtube: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("youtube") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Book: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("book") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Event: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("event") && !p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Meeting: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Author: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   People: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("people") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Stuff: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Movie/Drama: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return (p.tags.contains("movie") || p.tags.contains("drama")) && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Music: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("music") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
