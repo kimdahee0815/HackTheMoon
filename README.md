@@ -64,8 +64,8 @@ My posts in English can be sometimes grammatically wrong or have awkward express
 
 Now, without further ado, 
 
-## $${\color{green}GOOD LUCK NOT GETTING LOST HERE AND}$$
+## $${\color{green}GOOD \space LUCK \space NOT \space GETTING \space LOST \space HERE \space AND}$$
 
-# $${\color{red}LET'S HACK THE WAY TO THE MOON TOGETHER!}$$
+# $${\color{red}LET'S \space HACK \space THE \space WAY \space TO \space THE \space MOON \space TOGETHER!}$$
 
 [^1]: goddess of hunt, the wilderness, wild animals, nature vegetation, childbirth, care of children and chastity
