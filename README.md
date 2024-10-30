@@ -67,7 +67,7 @@ My posts in English can be sometimes grammatically wrong or have awkward express
 Now, without further ado, <br />
 <br />
 ## $${\color{green}GOOD \space LUCK \space NOT \space GETTING \space LOST \space HERE \space AND}$$
-<br />
+
 # $${\color{red}LET'S \space HACK \space THE \space WAY \space TO \space THE \space MOON \space TOGETHER!}$$
 
 [^1]: goddess of hunt, the wilderness, wild animals, nature vegetation, childbirth, care of children and chastity
