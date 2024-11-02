@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"2_Routine/3_Monthly/Overview/todoList","tags":["monthly","todoList","overview"],"permalink":"/2_Routine/3_Monthly/Overview/todoList/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-permalink":"2_Routine/3_Monthly/Overview/todoList","tags":["monthly","todo-list","overview"],"permalink":"/2_Routine/3_Monthly/Overview/todoList/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 # TodoList

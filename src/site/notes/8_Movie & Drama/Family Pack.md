@@ -7,7 +7,7 @@
 ## Poster
 ![Utilities/Images/b018916a9558cf1e9e78589e094648ee_MD5.jpg](/img/user/Utilities/Images/b018916a9558cf1e9e78589e094648ee_MD5.jpg)
 ## Memorable Pics / Vid
-![[Pasted image 20241102110754.png\|Pasted image 20241102110754.png]]
+![Pasted image 20241102110754.png](/img/user/Utilities/Images/Pasted%20image%2020241102110754.png)
 정체를 밝히라고 하니까 그냥 자기네는 연주하는 사람들이라고 한게 너무 웃겼음ㅋㅋ
 그리고 노래 한번 불러주니까 모두가 기립박수ㅋㅋㅋ
 When the king asked them to reveal identities, and this is hilarious part, he improvised that they were bards ahaha

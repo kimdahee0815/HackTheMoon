@@ -4,7 +4,7 @@
 
 # M to Queen
 <pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot read properties of undefined (reading 'path')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:25:29)
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:25:22)
     at DataviewInlineApi.eval (plugin:dataview:18885:16)
     at evalInContext (plugin:dataview:18886:7)
     at asyncEvalInContext (plugin:dataview:18896:32)
