@@ -149,6 +149,7 @@
 
 🗄️ Recent file updates
 
+- [[2_Routine/3_Monthly/Overview/affirmation\|affirmation]]
 - [[3_Learning/Dynamic Programming\|Dynamic Programming]]
 - [[8_Movie & Drama/Report/Movie & Drama/2024-10-30 - Family Pack\|2024-10-30 - Family Pack]]
 - [[8_Movie & Drama/Report/Movie & Drama/Daily/2024-10-30 - Movie & Drama\|2024-10-30 - Movie & Drama]]
@@ -158,7 +159,6 @@
 - [[2_Routine/1_Daily/Overview/2024-11-01\|2024-11-01]]
 - [[3_Learning/Report/Youtube/Daily/2024-10-31 - Youtube\|2024-10-31 - Youtube]]
 - [[3_Learning/Report/Youtube/2024-10-31 - 생각이 나다 - 생각이 들다 - 생각해내다\|2024-10-31 - 생각이 나다 - 생각이 들다 - 생각해내다]]
-- [[3_Learning/생각이 나다 - 생각이 들다 - 생각해내다\|생각이 나다 - 생각이 들다 - 생각해내다]]
 
 { .block-language-dataview}
 
@@ -184,8 +184,8 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 155
-    -   Daily Routines: 5
+    -   File Count: 154
+    -   Daily Routines: 4
     -   Daily Drawings: 
     -   Class: 1
     -   Developing: 3
