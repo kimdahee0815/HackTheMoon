@@ -130,6 +130,7 @@
 ▶️ Youtube
 
 - [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
+- [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
 - [[3_Learning/생각이 나다 - 생각이 들다 - 생각해내다\|생각이 나다 - 생각이 들다 - 생각해내다]]
 - [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]
 - [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
@@ -140,6 +141,8 @@
 
 🗄️ Recent file updates
 
+- [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
+- [[2_Routine/1_Daily/Overview/2024-11-01\|2024-11-01]]
 - [[2_Routine/3_Monthly/Overview/mToQueen\|mToQueen]]
 - [[9_Music/Report/Weekly/2024-10-5th - Music\|2024-10-5th - Music]]
 - [[9_Music/Report/Weekly/2024-10-4th - Music\|2024-10-4th - Music]]
@@ -148,8 +151,6 @@
 - [[9_Music/Report/Daily/2024-10-25 - Music\|2024-10-25 - Music]]
 - [[9_Music/Overview/music\|music]]
 - [[8_Movie & Drama/Report/Movie & Drama/Weekly/2024-10-5th - Movie & Drama\|2024-10-5th - Movie & Drama]]
-- [[8_Movie & Drama/Report/Movie & Drama/Daily/2024-10-30 - Movie & Drama\|2024-10-30 - Movie & Drama]]
-- [[8_Movie & Drama/Report/Movie & Drama/Daily/2024-10-29 - Movie & Drama\|2024-10-29 - Movie & Drama]]
 
 { .block-language-dataview}
 
@@ -173,7 +174,7 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 206
+    -   File Count: 208
     -   Daily Routines: 4
     -   Daily Drawings: 1
     -   Class: 1
@@ -181,7 +182,7 @@
     -   English: 2
     -   Web-Surfing: 4
     -   Work: 
-    -   Youtube: 10
+    -   Youtube: 11
     -   Book: 1
     -   Event: 
     -   Meeting: 
