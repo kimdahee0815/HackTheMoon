@@ -3,8 +3,9 @@
 ---
 
 # Stuff Overview
-| File | Img | Rating⭐ | date |
-| ---- | --- | ------- | ---- |
+| File                  | Img | Rating⭐ | date         |
+| --------------------- | --- | ------- | ------------ |
+| [[7_Stuff/토라\|토라]] | \-  | \-      | 2024. 11. 2. |
 
 { .block-language-dataview}
 

@@ -7,7 +7,7 @@
 #### Today
 | File                              | Cover                                                                                                        | Rating⭐ | date          |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------- | ------------- |
-| [[8_Movie & Drama/Fury\|Fury]] | ![[Utilities/Images/ea9716e172ee62e0cfa3742a7b61be68_MD5.jpg]] | ⭐⭐⭐⭐⭐⭐  | 2024. 10. 29. |
+| [[8_Movie & Drama/Fury\|Fury]] | ![\|100](https://m.media-amazon.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_SX300.jpg) | ⭐⭐⭐⭐⭐⭐  | 2024. 10. 29. |
 
 { .block-language-dataview}
 
