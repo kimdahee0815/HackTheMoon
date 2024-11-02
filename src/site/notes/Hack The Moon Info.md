@@ -160,16 +160,16 @@
 
 🗄️ Recent file updates
 
+- [[9_Music/Report/Daily/2024-10-27 - Music\|2024-10-27 - Music]]
+- [[9_Music/Report/Daily/2024-10-25 - Music\|2024-10-25 - Music]]
+- [[3_Learning/Report/Youtube/2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
+- [[3_Learning/Report/Youtube/2024-10-31 - 생각이 나다 - 생각이 들다 - 생각해내다\|2024-10-31 - 생각이 나다 - 생각이 들다 - 생각해내다]]
+- [[3_Learning/Report/Youtube/Daily/2024-10-29 - Youtube\|2024-10-29 - Youtube]]
 - [[2_Routine/3_Monthly/Overview/todoList\|todoList]]
 - [[2_Routine/3_Monthly/Overview/mToQueen\|mToQueen]]
 - [[2_Routine/1_Daily/Overview/2024-11-01\|2024-11-01]]
 - [[2_Routine/3_Monthly/Overview/affirmation\|affirmation]]
 - [[3_Learning/Dynamic Programming\|Dynamic Programming]]
-- [[8_Movie & Drama/Report/Movie & Drama/2024-10-30 - Family Pack\|2024-10-30 - Family Pack]]
-- [[8_Movie & Drama/Report/Movie & Drama/Daily/2024-10-30 - Movie & Drama\|2024-10-30 - Movie & Drama]]
-- [[8_Movie & Drama/Family Pack\|Family Pack]]
-- [[3_Learning/Report/Youtube/2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
-- [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
 
 { .block-language-dataview}
 
@@ -193,7 +193,7 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 204
+    -   File Count: 206
     -   Daily Routines: 4
     -   Daily Drawings: 1
     -   Class: 1
@@ -209,4 +209,4 @@
     -   People: 2
     -   Stuff: 47
     -   Movie/Drama: 7
-    -   Music: 10
+    -   Music: 12
