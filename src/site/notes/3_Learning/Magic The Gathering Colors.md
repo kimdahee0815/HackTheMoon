@@ -34,6 +34,7 @@ green:: nature, wildlife, connection, spirituality, tradition
 
 
 ### Web-Surfing References
+[[3_Learning/Character Alignment\|Character Alignment]]
 ##### Web-Surfing Report
 [[3_Learning/Report/Web-Surfing/2024-10-25 - Magic The Gathering Colors\|2024-10-25 - Magic The Gathering Colors Report]]
 [[3_Learning/Report/Web-Surfing/Daily/2024-10-25 - Web-Surfing\|2024-10-25 - Web-Surfing Daily Report]]
