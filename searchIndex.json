@@ -115,7 +115,7 @@
 		"title": "2024-10-29 - Movie & Drama",
 		"date":"Tue Oct 29 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Report/Movie-&amp;-Drama/Daily/2024-10-29---Movie-&amp;-Drama/",
-		"content": "Movie\nToday\n\nFile\nCover\nRating⭐\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n![[Utilities/Images/ea9716e172ee62e0cfa3742a7b61be68_MD5.jpg]]\n⭐⭐⭐⭐⭐⭐\n2024. 10. 29.\n\nDrama\nToday\n\nFile\nCover\ndate",
+		"content": "Movie\nToday\n\nFile\nCover\nRating⭐\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n\n⭐⭐⭐⭐⭐⭐\n2024. 10. 29.\n\nDrama\nToday\n\nFile\nCover\ndate",
 		"tags": [ "note","movie","drama","daily-report"]
 },
 
@@ -193,295 +193,295 @@
 
 {
 		"title": "affirmation",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/affirmation/",
-		"content": "Affirmation\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Affirmation\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","affirmation","overview"]
 },
 
 {
 		"title": "arrangingDesk",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/arrangingDesk/",
-		"content": "Arranging Desk\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Arranging Desk\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","arrangingDesk","overview"]
 },
 
 {
 		"title": "bodyScan",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/bodyScan/",
-		"content": "Body Scan\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Body Scan\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","bodyScan","overview"]
 },
 
 {
 		"title": "brushHair",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/brushHair/",
-		"content": "Brush hair\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Brush hair\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","brushHair","overview"]
 },
 
 {
 		"title": "cleaningHouse",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/cleaningHouse/",
-		"content": "Morning Cleaning House\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031\nEvening Cleaning House\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Morning Cleaning House\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)\nEvening Cleaning House\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","cleaningHouse","overview"]
 },
 
 {
 		"title": "coffee",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/coffee/",
-		"content": "Coffee\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Coffee\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","coffee","overview"]
 },
 
 {
 		"title": "diary",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/diary/",
-		"content": "Diary\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Diary\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","diary","overview"]
 },
 
 {
 		"title": "eveningSkincare",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/eveningSkincare/",
-		"content": "Evening skincare\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Evening skincare\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","eveningSkincare","overview"]
 },
 
 {
 		"title": "eyeDrop",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/eyeDrop/",
-		"content": "Eye Drop\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Eye Drop\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","eyeDrop","overview"]
 },
 
 {
 		"title": "eyeRelief",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/eyeRelief/",
-		"content": "Eye Relief\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Eye Relief\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","eyeRelief","overview"]
 },
 
 {
 		"title": "facialMask",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/facialMask/",
-		"content": "Facial Mask\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Facial Mask\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","facialMask","overview"]
 },
 
 {
 		"title": "floss",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/floss/",
-		"content": "Floss\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Floss\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","floss","overview"]
 },
 
 {
 		"title": "footCare",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/footCare/",
-		"content": "Foot Care\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Foot Care\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","footCare","overview"]
 },
 
 {
 		"title": "gratitude",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/gratitude/",
-		"content": "Gratitude\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Gratitude\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","gratitude","overview"]
 },
 
 {
 		"title": "mToQueen",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/mToQueen/",
-		"content": "M to Queen\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "M to Queen\nEvaluation Error: TypeError: Cannot read properties of undefined (reading 'path')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:25:29)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","mToQueen","overview"]
 },
 
 {
 		"title": "meditation",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/meditation/",
-		"content": "Meditation\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Meditation\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","meditation","overview"]
 },
 
 {
 		"title": "morningSkincare",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/morningSkincare/",
-		"content": "Morning skincare\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Morning skincare\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","morningSkincare","overview"]
 },
 
 {
 		"title": "nails",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/nails/",
-		"content": "Nails\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Nails\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","nails","overview"]
 },
 
 {
 		"title": "omega3",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/omega3/",
-		"content": "Omega3\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Omega3\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","omega3","overview"]
 },
 
 {
 		"title": "pantotin",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/pantotin/",
-		"content": "Pantotin\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Pantotin\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","pantotin","overview"]
 },
 
 {
 		"title": "probiotics",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/probiotics/",
-		"content": "Probiotics\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Probiotics\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","probiotics","overview"]
 },
 
 {
 		"title": "sleep",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/sleep/",
-		"content": "Sleep\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Sleep\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","sleep","overview"]
 },
 
 {
 		"title": "snack",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/snack/",
-		"content": "Snack\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Snack\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","snack","overview"]
 },
 
 {
 		"title": "stretching",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/stretching/",
-		"content": "Stretching\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Stretching\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","stretching","overview"]
 },
 
 {
 		"title": "tea",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/tea/",
-		"content": "Tea\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Tea\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","tea","overview"]
 },
 
 {
 		"title": "todoList",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/todoList/",
-		"content": "TodoList\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "TodoList\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","todoList","overview"]
 },
 
 {
 		"title": "visualization",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/visualization/",
-		"content": "Visualization\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Visualization\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","visualization","overview"]
 },
 
 {
 		"title": "wantsNeeds",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/wantsNeeds/",
-		"content": "Wants &amp; Needs\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Wants &amp; Needs\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","wantsNeeds","overview"]
 },
 
 {
 		"title": "washingDishes",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/washingDishes/",
-		"content": "Morning Washing Dishes\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031\nAfternoon Washing Dishes\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031\nEvening Washing Dishes\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Morning Washing Dishes\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)\nAfternoon Washing Dishes\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)\nEvening Washing Dishes\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","washingDishes","overview"]
 },
 
 {
 		"title": "water",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/water/",
-		"content": "Water\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Water\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","water","overview"]
 },
 
 {
 		"title": "workout",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/3_Monthly/Overview/workout/",
-		"content": "Workout\n2024-10MONTUEWEDTHUFRISATSUN12345678910111213141516171819202122232425262728293031",
+		"content": "Workout\nEvaluation Error: TypeError: Cannot read properties of null (reading 'c')\nat eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:12:28)\nat DataviewInlineApi.eval (plugin:dataview:18885:16)\nat evalInContext (plugin:dataview:18886:7)\nat asyncEvalInContext (plugin:dataview:18896:32)\nat DataviewJSRenderer.render (plugin:dataview:18922:19)\nat DataviewJSRenderer.onload (plugin:dataview:18464:14)\nat e.load (app://obsidian.md/app.js:1:1230132)\nat DataviewApi.executeJs (plugin:dataview:19465:18)\nat DataviewCompiler.eval (plugin:digitalgarden:10760:23)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:10699:41)\nat GardenPageCompiler.eval (plugin:digitalgarden:17175:50)\nat Generator.next (&lt;anonymous&gt;)\nat eval (plugin:digitalgarden:90:61)\nat new Promise (&lt;anonymous&gt;)\nat __async (plugin:digitalgarden:74:10)\nat eval (plugin:digitalgarden:17173:50)\nat GardenPageCompiler.eval (plugin:digitalgarden:17126:36)\nat Generator.next (&lt;anonymous&gt;)\nat fulfilled (plugin:digitalgarden:77:24)",
 		"tags": [ "note","monthly","workout","overview"]
 },
 
 {
 		"title": "affirmation",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/affirmation/",
-		"content": "Arranging Desk\n💕 Affirmation 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Arranging Desk\n💕 Affirmation 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","affirmation","overview"]
 },
 
 {
 		"title": "arrangingDesk",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/arrangingDesk/",
-		"content": "Arranging Desk\n✨ Arranging-Desk 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Arranging Desk\n✨ Arranging-Desk 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun..",
 		"tags": [ "note","yearly","arrangingDesk","overview"]
 },
 
 {
 		"title": "bodyScan",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/bodyScan/",
-		"content": "Body Scan\n🧍‍♀️ Body-Scan 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Body Scan\n🧍‍♀️ Body-Scan .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun..",
 		"tags": [ "note","yearly","bodyScan","overview"]
 },
 
 {
 		"title": "brushHair",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/brushHair/",
-		"content": "Brush Hair\n🪮 Brush-Hair 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Brush Hair\n🪮 Brush-Hair .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun....",
 		"tags": [ "note","yearly","brushHair","overview"]
 },
 
 {
 		"title": "cleaningHouse",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/cleaningHouse/",
-		"content": "Morning Cleaning House\n🧹 Morning Cleaning House 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun\nEvening Cleaning House\n🧹 Evening Cleaning House 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Morning Cleaning House\n🧹 Morning Cleaning House 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun..\nEvening Cleaning House\n🧹 Evening Cleaning House 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","cleaningHouse","overview"]
 },
 
 {
 		"title": "coffee",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/coffee/",
 		"content": "Coffee\n☕ Coffee 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","coffee","overview"]
@@ -489,39 +489,39 @@
 
 {
 		"title": "diary",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/diary/",
-		"content": "Diary\n🖊️ Diary 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Diary\n🖊️ Diary 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun..",
 		"tags": [ "note","yearly","diary","overview"]
 },
 
 {
 		"title": "eveningSkincare",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/eveningSkincare/",
-		"content": "Evening Skincare\n😌 Evening-Skincare24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Evening Skincare\n😌 Evening-Skincare24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","eveningSkincare","overview"]
 },
 
 {
 		"title": "eyeDrop",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/eyeDrop/",
-		"content": "Eye Drop\n💧 Eye-Drop 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Eye Drop\n💧 Eye-Drop .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun....",
 		"tags": [ "note","yearly","eyeDrop","overview"]
 },
 
 {
 		"title": "eyeRelief",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/eyeRelief/",
-		"content": "Eye Relief\n🥽 Eye-Relief 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Eye Relief\n🥽 Eye-Relief 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","eyeRelief","overview"]
 },
 
 {
 		"title": "facialMask",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/facialMask/",
 		"content": "Facial Mask\n😶‍🌫️ Facial-Mask 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","facialMask","overview"]
@@ -529,55 +529,55 @@
 
 {
 		"title": "floss",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/floss/",
-		"content": "Floss\n🦷 Floss 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Floss\n🦷 Floss 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","floss","overview"]
 },
 
 {
 		"title": "footCare",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/footCare/",
-		"content": "Foot Care\n🦶 Foot-care 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Foot Care\n🦶 Foot-care 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","footCare","overview"]
 },
 
 {
 		"title": "gratitude",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/gratitude/",
-		"content": "Gratitude\n💗 Gratitude 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Gratitude\n💗 Gratitude 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun..",
 		"tags": [ "note","yearly","gratitude","overview"]
 },
 
 {
 		"title": "mToQueen",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/mToQueen/",
-		"content": "M to Queen\n💊 M to Queen 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "M to Queen\n💊 M to Queen .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","mToQueen","overview"]
 },
 
 {
 		"title": "meditation",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/meditation/",
-		"content": "Meditation\n🧘 Meditation 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Meditation\n🧘 Meditation 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","meditation","overview"]
 },
 
 {
 		"title": "morningSkincare",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/morningSkincare/",
-		"content": "Morning Skincare\n😌 Morning-Skincare24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Morning Skincare\n😌 Morning-Skincare.24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","morningSkincare","overview"]
 },
 
 {
 		"title": "nails",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/nails/",
 		"content": "Nails\n💅 Nails 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","nails","overview"]
@@ -585,79 +585,79 @@
 
 {
 		"title": "omega3",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/omega3/",
-		"content": "Omega3\n💊 Omega3 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Omega3\n💊 Omega3 .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","omega3","overview"]
 },
 
 {
 		"title": "pantotin",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/pantotin/",
-		"content": "Pantotin\n💊 Pantotin 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Pantotin\n💊 Pantotin .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun...",
 		"tags": [ "note","yearly","pantotin","overview"]
 },
 
 {
 		"title": "probiotics",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/probiotics/",
-		"content": "Probiotics\n💊 Probiotics 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Probiotics\n💊 Probiotics .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun....",
 		"tags": [ "note","yearly","probiotics","overview"]
 },
 
 {
 		"title": "sleep",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/sleep/",
-		"content": "Sleep\n💤 Sleep 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Sleep\n💤 Sleep .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun....",
 		"tags": [ "note","yearly","sleep","overview"]
 },
 
 {
 		"title": "snack",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/snack/",
-		"content": "Snack\n🍪 Snack 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Snack\n🍪 Snack 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","snack","overview"]
 },
 
 {
 		"title": "stretching",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/stretching/",
-		"content": "Stretching\n🤸‍♀️ Stretching 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Stretching\n🤸‍♀️ Stretching .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun....",
 		"tags": [ "note","yearly","stretching","overview"]
 },
 
 {
 		"title": "tea",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/tea/",
-		"content": "Tea\n🍵 Tea 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Tea\n🍵 Tea 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","tea","overview"]
 },
 
 {
 		"title": "todoList",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/todoList/",
-		"content": "Todo-List\n✅ Todo-List 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Todo-List\n✅ Todo-List 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","todoList","overview"]
 },
 
 {
 		"title": "visualization",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/visualization/",
-		"content": "Arranging Desk\n✨ Visualization 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Arranging Desk\n✨ Visualization 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","visualization","overview"]
 },
 
 {
 		"title": "wantsNeeds",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/wantsNeeds/",
 		"content": "Wants &amp; Needs\n🔮 Wants &amp; Needs 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","wantsNeeds","overview"]
@@ -665,31 +665,31 @@
 
 {
 		"title": "washingDishes",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/washingDishes/",
-		"content": "Morning Washing Dishes\n🧽 Morning Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun\nAfternoon Washing Dishes\n🧽 Afternoon Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun\nEvening Washing Dishes\n🧽 Evening Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Morning Washing Dishes\n🧽 Morning Washing Dishes .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.\nAfternoon Washing Dishes\n🧽 Afternoon Washing Dishes .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.\nEvening Washing Dishes\n🧽 Evening Washing Dishes 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
 		"tags": [ "note","yearly","washingDishes","overview"]
 },
 
 {
 		"title": "water",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/water/",
-		"content": "Water\n🫗 Water 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Water\n🫗 Water .24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun....",
 		"tags": [ "note","yearly","water","overview"]
 },
 
 {
 		"title": "workout",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/2_Routine/4_Yearly/Overview/workout/",
-		"content": "Workout\n💪 Workout 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun",
+		"content": "Workout\n💪 Workout 24JanFebMarAprMayJunJulAugSepOctNovDecMonTueWedThuFriSatSun.",
 		"tags": [ "note","yearly","workout","overview"]
 },
 
 {
 		"title": "class",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/class/",
 		"content": "Class Overview\n\nFile\ndate",
 		"tags": [ "note","class","overview"]
@@ -697,15 +697,15 @@
 
 {
 		"title": "developing",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/developing/",
-		"content": "Developing Overview\n\nFile\ndate",
+		"content": "Developing Overview\n\nFile\ndate\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">EC2 Instance Storage</a>\n2024. 11. 1.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Dynamic-Programming/\">Dynamic Programming</a>\n2024. 11. 1.\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Binary Search Tree</a>\n2024. 10. 29.",
 		"tags": [ "note","developing","overview"]
 },
 
 {
 		"title": "english-podcast",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/english-podcast/",
 		"content": "English-Podcast Overview\n\nFile\nImg\ndate",
 		"tags": [ "note","english","podcast","overview"]
@@ -713,15 +713,15 @@
 
 {
 		"title": "web-surfing",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/web-surfing/",
-		"content": "Web-Surfing Overview\n\nFile\nImg\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Character-Alignment/\">Character Alignment</a>\n!<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">200</a>\n2024. 10. 25.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Magic-The-Gathering-Colors/\">Magic The Gathering Colors</a>\n!<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">100</a>\n2024. 10. 25.",
+		"content": "Web-Surfing Overview\n\nFile\nImg\ndate\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">네이팜 소녀</a>\n-\n2024. 11. 1.\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Closure</a>\nMaster the Coding Interview: Data Structures + Algorithms\n2024. 11. 1.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Character-Alignment/\">Character Alignment</a>\n!<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">200</a>\n2024. 10. 25.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Magic-The-Gathering-Colors/\">Magic The Gathering Colors</a>\n!<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">100</a>\n2024. 10. 25.",
 		"tags": [ "note","web-surfing","overview"]
 },
 
 {
 		"title": "work",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/work/",
 		"content": "Work Overview\n\nFile\ndate",
 		"tags": [ "note","work","overview"]
@@ -729,23 +729,23 @@
 
 {
 		"title": "youtube",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/3_Learning/Overview/youtube/",
-		"content": "Youtube Overview\n\nFile\nImg\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Napoli-Matfia-and-Italian-football-players/\">Napoli Matfia and Italian football players</a>\n\n2024. 10. 29.",
+		"content": "Youtube Overview\n\nFile\nImg\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/\">비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다</a>\n\n2024. 11. 2.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/생각이-나다---생각이-들다---생각해내다/\">생각이 나다 - 생각이 들다 - 생각해내다</a>\n\n2024. 10. 31.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/\">Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction</a>\n\n2024. 10. 30.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Napoli-Matfia-and-Italian-football-players/\">Napoli Matfia and Italian football players</a>\n\n2024. 10. 29.",
 		"tags": [ "note","youtube","overview"]
 },
 
 {
 		"title": "book",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/4_Book/Overview/book/",
-		"content": "book Overview\n\nFile\nCover\nRating⭐\nAuthor\nGenre\npages\ndate",
+		"content": "book Overview\n\nFile\nCover\nRating⭐\nAuthor\nGenre\npages\ndate\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Minimal Word History for Adults These Days</a>\n\n-\n임소미\nHistory\n348\n2024. 10. 30.",
 		"tags": [ "note","book","overview"]
 },
 
 {
 		"title": "event",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/5_Event/Overview/event/",
 		"content": "Event Overview\n\nFile\nImg\nRating⭐\ndate",
 		"tags": [ "note","event","overview"]
@@ -753,7 +753,7 @@
 
 {
 		"title": "meeting",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/5_Event/Overview/meeting/",
 		"content": "Meeting Overview\n\nFile\nSummary\nImg\nRating⭐\ndate",
 		"tags": [ "note","event","meeting","overview"]
@@ -761,7 +761,7 @@
 
 {
 		"title": "author",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/6_People/Overview/author/",
 		"content": "Author Overview\n\nFile\nImg\ndate",
 		"tags": [ "note","people","author","overview"]
@@ -769,23 +769,23 @@
 
 {
 		"title": "people",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/6_People/Overview/people/",
-		"content": "People Overview\nSocial\n\nFile\nImg\ndate\n\nPersonal\n\nFile\nImg\ndate",
+		"content": "People Overview\nSocial\n\nFile\nImg\ndate\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">모세</a>\n-\n2024. 11. 2.\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">아브라함</a>\n-\n2024. 11. 2.\n\nPersonal\n\nFile\nImg\ndate",
 		"tags": [ "note","people","overview"]
 },
 
 {
 		"title": "stuff",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/7_Stuff/Overview/stuff/",
-		"content": "Stuff Overview\n\nFile\nImg\nRating⭐\ndate",
+		"content": "Stuff Overview\n\nFile\nImg\nRating⭐\ndate\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">토라</a>\n-\n-\n2024. 11. 2.",
 		"tags": [ "note","stuff","overview"]
 },
 
 {
 		"title": "drama",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Overview/drama/",
 		"content": "Drama Overview\n\nFile\nPoster\nRating⭐\nEpisodeLength\nGenre\nImdb⭐\ndate",
 		"tags": [ "note","drama","overview"]
@@ -793,15 +793,15 @@
 
 {
 		"title": "movie",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Overview/movie/",
-		"content": "Movie Overview\n\nFile\nPoster\nRating⭐\nLength\nGenre\nImdb⭐\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n\n⭐⭐⭐⭐⭐⭐\n2시간 및 14분\nAction, Drama, War\n7.6\n2024. 10. 29.",
+		"content": "Movie Overview\n\nFile\nPoster\nRating⭐\nLength\nGenre\nImdb⭐\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Family-Pack/\">Family Pack</a>\n\n⭐⭐⭐⭐⭐⭐⭐\n1시간 및 34분\nAdventure, Comedy, Fantasy\nN/A\n2024. 10. 30.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n\n⭐⭐⭐⭐⭐⭐\n2시간 및 14분\nAction, Drama, War\n7.6\n2024. 10. 29.",
 		"tags": [ "note","movie","overview"]
 },
 
 {
 		"title": "shadowing",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/8_Movie-&amp;-Drama/Overview/shadowing/",
 		"content": "Shadowing Overview\n\nFile\ndate",
 		"tags": [ "note","shadowing","overview"]
@@ -809,7 +809,7 @@
 
 {
 		"title": "music",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/9_Music/Overview/music/",
 		"content": "Music Overview\n\nFile\nArtists\nCover\nAlbum\nRating⭐\ndate\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\nCharlie Puth\n\nCHARLIE\n⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 28.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Papercuts/\">Papercuts</a>\nLandon Conrath\n\nPapercuts\n⭐⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 28.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\nCarlos Rafael Rivera\n\nThe Queen's Gambit (Music from the Netflix Limited Series)\n⭐⭐⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 28.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Cruel-Summer/\">Cruel Summer</a>\nTaylor Swift\n\nLover\n⭐⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 27.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/New-Woman-(feat.-ROSALíA)/\">New Woman (feat. ROSALIA)</a>\nLISA, ROSALÍA\n\nNew Woman (feat. ROSALÍA)\n⭐⭐⭐⭐⭐\n2024. 10. 27.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\nAriana Grande, Mac Miller\n\nYours Truly\n⭐⭐⭐⭐⭐⭐⭐\n2024. 10. 27.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\nROSÉ, Bruno Mars\n\nAPT.\n⭐⭐⭐⭐⭐⭐\n2024. 10. 25.",
 		"tags": [ "note","music","overview"]
@@ -817,15 +817,15 @@
 
 {
 		"title": "Hack The Moon Info",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/Hack-The-Moon-Info/",
-		"content": "Projects\n💼 Career\n\n🧭 Life Explorer\n\nEveryday Self-Development\n💻 Developing\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Binary Search Tree</a>\n\n📖 Books\n\n🎧 English\n\nResource Notes\n👩🏻‍🏫 Classes\n\n💼 Work\n\n🤝 Meeting\n\n✒️ Author\n\n🧸 Stuff\n\n🖥️ Web-Surfing\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Character-Alignment/\">Character Alignment</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Magic-The-Gathering-Colors/\">Magic The Gathering Colors</a>\n\n🧑‍🤝‍🧑People\n\nEvent Notes\n💃 meTime\n\n🙂 friends\n\n😍 dates\n\n👨‍👩‍👧‍👦 Family\n\n🌅 Exotic Vacations\n\nEntertainment\n🎞️ Movies/Dramas Watched\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n\n🎥 Movies/Dramas to Watch\n\n🎶 Music\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Papercuts/\">Papercuts</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Cruel-Summer/\">Cruel Summer</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/New-Woman-(feat.-ROSALíA)/\">New Woman (feat. ROSALIA)</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\n\n▶️ Youtube\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Napoli-Matfia-and-Italian-football-players/\">Napoli Matfia and Italian football players</a>\n\nVault Info\n🗄️ Recent file updates\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-5th - Movie &amp; Drama</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Report/Movie-&-Drama/Daily/2024-10-29---Movie-&-Drama/\">2024-10-29 - Movie &amp; Drama</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Napoli-Matfia-and-Italian-football-players/\">Napoli Matfia and Italian football players</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Report/Weekly/2024-10-5th---Music/\">2024-10-5th - Music</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Report/Weekly/2024-10-4th---Music/\">2024-10-4th - Music</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n\n🔖 Draft: need to check!\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-5th - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-29 - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Binary Search Tree</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Report/Movie-&-Drama/2024-10-29---Fury/\">2024-10-29 - Fury</a>\n\n〽️ Stats\n\nFile Count: 124\nDaily Routines: 1\nDaily Drawings:\nClass:\nDeveloping: 1\nEnglish:\nWeb-Surfing: 2\nWork:\nYoutube: 3\nBook:\nEvent:\nMeeting:\nAuthor:\nPeople:\nStuff:\nMovie/Drama: 3\nMusic: 10",
+		"content": "Projects\n💼 Career\n\n🧭 Life Explorer\n\nEveryday Self-Development\n💻 Developing\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">EC2 Instance Storage</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Dynamic-Programming/\">Dynamic Programming</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Binary Search Tree</a>\n\n📖 Books\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Minimal Word History for Adults These Days</a>\n\n🎧 English\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/\">비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/생각이-나다---생각이-들다---생각해내다/\">생각이 나다 - 생각이 들다 - 생각해내다</a>\n\nResource Notes\n👩🏻‍🏫 Classes\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">web novel class - character development</a>\n\n💼 Work\n\n🤝 Meeting\n\n✒️ Author\n\n🧸 Stuff\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">토라</a>\n\n🖥️ Web-Surfing\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">네이팜 소녀</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Closure</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Character-Alignment/\">Character Alignment</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Magic-The-Gathering-Colors/\">Magic The Gathering Colors</a>\n\n🧑‍🤝‍🧑People\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">모세</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">아브라함</a>\n\nEvent Notes\n💃 meTime\n\n🙂 friends\n\n😍 dates\n\n👨‍👩‍👧‍👦 Family\n\n🌅 Exotic Vacations\n\nEntertainment\n🎞️ Movies/Dramas Watched\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Family-Pack/\">Family Pack</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Fury/\">Fury</a>\n\n🎥 Movies/Dramas to Watch\n\n🎶 Music\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/That's-Hilarious/\">That's Hilarious</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Ceiling-Games/\">Ceiling Games</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Papercuts/\">Papercuts</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/Cruel-Summer/\">Cruel Summer</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/New-Woman-(feat.-ROSALíA)/\">New Woman (feat. ROSALIA)</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/The-Way/\">The Way</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/9_Music/APT./\">APT.</a>\n\n▶️ Youtube\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/\">비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/생각이-나다---생각이-들다---생각해내다/\">생각이 나다 - 생각이 들다 - 생각해내다</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/\">Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Napoli-Matfia-and-Italian-football-players/\">Napoli Matfia and Italian football players</a>\n\nVault Info\n🗄️ Recent file updates\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Dynamic-Programming/\">Dynamic Programming</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Report/Movie-&-Drama/2024-10-30---Family-Pack/\">2024-10-30 - Family Pack</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Report/Movie-&-Drama/Daily/2024-10-30---Movie-&-Drama/\">2024-10-30 - Movie &amp; Drama</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/8_Movie-&-Drama/Family-Pack/\">Family Pack</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/Report/Youtube/2024-11-02---비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/\">2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/\">비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-11-01</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-31 - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-31 - 생각이 나다 - 생각이 들다 - 생각해내다</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/3_Learning/생각이-나다---생각이-들다---생각해내다/\">생각이 나다 - 생각이 들다 - 생각해내다</a>\n\n🔖 Draft: need to check!\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-11-02</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-11-02 - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-30 - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-11-1th - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">모세</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">아브라함</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">토라</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">네이팜 소녀</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">EC2 Instance Storage</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Closure</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-31</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">web novel class - character development</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Minimal Word History for Adults These Days</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-29 - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2024-10-5th - Youtube</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Binary Search Tree</a>\n\n〽️ Stats\n\nFile Count: 155\nDaily Routines: 5\nDaily Drawings:\nClass: 1\nDeveloping: 3\nEnglish: 2\nWeb-Surfing: 4\nWork:\nYoutube: 10\nBook: 1\nEvent:\nMeeting:\nAuthor:\nPeople: 2\nStuff: 1\nMovie/Drama: 5\nMusic: 10",
 		"tags": [ "note"]
 },
 
 {
 		"title": "Home",
-		"date":"Sat Nov 02 2024 02:42:51 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat Nov 02 2024 02:50:31 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "WELCOME!\n\nWell, Hello, there! 😀\nFirst of all, Welcome Welcome Welcome!\nWelcome to my safe place where I share all of my stories and life journeys 😆🥰\nIf you have found this place just now, I think you have no idea what this place is for, so let me explain a bit!\nThis place is for sharing not only my knowledge and any lessons and learning I got from my experiences, but also my life journeys and stories.\nI would tell you 'almost' all of the things happening in my life, so there's a good chance that you get to see who I am by just reading my posts. 😊\nHopefully, you can enjoy being around here and get any useful/helpful insights or information you have been looking for. 💖\nWHAT DOES 'HACK THE MOON' MEAN?\nWell, 'HACK THE MOON' is the name I came up with while I was thinking about my English name.\nI have always loved Greek Mythology since I was a child.\n\nAmong all of the goddesses, my favorite goddess was Artemis[1].\nI always admired her since she was really brave and good at hunting just like men.\nAlso, I liked the fact that she is the goddess of chastity.\nBeing an independent woman like her has been my dream since I was a little kid.\nSo, I wanted my English name to be 'Artemis'.. but that name sounded so obvious, meaning it was NOT FUN. 🤔\nI looked up online, I found out that there was a name 'Diana', which is another name of 'Artemis'!\nThat's how my English name has became 'Diana'.\n\n[!quote]+ Your Questions now..\nOkay.. hm... but...\nWhat does your 'English name' story have anything to do with your blog name?\n\nArtemis' symbol is the moon.\nThe moon has been a challenge until human beings created spaceship.\nAs a human, (since I am not Artemis sadly) I can't reach the moon by myself without spacecraft, but I think I can maybe reach 'seemingly' impossible goals, if I put a lot of efforts into it.\nJust like human beings created space shift.\nSo I thought, well,\nno matter how hard the challenges that come into my life,\nwhatever the challenge is,\nI will HACK(figure out) THE way to the MOON(impossibility/goals) until my life ends.\nLet's Hack The Moon together!\nLet me show you the map before you explore this place.\nyou can find all the things you need when you go to <a class=\"internal-link\" target=\"\" data-note-icon=\"1\" href=\"/Hack-The-Moon-Info/\">Hack The Moon Info</a> page. 🫠\nThere, you can find 10 recent files for each section.\nIf you couldn't find the file, you can try searching files in the search bar on the left side!\nAnd, In case if you clicked the page and there was nothing there, there's a good chance that it didn't get published yet! It will be soon published. 🙂\nAlso, you can find some nice overviews of the section when you go to each section.\nIn case you are wondering about the report, they show how many hours I spent for specific activities/experiences, what I did for the day and the week for each section.\nDISCLAIMER\nBefore you get into any posts..!\nI am writing these posts in English, but my native language is Korean.\nSometimes, it is much easier for me to write posts in Korean than English.\nHowever, I will try to write my posts mostly in English, because English is global language, I want everyone who doesn't know Korean can also read my posts as well.\n영어 잘 모르시는 한국인 분들도 여기 포스트가 전부 영어로 되어 있다고 걱정 마세요!\n제가 한국어로도 글 쓸거에요 :)\n(Hm.. should I write posts in both languages maybe.. 🤔)\nMy posts in English can be sometimes grammatically wrong or have awkward expressions, but I am going to keep trying to improve my English skills and write posts in English even if I am wrong. 😊\nNow, without further ado,\nGOOD LUCK NOT GETTING LOST HERE AND\nLET'S HACK THE WAY TO THE MOON TOGETHER!\n\ngoddess of hunt, the wilderness, wild animals, nature vegetation, childbirth, care of children and chastity ↩︎",
 		"tags": [ "note","gardenEntry"]
