@@ -4,10 +4,8 @@
 
 # People Overview
 ## Social
-| File                       | Img | date         |
-| -------------------------- | --- | ------------ |
-| [[6_People/모세\|모세]]     | \-  | 2024. 11. 2. |
-| [[6_People/아브라함\|아브라함]] | \-  | 2024. 11. 2. |
+| File | Img | date |
+| ---- | --- | ---- |
 
 { .block-language-dataview}
 ## Personal

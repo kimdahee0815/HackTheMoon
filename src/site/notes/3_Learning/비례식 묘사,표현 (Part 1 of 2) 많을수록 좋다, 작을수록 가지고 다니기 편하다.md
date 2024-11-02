@@ -5,7 +5,8 @@
 # [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/pmfS4JlUjjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
 
 우리 몇 시에 출발할까?;;When do you think we should leave?
 거기에 일찍 도착할수록 우리가 준비할 시간이 많아지니까 이를수록 좋을 거 같아;;The earlier we get there, the better it is because we are gonna have more time to prepare

@@ -3,8 +3,7 @@
 ---
 
 # Class Overview
-| File                                                                                               | date          |
-| -------------------------------------------------------------------------------------------------- | ------------- |
-| [[3_Learning/web novel class - character development\|web novel class - character development]] | 2024. 10. 30. |
+| File | date |
+| ---- | ---- |
 
 { .block-language-dataview}

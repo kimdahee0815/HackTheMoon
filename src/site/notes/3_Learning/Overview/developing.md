@@ -3,10 +3,8 @@
 ---
 
 # Developing Overview
-| File                                                         | date          |
-| ------------------------------------------------------------ | ------------- |
-| [[3_Learning/EC2 Instance Storage\|EC2 Instance Storage]] | 2024. 11. 1.  |
-| [[3_Learning/Dynamic Programming\|Dynamic Programming]]   | 2024. 11. 1.  |
-| [[3_Learning/Binary Search Tree\|Binary Search Tree]]     | 2024. 10. 29. |
+| File                                                       | date         |
+| ---------------------------------------------------------- | ------------ |
+| [[3_Learning/Dynamic Programming\|Dynamic Programming]] | 2024. 11. 1. |
 
 { .block-language-dataview}
