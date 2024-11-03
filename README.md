@@ -18,40 +18,43 @@ Among all of the goddesses, my favorite goddess was Artemis[^1]. <br />
 I always admired her since she was really brave and good at hunting just like men. <br />
 Also, I liked the fact that she is the goddess of chastity.<br />
 Being an independent woman like her has been my dream since I was a little kid.<br />
-So, I wanted my English name to be 'Artemis'.. but that name sounded so obvious, meaning it was NOT FUN. 🙄 <br />
-I looked up online, I found out that there was a name 'Diana', which is another name of 'Artemis'..!<br />
-That's how my English name has became 'Diana'.<br />
+So, I wanted my English name to be 'Artemis'.. but that name sounded so obvious, meaning it was not fun. 🙄 <br />
+I looked up online, I found out that there was a name 'Diana', which is another name of 'Artemis'!<br />
+So, that's how my English name has became 'Diana'.<br />
 <br />
 
-But what does my 'English name' story have anything to do with my blog name?<br />
+You might ask here though, what does your 'English name' story have anything to do with your blog name?<br />
 ![image](https://github.com/user-attachments/assets/2ef71e8e-59d5-4dc8-97bb-af77907921f0)
 <br />
-Well, the thing is, Artemis' symbol is the moon.<br />
+Artemis' symbol is the moon.<br />
 The moon has been a challenge until human beings created spaceship.<br />
-As a human, (since I am not Artemis sadly) I can't reach the moon by myself without spacecraft, but I think I can maybe reach seemingly impossible goals, if I put a lot of efforts into it. <br />
+As a human, (since I am not Artemis sadly) I can't reach the moon by myself without spacecraft, but I can maybe reach seemingly impossible goals, if I put a lot of efforts into it. <br />
 Just like human beings created space shift.<br />
 <br />
 So I thought, well, why don't I name my blog as 'Hach The Moon'? <br />
 Because, no matter how hard the challenges that come into my life, <br />
 whatever the challenge is,<br />
-I will **HACK**(figure out) **THE** way to the **MOON**(impossibility/goals) until my life ends. <br />
+I will **HACK**(figure out) **THE** way to the **MOON**(impossibility/goals) until my life ends! <br /> <br />
+Now you know what 'HACK THE MOON' means. 😄 <br />
 
 ## Let's Hack The Moon together!
 
 Let me show you the map before you explore this place. <br />
 you can find all the things you need when you go to Hack The Moon Info page. 🫠<br />
-There, you can find 10 recent files for each section. <br />
-If you couldn't find the file, you can try searching files in the search bar on the left side!<br />
-Just in case if you clicked the page and there was nothing there, there's a good chance that it didn't get published yet (or private page)! <br />
-If they are not published yet, it will be soon published. 🙂<br />
-Also, you can find some nice overviews of the section when you go to each section.<br />
+There, you can find 10 recent notes for each section. <br />
+If you couldn't find the note, you can try searching notes in the search bar on the left side!<br />
+You can also search notes by tags as well. (ex. #monthly)<br /><br />
+Just in case if you clicked the page and there was nothing there, there's a good chance that it didn't get published yet (or it is a private page🥲)! <br />
+Unless it's a private page, it will be soon published. 🙂<br /><br />
+Plus, you can find some nice overviews of the section when you go to each section.<br />
+This will help you to overview all the notes for that section. <br />
 
 ![image](https://github.com/user-attachments/assets/924d8bd0-fcbf-4119-a887-638246e13e89)<br />
 Here in the graph, you can find the notes that are connected to the post you are reading at the moment.<br />
 This will show how the notes are connected with each other so it can be helpful when it comes to finding the connections between concepts!<br />
 On the left side, there are small emojis that link my linkedIn, github. <br />
 If you want to contact me, feel free to reach out via linkedIn or github 😄! <br />
-For the small sun icon, you can change your screen to light/dark mode! <br />
+For the small sun icon, you can change your screen to light/dark mode. <br />
 The sun emoji that has small moon inside is automatic mode so the mode will be changed according to your timezone.☀️🌙
 
 P.S.
