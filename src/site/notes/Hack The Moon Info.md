@@ -120,6 +120,7 @@
 
 - [[9_Music/거짓말\|거짓말]]
 - [[9_Music/하루하루\|하루하루]]
+- [[9_Music/Complicated\|Complicated]]
 - [[9_Music/That's Hilarious\|That's Hilarious]]
 - [[9_Music/Papercuts\|Papercuts]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
@@ -145,6 +146,7 @@
 
 🗄️ Recent file updates
 
+- [[9_Music/Complicated\|Complicated]]
 - [[9_Music/하루하루\|하루하루]]
 - [[9_Music/거짓말\|거짓말]]
 - [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]
@@ -154,7 +156,6 @@
 - [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
 - [[2_Routine/1_Daily/Overview/2024-11-01\|2024-11-01]]
 - [[2_Routine/3_Monthly/Overview/mToQueen\|mToQueen]]
-- [[9_Music/Report/Weekly/2024-10-5th - Music\|2024-10-5th - Music]]
 
 { .block-language-dataview}
 
@@ -184,7 +185,7 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 221
+    -   File Count: 222
     -   Daily Routines: 5
     -   Daily Drawings: 1
     -   Class: 1
@@ -200,4 +201,4 @@
     -   People: 2
     -   Stuff: 47
     -   Movie/Drama: 7
-    -   Music: 16
+    -   Music: 17
