@@ -1,0 +1,30 @@
+---
+{"dg-permalink":"9_Music/Haru-Haru","created-date":"2024-11-03 12:11:15 pm","date":"2024-11-03","type":"music","tags":["music"],"aliases":null,"title":"하루하루","music-url":"https://open.spotify.com/track/1L4d2lafz1odpIMe8va21X","album":"Stand Up (2008 빅뱅 3rd Mini Album)","album-release-date":"2008-08-08","album-url":"https://open.spotify.com/album/0NB6IIwQeRDzNFCU22LQto","cover":"![Stand Up (2008 빅뱅 3rd Mini Album)](https://i.scdn.co/image/ab67616d00001e02256b86508bfdc54899e4685e)","cover-url":"https://i.scdn.co/image/ab67616d00001e02256b86508bfdc54899e4685e","artists":"BIGBANG","added-at":"Sun Nov 03 2024 - 오후 12:11:17","rating":"⭐⭐⭐⭐⭐⭐⭐⭐","dg-publish":true,"permalink":"/9_Music/Haru-Haru/","dgPassFrontmatter":true,"noteIcon":"1"}
+---
+
+# [[하루하루\|하루하루]]
+![](https://i.scdn.co/image/ab67616d00001e02256b86508bfdc54899e4685e)
+
+
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1L4d2lafz1odpIMe8va21X?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+### Music References
+##### Music Report
+[[9_Music/Report/2024-11-03 - Haru Haru\|2024-11-03 - Haru Haru Report]]
+[[9_Music/Report/Daily/2024-11-03 - Music\|2024-11-03 - Music Daily Report]]
+[[9_Music/Report/Weekly/2024-11-1th - Music\|2024-11-1th - Music Weekly Report]]
+
+
+
+
+
