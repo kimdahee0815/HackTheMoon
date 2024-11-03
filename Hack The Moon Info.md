@@ -7,13 +7,12 @@ dg-content-classes: dashboard
 ---
 
 # Projects
-
 💼 Career
 
 ```dataview
 	LIST
 	FROM "1_Project"
-	WHERE contains(tags, "work") and file.folder != "src"
+	WHERE contains(tags, "work") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 ```
 
@@ -22,7 +21,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "1_Project"
-	WHERE contains(tags, "life")
+	WHERE contains(tags, "life")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 ```
 
@@ -33,7 +32,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM ""
-	WHERE contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -43,7 +42,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM ""
-	WHERE contains(tags, "book") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "book") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -53,7 +52,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM ""
-	WHERE contains(tags, "english") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "english") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -65,7 +64,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "3_Learning"
-	WHERE contains(tags, "class") and !contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "class") and !contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -75,7 +74,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "3_Learning"
-	WHERE contains(tags, "work") and !contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "work") and !contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -85,7 +84,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(file.folder, "src") and !contains(file.folder, "dist") and !contains(tags, "overview") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -95,7 +94,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "6_People"
-	WHERE contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(file.folder, "src") and !contains(file.folder, "dist") and !contains(tags, "overview") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -105,7 +104,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "7_Stuff"
-	WHERE contains(tags, "stuff") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "stuff") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -115,17 +114,17 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "3_Learning"
-	WHERE contains(tags, "web-surfing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "web-surfing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
 
-🧑‍🤝‍🧑People
+👤People
 
 ```dataview
 	LIST
 	FROM "6_People"
-	WHERE contains(tags, "people") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "people") and !contains(tags, "author") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -137,7 +136,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "me-time") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "me-time") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -147,7 +146,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "friends") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "friends") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -157,7 +156,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "dates") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "dates") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -167,7 +166,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "family") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "family") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -177,7 +176,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "vacation") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "vacation") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -189,7 +188,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "8_Movie & Drama"
-	WHERE contains(tags, "movie") or contains(tags, "drama") and !contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "movie") or contains(tags, "drama") and !contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -199,7 +198,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "8_Movie & Drama"
-	WHERE contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "to-watch") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -209,7 +208,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "9_Music"
-	WHERE contains(tags, "music") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "music") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -219,7 +218,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "3_Learning"
-	WHERE contains(tags, "youtube") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")
+	WHERE contains(tags, "youtube") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -232,7 +231,7 @@ dg-content-classes: dashboard
 	LIST
 	from "0_Myself" or "1_Project" or "2_Routine" or "3_Learning" or "4_Book" or "5_Event" or "6_People" or "7_Stuff" or "8_Movie & Drama" or "9_Music"
 	SORT file.mtime DESC
-	where dg-publish = true
+	where dg-publish = true  and !contains(file.folder, "src") and !contains(file.folder, "dist")
 	LIMIT 10
 ```
 
@@ -241,7 +240,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "0_Myself" or "1_Project" or "2_Routine" or "3_Learning" or "4_Book" or "5_Event" or "6_People" or "7_Stuff" or "8_Movie & Drama" or "9_Music"
-	WHERE contains(tags, "draft") and file.folder != "Utilities/Templates" 
+	WHERE contains(tags, "draft") and file.folder != "Utilities/Templates"  and !contains(file.folder, "src") and !contains(file.folder, "dist")
 	SORT date DESC
 ```
 
