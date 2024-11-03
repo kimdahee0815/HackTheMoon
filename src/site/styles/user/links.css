@@ -315,6 +315,14 @@
     content: "🕛 ";
 }
 
+.data-link-icon[data-link-tags*="daily-saving" i]::before {
+    content: "💰 ";
+}
+
+.data-link-icon[data-link-tags*="saving" i]::before {
+    content: "💰 ";
+}
+
 /* .data-link-icon[data-link-status]:hover::after {
   content: attr(data-link-status);
 } */
@@ -455,6 +463,14 @@ a.internal-link[data-link-tags*="youtube" i]::before {
 
 a.internal-link[data-link-tags*="fleeting" i]::before {
     content: "🔖 ";
+}
+
+a.internal-link[data-link-tags*="saving" i]::before {
+    content: "💰 ";
+}
+
+a.internal-link[data-link-tags*="daily-saving" i]::before {
+    content: "💰 ";
 }
 
 /* data-link-icon-after[data-link-status]:hover::after {
