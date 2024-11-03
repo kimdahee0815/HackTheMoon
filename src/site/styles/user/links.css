@@ -1,49 +1,50 @@
-.data-link-icon[data-link-type~="daily-overview" i]::before {
+/* supercharged links */
+.data-link-icon[data-link-tags*="daily-overview" i]::before {
     content: "✅ ";
 }
 
-.data-link-icon[data-link-type~="weekly" i]::before {
+.data-link-icon[data-link-tags*="weekly" i]::before {
     content: "☑️ ";
 }
 
-.data-link-icon[data-link-type~="monthly" i]::before {
+.data-link-icon[data-link-tags*="monthly" i]::before {
     content: "📆 ";
 }
 
-.data-link-icon[data-link-type~="yearly" i]::before {
+.data-link-icon[data-link-tags*="yearly" i]::before {
     content: "🎉 ";
 }
 
-.data-link-icon[data-link-type~="myself" i]::before {
+.data-link-icon[data-link-tags*="myself" i]::before {
     content: "😎 ";
 }
 
-.data-link-icon[data-link-type~="project" i]::before {
+.data-link-icon[data-link-tags*="project" i]::before {
     content: "📌 ";
 }
 
-.data-link-icon[data-link-type~="author" i]::before {
-    content: "✒️ ";
-}
-
-.data-link-icon[data-link-type~="book" i]::before {
+.data-link-icon[data-link-tags*="book" i]::before {
     content: "📚 ";
 }
 
-.data-link-icon[data-link-type~="class" i]::before {
+.data-link-icon[data-link-tags*="class" i]::before {
     content: "👩🏻‍🏫 ";
 }
 
-.data-link-icon[data-link-type~="developing" i]::before {
+.data-link-icon[data-link-tags*="developing" i]::before {
     content: "👩🏻‍💻 ";
 }
 
-.data-link-icon[data-link-type~="english-podcast" i]::before {
+.data-link-icon[data-link-tags*="english" i]::before {
     content: "🎧 ";
 }
 
 .data-link-icon[data-link-tags*="#social" i]::before {
     content: "🥳 ";
+}
+
+.data-link-icon[data-link-tags*="event" i]::before {
+    content: "🎈 ";
 }
 
 .data-link-icon[data-link-tags*="#meTime" i]::before {
@@ -66,44 +67,52 @@
     content: "🌅 ";
 }
 
-.data-link-icon[data-link-type~="movie" i]::before {
+.data-link-icon[data-link-tags*="movie" i]::before {
     content: "🎞️ ";
+}
+
+.data-link-icon[data-link-tags*="drama" i]::before {
+    content: "📺 ";
 }
 
 .data-link-icon[data-link-tags*="to-watch" i]::before {
     content: "🍿 ";
 }
 
-.data-link-icon[data-link-type~="meeting" i]::before {
+.data-link-icon[data-link-tags*="meeting" i]::before {
     content: "🤝 ";
 }
 
-.data-link-icon[data-link-type~="music" i]::before {
+.data-link-icon[data-link-tags*="music" i]::before {
     content: "🎵 ";
 }
 
-.data-link-icon[data-link-type~="people" i]::before {
-    content: "🧑‍🤝‍🧑 ";
+.data-link-icon[data-link-tags*="people" i]::before {
+    content: "👤 ";
 }
 
-.data-link-icon[data-link-type~="shadowing" i]::before {
+.data-link-icon[data-link-tags*="author" i]::before {
+    content: "✒️ ";
+}
+
+.data-link-icon[data-link-tags*="shadowing" i]::before {
     content: "🗣️ ";
 }
 
-.data-link-icon[data-link-type~="stuff" i]::before {
+.data-link-icon[data-link-tags*="stuff" i]::before {
     content: "🧸 ";
 }
 
-.data-link-icon[data-link-type~="web-surfing" i]::before {
-    content: "🖱️ ";
+.data-link-icon[data-link-tags*="web-surfing" i]::before {
+    content: "🖥️ ";
 }
 
-.data-link-icon[data-link-type~="work" i]::before {
+.data-link-icon[data-link-tags*="work" i]::before {
     content: "💼 ";
 }
 
-.data-link-icon[data-link-type~="youtube" i]::before {
-    content: "▶️ ";
+.data-link-icon[data-link-tags*="youtube" i]::before {
+    content: "🚩 ";
 }
 
 .data-link-icon[data-link-tags*="fleeting" i]::before {
@@ -122,7 +131,7 @@
     content: "🖌️ ";
 }
 
-.data-link-icon[data-link-type~="daily-routine" i]::before {
+.data-link-icon[data-link-tags*="daily-routine" i]::before {
     content: "🔁 ";
 }
 
@@ -150,8 +159,12 @@
     content: "🧘🏻‍♀️ ";
 }
 
-.data-link-icon[data-link-type~="wantsNeeds" i]::before {
-    content: "💖 ";
+.data-link-icon[data-link-tags*="wants" i]::before {
+    content: "❤️‍🔥 ";
+}
+
+.data-link-icon[data-link-tags*="needs" i]::before {
+    content: "❤️‍🔥 ";
 }
 
 .data-link-icon[data-link-tags*="todo-list" i]::before {
@@ -161,6 +174,147 @@
 .data-link-icon[data-link-tags*="workout" i]::before {
     content: "🏃🏻‍♀️ ";
 }
+
+.data-link-icon[data-link-tags*="affirmation" i]::before {
+    content: "💞 ";
+}
+
+.data-link-icon[data-link-tags*="arrangingDesk" i]::before {
+    content: "✨ ";
+}
+
+.data-link-icon[data-link-tags*="bodyScan" i]::before {
+    content: "🧍‍♀️ ";
+}
+
+.data-link-icon[data-link-tags*="brushHair" i]::before {
+    content: "🪮 ";
+}
+
+.data-link-icon[data-link-tags*="cleaningHouse" i]::before {
+    content: "🧹 ";
+}
+
+.data-link-icon[data-link-tags*="coffee" i]::before {
+    content: "☕ ";
+}
+
+.data-link-icon[data-link-tags*="eveningSkincare" i]::before {
+    content: "🧖‍♀️ ";
+}
+
+.data-link-icon[data-link-tags*="eyeDrop" i]::before {
+    content: "💧 ";
+}
+
+.data-link-icon[data-link-tags*="eyeRelief" i]::before {
+    content: "🥽 ";
+}
+
+.data-link-icon[data-link-tags*="facialMask" i]::before {
+    content: "😌 ";
+}
+
+.data-link-icon[data-link-tags*="floss" i]::before {
+    content: "🪥 ";
+}
+
+.data-link-icon[data-link-tags*="footCare" i]::before {
+    content: "🦶 ";
+}
+
+.data-link-icon[data-link-tags*="gratitude" i]::before {
+    content: "💓 ";
+}
+
+.data-link-icon[data-link-tags*="morningSkincare" i]::before {
+    content: "🧖‍♀️ ";
+}
+
+.data-link-icon[data-link-tags*="mToQueen" i]::before {
+    content: "🩷 ";
+}
+
+.data-link-icon[data-link-tags*="nails" i]::before {
+    content: "💅🏻 ";
+}
+
+.data-link-icon[data-link-tags*="omega3" i]::before {
+    content: "💊 ";
+}
+
+.data-link-icon[data-link-tags*="pantotin" i]::before {
+    content: "💊 ";
+}
+
+.data-link-icon[data-link-tags*="period" i]::before {
+    content: "🩸 ";
+}
+
+.data-link-icon[data-link-tags*="pleasure" i]::before {
+    content: "🙈 ";
+}
+
+.data-link-icon[data-link-tags*="poop" i]::before {
+    content: "💩 ";
+}
+
+.data-link-icon[data-link-tags*="probiotics" i]::before {
+    content: "💊 ";
+}
+
+.data-link-icon[data-link-tags*="sleep" i]::before {
+    content: "🛌 ";
+}
+
+.data-link-icon[data-link-tags*="snack" i]::before {
+    content: "🍪 ";
+}
+
+.data-link-icon[data-link-tags*="stretching" i]::before {
+    content: "🤸‍♀️ ";
+}
+
+.data-link-icon[data-link-tags*="tea" i]::before {
+    content: "🍵 ";
+}
+
+.data-link-icon[data-link-tags*="todo-list" i]::before {
+    content: "✔️ ";
+}
+
+.data-link-icon[data-link-tags*="visualization" i]::before {
+    content: "🪄 ";
+}
+
+.data-link-icon[data-link-tags*="vitaminB" i]::before {
+    content: "🩵 ";
+}
+
+.data-link-icon[data-link-tags*="vitaminD" i]::before {
+    content: "💛 ";
+}
+
+.data-link-icon[data-link-tags*="wantsNeeds" i]::before {
+    content: "❤️‍🔥 ";
+}
+
+.data-link-icon[data-link-tags*="washingDishes" i]::before {
+    content: "🧽 ";
+}
+
+.data-link-icon[data-link-tags*="water" i]::before {
+    content: "🫗 ";
+}
+
+.data-link-icon[data-link-tags*="waxing" i]::before {
+    content: "🥰 ";
+}
+
+.data-link-icon[data-link-tags*="weight" i]::before {
+    content: "🕛 ";
+}
+
 /* .data-link-icon[data-link-status]:hover::after {
   content: attr(data-link-status);
 } */
@@ -191,47 +345,47 @@
 }
 
 /* supercharged links */
-a.internal-link[data-link-type$="daily-overview" i]::before {
+a.internal-link[data-link-tags*="daily-overview" i]::before {
     content: "✅ ";
 }
 
-a.internal-link[data-link-type~="weekly" i]::before {
+a.internal-link[data-link-tags*="weekly" i]::before {
     content: "☑️ ";
 }
 
-a.internal-link[data-link-type~="monthly" i]::before {
+a.internal-link[data-link-tags*="monthly" i]::before {
     content: "📆 ";
 }
 
-a.internal-link[data-link-type~="yearly" i]::before {
+a.internal-link[data-link-tags*="yearly" i]::before {
     content: "🎉 ";
 }
 
-a.internal-link[data-link-type~="myself" i]::before {
+a.internal-link[data-link-tags*="myself" i]::before {
     content: "😎 ";
 }
 
-a.internal-link[data-link-type~="project" i]::before {
+a.internal-link[data-link-tags*="project" i]::before {
     content: "📌 ";
 }
 
-a.internal-link[data-link-type~="author" i]::before {
+a.internal-link[data-link-tags*="author" i]::before {
     content: "✒️ ";
 }
 
-a.internal-link[data-link-type~="book" i]::before {
+a.internal-link[data-link-tags*="book" i]::before {
     content: "📚 ";
 }
 
-a.internal-link[data-link-type~="class" i]::before {
+a.internal-link[data-link-tags*="class" i]::before {
     content: "👩🏻‍🏫 ";
 }
 
-a.internal-link[data-link-type~="developing" i]::before {
+a.internal-link[data-link-tags*="developing" i]::before {
     content: "👩🏻‍💻 ";
 }
 
-a.internal-link[data-link-type~="english-podcast" i]::before {
+a.internal-link[data-link-tags*="english-podcast" i]::before {
     content: "🎧 ";
 }
 
@@ -259,7 +413,7 @@ a.internal-link[data-link-tags*="#vacation" i]::before {
     content: "🌅 ";
 }
 
-a.internal-link[data-link-type~="movie" i]::before {
+a.internal-link[data-link-tags*="movie" i]::before {
     content: "🎞️ ";
 }
 
@@ -267,36 +421,36 @@ a.internal-link[data-link-tags*="to-watch" i]::before {
     content: "🍿 ";
 }
 
-a.internal-link[data-link-type~="meeting" i]::before {
+a.internal-link[data-link-tags*="meeting" i]::before {
     content: "🤝 ";
 }
 
-a.internal-link[data-link-type$="music" i]::before {
+a.internal-link[data-link-tags*="music" i]::before {
     content: "🎵 ";
 }
 
-a.internal-link[data-link-type~="people" i]::before {
-    content: "🧑‍🤝‍🧑 ";
+a.internal-link[data-link-tags*="people" i]::before {
+    content: "👤 ";
 }
 
-a.internal-link[data-link-type~="shadowing" i]::before {
+a.internal-link[data-link-tags*="shadowing" i]::before {
     content: "🗣️ ";
 }
 
-a.internal-link[data-link-type~="stuff" i]::before {
+a.internal-link[data-link-tags*="stuff" i]::before {
     content: "🧸 ";
 }
 
-a.internal-link[data-link-type~="web-surfing" i]::before {
-    content: "🖱️ ";
+a.internal-link[data-link-tags*="web-surfing" i]::before {
+    content: "🖥️ ";
 }
 
-a.internal-link[data-link-type~="work" i]::before {
+a.internal-link[data-link-tags*="work" i]::before {
     content: "💼 ";
 }
 
-a.internal-link[data-link-type~="youtube" i]::before {
-    content: "▶️ ";
+a.internal-link[data-link-tags*="youtube" i]::before {
+    content: "🚩 ";
 }
 
 a.internal-link[data-link-tags*="fleeting" i]::before {
