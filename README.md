@@ -42,9 +42,22 @@ Let me show you the map before you explore this place. <br />
 you can find all the things you need when you go to Hack The Moon Info page. 🫠<br />
 There, you can find 10 recent files for each section. <br />
 If you couldn't find the file, you can try searching files in the search bar on the left side!<br />
-And, In case if you clicked the page and there was nothing there, there's a good chance that it didn't get published yet! It will be soon published. 🙂<br />
+Just in case if you clicked the page and there was nothing there, there's a good chance that it didn't get published yet (or private page)! <br />
+If they are not published yet, it will be soon published. 🙂<br />
 Also, you can find some nice overviews of the section when you go to each section.<br />
-In case you are wondering about the report, they show how many hours I spent for specific activities/experiences, what I did for the day and the week for each section. <br />
+
+![image](https://github.com/user-attachments/assets/924d8bd0-fcbf-4119-a887-638246e13e89)<br />
+Here in the graph, you can find the notes that are connected to the post you are reading at the moment.<br />
+This will show how the notes are connected with each other so it can be helpful when it comes to finding the connections between concepts!<br />
+On the left side, there are small emojis that link my linkedIn, github. <br />
+If you want to contact me, feel free to reach out via linkedIn or github 😄! <br />
+For the small sun icon, you can change your screen to light/dark mode! <br />
+The sun emoji that has small moon inside is automatic mode so the mode will be changed according to your timezone.☀️🌙
+
+P.S.
+In case you are wondering about the reports for each note, they basically show how many hours I spent for specific activities/experiences, what I did for the day and the week for each section. <br />
+The reports help me to track how I spend my time everyday and every week, so it helps me to reflect on my day or my whole week. <br />
+But I doubt that you are wondering about it(since they are not contents), so I decided to leave that out in my blog. 😅<br />
 
 #### DISCLAIMER
 
