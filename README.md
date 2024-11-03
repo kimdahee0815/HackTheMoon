@@ -67,7 +67,7 @@ But I doubt that you are wondering about it(since they are not contents), so I d
 Before you get into any posts..!<br />
 I am writing these posts in English, but my native language is Korean.<br />
 Sometimes, it is much easier for me to write posts in Korean than English.<br />
-However, I will try to write my posts mostly in English, because English is global language, I want everyone who doesn't know Korean can also read my posts as well.<br />
+However, I will try to write my posts mostly in English, because English is a global language, I want everyone who doesn't know Korean can also read my posts as well.<br />
 <br />
 My posts in English can be sometimes grammatically wrong or have awkward expressions(if you do find any, please leave a comment, I would really appreciate it!!), but I am going to keep trying to improve my English knowledge and skills to write posts in English (even if I am wrong). 😊<br />
 <br />
