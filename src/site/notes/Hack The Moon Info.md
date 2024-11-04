@@ -105,6 +105,7 @@
 
 🎞️ Movies/Dramas Watched
 
+- [[8_Movie & Drama/Family Pack\|Family Pack]]
 - [[8_Movie & Drama/Fury\|Fury]]
 
 { .block-language-dataview}
@@ -144,6 +145,7 @@
 
 🗄️ Recent file updates
 
+- [[8_Movie & Drama/Family Pack\|Family Pack]]
 - [[9_Music/The Way\|The Way]]
 - [[9_Music/That's Hilarious\|That's Hilarious]]
 - [[9_Music/Papercuts\|Papercuts]]
@@ -153,7 +155,6 @@
 - [[9_Music/Ceiling Games\|Ceiling Games]]
 - [[9_Music/APT.\|APT.]]
 - [[9_Music/하루하루\|하루하루]]
-- [[9_Music/거짓말\|거짓말]]
 
 { .block-language-dataview}
 
