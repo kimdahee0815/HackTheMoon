@@ -145,6 +145,7 @@
 
 🗄️ Recent file updates
 
+- [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]
 - [[8_Movie & Drama/Family Pack\|Family Pack]]
 - [[9_Music/The Way\|The Way]]
 - [[9_Music/That's Hilarious\|That's Hilarious]]
@@ -154,7 +155,6 @@
 - [[9_Music/Complicated\|Complicated]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
 - [[9_Music/APT.\|APT.]]
-- [[9_Music/하루하루\|하루하루]]
 
 { .block-language-dataview}
 
@@ -182,7 +182,7 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 207
+    -   File Count: 206
     -   Daily Routines: 6
     -   Daily Drawings: 1
     -   Class: 1
