@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"5_Event/Overview/meeting","tags":["event","meeting","overview"],"permalink":"/5_Event/Overview/meeting/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"meeting","dg-permalink":"5_Event/Overview/meeting","tags":["event","meeting","overview"],"permalink":"/5_Event/Overview/meeting/","dgPassFrontmatter":true,"noteIcon":"meeting"}
 ---
 
 # Meeting Overview

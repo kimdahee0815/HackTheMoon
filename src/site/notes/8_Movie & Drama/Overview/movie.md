@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"8_Movie-&-Drama/Overview/movie","tags":["movie","overview"],"permalink":"/8_Movie-&-Drama/Overview/movie/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"movie","dg-permalink":"8_Movie-&-Drama/Overview/movie","tags":["movie","overview"],"permalink":"/8_Movie-&-Drama/Overview/movie/","dgPassFrontmatter":true,"noteIcon":"movie"}
 ---
 
 # Movie Overview

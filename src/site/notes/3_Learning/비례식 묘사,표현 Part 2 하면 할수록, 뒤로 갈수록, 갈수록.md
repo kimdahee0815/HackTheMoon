@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록","created-date":"2024-11-03 8:24:27 am","date":"2024-11-03","type":"youtube","tags":["youtube","english"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=tj2nk6da_Sg","img":"https://img.youtube.com/vi/tj2nk6da_Sg/0.jpg","dg-publish":true,"permalink":"/3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록","dg-note-icon":"youtube","created-date":"2024-11-03 8:24:27 am","date":"2024-11-03","type":"youtube","tags":["youtube","english"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=tj2nk6da_Sg","img":"https://img.youtube.com/vi/tj2nk6da_Sg/0.jpg","dg-publish":true,"permalink":"/3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록/","dgPassFrontmatter":true,"noteIcon":"youtube"}
 ---
 
 # [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]

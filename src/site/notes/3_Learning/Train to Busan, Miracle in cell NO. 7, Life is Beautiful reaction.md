@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction","created-date":"2024-10-30 11:39:00 pm","date":"2024-10-30","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"Nikki & Steven","channelName":"Nikki & Steven React","link":"https://www.youtube.com/watch?v=5X1erD5W67M","img":"https://img.youtube.com/vi/5X1erD5W67M/0.jpg","dg-publish":true,"permalink":"/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction","dg-note-icon":"youtube","created-date":"2024-10-30 11:39:00 pm","date":"2024-10-30","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"Nikki & Steven","channelName":"Nikki & Steven React","link":"https://www.youtube.com/watch?v=5X1erD5W67M","img":"https://img.youtube.com/vi/5X1erD5W67M/0.jpg","dg-publish":true,"permalink":"/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/","dgPassFrontmatter":true,"noteIcon":"youtube"}
 ---
 
 # [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]
@@ -34,7 +34,7 @@ Dad got caught by german soldiers, but he is walking funny since he knew his son
 He wanted his son to think that he is playing a hide and seek game.
 I remember I watched this movie when I was in middle school, it was the movie that I cried a lot at that time too, since it was really sad. 
 
-**Similarity of these 3 movies**
+### Similarity of these 3 movies
 All of 3 movies has relationships between father and their son/daughter. 
 Their son/daughter are pretty young, and fathers take care of their children no matter what.
 These movies are sad because it reminds me of my dad as well.

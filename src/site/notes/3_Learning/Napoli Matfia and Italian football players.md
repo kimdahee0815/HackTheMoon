@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/Napoli-Matfia-and-Italian-football-players","created-date":"2024-10-29 10:56:01 am","date":"2024-10-29","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"슛포러브","channelName":"슛포러브","link":"https://www.youtube.com/watch?v=-CVvWNwjU48","img":"https://img.youtube.com/vi/-CVvWNwjU48/0.jpg","dg-publish":true,"permalink":"/3_Learning/Napoli-Matfia-and-Italian-football-players/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Napoli-Matfia-and-Italian-football-players","dg-note-icon":"youtube","created-date":"2024-10-29 10:56:01 am","date":"2024-10-29","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"슛포러브","channelName":"슛포러브","link":"https://www.youtube.com/watch?v=-CVvWNwjU48","img":"https://img.youtube.com/vi/-CVvWNwjU48/0.jpg","dg-publish":true,"permalink":"/3_Learning/Napoli-Matfia-and-Italian-football-players/","dgPassFrontmatter":true,"noteIcon":"youtube"}
 ---
 
 

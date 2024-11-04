@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"3_Learning/Overview/work","tags":["work","overview"],"permalink":"/3_Learning/Overview/work/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"work","dg-permalink":"3_Learning/Overview/work","tags":["work","overview"],"permalink":"/3_Learning/Overview/work/","dgPassFrontmatter":true,"noteIcon":"work"}
 ---
 
 # Work Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/Magic-The-Gathering-Colors","created-date":"2024-10-25 11:40:30 am","date":"2024-10-25","type":"web-surfing","tags":["web-surfing"],"aliases":null,"img":"![Utilities/Images/Pasted image 20241028153201.jpeg|100](/img/user/Utilities/Images/Pasted%20image%2020241028153201.jpeg)","dg-publish":true,"permalink":"/3_Learning/Magic-The-Gathering-Colors/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Magic-The-Gathering-Colors","dg-note-icon":"webSurfing","created-date":"2024-10-25 11:40:30 am","date":"2024-10-25","type":"web-surfing","tags":["web-surfing"],"aliases":null,"img":"![Utilities/Images/Pasted image 20241028153201.jpeg|100](/img/user/Utilities/Images/Pasted%20image%2020241028153201.jpeg)","dg-publish":true,"permalink":"/3_Learning/Magic-The-Gathering-Colors/","dgPassFrontmatter":true,"noteIcon":"webSurfing"}
 ---
 
 
