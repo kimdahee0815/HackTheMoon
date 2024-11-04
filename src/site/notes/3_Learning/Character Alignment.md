@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/Character-Alignment","dg-note-icon":"2","created-date":"2024-10-25 11:30:17 am","date":"2024-10-25","type":"web-surfing","tags":["web-surfing"],"aliases":null,"img":"![Utilities/Images/Pasted image 20241028153039.jpeg|200](/img/user/Utilities/Images/Pasted%20image%2020241028153039.jpeg)","dg-publish":true,"permalink":"/3_Learning/Character-Alignment/","dgPassFrontmatter":true,"noteIcon":"2"}
+{"dg-permalink":"3_Learning/Character-Alignment","dg-note-icon":"28","created-date":"2024-10-25 11:30:17 am","date":"2024-10-25","type":"web-surfing","tags":["web-surfing"],"aliases":null,"img":"![Utilities/Images/Pasted image 20241028153039.jpeg|200](/img/user/Utilities/Images/Pasted%20image%2020241028153039.jpeg)","dg-publish":true,"permalink":"/3_Learning/Character-Alignment/","dgPassFrontmatter":true,"noteIcon":"28"}
 ---
 
 
