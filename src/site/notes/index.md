@@ -53,7 +53,7 @@ Unless it's a private page, it will be soon published. 🙂
 Plus, you can find some nice overviews of the section when you go to each section.  
 This will help you to overview all the notes for that section.  
 
-[![Utilities/Images/652c5ed4c3bc2dff3b3a09697b24c848_MD5.jpg](/img/user/Utilities/Images/652c5ed4c3bc2dff3b3a09697b24c848_MD5.jpg)](https://private-user-images.githubusercontent.com/112792026/382613141-924d8bd0-fcbf-4119-a887-638246e13e89.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzA2Nzg0MzksIm5iZiI6MTczMDY3ODEzOSwicGF0aCI6Ii8xMTI3OTIwMjYvMzgyNjEzMTQxLTkyNGQ4YmQwLWZjYmYtNDExOS1hODg3LTYzODI0NmUxM2U4OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEwM1QyMzU1MzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMmJiMDc3MGE4ZjA5MWRjMzJiNThiNjFlOTQyZjEzYTc1Nzc0MDU4ODM4MTkxZmIyYjg2ZWYwZjY0YTA3YzU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.is4wiIlNmmY8rhXq0R0gNIn93kr_OLGrLtaNne-AfRs)
+![Utilities/Images/Pasted image 20241104091512.jpeg](/img/user/Utilities/Images/Pasted%20image%2020241104091512.jpeg)
 Here in the graph, you can find the notes that are connected to the post you are reading at the moment.  
 This will show how the notes are connected with each other so it can be helpful when it comes to finding the connections between concepts!  
 On the left side, there are small emojis that link my linkedIn, github.  
