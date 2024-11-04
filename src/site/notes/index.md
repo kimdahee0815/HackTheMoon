@@ -8,7 +8,7 @@
 Hello, there! 😀  
 Welcome to my blog Hack The Moon! 🌙🥰  
 This place is for sharing not only my knowledge and learning I got from my experiences, but also my life journeys and stories.  
-If you are wondering about who I am, there's a good chance that you are gonna get to know me by just reading my posts, since I am going to tell you lots of things happening in my life here. 😊  
+If you are wondering about who I am, there's a good chance that you are gonna get to know me by just reading my posts, since I am going to tell you lots of things happening in my life here. 
 Hopefully, you can enjoy the contents and get any useful/helpful insights or information you have been looking for. 🎈
 
 ## WHAT DOES 'HACK THE MOON' MEAN?
