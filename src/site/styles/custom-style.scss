@@ -138,7 +138,7 @@ body {
     --note-icon-25: url(/img/author.svg);
     --note-icon-26: url(/img/shadowing.svg);
     --note-icon-27: url(/img/stuff.svg);
-    --note-icon-28: url(/img/web-surfing.svg);
+    --note-icon-webSurfing: url(/img/web-surfing.svg);
     --note-icon-29: url(/img/work.svg);
     --note-icon-30: url(/img/youtube.svg);
     --note-icon-31: url(/img/fleeting.svg);
@@ -199,5 +199,12 @@ body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="moon"]::before
 body.filetree-note-icon .filename[data-note-icon="moon"]::before,
 body.links-note-icon .internal-link[data-note-icon="moon"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="moon"]::before {
+    background-image: url(/img/moon.svg);
+}
+
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="webSurfing"]::before,
+body.filetree-note-icon .filename[data-note-icon="webSurfing"]::before,
+body.links-note-icon .internal-link[data-note-icon="webSurfing"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="webSurfing"]::before {
     background-image: url(/img/moon.svg);
 }
