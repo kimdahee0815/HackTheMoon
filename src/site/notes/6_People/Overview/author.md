@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"6_People/Overview/author","tags":["people","author","overview"],"permalink":"/6_People/Overview/author/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"author","dg-permalink":"6_People/Overview/author","tags":["people","author","overview"],"permalink":"/6_People/Overview/author/","dgPassFrontmatter":true,"noteIcon":"author"}
 ---
 
 # Author Overview

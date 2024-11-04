@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"3_Learning/Overview/developing","tags":["developing","overview"],"permalink":"/3_Learning/Overview/developing/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"developing","dg-permalink":"3_Learning/Overview/developing","tags":["developing","overview"],"permalink":"/3_Learning/Overview/developing/","dgPassFrontmatter":true,"noteIcon":"developing"}
 ---
 
 # Developing Overview

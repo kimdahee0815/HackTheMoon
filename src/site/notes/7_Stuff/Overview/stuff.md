@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"7_Stuff/Overview/stuff","tags":["stuff","overview"],"permalink":"/7_Stuff/Overview/stuff/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"stuff","dg-permalink":"7_Stuff/Overview/stuff","tags":["stuff","overview"],"permalink":"/7_Stuff/Overview/stuff/","dgPassFrontmatter":true,"noteIcon":"stuff"}
 ---
 
 # Stuff Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/Dynamic-Programming","created-date":"2024-11-01 2:55:06 pm","date":"2024-11-01","type":"developing","tags":["developing"],"aliases":null,"courseName":"Master the Coding Interview: Data Structures + Algorithms","dg-publish":true,"permalink":"/3_Learning/Dynamic-Programming/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Dynamic-Programming","dg-note-icon":"developing","created-date":"2024-11-01 2:55:06 pm","date":"2024-11-01","type":"developing","tags":["developing"],"aliases":null,"courseName":"Master the Coding Interview: Data Structures + Algorithms","dg-publish":true,"permalink":"/3_Learning/Dynamic-Programming/","dgPassFrontmatter":true,"noteIcon":"developing"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction","created-date":"2024-10-30 11:39:00 pm","date":"2024-10-30","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"Nikki & Steven","channelName":"Nikki & Steven React","link":"https://www.youtube.com/watch?v=5X1erD5W67M","img":"https://img.youtube.com/vi/5X1erD5W67M/0.jpg","dg-publish":true,"permalink":"/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-permalink":"3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction","dg-note-icon":"youtube","created-date":"2024-10-30 11:39:00 pm","date":"2024-10-30","type":"youtube","tags":["youtube","entertainment"],"aliases":null,"youtuber":"Nikki & Steven","channelName":"Nikki & Steven React","link":"https://www.youtube.com/watch?v=5X1erD5W67M","img":"https://img.youtube.com/vi/5X1erD5W67M/0.jpg","dg-publish":true,"permalink":"/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/","dgPassFrontmatter":true,"noteIcon":"youtube"}
 ---
 
 # [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]

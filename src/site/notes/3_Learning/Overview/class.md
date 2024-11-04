@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"3_Learning/Overview/class","tags":["class","overview"],"permalink":"/3_Learning/Overview/class/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Overview/class","tags":["class","overview"],"permalink":"/3_Learning/Overview/class/","dgPassFrontmatter":true,"noteIcon":"class"}
 ---
 
 # Class Overview

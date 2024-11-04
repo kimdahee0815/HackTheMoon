@@ -4,7 +4,6 @@
 
 
 # Projects
-
 💼 Career
 
 
@@ -106,7 +105,6 @@
 
 🎞️ Movies/Dramas Watched
 
-- [[8_Movie & Drama/Family Pack\|Family Pack]]
 - [[8_Movie & Drama/Fury\|Fury]]
 
 { .block-language-dataview}
@@ -121,12 +119,12 @@
 - [[9_Music/거짓말\|거짓말]]
 - [[9_Music/하루하루\|하루하루]]
 - [[9_Music/Complicated\|Complicated]]
-- [[9_Music/That's Hilarious\|That's Hilarious]]
 - [[9_Music/Papercuts\|Papercuts]]
+- [[9_Music/That's Hilarious\|That's Hilarious]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
 - [[9_Music/Cruel Summer\|Cruel Summer]]
-- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/The Way\|The Way]]
+- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 - [[9_Music/APT.\|APT.]]
 
 { .block-language-dataview}
@@ -146,36 +144,34 @@
 
 🗄️ Recent file updates
 
+- [[9_Music/The Way\|The Way]]
+- [[9_Music/That's Hilarious\|That's Hilarious]]
+- [[9_Music/Papercuts\|Papercuts]]
+- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
+- [[9_Music/Cruel Summer\|Cruel Summer]]
 - [[9_Music/Complicated\|Complicated]]
+- [[9_Music/Ceiling Games\|Ceiling Games]]
+- [[9_Music/APT.\|APT.]]
 - [[9_Music/하루하루\|하루하루]]
 - [[9_Music/거짓말\|거짓말]]
-- [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]
-- [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
-- [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
-- [[3_Learning/Character Alignment\|Character Alignment]]
-- [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
-- [[2_Routine/1_Daily/Overview/2024-11-01\|2024-11-01]]
-- [[2_Routine/3_Monthly/Overview/mToQueen\|mToQueen]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
-- [[2_Routine/2_Weekly/2024-44W\|2024-44W]]
 - [[2_Routine/1_Daily/Todo-List/2024-11-03\|2024-11-03]]
-- [[4_Book/Report/2024-11-03 - 콰이어트\|2024-11-03 - 콰이어트]]
+- [[2_Routine/2_Weekly/2024-44W\|2024-44W]]
 - [[4_Book/콰이어트\|콰이어트]]
-- [[9_Music/Report/Daily/2024-11-03 - Music\|2024-11-03 - Music]]
-- [[9_Music/Report/Weekly/2024-11-1th - Music\|2024-11-1th - Music]]
+- [[8_Movie & Drama/전, 란\|전, 란]]
+- [[8_Movie & Drama/페르시아 수업\|페르시아 수업]]
 - [[2_Routine/1_Daily/Todo-List/2024-11-02\|2024-11-02]]
-- [[3_Learning/Report/Youtube/Weekly/2024-11-1th - Youtube\|2024-11-1th - Youtube]]
 - [[6_People/모세\|모세]]
 - [[6_People/아브라함\|아브라함]]
 - [[7_Stuff/토라\|토라]]
-- [[8_Movie & Drama/Don't Move\|Don't Move]]
 - [[8_Movie & Drama/The Fall Guy\|The Fall Guy]]
-- [[3_Learning/EC2 Instance Storage\|EC2 Instance Storage]]
+- [[8_Movie & Drama/Don't Move\|Don't Move]]
 - [[3_Learning/네이팜 소녀\|네이팜 소녀]]
+- [[3_Learning/EC2 Instance Storage\|EC2 Instance Storage]]
 - [[3_Learning/Closure\|Closure]]
 - [[2_Routine/1_Daily/Todo-List/2024-10-31\|2024-10-31]]
 - [[3_Learning/web novel class - character development\|web novel class - character development]]
@@ -185,20 +181,20 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 222
-    -   Daily Routines: 5
+    -   File Count: 207
+    -   Daily Routines: 6
     -   Daily Drawings: 1
     -   Class: 1
     -   Developing: 3
     -   English: 3
     -   Web-Surfing: 4
     -   Work: 
-    -   Youtube: 12
+    -   Youtube: 6
     -   Book: 2
     -   Event: 
     -   Meeting: 
     -   Author: 
     -   People: 2
     -   Stuff: 47
-    -   Movie/Drama: 7
-    -   Music: 17
+    -   Movie/Drama: 6
+    -   Music: 10
