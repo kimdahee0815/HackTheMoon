@@ -3,7 +3,7 @@
 ---
 
 # [[9_Music/Complicated\|Complicated]]
-![[Utilities/Images/adbd8c91b575d60f08d75381da501422_MD5.jpg]]
+![](https://i.scdn.co/image/ab67616d00001e02f7ec724fbf97a30869d06240)
 
 
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5xEM5hIgJ1jjgcEBfpkt2F?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
