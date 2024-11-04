@@ -34,7 +34,7 @@ Dad got caught by german soldiers, but he is walking funny since he knew his son
 He wanted his son to think that he is playing a hide and seek game.
 I remember I watched this movie when I was in middle school, it was the movie that I cried a lot at that time too, since it was really sad. 
 
-**Similarity of these 3 movies**
+### Similarity of these 3 movies
 All of 3 movies has relationships between father and their son/daughter. 
 Their son/daughter are pretty young, and fathers take care of their children no matter what.
 These movies are sad because it reminds me of my dad as well.
