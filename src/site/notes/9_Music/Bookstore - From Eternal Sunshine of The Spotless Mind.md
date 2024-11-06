@@ -2,11 +2,12 @@
 {"dg-note-icon":"music","dg-permalink":"9_Music/Bookstore---From-Eternal-Sunshine-of-The-Spotless-Mind","created-date":"2024-11-06 11:08:09 pm","date":"2024-11-06","type":"music","tags":["music"],"aliases":null,"title":"Bookstore - From Eternal Sunshine of The Spotless Mind","music-url":"https://open.spotify.com/track/3hQ7B0LdBp1ETFr0bvr3i5","album":"Eternal Sunshine Of The Spotless Mind","album-release-date":"2004-01-01","album-url":"https://open.spotify.com/album/5yOO5ZvqDZx5Sr8jOGtWRR","cover":"![Eternal Sunshine Of The Spotless Mind](https://i.scdn.co/image/ab67616d00001e025eb9cb335bcd4b42afdb87e5)","cover-url":"https://i.scdn.co/image/ab67616d00001e025eb9cb335bcd4b42afdb87e5","artists":"Jon Brion","added-at":"Wed Nov 06 2024 - 오후 11:08:11","rating":"⭐⭐⭐⭐⭐⭐⭐⭐⭐","dg-publish":true,"permalink":"/9_Music/Bookstore---From-Eternal-Sunshine-of-The-Spotless-Mind/","dgPassFrontmatter":true,"noteIcon":"music"}
 ---
 
-# [[Bookstore - From "Eternal Sunshine of the Spotless Mind"/Score\|Bookstore - From "Eternal Sunshine of the Spotless Mind"/Score]]
+# [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 ![](https://i.scdn.co/image/ab67616d00001e025eb9cb335bcd4b42afdb87e5)
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3hQ7B0LdBp1ETFr0bvr3i5?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:6:21)</pre>
 
 
 
