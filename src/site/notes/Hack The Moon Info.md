@@ -125,8 +125,8 @@
 - [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/거짓말\|거짓말]]
-- [[9_Music/Complicated\|Complicated]]
 - [[9_Music/하루하루\|하루하루]]
+- [[9_Music/Complicated\|Complicated]]
 - [[9_Music/That's Hilarious\|That's Hilarious]]
 - [[9_Music/Papercuts\|Papercuts]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
@@ -171,13 +171,13 @@
 
 - [[2_Routine/1_Daily/Todo-List/2024-11-11\|2024-11-11]]
 - [[3_Learning/마사다 요새\|마사다 요새]]
-- [[3_Learning/할라카\|할라카]]
 - [[3_Learning/통곡의 벽\|통곡의 벽]]
-- [[5_Event/사촌오빠 결혼식 옷 쇼핑\|사촌오빠 결혼식 옷 쇼핑]]
+- [[3_Learning/할라카\|할라카]]
 - [[5_Event/Report/Event/2024-11-05 - 사촌오빠 결혼식 옷 쇼핑\|2024-11-05 - 사촌오빠 결혼식 옷 쇼핑]]
+- [[5_Event/사촌오빠 결혼식 옷 쇼핑\|사촌오빠 결혼식 옷 쇼핑]]
 - [[6_People/유대인\|유대인]]
-- [[2_Routine/2_Weekly/2024-44W\|2024-44W]]
 - [[2_Routine/1_Daily/Todo-List/2024-11-03\|2024-11-03]]
+- [[2_Routine/2_Weekly/2024-44W\|2024-44W]]
 - [[4_Book/Report/2024-11-03 - 콰이어트\|2024-11-03 - 콰이어트]]
 - [[4_Book/콰이어트\|콰이어트]]
 - [[8_Movie & Drama/전, 란\|전, 란]]
@@ -186,13 +186,13 @@
 - [[9_Music/Report/Weekly/2024-11-1th - Music\|2024-11-1th - Music]]
 - [[2_Routine/1_Daily/Todo-List/2024-11-02\|2024-11-02]]
 - [[3_Learning/Report/Youtube/Weekly/2024-11-1th - Youtube\|2024-11-1th - Youtube]]
-- [[6_People/아브라함\|아브라함]]
 - [[6_People/모세\|모세]]
+- [[6_People/아브라함\|아브라함]]
 - [[7_Stuff/토라\|토라]]
 - [[8_Movie & Drama/The Fall Guy\|The Fall Guy]]
 - [[8_Movie & Drama/Don't Move\|Don't Move]]
-- [[3_Learning/EC2 Instance Storage\|EC2 Instance Storage]]
 - [[3_Learning/네이팜 소녀\|네이팜 소녀]]
+- [[3_Learning/EC2 Instance Storage\|EC2 Instance Storage]]
 - [[3_Learning/Closure\|Closure]]
 - [[2_Routine/1_Daily/Todo-List/2024-10-31\|2024-10-31]]
 - [[3_Learning/web novel class - character development\|web novel class - character development]]
@@ -202,8 +202,8 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 277
-    -   Daily Routines: 14
+    -   File Count: 280
+    -   Daily Routines: 15
     -   Daily Drawings: 2
     -   Class: 1
     -   Developing: 3
