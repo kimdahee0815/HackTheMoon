@@ -18,25 +18,29 @@
 
 💻 Developing
 
+- [[3_Learning/Dynamic Programming\|Dynamic Programming]]
+- [[3_Learning/Binary Search Tree\|Binary Search Tree]]
 
 { .block-language-dataview}
 
 📖 Books
 
+- [[4_Book/Minimal Word History for Adults These Days\|Minimal Word History for Adults These Days]]
 
 { .block-language-dataview}
 
 🎧 English
 
-- [[3_Learning/연습가이드 #22 완료형 시제 + 추가표현.md\|연습가이드 #22 완료형 시제 + 추가표현]]
-- [[3_Learning/쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어\|쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어]]
-- [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3]]
-- [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요]]
-- [[3_Learning/~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야\|~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야]]
-- [[3_Learning/생활 필수 영어표현 5개 - 긍정적으로 생각하기편\|생활 필수 영어표현 5개 - 긍정적으로 생각하기편]]
-- [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]
-- [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
-- [[3_Learning/생각이 나다 - 생각이 들다 - 생각해내다\|생각이 나다 - 생각이 들다 - 생각해내다]]
+- [[3_Learning/절차에 대한 설명\|절차에 대한 설명]]
+- [[3_Learning/지금쯤이면 뭔가 소식이 있을 줄 알았는데..\|지금쯤이면 뭔가 소식이 있을 줄 알았는데..]]
+- [[3_Learning/그래서의 두 가지 표현, 누구에게 무엇을 주다 라고 말할 때 주의점\|그래서의 두 가지 표현, 누구에게 무엇을 주다 라고 말할 때 주의점]]
+- [[3_Learning/반드시, 꼭, 무조건, 어떻게든, 어떤 식으로든, 무슨 수를 써서라도\|반드시, 꼭, 무조건, 어떻게든, 어떤 식으로든, 무슨 수를 써서라도]]
+- [[3_Learning/양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법\|양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법]]
+- [[3_Learning/TV를 켜다, 켜놓다, 켜두다\|TV를 켜다, 켜놓다, 켜두다]]
+- [[3_Learning/이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably\|이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably]]
+- [[3_Learning/(영화에 대해서) 아쉬웠던 점 설명하기\|(영화에 대해서) 아쉬웠던 점 설명하기]]
+- [[3_Learning/영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현\|영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현]]
+- [[3_Learning/'빈도'를 더 다양하게 표현하기\|'빈도'를 더 다양하게 표현하기]]
 
 { .block-language-dataview}
 
@@ -69,6 +73,11 @@
 
 🖥️ Web-Surfing
 
+- [[3_Learning/마사다 요새\|마사다 요새]]
+- [[3_Learning/통곡의 벽\|통곡의 벽]]
+- [[3_Learning/할라카\|할라카]]
+- [[3_Learning/토라\|토라]]
+- [[3_Learning/네이팜 소녀\|네이팜 소녀]]
 - [[3_Learning/Character Alignment\|Character Alignment]]
 - [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
 
@@ -76,6 +85,10 @@
 
 👤People
 
+- [[6_People/헨리 8세\|헨리 8세]]
+- [[6_People/엘리자베스 1세\|엘리자베스 1세]]
+- [[6_People/유대인\|유대인]]
+- [[6_People/아브라함\|아브라함]]
 
 { .block-language-dataview}
 
@@ -110,6 +123,14 @@
 
 🎞️ Movies/Dramas Watched
 
+- [[8_Movie & Drama/Wicked - Part 1\|Wicked - Part 1]]
+- [[8_Movie & Drama/Red Sparrow\|Red Sparrow]]
+- [[8_Movie & Drama/Sex Education\|Sex Education]]
+- [[8_Movie & Drama/Ragnarok\|Ragnarok]]
+- [[8_Movie & Drama/전, 란\|전, 란]]
+- [[8_Movie & Drama/페르시아 수업\|페르시아 수업]]
+- [[8_Movie & Drama/Don't Move\|Don't Move]]
+- [[8_Movie & Drama/The Fall Guy\|The Fall Guy]]
 - [[8_Movie & Drama/Family Pack\|Family Pack]]
 - [[8_Movie & Drama/Fury\|Fury]]
 
@@ -122,31 +143,31 @@
 
 🎶 Music
 
-- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
+- [[9_Music/Defying Gravity\|Defying Gravity]]
 - [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
-- [[9_Music/거짓말\|거짓말]]
+- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/하루하루\|하루하루]]
+- [[9_Music/거짓말\|거짓말]]
 - [[9_Music/Complicated\|Complicated]]
-- [[9_Music/That's Hilarious\|That's Hilarious]]
-- [[9_Music/Papercuts\|Papercuts]]
 - [[9_Music/Ceiling Games\|Ceiling Games]]
+- [[9_Music/Papercuts\|Papercuts]]
+- [[9_Music/That's Hilarious\|That's Hilarious]]
 - [[9_Music/Cruel Summer\|Cruel Summer]]
-- [[9_Music/New Woman (feat. ROSALIA)\|New Woman (feat. ROSALIA)]]
 
 { .block-language-dataview}
 
 ▶️ Youtube
 
-- [[3_Learning/연습가이드 #22 완료형 시제 + 추가표현.md\|연습가이드 #22 완료형 시제 + 추가표현]]
-- [[3_Learning/쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어\|쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어]]
-- [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3]]
-- [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요]]
-- [[3_Learning/~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야\|~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야]]
-- [[3_Learning/생활 필수 영어표현 5개 - 긍정적으로 생각하기편\|생활 필수 영어표현 5개 - 긍정적으로 생각하기편]]
-- [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]
-- [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
-- [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
-- [[3_Learning/생각이 나다 - 생각이 들다 - 생각해내다\|생각이 나다 - 생각이 들다 - 생각해내다]]
+- [[3_Learning/절차에 대한 설명\|절차에 대한 설명]]
+- [[3_Learning/지금쯤이면 뭔가 소식이 있을 줄 알았는데..\|지금쯤이면 뭔가 소식이 있을 줄 알았는데..]]
+- [[3_Learning/그래서의 두 가지 표현, 누구에게 무엇을 주다 라고 말할 때 주의점\|그래서의 두 가지 표현, 누구에게 무엇을 주다 라고 말할 때 주의점]]
+- [[3_Learning/반드시, 꼭, 무조건, 어떻게든, 어떤 식으로든, 무슨 수를 써서라도\|반드시, 꼭, 무조건, 어떻게든, 어떤 식으로든, 무슨 수를 써서라도]]
+- [[3_Learning/양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법\|양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법]]
+- [[3_Learning/TV를 켜다, 켜놓다, 켜두다\|TV를 켜다, 켜놓다, 켜두다]]
+- [[3_Learning/이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably\|이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably]]
+- [[3_Learning/(영화에 대해서) 아쉬웠던 점 설명하기\|(영화에 대해서) 아쉬웠던 점 설명하기]]
+- [[3_Learning/영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현\|영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현]]
+- [[3_Learning/'빈도'를 더 다양하게 표현하기\|'빈도'를 더 다양하게 표현하기]]
 
 { .block-language-dataview}
 
@@ -154,68 +175,42 @@
 
 🗄️ Recent file updates
 
-- [[3_Learning/연습가이드 #22 완료형 시제 + 추가표현.md\|연습가이드 #22 완료형 시제 + 추가표현]]
-- [[3_Learning/쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어\|쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어]]
-- [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3]]
-- [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요]]
-- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
-- [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
-- [[3_Learning/~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야\|~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야]]
-- [[3_Learning/Report/Youtube/Daily/2024-11-02 - Youtube\|2024-11-02 - Youtube]]
-- [[3_Learning/Report/Youtube/2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|2024-11-02 - 비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]
-- [[3_Learning/Report/Youtube/Daily/2024-10-30 - Youtube\|2024-10-30 - Youtube]]
+- [[9_Music/Defying Gravity\|Defying Gravity]]
+- [[8_Movie & Drama/Wicked - Part 1\|Wicked - Part 1]]
+- [[5_Event/cgv 투썸플레이스\|cgv 투썸플레이스]]
+- [[3_Learning/토라\|토라]]
+- [[6_People/헨리 8세\|헨리 8세]]
+- [[2_Routine/4_Yearly/Overview/reading\|reading]]
+- [[2_Routine/3_Monthly/Overview/reading\|reading]]
+- [[2_Routine/4_Yearly/Overview/english\|english]]
+- [[2_Routine/4_Yearly/Overview/affirmation\|affirmation]]
+- [[2_Routine/3_Monthly/Overview/english\|english]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
-- [[2_Routine/1_Daily/Todo-List/2024-11-11\|2024-11-11]]
-- [[3_Learning/마사다 요새\|마사다 요새]]
-- [[3_Learning/통곡의 벽\|통곡의 벽]]
-- [[3_Learning/할라카\|할라카]]
-- [[5_Event/Report/Event/2024-11-05 - 사촌오빠 결혼식 옷 쇼핑\|2024-11-05 - 사촌오빠 결혼식 옷 쇼핑]]
-- [[5_Event/사촌오빠 결혼식 옷 쇼핑\|사촌오빠 결혼식 옷 쇼핑]]
-- [[6_People/유대인\|유대인]]
-- [[2_Routine/1_Daily/Todo-List/2024-11-03\|2024-11-03]]
-- [[2_Routine/2_Weekly/2024-44W\|2024-44W]]
-- [[4_Book/Report/2024-11-03 - 콰이어트\|2024-11-03 - 콰이어트]]
+- [[8_Movie & Drama/Report/Movie & Drama/Weekly/2024-12-2th - Movie & Drama\|2024-12-2th - Movie & Drama]]
 - [[4_Book/콰이어트\|콰이어트]]
-- [[8_Movie & Drama/전, 란\|전, 란]]
-- [[8_Movie & Drama/페르시아 수업\|페르시아 수업]]
-- [[9_Music/Report/Daily/2024-11-03 - Music\|2024-11-03 - Music]]
-- [[9_Music/Report/Weekly/2024-11-1th - Music\|2024-11-1th - Music]]
-- [[2_Routine/1_Daily/Todo-List/2024-11-02\|2024-11-02]]
-- [[3_Learning/Report/Youtube/Weekly/2024-11-1th - Youtube\|2024-11-1th - Youtube]]
-- [[6_People/모세\|모세]]
-- [[6_People/아브라함\|아브라함]]
-- [[7_Stuff/토라\|토라]]
-- [[8_Movie & Drama/The Fall Guy\|The Fall Guy]]
-- [[8_Movie & Drama/Don't Move\|Don't Move]]
-- [[3_Learning/네이팜 소녀\|네이팜 소녀]]
-- [[3_Learning/EC2 Instance Storage\|EC2 Instance Storage]]
-- [[3_Learning/Closure\|Closure]]
-- [[2_Routine/1_Daily/Todo-List/2024-10-31\|2024-10-31]]
-- [[3_Learning/web novel class - character development\|web novel class - character development]]
-- [[4_Book/Minimal Word History for Adults These Days\|Minimal Word History for Adults These Days]]
-- [[3_Learning/Binary Search Tree\|Binary Search Tree]]
+- [[3_Learning/Report/Class/2024-10-30 - web novel class - character development\|2024-10-30 - web novel class - character development]]
 
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 280
-    -   Daily Routines: 15
-    -   Daily Drawings: 2
-    -   Class: 1
-    -   Developing: 3
-    -   English: 9
-    -   Web-Surfing: 7
+    -   File Count: 557
+    -   Daily Routines: 34
+    -   Daily Drawings: 3
+    -   Class: 3
+    -   Developing: 7
+    -   English: 24
+    -   Web-Surfing: 11
     -   Work: 
-    -   Youtube: 15
-    -   Book: 2
-    -   Event: 1
+    -   Youtube: 58
+    -   Book: 4
+    -   Event: 8
     -   Meeting: 
     -   Author: 
-    -   People: 3
-    -   Stuff: 47
-    -   Movie/Drama: 7
-    -   Music: 16
+    -   People: 10
+    -   Stuff: 48
+    -   Movie/Drama: 24
+    -   Music: 20
