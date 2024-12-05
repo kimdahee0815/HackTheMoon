@@ -5,8 +5,7 @@
 # [[3_Learning/말실수하다, 말을 잘못하다, 말조심하다 - Part 1\|말실수하다, 말을 잘못하다, 말조심하다 - Part 1]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/mlUO8MZcD4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 걔 아직도 나한테 화 나있는 거 같은데 내가 뭘 잘못한건지 모르겠어;;I think she is still mad at(upset with/angry with,at) me but I don't know what I did wrong
 <!--SR:!2024-12-02,12,270-->
