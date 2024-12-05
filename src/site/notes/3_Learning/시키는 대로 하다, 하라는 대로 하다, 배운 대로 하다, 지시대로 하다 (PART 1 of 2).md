@@ -5,8 +5,7 @@
 # [[3_Learning/시키는 대로 하다, 하라는 대로 하다, 배운 대로 하다, 지시대로 하다 (PART 1 of 2)\|시키는 대로 하다, 하라는 대로 하다, 배운 대로 하다, 지시대로 하다 (PART 1 of 2)]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/TPczV0wzps4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 그냥 설명서에 나와 있는 대로만 했어;;I did what it says in the manual/I just followed the instructions (in the manual)/I did it according to the instructions in the manual
 <!--SR:!2024-11-27,7,250-->
