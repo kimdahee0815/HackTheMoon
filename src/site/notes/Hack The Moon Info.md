@@ -96,6 +96,7 @@
 
 💃 meTime
 
+- [[5_Event/cgv 투썸플레이스\|cgv 투썸플레이스]]
 
 { .block-language-dataview}
 
