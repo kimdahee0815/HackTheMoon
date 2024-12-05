@@ -5,8 +5,7 @@
 # [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/tj2nk6da_Sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 사람이 많을수록 좋아;;The more people there are(The more the people) the better (it is)
 <!--SR:!2024-12-02,12,270-->
