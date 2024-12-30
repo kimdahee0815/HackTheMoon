@@ -35,12 +35,12 @@
 - [[3_Learning/어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기\|어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기]]
 - [[3_Learning/내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든\|내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든]]
 - [[3_Learning/which 관계대명사 - Part 2\|which 관계대명사 - Part 2]]
+- [[3_Learning/which 관계대명사 - Part 3 (in which, to which, from which)\|which 관계대명사 - Part 3 (in which, to which, from which)]]
 - [[3_Learning/which 관계 대명사 - Part 1\|which 관계 대명사 - Part 1]]
 - [[3_Learning/어려운 부탁을 할 때, 어려운 부탁을 받을 때\|어려운 부탁을 할 때, 어려운 부탁을 받을 때]]
 - [[3_Learning/참고로, 그러고보니까 - Part 3 of 3 \|참고로, 그러고보니까 - Part 3 of 3 ]]
 - [[3_Learning/FYI에 대해서 짧게 정리\|FYI에 대해서 짧게 정리]]
 - [[3_Learning/참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ]\|참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ]]]
-- [[3_Learning/~로, ~을 이용해서, ~을 함으로써, 방법을 통해서\|~로, ~을 이용해서, ~을 함으로써, 방법을 통해서]]
 
 { .block-language-dataview}
 
@@ -176,22 +176,21 @@
 
 🗄️ Recent file updates
 
-- [[3_Learning/Overview/career\|career]]
-- [[2_Routine/4_Yearly/Overview/facialMask\|facialMask]]
-- [[2_Routine/4_Yearly/Overview/vitaminD\|vitaminD]]
-- [[6_People/유대인\|유대인]]
-- [[3_Learning/영어로 가다와 오다를 be동사로 표현해야 하는 경우\|영어로 가다와 오다를 be동사로 표현해야 하는 경우]]
-- [[2_Routine/4_Yearly/Overview/workout\|workout]]
-- [[2_Routine/4_Yearly/Overview/affirmation\|affirmation]]
-- [[2_Routine/4_Yearly/Overview/wantsNeeds\|wantsNeeds]]
-- [[2_Routine/4_Yearly/Overview/visualization\|visualization]]
-- [[2_Routine/3_Monthly/Overview/meditation\|meditation]]
+- [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
+- [[3_Learning/운동강사, 의사도 따라한다는 폼롤러 디톡스 운동\|운동강사, 의사도 따라한다는 폼롤러 디톡스 운동]]
+- [[3_Learning/연습가이드 22 완료형 시제 + 추가표현\|연습가이드 22 완료형 시제 + 추가표현]]
+- [[3_Learning/Character Alignment\|Character Alignment]]
+- [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
+- [[3_Learning/which 관계대명사 - Part 3 (in which, to which, from which)\|which 관계대명사 - Part 3 (in which, to which, from which)]]
+- [[3_Learning/would + have + p.p, should + have + p.p, could + have +p.p\|would + have + p.p, should + have + p.p, could + have +p.p]]
+- [[3_Learning/which 관계대명사 - Part 2\|which 관계대명사 - Part 2]]
+- [[3_Learning/which 관계 대명사 - Part 1\|which 관계 대명사 - Part 1]]
+- [[3_Learning/TV를 켜다, 켜놓다, 켜두다\|TV를 켜다, 켜놓다, 켜두다]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
-- [[3_Learning/asdf\|asdf]]
 - [[8_Movie & Drama/Carry-On\|Carry-On]]
 - [[4_Book/아주 작은 습관의 힘\|아주 작은 습관의 힘]]
 - [[4_Book/원씽(The One Thing)(60만 부 기념 스페셜 에디션)\|원씽(The One Thing)(60만 부 기념 스페셜 에디션)]]
@@ -200,14 +199,14 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 832
+    -   File Count: 831
     -   Daily Routines: 62
     -   Daily Drawings: 6
     -   Class: 3
     -   Developing: 7
     -   English: 49
     -   Web-Surfing: 11
-    -   Career: 1
+    -   Career: 
     -   Youtube: 114
     -   Book: 9
     -   Event: 8
