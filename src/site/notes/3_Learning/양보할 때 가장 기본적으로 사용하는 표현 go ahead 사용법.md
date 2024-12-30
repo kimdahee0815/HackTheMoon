@@ -1,11 +1,12 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/양보할-때-가장-기본적으로-사용하는-표현-go-ahead-사용법","created-date":"2024-11-24 11:21:17 am","date":"2024-11-24","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=kpumR5udzrQ","img":"https://img.youtube.com/vi/kpumR5udzrQ/0.jpg","dg-publish":true,"permalink":"/3_Learning/양보할-때-가장-기본적으로-사용하는-표현-go-ahead-사용법/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/양보할-때-가장-기본적으로-사용하는-표현-go-ahead-사용법","created-date":"2024-11-24 11:21:17 am","date":"2024-11-24","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=kpumR5udzrQ","img":"https://img.youtube.com/vi/kpumR5udzrQ/0.jpg","dg-publish":true,"permalink":"/3_Learning/양보할-때-가장-기본적으로-사용하는-표현-go-ahead-사용법/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법\|양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법]]
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/kpumR5udzrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
 
 오, 죄송해요. 먼저 하세요;;Oh, I'm sorry, go ahead.
 <!--SR:!2024-12-25,14,290-->
