@@ -363,6 +363,12 @@ body.links-note-icon .internal-link[data-note-icon="webSurfing"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="webSurfing"]::before {
     background-image: url(/img/web-surfing.svg);
 }
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="workout"]::before,
+body.filetree-note-icon .filename[data-note-icon="workout"]::before,
+body.links-note-icon .internal-link[data-note-icon="workout"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="workout"]::before {
+    background-image: url(/img/workout.svg);
+}
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="work"]::before,
 body.filetree-note-icon .filename[data-note-icon="work"]::before,
 body.links-note-icon .internal-link[data-note-icon="work"]::before,
@@ -452,12 +458,6 @@ body.filetree-note-icon .filename[data-note-icon="todoList"]::before,
 body.links-note-icon .internal-link[data-note-icon="todoList"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="todoList"]::before {
     background-image: url(/img/todo-list.svg);
-}
-body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="workout"]::before,
-body.filetree-note-icon .filename[data-note-icon="workout"]::before,
-body.links-note-icon .internal-link[data-note-icon="workout"]::before,
-body.backlinks-note-icon .backlink[data-note-icon="workout"]::before {
-    background-image: url(/img/workout.svg);
 }
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="affirmation"]::before,
 body.filetree-note-icon .filename[data-note-icon="affirmation"]::before,
