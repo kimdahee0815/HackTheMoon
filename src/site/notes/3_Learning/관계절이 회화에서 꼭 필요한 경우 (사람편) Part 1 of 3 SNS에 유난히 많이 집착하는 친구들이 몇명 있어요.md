@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요","created-date":"2024-11-08 10:32:00 am","date":"2024-11-08","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=m5Wc87i4S_Y","img":"https://img.youtube.com/vi/m5Wc87i4S_Y/0.jpg","dg-publish":true,"permalink":"/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요","created-date":"2024-11-08 10:32:00 am","date":"2024-11-08","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=m5Wc87i4S_Y","img":"https://img.youtube.com/vi/m5Wc87i4S_Y/0.jpg","dg-publish":true,"permalink":"/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요]]

@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-3-of-3","created-date":"2024-11-10 6:25:27 pm","date":"2024-11-10","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=cwLJDRLHlbg","img":"https://img.youtube.com/vi/cwLJDRLHlbg/0.jpg","dg-publish":true,"permalink":"/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-3-of-3/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-3-of-3","created-date":"2024-11-10 6:25:27 pm","date":"2024-11-10","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=cwLJDRLHlbg","img":"https://img.youtube.com/vi/cwLJDRLHlbg/0.jpg","dg-publish":true,"permalink":"/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-3-of-3/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3]]

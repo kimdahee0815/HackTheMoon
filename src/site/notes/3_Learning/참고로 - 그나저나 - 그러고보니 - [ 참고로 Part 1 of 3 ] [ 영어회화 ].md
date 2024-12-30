@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/참고로---그나저나---그러고보니---[-참고로-Part-1-of-3-]-[-영어회화-]","created-date":"2024-12-18 11:30:10 pm","date":"2024-12-18","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=u7wjngqimKc","img":"https://img.youtube.com/vi/u7wjngqimKc/0.jpg","dg-publish":true,"permalink":"/3_Learning/참고로---그나저나---그러고보니---[-참고로-Part-1-of-3-]-[-영어회화-]/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/참고로---그나저나---그러고보니---[-참고로-Part-1-of-3-]-[-영어회화-]","created-date":"2024-12-18 11:30:10 pm","date":"2024-12-18","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=u7wjngqimKc","img":"https://img.youtube.com/vi/u7wjngqimKc/0.jpg","dg-publish":true,"permalink":"/3_Learning/참고로---그나저나---그러고보니---[-참고로-Part-1-of-3-]-[-영어회화-]/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 \|참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ]]]

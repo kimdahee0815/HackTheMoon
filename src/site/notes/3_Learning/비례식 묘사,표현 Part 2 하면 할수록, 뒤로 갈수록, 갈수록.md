@@ -1,12 +1,11 @@
 ---
-{"dg-permalink":"3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록","dg-note-icon":"youtube","created-date":"2024-11-03 8:24:27 am","date":"2024-11-03","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=tj2nk6da_Sg","img":"https://img.youtube.com/vi/tj2nk6da_Sg/0.jpg","dg-publish":true,"permalink":"/3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-permalink":"3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록","dg-note-icon":"english","created-date":"2024-11-03 8:24:27 am","date":"2024-11-03","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=tj2nk6da_Sg","img":"https://img.youtube.com/vi/tj2nk6da_Sg/0.jpg","dg-publish":true,"permalink":"/3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록\|비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/tj2nk6da_Sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 사람이 많을수록 좋아;;The more people there are(The more the people) the better (it is)
 <!--SR:!2025-01-30,46,290-->

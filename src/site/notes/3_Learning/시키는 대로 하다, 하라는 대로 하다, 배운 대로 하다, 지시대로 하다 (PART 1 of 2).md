@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/시키는-대로-하다,-하라는-대로-하다,-배운-대로-하다,-지시대로-하다-(PART-1-of-2)","created-date":"2024-11-16 11:24:18 am","date":"2024-11-16","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=TPczV0wzps4","img":"https://img.youtube.com/vi/TPczV0wzps4/0.jpg","dg-publish":true,"permalink":"/3_Learning/시키는-대로-하다,-하라는-대로-하다,-배운-대로-하다,-지시대로-하다-(PART-1-of-2)/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/시키는-대로-하다,-하라는-대로-하다,-배운-대로-하다,-지시대로-하다-(PART-1-of-2)","created-date":"2024-11-16 11:24:18 am","date":"2024-11-16","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=TPczV0wzps4","img":"https://img.youtube.com/vi/TPczV0wzps4/0.jpg","dg-publish":true,"permalink":"/3_Learning/시키는-대로-하다,-하라는-대로-하다,-배운-대로-하다,-지시대로-하다-(PART-1-of-2)/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/시키는 대로 하다, 하라는 대로 하다, 배운 대로 하다, 지시대로 하다 (PART 1 of 2)\|시키는 대로 하다, 하라는 대로 하다, 배운 대로 하다, 지시대로 하다 (PART 1 of 2)]]

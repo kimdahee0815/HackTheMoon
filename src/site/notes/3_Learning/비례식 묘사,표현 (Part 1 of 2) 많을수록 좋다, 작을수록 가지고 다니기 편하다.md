@@ -1,5 +1,5 @@
 ---
-{"dg-permalink":"3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다","dg-note-icon":"youtube","created-date":"2024-11-02 10:19:02 am","date":"2024-11-02","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=pmfS4JlUjjI","img":"https://img.youtube.com/vi/pmfS4JlUjjI/0.jpg","dg-publish":true,"permalink":"/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-permalink":"3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다","dg-note-icon":"english","created-date":"2024-11-02 10:19:02 am","date":"2024-11-02","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=pmfS4JlUjjI","img":"https://img.youtube.com/vi/pmfS4JlUjjI/0.jpg","dg-publish":true,"permalink":"/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다\|비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다]]

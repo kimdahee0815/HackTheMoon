@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/영어로-가다와-오다를-be동사로-표현해야-하는-경우","created-date":"2024-12-10 11:38:24 pm","date":"2024-12-10","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=TtfGrnVMJDw","img":"https://img.youtube.com/vi/TtfGrnVMJDw/0.jpg","dg-publish":true,"permalink":"/3_Learning/영어로-가다와-오다를-be동사로-표현해야-하는-경우/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/영어로-가다와-오다를-be동사로-표현해야-하는-경우","created-date":"2024-12-10 11:38:24 pm","date":"2024-12-10","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=TtfGrnVMJDw","img":"https://img.youtube.com/vi/TtfGrnVMJDw/0.jpg","dg-publish":true,"permalink":"/3_Learning/영어로-가다와-오다를-be동사로-표현해야-하는-경우/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/영어로 가다와 오다를 be동사로 표현해야 하는 경우\|영어로 가다와 오다를 be동사로 표현해야 하는 경우]]

@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/이-3가지의-표현으로-영어를-좀-더-자연스럽게-하기---definitely,-obvious(ly),-noticeably","created-date":"2024-11-22 11:03:15 pm","date":"2024-11-22","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=RAx447JnOhQ","img":"https://img.youtube.com/vi/RAx447JnOhQ/0.jpg","dg-publish":true,"permalink":"/3_Learning/이-3가지의-표현으로-영어를-좀-더-자연스럽게-하기---definitely,-obvious(ly),-noticeably/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/이-3가지의-표현으로-영어를-좀-더-자연스럽게-하기---definitely,-obvious(ly),-noticeably","created-date":"2024-11-22 11:03:15 pm","date":"2024-11-22","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=RAx447JnOhQ","img":"https://img.youtube.com/vi/RAx447JnOhQ/0.jpg","dg-publish":true,"permalink":"/3_Learning/이-3가지의-표현으로-영어를-좀-더-자연스럽게-하기---definitely,-obvious(ly),-noticeably/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably\|이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably]]

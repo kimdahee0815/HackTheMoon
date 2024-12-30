@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/말실수-편---Part-2","created-date":"2024-11-15 11:57:58 pm","date":"2024-11-15","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=D8UmFlDYjX4","img":"https://img.youtube.com/vi/D8UmFlDYjX4/0.jpg","dg-publish":true,"permalink":"/3_Learning/말실수-편---Part-2/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/말실수-편---Part-2","created-date":"2024-11-15 11:57:58 pm","date":"2024-11-15","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=D8UmFlDYjX4","img":"https://img.youtube.com/vi/D8UmFlDYjX4/0.jpg","dg-publish":true,"permalink":"/3_Learning/말실수-편---Part-2/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/말실수 편 - Part 2\|말실수 편 - Part 2]]
