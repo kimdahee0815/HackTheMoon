@@ -363,23 +363,17 @@ body.links-note-icon .internal-link[data-note-icon="webSurfing"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="webSurfing"]::before {
     background-image: url(/img/web-surfing.svg);
 }
-body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="workout"]::before,
-body.filetree-note-icon .filename[data-note-icon="workout"]::before,
-body.links-note-icon .internal-link[data-note-icon="workout"]::before,
-body.backlinks-note-icon .backlink[data-note-icon="workout"]::before {
-    background-image: url(/img/workout.svg);
-}
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="work"]::before,
 body.filetree-note-icon .filename[data-note-icon="work"]::before,
 body.links-note-icon .internal-link[data-note-icon="work"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="work"]::before {
     background-image: url(/img/work.svg);
 }
-body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="youtube"]::before,
-body.filetree-note-icon .filename[data-note-icon="youtube"]::before,
-body.links-note-icon .internal-link[data-note-icon="youtube"]::before,
-body.backlinks-note-icon .backlink[data-note-icon="youtube"]::before {
-    background-image: url(/img/youtube.svg);
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="workout"]::before,
+body.filetree-note-icon .filename[data-note-icon="workout"]::before,
+body.links-note-icon .internal-link[data-note-icon="workout"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="workout"]::before {
+    background-image: url(/img/workout.svg);
 }
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="fleeting"]::before,
 body.filetree-note-icon .filename[data-note-icon="fleeting"]::before,
@@ -410,6 +404,12 @@ body.filetree-note-icon .filename[data-note-icon="dailyRoutine"]::before,
 body.links-note-icon .internal-link[data-note-icon="dailyRoutine"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="dailyRoutine"]::before {
     background-image: url(/img/daily-routine.svg);
+}
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="youtube"]::before,
+body.filetree-note-icon .filename[data-note-icon="youtube"]::before,
+body.links-note-icon .internal-link[data-note-icon="youtube"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="youtube"]::before {
+    background-image: url(/img/youtube.svg);
 }
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="diary"]::before,
 body.filetree-note-icon .filename[data-note-icon="diary"]::before,
