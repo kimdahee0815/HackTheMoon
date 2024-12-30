@@ -33,6 +33,6 @@ Maybe on a special day, I might try some of his dishes. 😋
 ### Youtube Reference
 ##### Youtube Report
 [[3_Learning/Report/Youtube/2024-10-29 - Napoli Matfia and Italian football players\|2024-10-29 - Napoli Matfia and Italian football players Report]]
-[[3_Learning/Report/Youtube/Daily/2024-10-29 - Youtube\|2024-10-29 - Youtube Daily Report]]
+[[src/site/notes/3_Learning/Report/Youtube/Daily/2024-10-29 - Youtube\|2024-10-29 - Youtube Daily Report]]
 [[3_Learning/Report/Youtube/Weekly/2024-10-5th - Youtube\|2024-10-5th - Youtube Weekly Report]]
 
