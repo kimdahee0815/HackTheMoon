@@ -8,13 +8,13 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/TPczV0wzps4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 그냥 설명서에 나와 있는 대로만 했어;;I did what it says in the manual/I just followed the instructions (in the manual)/I did it according to the instructions in the manual
-<!--SR:!2024-11-27,7,250-->
+<!--SR:!2025-01-05,25,270-->
 표지에 뭐라고 되어 있어?;;What does it say on the cover?
-<!--SR:!2024-12-04,14,290-->
+<!--SR:!2025-02-02,54,310-->
 그냥 레시피대로 했어요;;I just follwed the recipe
-<!--SR:!2024-12-05,15,290-->
+<!--SR:!2025-02-09,60,310-->
 그냥 설명대로 해;;Just follow the instructions
-<!--SR:!2024-11-26,2,234-->
+<!--SR:!2024-12-17,7,254-->
 
 
 
