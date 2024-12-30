@@ -5,8 +5,7 @@
 # [[3_Learning/~하면 어떤 기분일까 (Part 1 of 2)\|~하면 어떤 기분일까 (Part 1 of 2)]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/oQxmKdCJPrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 실제로 귀신을 보면 무슨 기분일까?;;I wonder what it's like(what it feels like) to see a real ghost
 <!--SR:!2024-12-16,2,246-->
