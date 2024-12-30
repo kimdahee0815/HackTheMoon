@@ -1,12 +1,11 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/참고로,-그러고보니까---Part-3-of-3-","created-date":"2024-12-20 11:03:24 pm","date":"2024-12-20","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=XUEnIZ_e7pE","img":"https://img.youtube.com/vi/XUEnIZ_e7pE/0.jpg","dg-publish":true,"permalink":"/3_Learning/참고로,-그러고보니까---Part-3-of-3-/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/참고로,-그러고보니까---Part-3-of-3-","created-date":"2024-12-20 11:03:24 pm","date":"2024-12-20","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=XUEnIZ_e7pE","img":"https://img.youtube.com/vi/XUEnIZ_e7pE/0.jpg","dg-publish":true,"permalink":"/3_Learning/참고로,-그러고보니까---Part-3-of-3-/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/참고로, 그러고보니까 - Part 3 of 3 \|참고로, 그러고보니까 - Part 3 of 3 ]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/XUEnIZ_e7pE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 참고로, 다음번에 이런 일이 생기면 나한테 먼저 말해줘요;;Just so you know, the next time something like this happens, just tell me first
 <!--SR:!2024-12-28,1,230-->
