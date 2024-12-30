@@ -29,7 +29,6 @@
 ### Web-Surfing References
 [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
 ##### Web-Surfing Report
-[[3_Learning/Report/Web-Surfing/2024-10-25 - Character Alignment\|2024-10-25 - Character Alignment Report]]
 [[3_Learning/Report/Web-Surfing/Daily/2024-10-25 - Web-Surfing\|2024-10-25 - Web-Surfing Daily Report]]
 [[3_Learning/Report/Web-Surfing/Weekly/2024-W43 - Web-Surfing\|2024-W43 - Web-Surfing Weekly Report]]
 
