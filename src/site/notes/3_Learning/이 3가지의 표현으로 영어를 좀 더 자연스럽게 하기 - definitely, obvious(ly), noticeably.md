@@ -5,17 +5,16 @@
 # [[3_Learning/이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably\|이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/RAx447JnOhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 이게 확실히 더 좋네요;;This is definitely better/This one is definitely better
-<!--SR:!2024-11-26,4,270-->
+<!--SR:!2024-12-30,16,290-->
 네 딱 봐도 그런 것 같은데요;;Yes, I think it's pretty obvious/Yeah, it looks pretty obvious to me
-<!--SR:!2024-11-26,1,190-->
+<!--SR:!2024-12-16,1,150-->
 재질이랑 전반적인 만듦새가 확실히 차이가 나요;;The material and the overall construction is noticeably better
-<!--SR:!2024-11-26,1,192-->
+<!--SR:!2024-12-16,1,152-->
 뻔한거 아니야?;;Isn't it obvious?
-<!--SR:!2024-11-26,4,270-->
+<!--SR:!2024-12-30,16,290-->
 
 
 
