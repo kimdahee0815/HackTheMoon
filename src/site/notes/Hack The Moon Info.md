@@ -159,16 +159,9 @@
 
 ▶️ Youtube
 
-- [[3_Learning/눈뜨스 아침에 눈뜨자마자 따라하는 스트레칭\|눈뜨스 아침에 눈뜨자마자 따라하는 스트레칭]]
-- [[3_Learning/운동강사, 의사도 따라한다는 폼롤러 디톡스 운동\|운동강사, 의사도 따라한다는 폼롤러 디톡스 운동]]
-- [[3_Learning/누워서 5분 복부운동\|누워서 5분 복부운동]]
-- [[3_Learning/[누워서하는] 복부 파괴🔥 핵마라맛 11분 복부운동\|[누워서하는] 복부 파괴🔥 핵마라맛 11분 복부운동]]
-- [[3_Learning/허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동\|허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동]]
-- [[3_Learning/⭐자기전꼭해봐⭐누워서 아랫배 잡는 홈트루틴. for 눈👀동족\|⭐자기전꼭해봐⭐누워서 아랫배 잡는 홈트루틴. for 눈👀동족]]
-- [[3_Learning/하루의 전설 하체토닝 20분ver (20min slim thigh workout)\|하루의 전설 하체토닝 20분ver (20min slim thigh workout)]]
-- [[3_Learning/다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x)\|다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x)]]
-- [[3_Learning/🔥겨드랑이살, 부유방🔥빨리 빼는 10분 루틴 2주만 해보세요 - Armpit Fat Workout\|🔥겨드랑이살, 부유방🔥빨리 빼는 10분 루틴 2주만 해보세요 - Armpit Fat Workout]]
-- [[3_Learning/keep track of, keep up with, catch up on\|keep track of, keep up with, catch up on]]
+- [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
+- [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]
+- [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 
 { .block-language-dataview}
 
