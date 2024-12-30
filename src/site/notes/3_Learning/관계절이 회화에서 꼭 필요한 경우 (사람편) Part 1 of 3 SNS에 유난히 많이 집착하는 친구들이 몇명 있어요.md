@@ -1,11 +1,12 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요","created-date":"2024-11-08 10:32:00 am","date":"2024-11-08","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=m5Wc87i4S_Y","img":"https://img.youtube.com/vi/m5Wc87i4S_Y/0.jpg","dg-publish":true,"permalink":"/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요","created-date":"2024-11-08 10:32:00 am","date":"2024-11-08","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=m5Wc87i4S_Y","img":"https://img.youtube.com/vi/m5Wc87i4S_Y/0.jpg","dg-publish":true,"permalink":"/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요]]
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/m5Wc87i4S_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
 
 나는 활동적인 사람을 좋아해;;I like active people/ I like people who are active
 <!--SR:!2024-12-05,15,290-->
