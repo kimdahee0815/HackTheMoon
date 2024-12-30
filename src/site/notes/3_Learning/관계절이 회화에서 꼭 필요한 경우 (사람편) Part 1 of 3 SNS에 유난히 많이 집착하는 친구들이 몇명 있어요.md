@@ -5,8 +5,7 @@
 # [[3_Learning/관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요\|관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/m5Wc87i4S_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 나는 활동적인 사람을 좋아해;;I like active people/ I like people who are active
 <!--SR:!2024-12-05,15,290-->
