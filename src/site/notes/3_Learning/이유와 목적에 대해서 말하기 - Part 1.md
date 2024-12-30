@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/이유와-목적에-대해서-말하기---Part-1","created-date":"2024-12-05 12:14:57 am","date":"2024-12-05","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=C2tZxLypdFI","img":"https://img.youtube.com/vi/C2tZxLypdFI/0.jpg","dg-publish":true,"permalink":"/3_Learning/이유와-목적에-대해서-말하기---Part-1/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/이유와-목적에-대해서-말하기---Part-1","created-date":"2024-12-05 12:14:57 am","date":"2024-12-05","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=C2tZxLypdFI","img":"https://img.youtube.com/vi/C2tZxLypdFI/0.jpg","dg-publish":true,"permalink":"/3_Learning/이유와-목적에-대해서-말하기---Part-1/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/이유와 목적에 대해서 말하기 - Part 1\|이유와 목적에 대해서 말하기 - Part 1]]
