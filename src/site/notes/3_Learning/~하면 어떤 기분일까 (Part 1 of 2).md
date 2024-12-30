@@ -1,11 +1,12 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/~하면-어떤-기분일까-(Part-1-of-2)","created-date":"2024-12-12 11:57:50 pm","date":"2024-12-12","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=oQxmKdCJPrs","img":"https://img.youtube.com/vi/oQxmKdCJPrs/0.jpg","dg-publish":true,"permalink":"/3_Learning/~하면-어떤-기분일까-(Part-1-of-2)/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/~하면-어떤-기분일까-(Part-1-of-2)","created-date":"2024-12-12 11:57:50 pm","date":"2024-12-12","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=oQxmKdCJPrs","img":"https://img.youtube.com/vi/oQxmKdCJPrs/0.jpg","dg-publish":true,"permalink":"/3_Learning/~하면-어떤-기분일까-(Part-1-of-2)/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/~하면 어떤 기분일까 (Part 1 of 2)\|~하면 어떤 기분일까 (Part 1 of 2)]]
 
 
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/oQxmKdCJPrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
+<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
 
 실제로 귀신을 보면 무슨 기분일까?;;I wonder what it's like(what it feels like) to see a real ghost
 <!--SR:!2024-12-16,2,246-->
