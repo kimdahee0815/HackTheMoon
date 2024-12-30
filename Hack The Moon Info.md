@@ -12,7 +12,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "1_Project"
-	WHERE contains(tags, "work") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	WHERE contains(tags, "career") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 ```
 
@@ -69,12 +69,12 @@ dg-content-classes: dashboard
 	LIMIT 10
 ```
 
-💼 Work
+💼 Career
 
 ```dataview
 	LIST
 	FROM "3_Learning"
-	WHERE contains(tags, "work") and !contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	WHERE contains(tags, "career") and !contains(tags, "meeting") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -136,7 +136,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "5_Event"
-	WHERE contains(tags, "me-time") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	WHERE contains(tags, "meTime") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -252,7 +252,7 @@ dg-content-classes: dashboard
     -   Developing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   English: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("english") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Web-Surfing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("web-surfing") && !p.tags.contains("stuff") && !p.tags.contains("report") && !p.tags.contains("overview")  && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
-    -   Work: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("work") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Career: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("career") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Youtube: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("youtube") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Book: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("book") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Event: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("event") && !p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
