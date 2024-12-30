@@ -5,8 +5,7 @@
 # [[3_Learning/양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법\|양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/kpumR5udzrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 오, 죄송해요. 먼저 하세요;;Oh, I'm sorry, go ahead.
 <!--SR:!2024-12-25,14,290-->
