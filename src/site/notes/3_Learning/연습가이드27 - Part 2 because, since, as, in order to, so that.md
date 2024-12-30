@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/연습가이드27---Part-2-because,-since,-as,-in-order-to,-so-that","created-date":"2024-12-05 9:05:29 am","date":"2024-12-05","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=DePA_VelWB8","img":"https://img.youtube.com/vi/DePA_VelWB8/0.jpg","dg-publish":true,"permalink":"/3_Learning/연습가이드27---Part-2-because,-since,-as,-in-order-to,-so-that/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/연습가이드27---Part-2-because,-since,-as,-in-order-to,-so-that","created-date":"2024-12-05 9:05:29 am","date":"2024-12-05","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=DePA_VelWB8","img":"https://img.youtube.com/vi/DePA_VelWB8/0.jpg","dg-publish":true,"permalink":"/3_Learning/연습가이드27---Part-2-because,-since,-as,-in-order-to,-so-that/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/연습가이드27 - Part 2 because, since, as, in order to, so that\|연습가이드27 - Part 2 because, since, as, in order to, so that]]
