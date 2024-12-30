@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/다음날-바로-느끼는-강추-옆구리-운동루틴-(두꺼워지지x)","created-date":"2024-12-29 10:19:14 pm","date":"2024-12-29","type":"youtube","tags":["youtube","workout"],"aliases":null,"youtuber":"제이제이","channelName":"제이제이살롱드핏","link":"https://www.youtube.com/watch?v=Af-vNOEkAIo","img":"https://img.youtube.com/vi/Af-vNOEkAIo/0.jpg","dg-publish":true,"permalink":"/3_Learning/다음날-바로-느끼는-강추-옆구리-운동루틴-(두꺼워지지x)/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"workout","dg-permalink":"3_Learning/다음날-바로-느끼는-강추-옆구리-운동루틴-(두꺼워지지x)","created-date":"2024-12-29 10:19:14 pm","date":"2024-12-29","type":"youtube","tags":["youtube","workout"],"aliases":null,"youtuber":"제이제이","channelName":"제이제이살롱드핏","link":"https://www.youtube.com/watch?v=Af-vNOEkAIo","img":"https://img.youtube.com/vi/Af-vNOEkAIo/0.jpg","dg-publish":true,"permalink":"/3_Learning/다음날-바로-느끼는-강추-옆구리-운동루틴-(두꺼워지지x)/","dgPassFrontmatter":true,"noteIcon":"workout"}
 ---
 
 # [[3_Learning/다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x)\|다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x)]]
