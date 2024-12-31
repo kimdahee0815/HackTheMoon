@@ -28,50 +28,58 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <main class="content cm-s-obsidian {{contentClasses}}">
-      <header>
-      {% if settings.dgShowInlineTitle === true %}
-        <h1>{{ noteTitle  }}</h1>
-      {% endif %}
-
-      <div class="header-meta">
-        {% if settings.dgShowTags === true and tags %}
-          <div class="header-tags">
-            {% for tag in tags %}
-              {% if tag != 'gardenEntry' and tag !='note' %}
-                <a class="tag" onclick="toggleTagSearch(this)">
-                  #{{tag}}
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
+    <div class="main-container">
+      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
+         <div class="folder" x-data="{isOpen: true}">
+               {%- for fileOrFolderName, fileOrFolder in filetree -%}
+                  {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
+               {%- endfor -%}
+         </div>
+        </nav>
+      <main class="content cm-s-obsidian {{contentClasses}}">
+        <header>
+        {% if settings.dgShowInlineTitle === true %}
+          <h1>{{ noteTitle  }}</h1>
         {% endif %}
-      </div>
-      {% for imp in dynamics.common.header %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.index.header %}
-        {% include imp %}
-      {% endfor %}
-      </header>
-      {% for imp in dynamics.common.beforeContent %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.index.beforeContent %}
-        {% include imp %}
-      {% endfor %}
-      {{ content | hideDataview | taggify | link | safe}}
-      {% for imp in dynamics.common.afterContent %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.index.afterContent %}
-        {% include imp %}
-      {% endfor %}
-    </main>
 
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
-      {%include "components/sidebar.njk" %}
-    {%endif%}
+        <div class="header-meta">
+          {% if settings.dgShowTags === true and tags %}
+            <div class="header-tags">
+              {% for tag in tags %}
+                {% if tag != 'gardenEntry' and tag !='note' %}
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #{{tag}}
+                  </a>
+                {% endif %}
+              {% endfor %}
+           </div>
+          {% endif %}
+        </div>
+        {% for imp in dynamics.common.header %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.header %}
+          {% include imp %}
+        {% endfor %}
+        </header>
+        {% for imp in dynamics.common.beforeContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.beforeContent %}
+          {% include imp %}
+        {% endfor %}
+        {{ content | hideDataview | taggify | link | safe}}
+        {% for imp in dynamics.common.afterContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.afterContent %}
+          {% include imp %}
+        {% endfor %}
+      </main>
+      {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+        {%include "components/sidebar.njk" %}
+      {%endif%}
+    </div>
 
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
