@@ -5,6 +5,9 @@
                 <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
             </a>
         </div>
+        {%if settings.dgShowLocalGraph === false%}
+            {% include "components/user/common/footer/theme-switch.njk" %}
+        {%endif%}
         {% if settings.dgEnableSearch === true%}
             {% include "components/searchButton.njk" %}
         {%endif%}

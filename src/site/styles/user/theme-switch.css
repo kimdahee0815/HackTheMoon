@@ -49,7 +49,7 @@
 @media screen and (min-width: 1310px) and (max-width: 1400px) {
     #floating-control {
         position: fixed;
-        top: 1.5vmax;
+        top: 1.6vmax;
         right: 15vmax;
     }
 }
@@ -57,7 +57,7 @@
 @media screen and (max-width: 1339px) {
     #floating-control {
         position: fixed;
-        top: 1.6vmax;
+        top: 1.7vmax;
         right: 16vmax;
     }
 }
@@ -65,7 +65,7 @@
 @media screen and (max-width: 1246px) {
     #floating-control {
         position: fixed;
-        top: 1.6vmax;
+        top: 1.7vmax;
         right: 17vmax;
     }
 }
@@ -73,7 +73,7 @@
 @media screen and (max-width: 1160px) {
     #floating-control {
         position: fixed;
-        top: 1.7vmax;
+        top: 1.8vmax;
         right: 18vmax;
     }
 }
@@ -81,7 +81,7 @@
 @media screen and (max-width: 1100px) {
     #floating-control {
         position: fixed;
-        top: 1.8vmax;
+        top: 1.9vmax;
         right: 19vmax;
     }
 }
@@ -89,14 +89,14 @@
 @media screen and (max-width: 1060px) {
     #floating-control {
         position: fixed;
-        top: 1.9vmax;
+        top: 2vmax;
         right: 20vmax;
     }
 }
 
 @media screen and (max-width: 990px) {
     #floating-control {
-        top: 2vmax;
+        top: 2.3vmax;
         right: 21vmax;
     }
 }
@@ -104,7 +104,7 @@
 @media screen and (max-width: 940px) {
     #floating-control {
         position: fixed;
-        top: 2vmax;
+        top: 2.3vmax;
         right: 22vmax;
     }
 }
@@ -112,7 +112,7 @@
 @media screen and (max-width: 900px) {
     #floating-control {
         position: fixed;
-        top: 2vmax;
+        top: 2.3vmax;
         right: 22.5vmax;
     }
 }
@@ -120,7 +120,7 @@
 @media screen and (max-width: 800px) {
     #floating-control {        
         position: fixed;
-        top: 1.6vmax;
+        top: 2vmax;
         right: 8vmax;
     }
 }
@@ -128,7 +128,7 @@
 @media screen and (max-width: 700px) {
     #floating-control {
         position: fixed;
-        top: 1.6vmax;
+        top: 2vmax;
         right: 9.3vmax;
     }
 }
@@ -136,7 +136,7 @@
 @media screen and (max-width: 570px) {
     #floating-control {
         position: fixed;
-        top: 1.6vmax;
+        top: 2vmax;
         right: 9.8vmax;
     }
 }
