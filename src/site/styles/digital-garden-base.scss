@@ -61,6 +61,12 @@ ul.task-list {
     padding-left: 15px;
 }
 
+.sidebar-main-container{
+    @media (max-width: 1360px) {
+        display: none;
+        width: 0;
+    }
+}
 .sidebar {
     height: 100%;
     min-width: 25px;
