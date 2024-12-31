@@ -20,11 +20,6 @@
         {% include "components/searchButton.njk" %}
       </div>
     {%endif%}
-    {% if settings.dgShowFileTree !== true %}
-      {%include "components/navbar.njk"%}
-    {%else%}
-      {%include "components/filetree.njk"%}
-    {% endif %}
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
@@ -52,13 +47,11 @@
         {%endif%}
     {% endmacro %}
     <div class="main-container">
-      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
-         <div class="folder" x-data="{isOpen: true}">
-               {%- for fileOrFolderName, fileOrFolder in filetree -%}
-                  {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-               {%- endfor -%}
-         </div>
-        </nav>
+      {% if settings.dgShowFileTree !== true %}
+        {%include "components/navbar.njk"%}
+      {%else%}
+        {%include "components/filetree.njk"%}
+      {% endif %}
       <main class="content cm-s-obsidian {{contentClasses}}">
         <header>
         {% if settings.dgShowInlineTitle === true %}
