@@ -309,8 +309,16 @@ ul.task-list {
     }
 }
 .nav-top{
+    z-index: 999;
     @media (max-width: 1560px) {
         display: none;
+        z-index: 1;
+        h1{
+            display:none;
+        }
+        .search-button{
+            display:none;
+        }
     }
 }
 
