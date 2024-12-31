@@ -366,13 +366,22 @@ ul.task-list {
         width:120px; 
     }
     @media screen and (max-width: 1450px) {
-        width:90px; 
+        width:100px; 
     }
     @media screen and (max-width: 1400px) {
+        width:80px; 
+    }
+    @media screen and (max-width: 1350px) {
         width:60px; 
     }
-    @media screen and (max-width: 900px) {
-        width:30px; 
+    @media screen and (max-width: 1300px) {
+        width:40px; 
+    }
+    @media screen and (max-width: 1250px) {
+        width:20px; 
+    }
+    @media screen and (max-width: 1200px) {
+        width:0px; 
     }
 }
 
