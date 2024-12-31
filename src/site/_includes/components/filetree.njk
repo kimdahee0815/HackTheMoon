@@ -33,15 +33,9 @@
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
         {% if settings.dgEnableSearch === true%}
             <div style="display: flex; justify-content: space-between; position:fixed; width:100%; z-index:999;">
-                {% for imp in dynamics.filetree.beforeTitle %}
-                    {% include imp %}
-                {% endfor %}
                 <a href="/" style="text-decoration: none; display: block;">
                     <h1 style="text-align:left; margin:0; padding:20px;">{{meta.siteName}}</h1>
                 </a>
-                {% for imp in dynamics.filetree.afterTitle %}
-                    {% include imp %}
-                {% endfor %}
                 {% include "components/searchButton.njk" %}
             </div>
         {%endif%}
