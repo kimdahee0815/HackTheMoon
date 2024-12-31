@@ -426,7 +426,7 @@ ul.task-list {
     .search-text {
         display: flex;
         justify-content: center;
-        @media (max-width: 1630px) {
+        @media (max-width: 900px) {
             display: none;
         }
     }
@@ -586,7 +586,7 @@ ul.task-list {
 }
 
 .search-keys {
-    @media (max-width: 1630px) {
+    @media (max-width: 900px) {
         display: none;
     }
 }
