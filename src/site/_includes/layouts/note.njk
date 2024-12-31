@@ -14,7 +14,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
-    {% macro menuItem(fileOrFolderName, fileOrFolder, step, currentPath) %}
     {%include "components/notegrowthhistory.njk"%}
     
     {% if settings.dgShowFileTree !== true %}
@@ -27,13 +26,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {%include "components/searchContainer.njk"%}
     {% endif %}
     <div class="main-container">
-      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
-         <div class="folder" x-data="{isOpen: true}">
-               {%- for fileOrFolderName, fileOrFolder in filetree -%}
-                  {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-               {%- endfor -%}
-         </div>
-      </nav>
+      {%include "components/filetree.njk"%}
       <main class="content cm-s-obsidian {{contentClasses}}">
         <header>
           {% if settings.dgShowInlineTitle === true %}
@@ -83,10 +76,10 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           {% include imp %}
         {% endfor %}
       </main>
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
-      {%include "components/sidebar.njk"%}
-    {% endif %}
-  </div>
+      {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+        {%include "components/sidebar.njk"%}
+      {% endif %}
+    </div>
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
