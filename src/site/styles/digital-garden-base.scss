@@ -306,6 +306,11 @@ ul.task-list {
         display: none;
     }
 }
+.main-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 @media (max-width: 800px) {
     .sidebar-container {
         display: flex;
@@ -319,8 +324,7 @@ ul.task-list {
         }
     
         .search-button {
-            width: 100%;
-            margin: 2px;
+            display: none;
         }
     }
 }
@@ -338,30 +342,6 @@ ul.task-list {
     width: 290px;
     h1 {
         font-size: 32px !important;
-    }
-    @media (max-width: 1830px) {
-        left: 220px;
-    }
-    @media (max-width: 1785px) {
-        left: 190px;
-    }
-    @media (max-width: 1760px) {
-        left: 160px;
-    }
-    @media (max-width: 1725px) {
-        left: 140px;
-    }
-    @media (max-width: 1670px) {
-        left: 110px;
-    }
-    @media (max-width: 1630px) {
-        left: 80px;
-    }
-    @media (max-width: 1610px) {
-        left: 60px;
-    }
-    @media (max-width: 1560px) {
-        display: none;
     }
 }
 
@@ -562,27 +542,7 @@ ul.task-list {
     margin: 30px 285px 20px 0;
     border: 1px solid var(--text-normal);
     cursor: pointer;
-    @media (max-width: 1830px) {
-        margin: 30px 215px 20px 0;
-    }
-    @media (max-width: 1785px) {
-        margin: 30px 185px 20px 0;
-    }
-    @media (max-width: 1760px) {
-        margin: 30px 155px 20px 0;
-    }
-    @media (max-width: 1725px) {
-        margin: 30px 135px 20px 0;
-    }
-    @media (max-width: 1670px) {
-        margin: 30px 105px 20px 0;
-    }
-    @media (max-width: 1630px) {
-        margin: 30px 75px 20px 0;
-    }
-    @media (max-width: 1610px) {
-        margin: 30px 55px 20px 0;
-    }
+
     > i {
         margin-left: 10px;
     }
