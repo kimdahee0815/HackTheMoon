@@ -25,7 +25,7 @@ img {
     margin-top: 90px;
     position: relative;
 
-    @media (max-width: 800px) {
+    @media (max-width: 1630px) {
         margin-top: 75px;
     }
 }
@@ -311,7 +311,7 @@ ul.task-list {
     gap: 20px;
     justify-content: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 1630px) {
     .sidebar-container {
         display: flex;
         flex-direction: column-reverse;
@@ -350,7 +350,7 @@ ul.task-list {
     justify-content: flex-end;
     margin-bottom: -60px;
 
-    @media (max-width: 800px) {
+    @media (max-width: 1630px) {
         justify-content: center;
     }
 
@@ -371,11 +371,11 @@ ul.task-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @media (max-width: 1400px) {
+    @media (max-width: 1630px) {
         position: fixed;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1630px) {
         h1 {
             font-size: 18px !important;
         }
@@ -388,7 +388,7 @@ ul.task-list {
     }
 
     .search-button {
-        @media (max-width: 800px) {
+        @media (max-width: 1630px) {
             min-width: 36px;
             margin: 10px 25px 10px 25px;
         }
@@ -397,7 +397,7 @@ ul.task-list {
     .search-text {
         display: flex;
         justify-content: center;
-        @media (max-width: 800px) {
+        @media (max-width: 1630px) {
             display: none;
         }
     }
@@ -557,7 +557,7 @@ ul.task-list {
 }
 
 .search-keys {
-    @media (max-width: 800px) {
+    @media (max-width: 1630px) {
         display: none;
     }
 }
