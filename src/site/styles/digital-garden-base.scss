@@ -70,16 +70,7 @@ ul.task-list {
     display: flex;
     z-index: 3;
     max-width: 350px;
-    @media (max-width: 1830px) {
-        right: 160px;
-    }
-    @media (max-width: 1785px) {
-        right: 140px;
-    }
-    @media (max-width: 1765px) {
-        right: 120px;
-    }
-    @media (max-width: 1710px) {
+    @media (max-width: 1635px) {
         right: 100px;
     }
     .graph {
@@ -273,7 +264,7 @@ ul.task-list {
     width: fit-content;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
     #link-graph {
         border-radius: 0 10px 10px 10px;
     }
