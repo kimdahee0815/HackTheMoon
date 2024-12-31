@@ -287,9 +287,9 @@ ul.task-list {
 
     .graph {
         flex: 1;
-        .graph-title-container {
-            justify-content: flex-start;
-        }
+        //.graph-title-container {
+            // justify-content: flex-start;
+        //}
     }
 
     .toc {
@@ -309,9 +309,12 @@ ul.task-list {
     }
 }
 .nav-top{
+    position: fixed;
     z-index: 999;
     @media (max-width: 1560px) {
-        display: none;
+        position: absolute;
+        top:0;
+        left:0;
         z-index: 1;
         h1{
             display:none;
