@@ -145,13 +145,13 @@
 🎶 Music
 
 - [[9_Music/In Touch (feat. Charli Taft & Daul)\|In Touch (feat. Charli Taft & Daul)]]
-- [[9_Music/FOMO\|FOMO]]
 - [[9_Music/Sundays\|Sundays]]
+- [[9_Music/FOMO\|FOMO]]
 - [[9_Music/Cross Your Mind\|Cross Your Mind]]
 - [[9_Music/Defying Gravity\|Defying Gravity]]
 - [[9_Music/cheers (with Wiz Khalifa)\|cheers (with Wiz Khalifa)]]
-- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
+- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/하루하루\|하루하루]]
 - [[9_Music/거짓말\|거짓말]]
 
@@ -159,16 +159,9 @@
 
 ▶️ Youtube
 
-- [[3_Learning/눈뜨스 아침에 눈뜨자마자 따라하는 스트레칭\|눈뜨스 아침에 눈뜨자마자 따라하는 스트레칭]]
-- [[3_Learning/운동강사, 의사도 따라한다는 폼롤러 디톡스 운동\|운동강사, 의사도 따라한다는 폼롤러 디톡스 운동]]
-- [[3_Learning/누워서 5분 복부운동\|누워서 5분 복부운동]]
-- [[3_Learning/허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동\|허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동]]
-- [[3_Learning/⭐자기전꼭해봐⭐누워서 아랫배 잡는 홈트루틴. for 눈👀동족\|⭐자기전꼭해봐⭐누워서 아랫배 잡는 홈트루틴. for 눈👀동족]]
-- [[3_Learning/[누워서하는] 복부 파괴🔥 핵마라맛 11분 복부운동\|[누워서하는] 복부 파괴🔥 핵마라맛 11분 복부운동]]
-- [[3_Learning/하루의 전설 하체토닝 20분ver (20min slim thigh workout)\|하루의 전설 하체토닝 20분ver (20min slim thigh workout)]]
-- [[3_Learning/다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x)\|다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x)]]
-- [[3_Learning/🔥겨드랑이살, 부유방🔥빨리 빼는 10분 루틴 2주만 해보세요 - Armpit Fat Workout\|🔥겨드랑이살, 부유방🔥빨리 빼는 10분 루틴 2주만 해보세요 - Armpit Fat Workout]]
-- [[3_Learning/keep track of, keep up with, catch up on\|keep track of, keep up with, catch up on]]
+- [[3_Learning/한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식\|한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식]]
+- [[3_Learning/Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction\|Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction]]
+- [[3_Learning/Napoli Matfia and Italian football players\|Napoli Matfia and Italian football players]]
 
 { .block-language-dataview}
 
@@ -176,16 +169,16 @@
 
 🗄️ Recent file updates
 
-- [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
-- [[3_Learning/운동강사, 의사도 따라한다는 폼롤러 디톡스 운동\|운동강사, 의사도 따라한다는 폼롤러 디톡스 운동]]
-- [[3_Learning/연습가이드 22 완료형 시제 + 추가표현\|연습가이드 22 완료형 시제 + 추가표현]]
-- [[3_Learning/Character Alignment\|Character Alignment]]
+- [[6_People/Overview/people\|people]]
 - [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
-- [[3_Learning/which 관계대명사 - Part 3 (in which, to which, from which)\|which 관계대명사 - Part 3 (in which, to which, from which)]]
-- [[3_Learning/would + have + p.p, should + have + p.p, could + have +p.p\|would + have + p.p, should + have + p.p, could + have +p.p]]
-- [[3_Learning/which 관계대명사 - Part 2\|which 관계대명사 - Part 2]]
-- [[3_Learning/which 관계 대명사 - Part 1\|which 관계 대명사 - Part 1]]
-- [[3_Learning/TV를 켜다, 켜놓다, 켜두다\|TV를 켜다, 켜놓다, 켜두다]]
+- [[3_Learning/Overview/web-surfing\|web-surfing]]
+- [[6_People/아브라함\|아브라함]]
+- [[6_People/유대인\|유대인]]
+- [[6_People/엘리자베스 1세\|엘리자베스 1세]]
+- [[6_People/헨리 8세\|헨리 8세]]
+- [[5_Event/cgv 투썸플레이스\|cgv 투썸플레이스]]
+- [[5_Event/Overview/event\|event]]
+- [[3_Learning/Character Alignment\|Character Alignment]]
 
 { .block-language-dataview}
 
@@ -199,20 +192,20 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 831
-    -   Daily Routines: 62
+    -   File Count: 840
+    -   Daily Routines: 63
     -   Daily Drawings: 6
-    -   Class: 3
-    -   Developing: 7
+    -   Class: 1
+    -   Developing: 3
     -   English: 49
-    -   Web-Surfing: 11
+    -   Web-Surfing: 7
     -   Career: 
-    -   Youtube: 114
-    -   Book: 9
-    -   Event: 8
+    -   Youtube: 12
+    -   Book: 4
+    -   Event: 3
     -   Meeting: 
     -   Author: 
-    -   People: 10
-    -   Stuff: 48
-    -   Movie/Drama: 27
-    -   Music: 26
+    -   People: 4
+    -   Stuff: 46
+    -   Movie/Drama: 11
+    -   Music: 18
