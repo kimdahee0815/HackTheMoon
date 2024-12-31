@@ -40,70 +40,9 @@
     }
 }
 
-@media screen and (min-width: 1940px) {
-    #floating-control {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1940px) {
-    #floating-control {
-        top: 4.5vmax;
-        right: 12vmax;
-    }
-}
-
-@media screen and (max-width: 1846px) {
-    #floating-control {
-        top: 4.6vmax;
-        right: 12.2vmax;
-    }
-}
-
-@media screen and (max-width: 1780px) {
-    #floating-control {
-        top: 4.9vmax;
-        right: 12.6vmax;
-    }
-}
-
-@media screen and (max-width: 1680px) {
-    #floating-control {
-        top: 5.1vmax;
-        right: 13.2vmax;
-    }
-}
-
-@media screen and (max-width: 1630px) {
-    #floating-control {
-        top: 5.2vmax;
-        right: 13.7vmax;
-    }
-}
-
-@media screen and (max-width: 1576px) {
-    #floating-control {
-        top: 5.3vmax;
-        right: 14.5vmax;
-    }
-}
-
-@media screen and (max-width: 1490px) {
-    #floating-control {
-        top: 5.6vmax;
-        right: 15.1vmax;
-    }
-}
-
-@media screen and (max-width: 1398px) {
-    #floating-control {
-        top: 5.2vmax;
-        right: 11vmax;
-    }
-}
-
 @media screen and (min-width: 1310px) and (max-width: 1400px) {
     #floating-control {
+        position: fixed;
         top: 1.5vmax;
         right: 15vmax;
     }
@@ -111,6 +50,7 @@
 
 @media screen and (max-width: 1339px) {
     #floating-control {
+        position: fixed;
         top: 1.6vmax;
         right: 16vmax;
     }
@@ -118,6 +58,7 @@
 
 @media screen and (max-width: 1246px) {
     #floating-control {
+        position: fixed;
         top: 1.6vmax;
         right: 17vmax;
     }
@@ -125,6 +66,7 @@
 
 @media screen and (max-width: 1160px) {
     #floating-control {
+        position: fixed;
         top: 1.7vmax;
         right: 18vmax;
     }
@@ -132,6 +74,7 @@
 
 @media screen and (max-width: 1100px) {
     #floating-control {
+        position: fixed;
         top: 1.8vmax;
         right: 19vmax;
     }
@@ -139,6 +82,7 @@
 
 @media screen and (max-width: 1060px) {
     #floating-control {
+        position: fixed;
         top: 1.9vmax;
         right: 20vmax;
     }
@@ -153,6 +97,7 @@
 
 @media screen and (max-width: 940px) {
     #floating-control {
+        position: fixed;
         top: 2vmax;
         right: 22vmax;
     }
@@ -160,13 +105,15 @@
 
 @media screen and (max-width: 900px) {
     #floating-control {
+        position: fixed;
         top: 2vmax;
         right: 22.5vmax;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #floating-control {
+    #floating-control {        
+        position: fixed;
         top: 1.4vmax;
         right: 8vmax;
     }
@@ -174,6 +121,7 @@
 
 @media screen and (max-width: 700px) {
     #floating-control {
+        position: fixed;
         top: 1.4vmax;
         right: 9.3vmax;
     }
@@ -181,6 +129,7 @@
 
 @media screen and (max-width: 570px) {
     #floating-control {
+        position: fixed;
         top: 1.4vmax;
         right: 9.8vmax;
     }
