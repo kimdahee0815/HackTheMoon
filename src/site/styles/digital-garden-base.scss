@@ -62,9 +62,6 @@ ul.task-list {
 }
 
 .sidebar {
-    position: fixed;
-    top: 75px;
-    right: 180px;
     height: 100%;
     min-width: 25px;
     display: flex;
@@ -269,7 +266,6 @@ ul.task-list {
         border-radius: 0 10px 10px 10px;
     }
     .sidebar {
-        position: relative;
         transform: none;
         border-radius: 4px;
         margin-top: 50px;
