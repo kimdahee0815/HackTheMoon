@@ -64,7 +64,7 @@ ul.task-list {
 .sidebar {
     position: fixed;
     top: 75px;
-    right: 17px;
+    right: 180px;
     height: 100%;
     min-width: 25px;
     display: flex;
@@ -238,7 +238,9 @@ ul.task-list {
 .graph {
     .graph-title-container {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
+        align-items: end;
+        margin-top: 25px;
         width: 100%;
     }
 
