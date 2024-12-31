@@ -1016,7 +1016,979 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-12-31T08:14:49.156Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-12-31T08:14:49.156Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-12-31T08:14:49.156Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-12-31T09:48:08.279Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-12-31T09:48:08.279Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-12-31T09:48:08.279Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<div class="main-container">
+<div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i icon-name="menu"></i></span>
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Hack The Moon</h1>
+</a>
+</div>
+<div class="search-button" style="display:inline-flex;align-items:center;justify-content:space-between" onclick="toggleSearch()">
+<span class="search-icon" style="padding:0 10px">
+<i icon-name="search"></i>
+</span>
+<span class="search-text" style="padding:0 90px 0 0">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<div class="nav-top" style="display:flex;justify-content:space-between;position:fixed;width:100%;z-index:999">
+<a href="/" style="text-decoration:none;display:block">
+<h1 style="text-align:left;margin:0;padding:20px">Hack The Moon</h1>
+</a>
+<div class="search-button" style="display:inline-flex;align-items:center;justify-content:space-between" onclick="toggleSearch()">
+<span class="search-icon" style="padding:0 10px">
+<i icon-name="search"></i>
+</span>
+<span class="search-text" style="padding:0 90px 0 0">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
+</div>
+<nav class="filetree-sidebar" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('2_Routine')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">2_Routine</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('2_Routine/3_Monthly')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">3_Monthly</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('2_Routine/3_Monthly/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="affirmation" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/affirmation/">affirmation </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="arrangingDesk" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/arrangingDesk/">arrangingDesk </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="bodyScan" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/bodyScan/">bodyScan </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="brushHair" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/brushHair/">brushHair </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="cleaningHouse" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/cleaningHouse/">cleaningHouse </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="coffee" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/coffee/">coffee </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="diary" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/diary/">diary </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/english/">english </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="eveningSkincare" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/eveningSkincare/">eveningSkincare </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="eyeDrop" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/eyeDrop/">eyeDrop </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="eyeRelief" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/eyeRelief/">eyeRelief </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="facialMask" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/facialMask/">facialMask </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="floss" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/floss/">floss </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="footCare" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/footCare/">footCare </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="gratitude" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/gratitude/">gratitude </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="meditation" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/meditation/">meditation </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="morningSkincare" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/morningSkincare/">morningSkincare </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="mToQueen" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/mToQueen/">mToQueen </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="nails" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/nails/">nails </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="omega3" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/omega3/">omega3 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="pantotin" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/pantomona/">pantomona </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="pantotin" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/pantotin/">pantotin </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="probiotics" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/probiotics/">probiotics </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="book" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/reading/">reading </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="sleep" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/sleep/">sleep </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="snack" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/snack/">snack </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="stretching" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/stretching/">stretching </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="tea" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/tea/">tea </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="todoList" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/todoList/">todoList </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="visualization" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/visualization/">visualization </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="wantsNeeds" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/wantsNeeds/">wantsNeeds </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="washingDishes" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/washingDishes/">washingDishes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="water" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/water/">water </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/2_Routine/3_Monthly/Overview/workout/">workout </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('2_Routine/4_Yearly')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">4_Yearly</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('2_Routine/4_Yearly/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="affirmation" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/affirmation/">affirmation </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="arrangingDesk" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/arrangingDesk/">arrangingDesk </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="bodyScan" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/bodyScan/">bodyScan </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="brushHair" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/brushHair/">brushHair </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="cleaningHouse" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/cleaningHouse/">cleaningHouse </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="coffee" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/coffee/">coffee </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="diary" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/diary/">diary </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/english/">english </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="eveningSkincare" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/eveningSkincare/">eveningSkincare </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="eyeDrop" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/eyeDrop/">eyeDrop </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="eyeRelief" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/eyeRelief/">eyeRelief </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="facialMask" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/facialMask/">facialMask </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="floss" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/floss/">floss </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="footCare" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/footCare/">footCare </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="gratitude" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/gratitude/">gratitude </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="meditation" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/meditation/">meditation </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="morningSkincare" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/morningSkincare/">morningSkincare </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="mToQueen" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/mToQueen/">mToQueen </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="nails" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/nails/">nails </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="omega3" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/omega3/">omega3 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="pantotin" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/pantomona/">pantomona </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="pantotin" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/pantotin/">pantotin </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="probiotics" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/probiotics/">probiotics </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="book" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/reading/">reading </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="sleep" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/sleep/">sleep </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="snack" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/snack/">snack </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="stretching" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/stretching/">stretching </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="tea" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/tea/">tea </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="todoList" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/todoList/">todoList </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="visualization" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/visualization/">visualization </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="wantsNeeds" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/wantsNeeds/">wantsNeeds </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="washingDishes" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/washingDishes/">washingDishes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="water" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/water/">water </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/2_Routine/4_Yearly/Overview/workout/">workout </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('3_Learning')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">3_Learning</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('3_Learning/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="career" style="text-decoration:none" class="filename" href="/3_Learning/Overview/career/">career </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="class" style="text-decoration:none" class="filename" href="/3_Learning/Overview/class/">class </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Overview/developing/">developing </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/Overview/english-podcast/">english-podcast </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/Overview/web-surfing/">web-surfing </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="youtube" style="text-decoration:none" class="filename" href="/3_Learning/Overview/youtube/">youtube </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/&#39;빈도&#39;를-더-다양하게-표현하기/">&#39;빈도&#39;를 더 다양하게 표현하기 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/(영화에-대해서)-아쉬웠던-점-설명하기/">(영화에 대해서) 아쉬웠던 점 설명하기 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/[누워서하는]-복부-파괴🔥-핵마라맛-11분-복부운동/">[누워서하는] 복부 파괴🔥 핵마라맛 11분 복부운동 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Binary-Search-Tree/">Binary Search Tree </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/can을-상황에-따라-다양한-형태로-표현하는걸-배워보자/">can을 상황에 따라 다양한 형태로 표현하는걸 배워보자 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/Character-Alignment/">Character Alignment </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/FYI에-대해서-짧게-정리/">FYI에 대해서 짧게 정리 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/keep-track-of,-keep-up-with,-catch-up-on/">keep track of, keep up with, catch up on </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/Magic-The-Gathering-Colors/">Magic The Gathering Colors </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="youtube" style="text-decoration:none" class="filename" href="/3_Learning/Napoli-Matfia-and-Italian-football-players/">Napoli Matfia and Italian football players </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="youtube" style="text-decoration:none" class="filename" href="/3_Learning/Train-to-Busan,-Miracle-in-cell-NO.-7,-Life-is-Beautiful-reaction/">Train to Busan, Miracle in cell NO. 7, Life is Beautiful reaction </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/TV를-켜다,-켜놓다,-켜두다/">TV를 켜다, 켜놓다, 켜두다 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/which-관계-대명사---Part-1/">which 관계 대명사 - Part 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/which-관계대명사---Part-2/">which 관계대명사 - Part 2 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/which-관계대명사---Part-3-(in-which,-to-which,-from-which)/">which 관계대명사 - Part 3 (in which, to which, from which) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/would-+-have-+-p.p,-should-+-have-+-p.p,-could-+-have-+p.p/">would + have + p.p, should + have + p.p, could + have +p.p </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/~로,-~을-이용해서,-~을-함으로써,-방법을-통해서/">~로, ~을 이용해서, ~을 함으로써, 방법을 통해서 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/~하면-어떤-기분일까-(Part-1-of-2)/">~하면 어떤 기분일까 (Part 1 of 2) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/~하면-어떨까,-어떤-기분일까-(Part-2-of-2)/">~하면 어떨까, 어떤 기분일까 (Part 2 of 2) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/~할거면-뭐하러-해,-~라고-해서-~하면-안되는거야/">~할거면 뭐하러 해, ~라고 해서 ~하면 안되는거야 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/⭐자기전꼭해봐⭐누워서-아랫배-잡는-홈트루틴.-for-눈👀동족/">⭐자기전꼭해봐⭐누워서 아랫배 잡는 홈트루틴. for 눈👀동족 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/가르치면서-거의-매일-교정하게-되는-영어-표현-오랜만에/">가르치면서 거의 매일 교정하게 되는 영어 표현 오랜만에 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-1-of-3-SNS에-유난히-많이-집착하는-친구들이-몇명-있어요/">관계절이 회화에서 꼭 필요한 경우 (사람편) Part 1 of 3 SNS에 유난히 많이 집착하는 친구들이 몇명 있어요 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/관계절이-회화에서-꼭-필요한-경우-(사람편)-Part-3-of-3/">관계절이 회화에서 꼭 필요한 경우 (사람편) Part 3 of 3 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/그래서의-두-가지-표현,-누구에게-무엇을-주다-라고-말할-때-주의점/">그래서의 두 가지 표현, 누구에게 무엇을 주다 라고 말할 때 주의점 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/내가-걔한테-좀-심했나-,-~하려고-했던-것-뿐인데-,-부모로서(형으로서)-잘-하다-,-내가-한-말-가지고-서운해-하더라/">내가 걔한테 좀 심했나 , ~하려고 했던 것 뿐인데 , 부모로서(형으로서) 잘 하다 , 내가 한 말 가지고 서운해 하더라 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/내가0-생각했던거랑은-좀-달라-,-난-좀-더-~한걸-생각하고-있었거든/">내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/내가-하려는-말의-의미,-요점을-정리(강조)하고-싶을-때/">내가 하려는 말의 의미, 요점을 정리(강조)하고 싶을 때 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/네이팜-소녀/">네이팜 소녀 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/누워서-5분-복부운동/">누워서 5분 복부운동 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="stretching" style="text-decoration:none" class="filename" href="/3_Learning/눈뜨스-아침에-눈뜨자마자-따라하는-스트레칭/">눈뜨스 아침에 눈뜨자마자 따라하는 스트레칭 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/다음날-바로-느끼는-강추-옆구리-운동루틴-(두꺼워지지x)/">다음날 바로 느끼는 강추 옆구리 운동루틴 (두꺼워지지x) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/단순-미래시제의-상황에-따른-4가지-활용/">단순 미래시제의 상황에 따른 4가지 활용 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/더-자연스러운-영어를-위한-표현방식을-하나-익히자/">더 자연스러운 영어를 위한 표현방식을 하나 익히자 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/마사다-요새/">마사다 요새 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/말실수-편---Part-2/">말실수 편 - Part 2 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/말실수하다,-말을-잘못하다,-말조심하다---Part-1/">말실수하다, 말을 잘못하다, 말조심하다 - Part 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/반드시,-꼭,-무조건,-어떻게든,-어떤-식으로든,-무슨-수를-써서라도/">반드시, 꼭, 무조건, 어떻게든, 어떤 식으로든, 무슨 수를 써서라도 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/">비례식 묘사,표현 (Part 1 of 2) 많을수록 좋다, 작을수록 가지고 다니기 편하다 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/비례식-묘사,표현-Part-2-하면-할수록,-뒤로-갈수록,-갈수록/">비례식 묘사,표현 Part 2 하면 할수록, 뒤로 갈수록, 갈수록 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/색깔,-사람의-성격,-장소의-분위기에-대해서-말할-때/">색깔, 사람의 성격, 장소의 분위기에 대해서 말할 때 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/생각이-나다---생각이-들다---생각해내다/">생각이 나다 - 생각이 들다 - 생각해내다 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/생활-필수-영어표현-5개---긍정적으로-생각하기편/">생활 필수 영어표현 5개 - 긍정적으로 생각하기편 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/시키는-대로-하다,-계획대로-하다,-늘-하던-대로-하다---(PART-2-of-2)/">시키는 대로 하다, 계획대로 하다, 늘 하던 대로 하다 - (PART 2 of 2) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/시키는-대로-하다,-하라는-대로-하다,-배운-대로-하다,-지시대로-하다-(PART-1-of-2)/">시키는 대로 하다, 하라는 대로 하다, 배운 대로 하다, 지시대로 하다 (PART 1 of 2) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/양보할-때-가장-기본적으로-사용하는-표현-go-ahead-사용법/">양보할 때 가장 기본적으로 사용하는 표현 go ahead 사용법 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/어려운-부탁을-할-때,-어려운-부탁을-받을-때/">어려운 부탁을 할 때, 어려운 부탁을 받을 때 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/어쩔-수-없어,-~하는-수-밖에-없어-영어로-표현하기/">어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/연습가이드-22-완료형-시제-+-추가표현/">연습가이드 22 완료형 시제 + 추가표현 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/연습가이드27---Part-2-because,-since,-as,-in-order-to,-so-that/">연습가이드27 - Part 2 because, since, as, in order to, so that </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/영어로-가다와-오다를-be동사로-표현해야-하는-경우/">영어로 가다와 오다를 be동사로 표현해야 하는 경우 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/영화를-보고-뭐가-좋았는지-설명할-때-사용하게-되는-여러가지-기본-표현/">영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="stretching" style="text-decoration:none" class="filename" href="/3_Learning/운동강사,-의사도-따라한다는-폼롤러-디톡스-운동/">운동강사, 의사도 따라한다는 폼롤러 디톡스 운동 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/이-3가지의-표현으로-영어를-좀-더-자연스럽게-하기---definitely,-obvious(ly),-noticeably/">이 3가지의 표현으로 영어를 좀 더 자연스럽게 하기 - definitely, obvious(ly), noticeably </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/이유와-목적에-대해서-말하기---Part-1/">이유와 목적에 대해서 말하기 - Part 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/일상적인-대화-속에서-배우는-자연스러운-영어-표현과-문장-흐름/">일상적인 대화 속에서 배우는 자연스러운 영어 표현과 문장 흐름 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/쟤네-왜저래,-별것도-아닌거-가지고-싸우다,-원래-저랬어/">쟤네 왜저래, 별것도 아닌거 가지고 싸우다, 원래 저랬어 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/절차에-대한-설명/">절차에 대한 설명 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/조건절,-가정법-문장-구성하기-복습/">조건절, 가정법 문장 구성하기 복습 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/지금쯤이면-뭔가-소식이-있을-줄-알았는데../">지금쯤이면 뭔가 소식이 있을 줄 알았는데.. </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/참고로---그나저나---그러고보니---[-참고로-Part-1-of-3-]-[-영어회화-]/">참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ] </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="english" style="text-decoration:none" class="filename" href="/3_Learning/참고로,-그러고보니까---Part-3-of-3-/">참고로, 그러고보니까 - Part 3 of 3 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/토라/">토라 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/통곡의-벽/">통곡의 벽 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/하루의-전설-하체토닝-20분ver-(20min-slim-thigh-workout)/">하루의 전설 하체토닝 20분ver (20min slim thigh workout) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="youtube" style="text-decoration:none" class="filename" href="/3_Learning/한국인-황당하게-만드는-네덜란드-물가와-혼란스러운-전통-음식/">한국인 황당하게 만드는 네덜란드 물가와 혼란스러운 전통 음식 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="webSurfing" style="text-decoration:none" class="filename" href="/3_Learning/할라카/">할라카 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/허벅지살,-승마살,-힙딥,-하체운동-한방에-해결,-애플힙-일등공신-중둔근운동/">허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/🔥겨드랑이살,-부유방🔥빨리-빼는-10분-루틴-2주만-해보세요---Armpit-Fat-Workout/">🔥겨드랑이살, 부유방🔥빨리 빼는 10분 루틴 2주만 해보세요 - Armpit Fat Workout </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('4_Book')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">4_Book</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('4_Book/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="book" style="text-decoration:none" class="filename" href="/4_Book/Overview/book/">book </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="book" style="text-decoration:none" class="filename" href="/4_Book/Minimal-Word-History-for-Adults-These-Days/">Minimal Word History for Adults These Days </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('5_Event')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">5_Event</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('5_Event/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="event" style="text-decoration:none" class="filename" href="/5_Event/Overview/event/">event </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="meeting" style="text-decoration:none" class="filename" href="/5_Event/Overview/meeting/">meeting </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="event" style="text-decoration:none" class="filename" href="/5_Event/cgv-투썸플레이스/">cgv 투썸플레이스 </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('6_People')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">6_People</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('6_People/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="author" style="text-decoration:none" class="filename" href="/6_People/Overview/author/">author </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="people" style="text-decoration:none" class="filename" href="/6_People/Overview/people/">people </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="people" style="text-decoration:none" class="filename" href="/6_People/아브라함/">아브라함 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="people" style="text-decoration:none" class="filename" href="/6_People/엘리자베스-1세/">엘리자베스 1세 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="people" style="text-decoration:none" class="filename" href="/6_People/유대인/">유대인 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="people" style="text-decoration:none" class="filename" href="/6_People/헨리-8세/">헨리 8세 </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('7_Stuff')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">7_Stuff</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('7_Stuff/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="stuff" style="text-decoration:none" class="filename" href="/7_Stuff/Overview/stuff/">stuff </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('8_Movie &amp; Drama')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">8_Movie &amp; Drama</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('8_Movie &amp; Drama/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="drama" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Overview/drama/">drama </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Overview/movie/">movie </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="shadowing" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Overview/shadowing/">shadowing </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Don&#39;t-Move/">Don&#39;t Move </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Family-Pack/">Family Pack </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Fury/">Fury </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Ragnarok/">Ragnarok </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Red-Sparrow/">Red Sparrow </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Sex-Education/">Sex Education </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/The-Fall-Guy/">The Fall Guy </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/Wicked---Part-1/">Wicked - Part 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/전,-란/">전, 란 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/페르시아-수업/">페르시아 수업 </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('9_Music')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">9_Music</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('9_Music/Overview')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Overview</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Overview/music/">music </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/APT./">APT. </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Bookstore---From-Eternal-Sunshine-of-The-Spotless-Mind/">Bookstore - From Eternal Sunshine of The Spotless Mind </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Ceiling-Games/">Ceiling Games </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/cheers(with-Wiz-Khalifa)/">cheers (with Wiz Khalifa) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Complicated/">Complicated </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Cross-Your-Mind/">Cross Your Mind </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Cruel-Summer/">Cruel Summer </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Defying-Gravity/">Defying Gravity </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/FOMO/">FOMO </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/In-Touch-(feat.-CharliTaft-&amp;-Daul)/">In Touch (feat. Charli Taft &amp; Daul) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/New-Woman-(feat.-ROSALíA)/">New Woman (feat. ROSALÍA) </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Papercuts/">Papercuts </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Phone-Call---Eternal-Sunshine-of-The-Spotless-Mind/">Phone Call - Eternal Sunshine of The Spotless Mind </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Sundays/">Sundays </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/That&#39;s-Hilarious/">That&#39;s Hilarious </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/The-Way/">The Way </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/거짓말/">거짓말 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/하루하루/">하루하루 </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink"><a data-note-icon="1" style="text-decoration:none" class="filename" href="/Hack-The-Moon-Info/">Hack The Moon Info </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink"><a data-note-icon="1" style="text-decoration:none" class="filename" href="/">Home </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
 <main class="content cm-s-obsidian">
 <header>
 <h1 data-note-icon="english">어려운 부탁을 할 때, 어려운 부탁을 받을 때</h1>
@@ -1121,6 +2093,7 @@ On this page
 </div>
 </div>
 </aside>
+</div>
 <style>#tooltip-wrapper{background:var(--background-primary);padding:1em;border-radius:4px;overflow:hidden;position:fixed;width:80%;max-width:400px;height:auto;max-height:300px;font-size:.8em;box-shadow:0 5px 10px rgba(0,0,0,.1);opacity:0;transition:opacity .1s;unicode-bidi:plaintext;overflow-y:scroll;z-index:10}#tooltip-wrapper:after{content:"";position:absolute;z-index:1;bottom:0;left:0;pointer-events:none;width:100%;unicode-bidi:plaintext;height:75px}</style>
 <div style="opacity:0;display:none" id="tooltip-wrapper">
 <div id="tooltip-content">
