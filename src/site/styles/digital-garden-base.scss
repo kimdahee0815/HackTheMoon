@@ -77,7 +77,8 @@ ul.task-list {
     .graph {
         width: 320px;
         min-height: 320px;
-
+        margin-bottom: 75px;
+        
         #link-graph {
             width: 320px;
             height: 320px;
@@ -139,7 +140,6 @@ ul.task-list {
     background-color: var(--background-primary);
     padding: 10px;
     border-radius: 10px;
-    margin-top: 45px;
     ol {
         list-style: none;
         padding-left: 10px;
