@@ -320,7 +320,7 @@ ul.task-list {
     display: flex; 
     justify-content: space-between; 
     width:100%;
-    @media (max-width: 1560px) {
+    @media (max-width: 1615) {
         display: none;
         position: absolute;
         top:0;
@@ -403,7 +403,7 @@ ul.task-list {
     }
 
     .search-button {
-        @media (max-width: 1560px) {
+        @media (max-width: 1615) {
             height: 1.8em;
             display: flex;
             align-items: center;
