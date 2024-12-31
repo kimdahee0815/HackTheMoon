@@ -17,7 +17,9 @@
         <a href="/" style="text-decoration: none; display: block;">
             <h1 style="text-align:left; margin:0; padding:20px;">{{meta.siteName}}</h1>
         </a>
-        {% include "components/searchButton.njk" %}
+        <div style="width:300px; display:flex; justify-content: center">
+          {% include "components/searchButton.njk" %}
+        </div>
       </div>
     {%endif%}
     {% if settings.dgEnableSearch === true %}
