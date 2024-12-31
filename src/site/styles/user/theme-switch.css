@@ -1,7 +1,7 @@
 /* theme-change */
 #floating-control {
     color: var(--link-color);
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     justify-content: flex-end;
     gap: 15px;
@@ -40,13 +40,13 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1560px) {
     #floating-control {
         position: relative;
     }
 }
 
-@media screen and (min-width: 1310px) and (max-width: 1400px) {
+@media screen and (min-width: 1310px) and (max-width: 1560px) {
     #floating-control {
         position: fixed;
         top: 1.6vmax;
