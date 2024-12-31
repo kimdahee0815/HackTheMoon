@@ -309,6 +309,11 @@ ul.task-list {
         flex-direction: column-reverse;
     }
 }
+@media (max-width: 1150px) {
+    .sidebar-container {
+        display: none;
+    }
+}
 .nav-top{
     position: fixed;
     z-index: 999;

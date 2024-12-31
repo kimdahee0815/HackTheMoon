@@ -117,10 +117,10 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     #floating-control {        
         position: fixed;
-        top: 1.4vmax;
+        top: 1.6vmax;
         right: 8vmax;
     }
 }
@@ -128,7 +128,7 @@
 @media screen and (max-width: 700px) {
     #floating-control {
         position: fixed;
-        top: 1.4vmax;
+        top: 1.6vmax;
         right: 9.3vmax;
     }
 }
@@ -136,7 +136,7 @@
 @media screen and (max-width: 570px) {
     #floating-control {
         position: fixed;
-        top: 1.4vmax;
+        top: 1.6vmax;
         right: 9.8vmax;
     }
 }
