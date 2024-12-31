@@ -398,6 +398,25 @@ ul.task-list {
     }
 
     .search-button {
+        @media (max-width: 1560px) {
+            height: 1.8em;
+            display: flex;
+            align-items: center;
+            min-width: 150px;
+            margin: 30px 30px 30px 0;
+
+            > i {
+                margin-left: 10px;
+            }
+
+            &:hover {
+                border: 1px solid var(--text-accent);
+            }
+
+            .search-icon {
+                display: flex;
+            }
+        }
         @media (max-width: 900px) {
             min-width: 36px;
             margin: 10px 25px 10px 25px;
