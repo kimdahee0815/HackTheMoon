@@ -39,6 +39,11 @@ img {
     }
 }
 
+#player{
+    @media (max-width: 500px) {
+        max-width: 300px;
+    }
+}
 .external-link {
     background-position: center right;
     background-repeat: no-repeat;
