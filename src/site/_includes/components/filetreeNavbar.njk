@@ -16,3 +16,16 @@
         {% include "components/searchButton.njk" %}
     {%endif%}
 </nav>
+<script>
+    document.querySelector('navbar').addEventListener('click', function() {
+       const navbar = document.querySelector('navbar');
+       if(navbar.classList.contains('navbar')){
+            document.querySelector('navbar').classList.remove('navbar');
+            document.querySelector('navbar').classList.add('filetree-navbar');
+       }else if(navbar.classList.contains('filetree-navbar')){
+            document.querySelector('navbar').classList.add('navbar');
+            document.querySelector('navbar').classList.remove('filetree-navbar');
+       }
+      
+    })
+</script>
