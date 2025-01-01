@@ -35,7 +35,7 @@ img {
         min-width: 500px;
     }
     @media (max-width: 500px) {
-        min-width: 300px;
+        max-width: 300px;
     }
 }
 
