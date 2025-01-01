@@ -116,11 +116,11 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           let iframeEl = document.querySelector('.container-root > iframe');
           let iframeUrl = iframeEl.getAttribute('src');
           if(iframeUrl.contains("spotify")){
-            iframeEl.classList.add('.spotify');
-            iframeEl.classList.remove('.youtube');
+            iframeEl.classList.add('spotify');
+            iframeEl.classList.remove('youtube');
           }else if(iframeUrl.contains("youtube")){
-             iframeEl.classList.remove('.spotify');
-            iframeEl.classList.add('.youtube');
+             iframeEl.classList.remove('spotify');
+            iframeEl.classList.add('youtube');
           }
         </script>
       </main>
