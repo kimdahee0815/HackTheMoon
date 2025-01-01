@@ -39,17 +39,19 @@
         </nav>
     </div>
 <script>
-    let hidenavbar = document.querySelector('.filetree-sidebar');
-    let showNavbar = document.querySelector('.show-filetree-sidebar');
     let clickEl = document.querySelector('.navbar > .navbar-inner > span');
     
     clickEl.addEventListener('click', function() {
+        let hidenavbar = document.querySelector('.filetree-sidebar');
+        let showNavbar = document.querySelector('.show-filetree-sidebar');
        if(showNavbar){
             showNavbar.classList.remove('show-filetree-sidebar');
             showNavbar.classList.add('filetree-sidebar');
+            document.querySelector('body').add('no-scroll');
        }else if(hidenavbar){
             hidenavbar.classList.add('show-filetree-sidebar');
             hidenavbar.classList.remove('filetree-sidebar');
+            document.querySelector('body').remove('no-scroll');
        }
     })
 </script>
