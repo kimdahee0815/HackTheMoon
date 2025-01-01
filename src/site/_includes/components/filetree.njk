@@ -56,14 +56,8 @@
     let overlay = document.querySelector('.fullpage-overlay');
     clickEl.addEventListener('click', function() {
         let hidenavbar = document.querySelector('.filetree-sidebar');
-        let showNavbar = document.querySelector('.show-filetree-sidebar');
-       if(showNavbar){
-            showNavbar.classList.remove('show-filetree-sidebar');
-            showNavbar.classList.add('filetree-sidebar');
-       }else if(hidenavbar){
-            hidenavbar.classList.add('show-filetree-sidebar');
-            hidenavbar.classList.remove('filetree-sidebar');
-       }
+        hidenavbar.classList.add('show-filetree-sidebar');
+        hidenavbar.classList.remove('filetree-sidebar');
     })
     navbarBtn.addEventListener('click', function() {
         showNavbar.classList.remove('show-filetree-sidebar');
