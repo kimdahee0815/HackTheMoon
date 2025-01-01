@@ -40,7 +40,7 @@
     </div>
 <script>
     let clickEl = document.querySelector('.navbar > .navbar-inner > span');
-    
+    let overlay = document.querySelector('.fullpage-overlay');
     clickEl.addEventListener('click', function() {
         let hidenavbar = document.querySelector('.filetree-sidebar');
         let showNavbar = document.querySelector('.show-filetree-sidebar');
@@ -51,5 +51,10 @@
             hidenavbar.classList.add('show-filetree-sidebar');
             hidenavbar.classList.remove('filetree-sidebar');
        }
+    })
+    overlay.addEventListener('click', function(){
+        let showNavbar = document.querySelector('.show-filetree-sidebar');
+        showNavbar.classList.remove('show-filetree-sidebar');
+        showNavbar.classList.add('filetree-sidebar');
     })
 </script>
