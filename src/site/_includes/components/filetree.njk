@@ -31,15 +31,28 @@
         
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
         <nav class="filetree-sidebar"  style="position: fixed" x-show.important="isDesktop || showFilesMobile" style="display: none;">
-         <div class="folder" x-data="{isOpen: true}">
+            <div class="navbar-inner">
+                <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
+                {% for imp in dynamics.filetree.beforeTitle %}
+                    {% include imp %}
+                {% endfor %}
+                <a href="/" style="text-decoration: none;">
+                    <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
+                </a>
+                {% for imp in dynamics.filetree.afterTitle %}
+                    {% include imp %}
+                {% endfor %}
+            </div>
+            <div class="folder" x-data="{isOpen: true}">
                {%- for fileOrFolderName, fileOrFolder in filetree -%}
                   {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
                {%- endfor -%}
-         </div>
+            </div>
         </nav>
     </div>
 <script>
     let clickEl = document.querySelector('.navbar > .navbar-inner > span');
+    let navbarBtn = document.querySelector('.filetree-sidebar > .navbar-inner > span');
     let overlay = document.querySelector('.fullpage-overlay');
     clickEl.addEventListener('click', function() {
         let hidenavbar = document.querySelector('.filetree-sidebar');
@@ -51,6 +64,10 @@
             hidenavbar.classList.add('show-filetree-sidebar');
             hidenavbar.classList.remove('filetree-sidebar');
        }
+    })
+    navbarBtn.addEventListener('click', function() {
+        showNavbar.classList.remove('show-filetree-sidebar');
+        showNavbar.classList.add('filetree-sidebar');
     })
     overlay.addEventListener('click', function(){
         let showNavbar = document.querySelector('.show-filetree-sidebar');
