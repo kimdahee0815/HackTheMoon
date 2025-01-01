@@ -39,9 +39,10 @@ img {
     }
 }
 
-#player{
+iframe{ 
+    width: 560;
     @media (max-width: 500px) {
-        width: 80%;
+        width: 300;
     }
 }
 .external-link {
