@@ -17,15 +17,17 @@
     {%endif%}
 </nav>
 <script>
-    document.querySelector('.navbar > .navbar-inner > span').addEventListener('click', function() {
-       const navbar = document.querySelector('.navbar');
-       if(navbar.classList.contains('navbar')){
-            navbar.classList.remove('navbar');
-            navbar.classList.add('filetree-navbar');
-       }else if(navbar.classList.contains('filetree-navbar')){
-            navbar.classList.add('navbar');
-            navbar.classList.remove('filetree-navbar');
+    let hidenavbar = document.querySelector('.filetree-sidebar');
+    let showNavbar = document.querySelector('.show-filetree-sidebar');
+    let clickEl = document.querySelector('.navbar > .navbar-inner > span');
+
+    clickEl.addEventListener('click', function() {
+       if(showNavbar){
+            showNavbar.classList.remove('show-filetree-sidebar');
+            showNavbar.classList.add('filetree-sidebar');
+       }else if(hidenavbar){
+            hidenavbar.classList.add('show-filetree-sidebar');
+            hidenavbar.classList.remove('filetree-sidebar');
        }
-      
     })
 </script>
