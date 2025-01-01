@@ -39,19 +39,23 @@ img {
         min-width: 300px;
     } 
 }
-@if('.container-root > iframe'){
-    .container-root{
-        position: relative;
+.container-root{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    margin-top: -28%;
+    iframe{
+        position: absolute;
         width: 100%;
-        padding-bottom: 56.25%;
-        margin-top: -28%;
-        iframe{
-            position: absolute;
-            width: 100%;
+        @if('.container-root > iframe[src~="spotify"]'){
+            height: 56%;
+        }@else{
             height: 100%;
         }
     }
 }
+
 
 .external-link {
     background-position: center right;
