@@ -362,7 +362,9 @@ ul.task-list {
     h1 {
         font-size: 32px !important;
     }
-
+    @media screen and (min-width: 1615px) {
+        display: none;
+    }
     .navbar-inner{
         display: flex;
         align-items: center;
@@ -388,6 +390,9 @@ ul.task-list {
     z-index: 5;
     h1 {
         font-size: 32px !important;
+    }
+    @media screen and (min-width: 1615px) {
+        display: none;
     }
     .navbar-inner{
         display: flex;
