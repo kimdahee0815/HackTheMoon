@@ -254,6 +254,9 @@ ul.task-list {
         align-items: end;
         margin-top: 25px;
         width: 100%;
+        @media (max-width: 1500px) {
+            margin-top: 0px;
+        }
     }
 
     .graph-title {
