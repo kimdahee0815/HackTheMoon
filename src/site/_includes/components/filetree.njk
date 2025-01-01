@@ -30,7 +30,7 @@
         </div>
         
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
-        <nav class="filetree-sidebar"  style="position: fixed" x-show.important="isDesktop || showFilesMobile" style="display: none;">
+        <nav class="filetree-sidebar" x-show.important="isDesktop || showFilesMobile" style="display: none;">
             <div class="navbar-inner">
                 <span style="font-size: 1.5rem; margin-right: 10px; height: 24px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
                 {% for imp in dynamics.filetree.beforeTitle %}
@@ -55,11 +55,12 @@
     let navbarBtn = document.querySelector('.filetree-sidebar > .navbar-inner > span');
     let overlay = document.querySelector('.fullpage-overlay');
     clickEl.addEventListener('click', function() {
-        let hidenavbar = document.querySelector('.filetree-sidebar');
-        hidenavbar.classList.add('show-filetree-sidebar');
-        hidenavbar.classList.remove('filetree-sidebar');
+        let hideNavbar = document.querySelector('.filetree-sidebar');
+        hideNavbar.classList.add('show-filetree-sidebar');
+        hideNavbar.classList.remove('filetree-sidebar');
     })
     navbarBtn.addEventListener('click', function() {
+        let showNavbar = document.querySelector('.show-filetree-sidebar');
         showNavbar.classList.remove('show-filetree-sidebar');
         showNavbar.classList.add('filetree-sidebar');
     })
@@ -69,7 +70,10 @@
         showNavbar.classList.add('filetree-sidebar');
     })
     if(window.outerWidth >= 1615){
-        showNavbar.classList.remove('show-filetree-sidebar');
-        showNavbar.classList.add('filetree-sidebar');
+        let showNavbar = document.querySelector('.show-filetree-sidebar');
+        if(showNavbar){
+            showNavbar.classList.remove('show-filetree-sidebar');
+            showNavbar.classList.add('filetree-sidebar');
+        }    
     }
 </script>
