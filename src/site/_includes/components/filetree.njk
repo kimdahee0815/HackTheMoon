@@ -31,7 +31,7 @@
         
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
         <nav class="filetree-sidebar"  style="position: fixed" x-show.important="isDesktop || showFilesMobile" style="display: none;">
-            <div class="navbar-inner" style="align-items: center;">
+            <div class="navbar-inner">
                 <span style="font-size: 1.5rem; margin-right: 10px; height: 24px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
                 {% for imp in dynamics.filetree.beforeTitle %}
                     {% include imp %}
