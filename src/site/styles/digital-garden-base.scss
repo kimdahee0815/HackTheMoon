@@ -386,6 +386,15 @@ ul.task-list {
     }
 }
 
+.filetree-navbar{
+    display: block; 
+    position: absolute;
+    background: var(--background-primary); 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+}
+
 .empty-navbar {
     display: flex;
     justify-content: flex-end;
