@@ -423,6 +423,7 @@ ul.task-list {
     .navbar-inner{
         display: flex;
         align-items: center;
+        cursor: pointer;
         @media screen and (min-width: 1615px) {
             display: none;
         }
