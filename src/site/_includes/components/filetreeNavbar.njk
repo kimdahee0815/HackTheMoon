@@ -16,18 +16,3 @@
         {% include "components/searchButton.njk" %}
     {%endif%}
 </nav>
-<script>
-    let hidenavbar = document.querySelector('.filetree-sidebar');
-    let showNavbar = document.querySelector('.show-filetree-sidebar');
-    let clickEl = document.querySelector('.navbar > .navbar-inner > span');
-
-    clickEl.addEventListener('click', function() {
-       if(showNavbar){
-            showNavbar.classList.remove('show-filetree-sidebar');
-            showNavbar.classList.add('filetree-sidebar');
-       }else if(hidenavbar){
-            hidenavbar.classList.add('show-filetree-sidebar');
-            hidenavbar.classList.remove('filetree-sidebar');
-       }
-    })
-</script>
