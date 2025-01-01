@@ -62,6 +62,7 @@ ul.task-list {
 }
 
 .sidebar-main-container{
+    width: 330px;
     @media (max-width: 1360px) {
         display: none;
         width: 0;
