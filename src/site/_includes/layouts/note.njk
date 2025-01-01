@@ -112,6 +112,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% for imp in dynamics.common.footer %}
           {% include imp %}
         {% endfor %}
+        <script>
+          let iframeEl = document.querySelector('.container-root > iframe');
+          let iframeUrl = iframeEl.getAttribute('src');
+          if(iframeUrl.contains("spotify")){
+            iframeEl.classList.add('.spotify');
+            iframeEl.classList.remove('.youtube');
+          }else if(iframeUrl.contains("youtube")){
+             iframeEl.classList.remove('.spotify');
+            iframeEl.classList.add('.youtube');
+          }
+        </script>
       </main>
       {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
         {%include "components/sidebar.njk"%}
