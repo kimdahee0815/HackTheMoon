@@ -51,7 +51,7 @@
         </nav>
     </div>
 <script>
-    let delay = 300;
+    let delay = 1000;
     let timer = null;
 
     let clickEl = document.querySelector('.navbar > .navbar-inner > span');
@@ -81,7 +81,11 @@
                     showNavbar.classList.remove('show-filetree-sidebar');
                     showNavbar.classList.add('filetree-sidebar');
                 }    
-   		    }
+   		    }else{
+                let hideNavbar = document.querySelector('.filetree-sidebar');
+                hideNavbar.classList.add('show-filetree-sidebar');
+                hideNavbar.classList.remove('filetree-sidebar');
+            }
 	    }, delay);
     });
 </script>
