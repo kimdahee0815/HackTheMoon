@@ -51,6 +51,9 @@
         </nav>
     </div>
 <script>
+    let delay = 300;
+    let timer = null;
+
     let clickEl = document.querySelector('.navbar > .navbar-inner > span');
     let navbarBtn = document.querySelector('.filetree-sidebar > .navbar-inner > span');
     let overlay = document.querySelector('.fullpage-overlay');
@@ -69,11 +72,16 @@
         showNavbar.classList.remove('show-filetree-sidebar');
         showNavbar.classList.add('filetree-sidebar');
     })
-    if(window.outerWidth >= 1615){
-        let showNavbar = document.querySelector('.show-filetree-sidebar');
-        if(showNavbar){
-            showNavbar.classList.remove('show-filetree-sidebar');
-            showNavbar.classList.add('filetree-sidebar');
-        }    
-    }
+    window.addEventListener('resize', function(){
+	    clearTimeout(timer);
+	    timer = setTimeout(function(){
+            if (window.outerWidth >= 1615) {
+      		    let showNavbar = document.querySelector('.show-filetree-sidebar');
+                if(showNavbar){
+                    showNavbar.classList.remove('show-filetree-sidebar');
+                    showNavbar.classList.add('filetree-sidebar');
+                }    
+   		    }
+	    }, delay);
+    });
 </script>
