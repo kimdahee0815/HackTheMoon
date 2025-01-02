@@ -14,6 +14,7 @@
 8시 전에 집에서 나와서 버스를 탔어요. 보통 그렇게 출근을 해요;;I left home before 8 and I took the bus, which is how I usually go to work
 <!--SR:!2024-12-28,1,230-->
 오늘 아침에 회의가 있었는데, 2시간 이상 진행되었어요;;There was a meeting at work in the morning, which lasted more than 2 hours
+<!--SR:!2025-01-03,1,226-->
 10시 정도에 퇴근했는데, 그건 제 회사에서는 꽤 평범한 일이에요;;I got off work around 10 pm, which is pretty normal at my company
 <!--SR:!2024-12-28,1,230-->
 

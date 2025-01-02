@@ -13,7 +13,7 @@
 내가 말실수를 좀 많이 했어;;I said a lot of things I shouldn't have
 <!--SR:!2024-11-27,3,250-->
 그가 그녀한테 말실수를 좀 했어;;He said some things to her that he really shouldn't have
-<!--SR:!2024-12-15,5,230-->
+<!--SR:!2025-01-05,3,210-->
 걔가 좀 더 말조심을 했었어야지;;He should have been more careful with his words
 <!--SR:!2025-02-05,57,310-->
 
@@ -35,7 +35,7 @@
 
 4. 내가 한 말이 의도한 어감이나 뉘앙스로 전달이 안되서 오해가 발생했을 때
 내가 하려던 얘기는 그런게 아니었어;;I didn't mean that/That's not what I meant
-<!--SR:!2025-01-02,22,250-->
+<!--SR:!2025-02-26,55,250-->
 고의로 그런거 아니에요;;I didn't mean that
 <!--SR:!2025-01-17,37,290-->
 말이 잘못 나왔어요;;That didn't come out right

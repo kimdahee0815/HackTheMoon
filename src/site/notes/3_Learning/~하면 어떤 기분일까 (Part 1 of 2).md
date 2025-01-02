@@ -12,9 +12,9 @@
 나는 거는 어떤 기분일까?;;I wonder what it's like to fly
 <!--SR:!2024-12-18,3,250-->
 총에 맞으면 어떤 기분일까?;;I wonder what it's like to get shot
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-18,16,290-->
 전쟁터에 있는 것은 무슨 기분일까?;;I wonder what it's like to be in a warzone
-<!--SR:!2024-12-18,3,250-->
+<!--SR:!2025-01-04,2,230-->
 돈이 완전 많으면 어떤 기분일까?;;I wonder what it's like to be super rich
 <!--SR:!2024-12-18,3,250-->
 5개 국어를 할 수 있으면 어떤 기분일까?;;I wonder what it's like to speak 5 different languages
@@ -25,7 +25,7 @@
 어떨지(가정);;What it would be like
 <!--SR:!2024-12-15,1,230-->
 어떨지(미래);;What it's gonna be like
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-04,2,250-->
 어땠을지(과거가정);;What it would have been like
 <!--SR:!2024-12-18,3,250-->
 

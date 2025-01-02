@@ -8,11 +8,13 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/xC2ynCDi1PY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 회의가 꽤 빨리 진행 되거든요;;The meetings are fairly fast-paced
-<!--SR:!2024-12-31,4,270-->
+<!--SR:!2025-01-13,11,270-->
 그래서 익숙해질 때까지는 모든 내용을 일일이 다 기억할 필요는 없고요;;So until you get used to it, don't worry too much about keeping track of every little detail
+<!--SR:!2025-01-03,1,236-->
 전체적인 내용만 따라간다고 생각하세요;;Just try to keep up with the overall flow
 <!--SR:!2024-12-31,4,270-->
 그리고 회의 전체가 녹음되니까 놓친 내용이 있으면 끝나고 확인할 수 있어요;;And the meetings are entirely recorded, so you can catch up on anything you might have missed afterwards
+<!--SR:!2025-01-03,1,236-->
 
 저는 그 화제에 대해서 최신 소식을 가지고 있지 않아요;;I am not very current on(stay current on) that issue
 <!--SR:!2024-12-31,4,270-->

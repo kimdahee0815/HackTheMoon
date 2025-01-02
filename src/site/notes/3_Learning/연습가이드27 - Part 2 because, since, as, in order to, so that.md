@@ -15,12 +15,12 @@
 <!--SR:!2024-12-26,12,270-->
 
 이메일을 확인하기 위해 컴퓨터를 켰어;;I turned on the computer (in order to - 너무 딱딱하게 들림) (because I needed/wanted) to check the email
-<!--SR:!2024-12-29,15,290-->
+<!--SR:!2025-03-03,60,310-->
 내가 널 도와주기 위해서는 모든 정보가 다 필요해;;In order for me to help you, I need all the information / I need all the information (in order) for me to help you / You need to give me all the information (in order) for me to help you (if you want me to help you) - 주어 다름
 <!--SR:!2024-12-30,16,290-->
 
 난 걔가 좋은 결정을 할 수 있게 조언을 좀 해줬어;;I gave her some advice so (that) she could make a good decision
-<!--SR:!2024-12-29,14,290-->
+<!--SR:!2025-01-09,7,270-->
 
 
 

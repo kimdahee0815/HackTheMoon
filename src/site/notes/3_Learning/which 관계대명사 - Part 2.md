@@ -8,7 +8,7 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/HS2Y1JzQM-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 내가 거기 있었을 때, 내가 번 것 중 절반은 저금했는데, 생각보다 쉬웠어;;While I was there, I saved half of what I earned, which was actually a lot easier than I thought
-<!--SR:!2024-12-30,3,250-->
+<!--SR:!2025-01-10,8,250-->
 나는 내가 뭘 하고 싶어했는지 확실하지 않았어, 사실 그게 내가 학교를 쉬고 싶었던 주된 이유였어;;I wasn't sure what I wanted to do, which was in fact the main reason that I wanted to take some time off school
 <!--SR:!2024-12-28,1,230-->
 그녀의 결혼식에 못 갈거 같아, 오 그리고 그건 내가 그녀와 예전에 사귀었던 거와는 전혀 상관이 없어;;I don't think I can go to her wedding, which by the way, it has nothing to do with the fact that we used to date

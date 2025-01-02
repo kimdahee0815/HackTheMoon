@@ -14,14 +14,14 @@
 그녀랑 사귀면 어떨지 궁금해;;I wonder what it would be like to go out with her
 <!--SR:!2024-12-18,4,270-->
 (상상해낸 가정, 현실성 없음) 빛의 속도로 여행하는게 어떨지 궁금해;;I wonder what it would be like to travel at the speed of light
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-14,12,270-->
 내가 공부를 더 열심히 했다면 어땠을지 궁금해;;I wonder what it would have been like if I had studied harder
 <!--SR:!2024-12-18,4,270-->
 나는 우리가 3년전에 만나지 않았더라면 어땠을지 궁금해;;I wonder what it would've been like if we hadn't met three years ago(if we had never met)
 <!--SR:!2024-12-18,4,270-->
 
 로마 시대에 사는건 어땠을까;;I wonder what it was like to live in(during) the Roman Times
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-13,11,270-->
 거기 가면 어떨까?;;i wonder what it's gonna be like there
 <!--SR:!2024-12-16,1,210-->
 

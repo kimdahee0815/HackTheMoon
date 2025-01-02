@@ -27,12 +27,13 @@
 <!--SR:!2024-12-31,4,270-->
 
 오, 그나저나, 여기 트레이시랑 최근에 연락된 사람 있나요?;;Oh, by the way, has anyone been in touch with Tracey recently?
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-03,1,210-->
 
 트레이시 얘기가 나와서 말인데, 그녀랑 오늘 말해본 사람 있어요? 오늘 저 하루종일 그녀와 연락하려고 했는데 안 되요;;Oh, Speaking of Tracey, has anyone spoken to her today? I've been trying to get in touch with her all day
-<!--SR:!2024-12-30,3,250-->
+<!--SR:!2025-01-04,2,230-->
 
 오, 그러고 보니까;;Oh! That reminds me
+<!--SR:!2025-01-05,3,265-->
 ### Youtube Reference
 ##### Youtube Report
 [[3_Learning/Report/Youtube/2024-12-18 - 참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ]\|2024-12-18 - 참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ] Report]]

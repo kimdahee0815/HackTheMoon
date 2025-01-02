@@ -24,7 +24,7 @@
 경험을 더 많이 쌓을수록 쉬워질거야;;As you gain more experience, it's gonna get easier
 <!--SR:!2024-12-17,2,170-->
 이야기가 진행될수록(되면서), 점점 더 복잡해진다;;As the story progresses, it becomes more and more complicated./It becomes more complicated as the story progresses
-<!--SR:!2024-11-28,8,250-->
+<!--SR:!2025-01-06,4,230-->
 끝으로 갈수록 더 어려워졌어;;As I got closer to the end(Towards the end), it became more difficult
 <!--SR:!2025-01-08,28,270-->
 

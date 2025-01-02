@@ -14,7 +14,7 @@
 재질이랑 전반적인 만듦새가 확실히 차이가 나요;;The material and the overall construction is noticeably better
 <!--SR:!2024-12-16,1,152-->
 뻔한거 아니야?;;Isn't it obvious?
-<!--SR:!2024-12-30,16,290-->
+<!--SR:!2025-02-17,46,290-->
 
 
 

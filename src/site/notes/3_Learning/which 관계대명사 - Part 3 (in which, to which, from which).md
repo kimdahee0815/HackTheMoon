@@ -21,6 +21,7 @@
 그가 알고 있었지만 아무런 행동도 취하지 않았을 가능성이 있어요, 그런 경우에는 더 복잡한 상황일 수가 있습니다;;There is a possibility that he knew about it but didn't take any action, in which case, it could turn out to be much more complicated situation
 <!--SR:!2024-12-28,1,230-->
 어떻게 불가능해 보이는 그 일을 하도록 스스로를 동기부여 시킬 수 있나요?;;How do you motivate yourself to do that which seems impossible?
+<!--SR:!2025-01-04,2,242-->
 당신의 커리어에 아무런 직접적인 영향이 없는 것은 중요하게 여겨서는 안돼요;;That which has no direct influence in your career shouldn't be of any priority
 <!--SR:!2024-12-28,1,230-->
 
