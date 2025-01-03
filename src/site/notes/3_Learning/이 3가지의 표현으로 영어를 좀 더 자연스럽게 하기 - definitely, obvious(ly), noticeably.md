@@ -10,7 +10,7 @@
 이게 확실히 더 좋네요;;This is definitely better/This one is definitely better
 <!--SR:!2024-12-30,16,290-->
 네 딱 봐도 그런 것 같은데요;;Yes, I think it's pretty obvious/Yeah, it looks pretty obvious to me
-<!--SR:!2024-12-16,1,150-->
+<!--SR:!2025-01-05,2,170-->
 재질이랑 전반적인 만듦새가 확실히 차이가 나요;;The material and the overall construction is noticeably better
 <!--SR:!2024-12-16,1,152-->
 뻔한거 아니야?;;Isn't it obvious?

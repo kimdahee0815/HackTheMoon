@@ -184,6 +184,7 @@ body {
     --note-icon-washingDishes: url(/img/washingDishes.svg);
     --note-icon-water: url(/img/water.svg);
     --note-icon-saving: url(/img/saving.svg);
+    --note-icon-lifeExplorer: url(/img/life-explorer.svg);
     --note-icon-fallback: url(/img/icon.svg);
 }
 
@@ -633,4 +634,10 @@ body.filetree-note-icon .filename[data-note-icon="saving"]::before,
 body.links-note-icon .internal-link[data-note-icon="saving"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="saving"]::before {
     background-image: url(/img/saving.svg);
+}
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="life"]::before,
+body.filetree-note-icon .filename[data-note-icon="life"]::before,
+body.links-note-icon .internal-link[data-note-icon="life"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="life"]::before {
+    background-image: url(/img/life-explorer.svg);
 }

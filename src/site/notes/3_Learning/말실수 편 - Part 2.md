@@ -25,7 +25,7 @@
 
 3. 원래 하지 않으려던 말을 실수로 내뱉었거나 얘기를 해놓고 보니 실수였던 걸로 판단이 되는 말실수
 실수로 내가 그녀에게 그걸 말했어;;I accidentally told her about that/I accidentally mentioned something
-<!--SR:!2025-01-03,23,250-->
+<!--SR:!2025-03-25,81,270-->
 내가 바보같이 그 사람한테 내가 어디 산다고 얘기를 해버렸어;;I made the mistake of telling him where I live
 <!--SR:!2025-01-09,26,270-->
 내가 바보같이 걔한테 내 전화번호를 줘버렸어;;I made the mistake of giving him my phone number

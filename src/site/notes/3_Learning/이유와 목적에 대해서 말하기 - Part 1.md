@@ -16,7 +16,7 @@
 근데 다음 주가 연휴니까 그 전에 해결을 해야 될 것 같아서요;;Since next week is a holdiay week, I figured I should take care of it before then
 <!--SR:!2024-12-13,2,230-->
 미리 얘기를 안한 것은 언제가 될지 확실하지 않았어요;;The reason that i didn't tell you earlier was because i wasn't sure when it was gonna be
-<!--SR:!2024-12-17,3,230-->
+<!--SR:!2025-01-14,11,250-->
 저 때문에 취소하거나 그러진 말고요;;I don't want you to cancel or anything because of me
 <!--SR:!2024-12-22,7,250-->
 (혹시) 수리가 일찍 끝나면 합류할 수 있게 어디서 만나는지 알려주세요;;But let me know where you are hanging out so I can join you guys if the repairs (happen to) finish early

@@ -18,7 +18,7 @@
 내가 공부를 더 열심히 했다면 어땠을지 궁금해;;I wonder what it would have been like if I had studied harder
 <!--SR:!2024-12-18,4,270-->
 나는 우리가 3년전에 만나지 않았더라면 어땠을지 궁금해;;I wonder what it would've been like if we hadn't met three years ago(if we had never met)
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-18,15,290-->
 
 로마 시대에 사는건 어땠을까;;I wonder what it was like to live in(during) the Roman Times
 <!--SR:!2025-01-13,11,270-->
@@ -26,7 +26,7 @@
 <!--SR:!2024-12-16,1,210-->
 
 이 버튼을 누르면 어떻게 될까;;I wonder what happens if i push this button
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-18,15,290-->
 
 
 

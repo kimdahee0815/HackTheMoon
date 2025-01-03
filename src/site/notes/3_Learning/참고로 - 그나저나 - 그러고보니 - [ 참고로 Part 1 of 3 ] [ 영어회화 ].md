@@ -10,7 +10,7 @@
 참고로, 저는 화요일까지는 없을거에요;;Just so you know, I won't back until tuesday
 <!--SR:!2024-12-28,1,230-->
 참고로, 이거 내가 샀을 때는 거의 백만원 들었어;;Just so you know, this cost almost 1 million won when I bought it
-<!--SR:!2024-12-30,3,250-->
+<!--SR:!2025-01-05,2,230-->
 모두가 알고 있으라고 하는 얘긴데, 그녀의 할머니가 돌아가셨어. 오늘 좀 얘가 조용하더라도 이상한 농담 하고 그러지마, 알겠지?;;Just so everybody knows, her grandmother just passed away. So even if she seems a little quiet today, don't make weird jokes, okay?
 <!--SR:!2024-12-30,3,250-->
 
@@ -27,7 +27,7 @@
 <!--SR:!2024-12-31,4,270-->
 
 오, 그나저나, 여기 트레이시랑 최근에 연락된 사람 있나요?;;Oh, by the way, has anyone been in touch with Tracey recently?
-<!--SR:!2025-01-03,1,210-->
+<!--SR:!2025-01-05,2,210-->
 
 트레이시 얘기가 나와서 말인데, 그녀랑 오늘 말해본 사람 있어요? 오늘 저 하루종일 그녀와 연락하려고 했는데 안 되요;;Oh, Speaking of Tracey, has anyone spoken to her today? I've been trying to get in touch with her all day
 <!--SR:!2025-01-04,2,230-->

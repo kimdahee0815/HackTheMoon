@@ -14,7 +14,7 @@
 그냥 레시피대로 했어요;;I just follwed the recipe
 <!--SR:!2025-02-09,60,310-->
 그냥 설명대로 해;;Just follow the instructions
-<!--SR:!2024-12-17,7,254-->
+<!--SR:!2025-01-07,4,234-->
 
 
 

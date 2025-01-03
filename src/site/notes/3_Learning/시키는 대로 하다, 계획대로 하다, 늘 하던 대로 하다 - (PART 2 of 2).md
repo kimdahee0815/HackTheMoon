@@ -12,7 +12,7 @@
 난 너가 시킨대로 했어;;I did what you said
 <!--SR:!2024-12-17,6,263-->
 난 너가 하라는 그대로 했어;;I did exactly what you told me to
-<!--SR:!2024-12-17,2,223-->
+<!--SR:!2025-01-07,4,223-->
 상사가 나한테 한 지시대로 했어;;I followed the instructions that my boss gave me
 <!--SR:!2024-12-16,1,183-->
 난 너가 시킨대로 했어;;I did it according to what you said(told me)

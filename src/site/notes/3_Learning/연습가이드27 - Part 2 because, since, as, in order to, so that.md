@@ -8,9 +8,9 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/DePA_VelWB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 야, 우리 옷 사이즈가 같으니까 옷을 같이 입는건 어때?;;Hey, since we wear the same size, how about we share our clothes?
-<!--SR:!2024-12-21,7,250-->
+<!--SR:!2025-01-28,25,270-->
 우리는 옷 사이즈가 같아서 옷을 같이 입을 수 있는거야;;We can share the clothes because we wear the same size
-<!--SR:!2024-12-18,3,252-->
+<!--SR:!2025-01-12,9,252-->
 (formal)오늘이 제인의 마지막 날이므로/이기에 일 끝나고 송별회를 할거야;;As this is Jane's last day, we're going to have a farewell party after work
 <!--SR:!2024-12-26,12,270-->
 

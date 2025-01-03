@@ -12,7 +12,7 @@ TV를 켜다;;Turn on the TV
 TV를 켜놓다;;Keep the TV (turned) on
 <!--SR:!2024-12-30,16,297-->
 TV를 켜두다;;Leave the TV (turned) on
-<!--SR:!2024-12-26,15,290-->
+<!--SR:!2025-03-05,61,310-->
 
 (어떤 행동을 해둔 채로 자리를 비우는 상황) 야, TV 켜놓을까?;;Hey, should I leave the TV on?
 <!--SR:!2024-12-25,15,297-->
