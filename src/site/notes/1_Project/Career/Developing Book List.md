@@ -2,7 +2,7 @@
 {"dg-note-icon":"career","dg-permalink":"1_Project/Career/Developing-Book-List","created-date":"2025-01-03 2:23:05 pm","date":"2025-01-03","type":"plan","tags":["career","list","plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/Career/Developing-Book-List/","dgPassFrontmatter":true,"noteIcon":"career"}
 ---
 
-# **Developing Books I need to finish**
+# <font color="#ff0000">Developing Books I need to finish</font>
 1. 1일 1로그 100일 완성 IT 지식 - 브라이언 W.커니핸(Brian Wilson Kernighan) (ebook)
 2. CODE(Code: The Hidden Language of Computer Hardware and Software) - 찰스 팻졸드(Charles Petzold) (ebook)
 3. CLEAN CODE - 로버트 C.마틴(Robert C. Martin) (ebook)
@@ -13,7 +13,7 @@
 8. IT 엔지니어를 위한 네트워크 입문 - 고재성, 이상훈
 9. 이것이 취업을 위한 코딩 테스트다 with 파이썬 - 나동빈
 10. 한 권으로 읽는 컴퓨터 구조와 프로그래밍([The Secret Life of Programs: Understand Computers -- Craft Better Code](https://www.yes24.com/Product/Goods/70886796)) - 조너선 스타인하트(Steinhart, Jonathan E.)
-# **Developing & Tech Books I own**
+# <font color="#ff0000">Developing & Tech Books I own</font>
 1. Java의 정석 - 남궁 성
 2. 소플의 처음 만난 리액트 - 이인제
 3. 이것의 MySQL 이다 - 우재남

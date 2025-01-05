@@ -2,7 +2,7 @@
 {"dg-note-icon":"career","dg-permalink":"1_Project/Career/2025-Developing","created-date":"2025-01-03 1:36:55 pm","date":"2025-01-03","type":"plan","tags":["career","plan"],"aliases":null,"category":"Career","dg-publish":true,"permalink":"/1_Project/Career/2025-Developing/","dgPassFrontmatter":true,"noteIcon":"career"}
 ---
 
-# **My Plan**
+# <font color="#ff0000">My Plan</font>
 1. 2025/01 - 2025/03 
 	1. Focus on Coding Interview Prep
 		1. Udemy - Master the Coding Interview : Big Tech (FANNG) Interviews => 2025.01.06 - <span style="background:#fdbfff">2025.02.28</span>
