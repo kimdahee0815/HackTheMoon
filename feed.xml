@@ -3,14 +3,14 @@
     <title>Hack The Moon</title>
     <link href="https://kimdahee0815.github.io/feed.xml" rel="self" >
     <link href="https://kimdahee0815.github.io" >
-    <updated>2025-01-05T08:36:59Z</updated>
+    <updated>2025-01-05T08:37:12Z</updated>
     <id>https://kimdahee0815.github.io</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;welcome&quot; tabindex=&quot;-1&quot;&gt;WELCOME!&lt;/h1&gt;
@@ -73,14 +73,27 @@ However, I will try to write my posts in English, because English is a global la
                 Hack The Moon Info
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/Hack-The-Moon-Info/</id>
             <content type="html">
                 &lt;h1 id=&quot;projects&quot; tabindex=&quot;-1&quot;&gt;Projects&lt;/h1&gt;
 &lt;p&gt;💼 Career&lt;/p&gt;
-&lt;p class=&quot;block-language-dataview&quot;&gt;&lt;/p&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;career&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Career/2025-Developing/&quot;&gt;2025 Developing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;career&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Career/Developing-Book-List/&quot;&gt;Developing Book List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;career&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Career/Developing-Lectures/&quot;&gt;Developing Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;🧭 Life Explorer&lt;/p&gt;
-&lt;p class=&quot;block-language-dataview&quot;&gt;&lt;/p&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/Diet/&quot;&gt;2025 Diet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/Workout/&quot;&gt;2025 Workout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-English/&quot;&gt;2025 English&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-2028-Book-List/&quot;&gt;2025-2028 Book List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-Spanish/&quot;&gt;2025-2026 Spanish&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-Routine/&quot;&gt;2025 Routine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/English-Book-List/&quot;&gt;English Book List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/2025-Annual-Plan/&quot;&gt;2025 Annual Plan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&quot;everyday-self-development&quot; tabindex=&quot;-1&quot;&gt;Everyday Self-Development&lt;/h1&gt;
 &lt;p&gt;💻 Developing&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
@@ -93,16 +106,16 @@ However, I will try to write my posts in English, because English is a global la
 &lt;/ul&gt;
 &lt;p&gt;🎧 English&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;도움이 되다를 영어로 표현하기 - help, helpful, support, supportive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/IE-1-How-the-Pros-Prepare-for-the-IELTS/&quot;&gt;IE 1 How the Pros Prepare for the IELTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;youtube&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EC%95%8C%EB%8B%A4%EC%99%80-%EB%AA%A8%EB%A5%B4%EB%8B%A4---Part-2-of-2-+-be-aware-of,-be-familiar-with,-find-out/&quot;&gt;알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;youtube&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/notice,-realize,-recognize,-tell,-figure/&quot;&gt;notice, realize, recognize, tell, figure&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/keep-track-of,-keep-up-with,-catch-up-on/&quot;&gt;keep track of, keep up with, catch up on&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EC%96%B4%EC%A9%94-%EC%88%98-%EC%97%86%EC%96%B4,-~%ED%95%98%EB%8A%94-%EC%88%98-%EB%B0%96%EC%97%90-%EC%97%86%EC%96%B4-%EC%98%81%EC%96%B4%EB%A1%9C-%ED%91%9C%ED%98%84%ED%95%98%EA%B8%B0/&quot;&gt;어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EB%82%B4%EA%B0%800-%EC%83%9D%EA%B0%81%ED%96%88%EB%8D%98%EA%B1%B0%EB%9E%91%EC%9D%80-%EC%A2%80-%EB%8B%AC%EB%9D%BC-,-%EB%82%9C-%EC%A2%80-%EB%8D%94-~%ED%95%9C%EA%B1%B8-%EC%83%9D%EA%B0%81%ED%95%98%EA%B3%A0-%EC%9E%88%EC%97%88%EA%B1%B0%EB%93%A0/&quot;&gt;내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/which-%EA%B4%80%EA%B3%84%EB%8C%80%EB%AA%85%EC%82%AC---Part-2/&quot;&gt;which 관계대명사 - Part 2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/which-%EA%B4%80%EA%B3%84%EB%8C%80%EB%AA%85%EC%82%AC---Part-3-(in-which,-to-which,-from-which)/&quot;&gt;which 관계대명사 - Part 3 (in which, to which, from which)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/which-%EA%B4%80%EA%B3%84-%EB%8C%80%EB%AA%85%EC%82%AC---Part-1/&quot;&gt;which 관계 대명사 - Part 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EC%96%B4%EB%A0%A4%EC%9A%B4-%EB%B6%80%ED%83%81%EC%9D%84-%ED%95%A0-%EB%95%8C,-%EC%96%B4%EB%A0%A4%EC%9A%B4-%EB%B6%80%ED%83%81%EC%9D%84-%EB%B0%9B%EC%9D%84-%EB%95%8C/&quot;&gt;어려운 부탁을 할 때, 어려운 부탁을 받을 때&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EC%B0%B8%EA%B3%A0%EB%A1%9C,-%EA%B7%B8%EB%9F%AC%EA%B3%A0%EB%B3%B4%EB%8B%88%EA%B9%8C---Part-3-of-3-/&quot;&gt;참고로, 그러고보니까 - Part 3 of 3 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/FYI%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%A7%A7%EA%B2%8C-%EC%A0%95%EB%A6%AC/&quot;&gt;FYI에 대해서 짧게 정리&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EC%B0%B8%EA%B3%A0%EB%A1%9C---%EA%B7%B8%EB%82%98%EC%A0%80%EB%82%98---%EA%B7%B8%EB%9F%AC%EA%B3%A0%EB%B3%B4%EB%8B%88---[-%EC%B0%B8%EA%B3%A0%EB%A1%9C-Part-1-of-3-]-[-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94-]/&quot;&gt;참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 &lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;english&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/which-%EA%B4%80%EA%B3%84%EB%8C%80%EB%AA%85%EC%82%AC---Part-2/&quot;&gt;which 관계대명사 - Part 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;resource-notes&quot; tabindex=&quot;-1&quot;&gt;Resource Notes&lt;/h1&gt;
 &lt;p&gt;👩🏻‍🏫 Classes&lt;/p&gt;
@@ -117,9 +130,9 @@ However, I will try to write my posts in English, because English is a global la
 &lt;p class=&quot;block-language-dataview&quot;&gt;&lt;/p&gt;
 &lt;p&gt;🖥️ Web-Surfing&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EB%A7%88%EC%82%AC%EB%8B%A4-%EC%9A%94%EC%83%88/&quot;&gt;마사다 요새&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%ED%86%B5%EA%B3%A1%EC%9D%98-%EB%B2%BD/&quot;&gt;통곡의 벽&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%ED%95%A0%EB%9D%BC%EC%B9%B4/&quot;&gt;할라카&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EB%A7%88%EC%82%AC%EB%8B%A4-%EC%9A%94%EC%83%88/&quot;&gt;마사다 요새&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%ED%86%A0%EB%9D%BC/&quot;&gt;토라&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EB%84%A4%EC%9D%B4%ED%8C%9C-%EC%86%8C%EB%85%80/&quot;&gt;네이팜 소녀&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Character-Alignment/&quot;&gt;Character Alignment&lt;/a&gt;&lt;/li&gt;
@@ -127,8 +140,8 @@ However, I will try to write my posts in English, because English is a global la
 &lt;/ul&gt;
 &lt;p&gt;👤People&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%ED%97%A8%EB%A6%AC-8%EC%84%B8/&quot;&gt;헨리 8세&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4-1%EC%84%B8/&quot;&gt;엘리자베스 1세&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%ED%97%A8%EB%A6%AC-8%EC%84%B8/&quot;&gt;헨리 8세&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%EC%9C%A0%EB%8C%80%EC%9D%B8/&quot;&gt;유대인&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%EC%95%84%EB%B8%8C%EB%9D%BC%ED%95%A8/&quot;&gt;아브라함&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -164,8 +177,8 @@ However, I will try to write my posts in English, because English is a global la
 &lt;p&gt;🎶 Music&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/In-Touch-(feat.-CharliTaft-&amp;-Daul)/&quot;&gt;In Touch (feat. Charli Taft &amp;amp; Daul)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/Sundays/&quot;&gt;Sundays&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/FOMO/&quot;&gt;FOMO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/Sundays/&quot;&gt;Sundays&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/Cross-Your-Mind/&quot;&gt;Cross Your Mind&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/Defying-Gravity/&quot;&gt;Defying Gravity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;music&quot; href=&quot;https://kimdahee0815.github.io/9_Music/cheers(with-Wiz-Khalifa)/&quot;&gt;cheers (with Wiz Khalifa)&lt;/a&gt;&lt;/li&gt;
@@ -183,19 +196,23 @@ However, I will try to write my posts in English, because English is a global la
 &lt;h1 id=&quot;vault-info&quot; tabindex=&quot;-1&quot;&gt;Vault Info&lt;/h1&gt;
 &lt;p&gt;🗄️ Recent file updates&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/Overview/people/&quot;&gt;people&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Magic-The-Gathering-Colors/&quot;&gt;Magic The Gathering Colors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Overview/web-surfing/&quot;&gt;web-surfing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%EC%95%84%EB%B8%8C%EB%9D%BC%ED%95%A8/&quot;&gt;아브라함&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%EC%9C%A0%EB%8C%80%EC%9D%B8/&quot;&gt;유대인&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4-1%EC%84%B8/&quot;&gt;엘리자베스 1세&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;people&quot; href=&quot;https://kimdahee0815.github.io/6_People/%ED%97%A8%EB%A6%AC-8%EC%84%B8/&quot;&gt;헨리 8세&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;event&quot; href=&quot;https://kimdahee0815.github.io/5_Event/cgv-%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/&quot;&gt;cgv 투썸플레이스&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;event&quot; href=&quot;https://kimdahee0815.github.io/5_Event/Overview/event/&quot;&gt;event&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;webSurfing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Character-Alignment/&quot;&gt;Character Alignment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;myself&quot; href=&quot;https://kimdahee0815.github.io/0_Myself/Background-story-about-how-I-became-Diana/&quot;&gt;Background story about how I became Diana&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-2028-Book-List/&quot;&gt;2025-2028 Book List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-Spanish/&quot;&gt;2025-2026 Spanish&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/Workout/&quot;&gt;2025 Workout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-Routine/&quot;&gt;2025 Routine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/2025-English/&quot;&gt;2025 English&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/Diet/&quot;&gt;2025 Diet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/2025-Annual-Plan/&quot;&gt;2025 Annual Plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;life&quot; href=&quot;https://kimdahee0815.github.io/1_Project/Life-Explorer/English-Book-List/&quot;&gt;English Book List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;youtube&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%EB%82%B4%EC%9A%B4%EB%8F%99%EC%9D%84-%EC%9D%BC%EC%A3%BC%EC%9D%BC-%EB%94%B0%EB%9D%BC%ED%95%B4%EB%B4%A4%EC%9D%8C-%F0%9F%99%8C-%EC%B0%90%EB%B3%80%ED%99%94+%ED%9B%84%EA%B8%B0-feat.%EC%9D%BC%EC%A3%BC%EC%9D%BC-%ED%99%88%ED%8A%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/&quot;&gt;내운동을 일주일 따라해봤음 🙌 찐변화+후기 feat.일주일 홈트 프로그램&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;🔖 Draft: need to check!&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-04 - IE 2 What Happens on IELTS Exam Day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;IE 2 What Happens on IELTS Exam Day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-01 - 행동하지 않으면 인생은 바뀌지 않는다&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;행동하지 않으면 인생은 바뀌지 않는다&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Carry-On&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;아주 작은 습관의 힘&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;원씽(The One Thing)(60만 부 기념 스페셜 에디션)&lt;/a&gt;&lt;/li&gt;
@@ -204,16 +221,16 @@ However, I will try to write my posts in English, because English is a global la
 &lt;ul&gt;
 &lt;li&gt;〽️ Stats
 &lt;ul&gt;
-&lt;li&gt;File Count: 840&lt;/li&gt;
-&lt;li&gt;Daily Routines: 63&lt;/li&gt;
-&lt;li&gt;Daily Drawings: 6&lt;/li&gt;
+&lt;li&gt;File Count: 981&lt;/li&gt;
+&lt;li&gt;Daily Routines: 68&lt;/li&gt;
+&lt;li&gt;Daily Drawings: 8&lt;/li&gt;
 &lt;li&gt;Class: 1&lt;/li&gt;
 &lt;li&gt;Developing: 3&lt;/li&gt;
-&lt;li&gt;English: 49&lt;/li&gt;
+&lt;li&gt;English: 55&lt;/li&gt;
 &lt;li&gt;Web-Surfing: 7&lt;/li&gt;
-&lt;li&gt;Career:&lt;/li&gt;
-&lt;li&gt;Youtube: 12&lt;/li&gt;
-&lt;li&gt;Book: 4&lt;/li&gt;
+&lt;li&gt;Career: 3&lt;/li&gt;
+&lt;li&gt;Youtube: 26&lt;/li&gt;
+&lt;li&gt;Book: 5&lt;/li&gt;
 &lt;li&gt;Event: 3&lt;/li&gt;
 &lt;li&gt;Meeting:&lt;/li&gt;
 &lt;li&gt;Author:&lt;/li&gt;
@@ -233,7 +250,7 @@ However, I will try to write my posts in English, because English is a global la
                 music
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/9_Music/Overview/music/</id>
             <content type="html">
                 &lt;h1 id=&quot;music-overview&quot; tabindex=&quot;-1&quot;&gt;Music Overview&lt;/h1&gt;
@@ -404,7 +421,7 @@ However, I will try to write my posts in English, because English is a global la
                 shadowing
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/8_Movie-&amp;-Drama/Overview/shadowing/</id>
             <content type="html">
                 &lt;h1 id=&quot;shadowing-overview&quot; tabindex=&quot;-1&quot;&gt;Shadowing Overview&lt;/h1&gt;
@@ -425,7 +442,7 @@ However, I will try to write my posts in English, because English is a global la
                 movie
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/8_Movie-&amp;-Drama/Overview/movie/</id>
             <content type="html">
                 &lt;h1 id=&quot;movie-overview&quot; tabindex=&quot;-1&quot;&gt;Movie Overview&lt;/h1&gt;
@@ -525,7 +542,7 @@ However, I will try to write my posts in English, because English is a global la
                 drama
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/8_Movie-&amp;-Drama/Overview/drama/</id>
             <content type="html">
                 &lt;h1 id=&quot;drama-overview&quot; tabindex=&quot;-1&quot;&gt;Drama Overview&lt;/h1&gt;
@@ -571,7 +588,7 @@ However, I will try to write my posts in English, because English is a global la
                 stuff
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/7_Stuff/Overview/stuff/</id>
             <content type="html">
                 &lt;h1 id=&quot;stuff-overview&quot; tabindex=&quot;-1&quot;&gt;Stuff Overview&lt;/h1&gt;
@@ -594,7 +611,7 @@ However, I will try to write my posts in English, because English is a global la
                 people
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/6_People/Overview/people/</id>
             <content type="html">
                 &lt;h1 id=&quot;people-overview&quot; tabindex=&quot;-1&quot;&gt;People Overview&lt;/h1&gt;
@@ -649,7 +666,7 @@ However, I will try to write my posts in English, because English is a global la
                 author
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/6_People/Overview/author/</id>
             <content type="html">
                 &lt;h1 id=&quot;author-overview&quot; tabindex=&quot;-1&quot;&gt;Author Overview&lt;/h1&gt;
@@ -671,7 +688,7 @@ However, I will try to write my posts in English, because English is a global la
                 meeting
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/5_Event/Overview/meeting/</id>
             <content type="html">
                 &lt;h1 id=&quot;meeting-overview&quot; tabindex=&quot;-1&quot;&gt;Meeting Overview&lt;/h1&gt;
@@ -695,7 +712,7 @@ However, I will try to write my posts in English, because English is a global la
                 event
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/5_Event/Overview/event/</id>
             <content type="html">
                 &lt;h1 id=&quot;event-overview&quot; tabindex=&quot;-1&quot;&gt;Event Overview&lt;/h1&gt;
@@ -726,7 +743,7 @@ However, I will try to write my posts in English, because English is a global la
                 book
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/4_Book/Overview/book/</id>
             <content type="html">
                 &lt;h1 id=&quot;book-overview&quot; tabindex=&quot;-1&quot;&gt;book Overview&lt;/h1&gt;
@@ -763,7 +780,7 @@ However, I will try to write my posts in English, because English is a global la
                 youtube
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/youtube/</id>
             <content type="html">
                 &lt;h1 id=&quot;youtube-overview&quot; tabindex=&quot;-1&quot;&gt;Youtube Overview&lt;/h1&gt;
@@ -1092,7 +1109,7 @@ However, I will try to write my posts in English, because English is a global la
                 web-surfing
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/web-surfing/</id>
             <content type="html">
                 &lt;h1 id=&quot;web-surfing-overview&quot; tabindex=&quot;-1&quot;&gt;Web-Surfing Overview&lt;/h1&gt;
@@ -1151,7 +1168,7 @@ However, I will try to write my posts in English, because English is a global la
                 english-podcast
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/english-podcast/</id>
             <content type="html">
                 &lt;h1 id=&quot;english-podcast-overview&quot; tabindex=&quot;-1&quot;&gt;English-Podcast Overview&lt;/h1&gt;
@@ -1173,7 +1190,7 @@ However, I will try to write my posts in English, because English is a global la
                 developing
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/developing/</id>
             <content type="html">
                 &lt;h1 id=&quot;developing-overview&quot; tabindex=&quot;-1&quot;&gt;Developing Overview&lt;/h1&gt;
@@ -1204,7 +1221,7 @@ However, I will try to write my posts in English, because English is a global la
                 class
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/class/</id>
             <content type="html">
                 &lt;h1 id=&quot;class-overview&quot; tabindex=&quot;-1&quot;&gt;Class Overview&lt;/h1&gt;
@@ -1225,7 +1242,7 @@ However, I will try to write my posts in English, because English is a global la
                 career
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/career/</id>
             <content type="html">
                 &lt;h1 id=&quot;career-overview&quot; tabindex=&quot;-1&quot;&gt;Career Overview&lt;/h1&gt;
@@ -1246,7 +1263,7 @@ However, I will try to write my posts in English, because English is a global la
                 workout
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/workout/</id>
             <content type="html">
                 &lt;h1 id=&quot;workout&quot; tabindex=&quot;-1&quot;&gt;Workout&lt;/h1&gt;
@@ -1260,7 +1277,7 @@ However, I will try to write my posts in English, because English is a global la
                 water
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/water/</id>
             <content type="html">
                 &lt;h1 id=&quot;water&quot; tabindex=&quot;-1&quot;&gt;Water&lt;/h1&gt;
@@ -1274,7 +1291,7 @@ However, I will try to write my posts in English, because English is a global la
                 washingDishes
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/washingDishes/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-washing-dishes&quot; tabindex=&quot;-1&quot;&gt;Morning Washing Dishes&lt;/h1&gt;
@@ -1292,7 +1309,7 @@ However, I will try to write my posts in English, because English is a global la
                 wantsNeeds
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/wantsNeeds/</id>
             <content type="html">
                 &lt;h1 id=&quot;wants-and-amp-needs&quot; tabindex=&quot;-1&quot;&gt;Wants &amp;amp; Needs&lt;/h1&gt;
@@ -1306,7 +1323,7 @@ However, I will try to write my posts in English, because English is a global la
                 visualization
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/visualization/</id>
             <content type="html">
                 &lt;h1 id=&quot;visualization&quot; tabindex=&quot;-1&quot;&gt;Visualization&lt;/h1&gt;
@@ -1320,7 +1337,7 @@ However, I will try to write my posts in English, because English is a global la
                 todoList
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/todoList/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-todo-list&quot; tabindex=&quot;-1&quot;&gt;Morning Todo-List&lt;/h1&gt;
@@ -1336,7 +1353,7 @@ However, I will try to write my posts in English, because English is a global la
                 tea
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/tea/</id>
             <content type="html">
                 &lt;h1 id=&quot;tea&quot; tabindex=&quot;-1&quot;&gt;Tea&lt;/h1&gt;
@@ -1350,7 +1367,7 @@ However, I will try to write my posts in English, because English is a global la
                 stretching
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/stretching/</id>
             <content type="html">
                 &lt;h1 id=&quot;stretching&quot; tabindex=&quot;-1&quot;&gt;Stretching&lt;/h1&gt;
@@ -1364,7 +1381,7 @@ However, I will try to write my posts in English, because English is a global la
                 spanish
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/spanish/</id>
             <content type="html">
                 &lt;h1 id=&quot;spanish&quot; tabindex=&quot;-1&quot;&gt;Spanish&lt;/h1&gt;
@@ -1378,7 +1395,7 @@ However, I will try to write my posts in English, because English is a global la
                 snack
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/snack/</id>
             <content type="html">
                 &lt;h1 id=&quot;snack&quot; tabindex=&quot;-1&quot;&gt;Snack&lt;/h1&gt;
@@ -1392,7 +1409,7 @@ However, I will try to write my posts in English, because English is a global la
                 sleep
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/sleep/</id>
             <content type="html">
                 &lt;h1 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;&lt;/h1&gt;
@@ -1407,7 +1424,7 @@ However, I will try to write my posts in English, because English is a global la
                 skincare
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/skincare/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-skincare&quot; tabindex=&quot;-1&quot;&gt;Morning Skincare&lt;/h1&gt;
@@ -1423,7 +1440,7 @@ However, I will try to write my posts in English, because English is a global la
                 reading
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/reading/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-reading&quot; tabindex=&quot;-1&quot;&gt;Morning Reading&lt;/h1&gt;
@@ -1439,7 +1456,7 @@ However, I will try to write my posts in English, because English is a global la
                 probiotics
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/probiotics/</id>
             <content type="html">
                 &lt;h1 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;&lt;/h1&gt;
@@ -1454,7 +1471,7 @@ However, I will try to write my posts in English, because English is a global la
                 pantomona
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/pantomona/</id>
             <content type="html">
                 &lt;h1 id=&quot;pantomona&quot; tabindex=&quot;-1&quot;&gt;Pantomona&lt;/h1&gt;
@@ -1468,7 +1485,7 @@ However, I will try to write my posts in English, because English is a global la
                 omega3
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/omega3/</id>
             <content type="html">
                 &lt;h1 id=&quot;omega3&quot; tabindex=&quot;-1&quot;&gt;Omega3&lt;/h1&gt;
@@ -1482,7 +1499,7 @@ However, I will try to write my posts in English, because English is a global la
                 nails
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/nails/</id>
             <content type="html">
                 &lt;h1 id=&quot;nails&quot; tabindex=&quot;-1&quot;&gt;Nails&lt;/h1&gt;
@@ -1496,7 +1513,7 @@ However, I will try to write my posts in English, because English is a global la
                 meditation
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/meditation/</id>
             <content type="html">
                 &lt;h1 id=&quot;meditation&quot; tabindex=&quot;-1&quot;&gt;Meditation&lt;/h1&gt;
@@ -1510,7 +1527,7 @@ However, I will try to write my posts in English, because English is a global la
                 mToQueen
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/mToQueen/</id>
             <content type="html">
                 &lt;h1 id=&quot;m-to-queen&quot; tabindex=&quot;-1&quot;&gt;M to Queen&lt;/h1&gt;
@@ -1524,7 +1541,7 @@ However, I will try to write my posts in English, because English is a global la
                 gratitude
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/gratitude/</id>
             <content type="html">
                 &lt;h1 id=&quot;gratitude&quot; tabindex=&quot;-1&quot;&gt;Gratitude&lt;/h1&gt;
@@ -1538,7 +1555,7 @@ However, I will try to write my posts in English, because English is a global la
                 footCare
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/footCare/</id>
             <content type="html">
                 &lt;h1 id=&quot;foot-care&quot; tabindex=&quot;-1&quot;&gt;Foot Care&lt;/h1&gt;
@@ -1552,7 +1569,7 @@ However, I will try to write my posts in English, because English is a global la
                 facialMask
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/facialMask/</id>
             <content type="html">
                 &lt;h1 id=&quot;facial-mask&quot; tabindex=&quot;-1&quot;&gt;Facial Mask&lt;/h1&gt;
@@ -1566,7 +1583,7 @@ However, I will try to write my posts in English, because English is a global la
                 faceScan
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/faceScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;face-scan&quot; tabindex=&quot;-1&quot;&gt;Face Scan&lt;/h1&gt;
@@ -1580,7 +1597,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeRelief
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/eyeRelief/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-relief&quot; tabindex=&quot;-1&quot;&gt;Eye Relief&lt;/h1&gt;
@@ -1594,7 +1611,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeDrop
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/eyeDrop/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-drop&quot; tabindex=&quot;-1&quot;&gt;Eye Drop&lt;/h1&gt;
@@ -1608,7 +1625,7 @@ However, I will try to write my posts in English, because English is a global la
                 english
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/english/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-english&quot; tabindex=&quot;-1&quot;&gt;Morning English&lt;/h1&gt;
@@ -1624,7 +1641,7 @@ However, I will try to write my posts in English, because English is a global la
                 diary
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/diary/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-diary&quot; tabindex=&quot;-1&quot;&gt;Morning Diary&lt;/h1&gt;
@@ -1640,7 +1657,7 @@ However, I will try to write my posts in English, because English is a global la
                 coffee
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/coffee/</id>
             <content type="html">
                 &lt;h1 id=&quot;coffee&quot; tabindex=&quot;-1&quot;&gt;Coffee&lt;/h1&gt;
@@ -1654,7 +1671,7 @@ However, I will try to write my posts in English, because English is a global la
                 cleaningHouse
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/cleaningHouse/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-cleaning-house&quot; tabindex=&quot;-1&quot;&gt;Morning Cleaning House&lt;/h1&gt;
@@ -1670,7 +1687,7 @@ However, I will try to write my posts in English, because English is a global la
                 brushHair
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/brushHair/</id>
             <content type="html">
                 &lt;h1 id=&quot;brush-hair&quot; tabindex=&quot;-1&quot;&gt;Brush Hair&lt;/h1&gt;
@@ -1684,7 +1701,7 @@ However, I will try to write my posts in English, because English is a global la
                 bodyScan
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/bodyScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;body-scan&quot; tabindex=&quot;-1&quot;&gt;Body Scan&lt;/h1&gt;
@@ -1698,7 +1715,7 @@ However, I will try to write my posts in English, because English is a global la
                 arrangingDesk
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/arrangingDesk/</id>
             <content type="html">
                 &lt;h1 id=&quot;arranging-desk&quot; tabindex=&quot;-1&quot;&gt;Arranging Desk&lt;/h1&gt;
@@ -1712,7 +1729,7 @@ However, I will try to write my posts in English, because English is a global la
                 affirmation
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/affirmation/</id>
             <content type="html">
                 &lt;h1 id=&quot;affirmation&quot; tabindex=&quot;-1&quot;&gt;Affirmation&lt;/h1&gt;
@@ -1726,7 +1743,7 @@ However, I will try to write my posts in English, because English is a global la
                 workout
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/workout/</id>
             <content type="html">
                 &lt;h1 id=&quot;workout&quot; tabindex=&quot;-1&quot;&gt;Workout&lt;/h1&gt;
@@ -1744,7 +1761,7 @@ However, I will try to write my posts in English, because English is a global la
                 water
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/water/</id>
             <content type="html">
                 &lt;h1 id=&quot;water&quot; tabindex=&quot;-1&quot;&gt;Water&lt;/h1&gt;
@@ -1762,7 +1779,7 @@ However, I will try to write my posts in English, because English is a global la
                 washingDishes
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/washingDishes/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-washing-dishes&quot; tabindex=&quot;-1&quot;&gt;Morning Washing Dishes&lt;/h1&gt;
@@ -1781,7 +1798,7 @@ However, I will try to write my posts in English, because English is a global la
                 wantsNeeds
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/wantsNeeds/</id>
             <content type="html">
                 &lt;h1 id=&quot;wants-and-amp-needs&quot; tabindex=&quot;-1&quot;&gt;Wants &amp;amp; Needs&lt;/h1&gt;
@@ -1795,7 +1812,7 @@ However, I will try to write my posts in English, because English is a global la
                 visualization
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/visualization/</id>
             <content type="html">
                 &lt;h1 id=&quot;visualization&quot; tabindex=&quot;-1&quot;&gt;Visualization&lt;/h1&gt;
@@ -1814,7 +1831,7 @@ However, I will try to write my posts in English, because English is a global la
                 todoList
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/todoList/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-todo-list&quot; tabindex=&quot;-1&quot;&gt;Morning Todo-List&lt;/h1&gt;
@@ -1830,7 +1847,7 @@ However, I will try to write my posts in English, because English is a global la
                 tea
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/tea/</id>
             <content type="html">
                 &lt;h1 id=&quot;tea&quot; tabindex=&quot;-1&quot;&gt;Tea&lt;/h1&gt;
@@ -1843,7 +1860,7 @@ However, I will try to write my posts in English, because English is a global la
                 stretching
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/stretching/</id>
             <content type="html">
                 &lt;h1 id=&quot;stretching&quot; tabindex=&quot;-1&quot;&gt;Stretching&lt;/h1&gt;
@@ -1860,7 +1877,7 @@ However, I will try to write my posts in English, because English is a global la
                 spanish
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/spanish/</id>
             <content type="html">
                 &lt;h1 id=&quot;spanish&quot; tabindex=&quot;-1&quot;&gt;Spanish&lt;/h1&gt;
@@ -1877,7 +1894,7 @@ However, I will try to write my posts in English, because English is a global la
                 snack
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/snack/</id>
             <content type="html">
                 &lt;h1 id=&quot;snack&quot; tabindex=&quot;-1&quot;&gt;Snack&lt;/h1&gt;
@@ -1890,7 +1907,7 @@ However, I will try to write my posts in English, because English is a global la
                 sleep
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/sleep/</id>
             <content type="html">
                 &lt;h1 id=&quot;sleep&quot; tabindex=&quot;-1&quot;&gt;Sleep&lt;/h1&gt;
@@ -1908,7 +1925,7 @@ However, I will try to write my posts in English, because English is a global la
                 skincare
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/skincare/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-skincare&quot; tabindex=&quot;-1&quot;&gt;Morning skincare&lt;/h1&gt;
@@ -1932,7 +1949,7 @@ However, I will try to write my posts in English, because English is a global la
                 reading
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/reading/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-reading&quot; tabindex=&quot;-1&quot;&gt;Morning Reading&lt;/h1&gt;
@@ -1949,7 +1966,7 @@ However, I will try to write my posts in English, because English is a global la
                 probiotics
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/probiotics/</id>
             <content type="html">
                 &lt;h1 id=&quot;probiotics&quot; tabindex=&quot;-1&quot;&gt;Probiotics&lt;/h1&gt;
@@ -1967,7 +1984,7 @@ However, I will try to write my posts in English, because English is a global la
                 pantomona
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/pantomona/</id>
             <content type="html">
                 &lt;h1 id=&quot;pantomona&quot; tabindex=&quot;-1&quot;&gt;Pantomona&lt;/h1&gt;
@@ -1986,7 +2003,7 @@ However, I will try to write my posts in English, because English is a global la
                 omega3
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/omega3/</id>
             <content type="html">
                 &lt;h1 id=&quot;omega3&quot; tabindex=&quot;-1&quot;&gt;Omega3&lt;/h1&gt;
@@ -2005,7 +2022,7 @@ However, I will try to write my posts in English, because English is a global la
                 nails
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/nails/</id>
             <content type="html">
                 &lt;h1 id=&quot;nails&quot; tabindex=&quot;-1&quot;&gt;Nails&lt;/h1&gt;
@@ -2018,7 +2035,7 @@ However, I will try to write my posts in English, because English is a global la
                 meditation
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/meditation/</id>
             <content type="html">
                 &lt;h1 id=&quot;meditation&quot; tabindex=&quot;-1&quot;&gt;Meditation&lt;/h1&gt;
@@ -2034,7 +2051,7 @@ However, I will try to write my posts in English, because English is a global la
                 mToQueen
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/mToQueen/</id>
             <content type="html">
                 &lt;h1 id=&quot;m-to-queen&quot; tabindex=&quot;-1&quot;&gt;M to Queen&lt;/h1&gt;
@@ -2052,7 +2069,7 @@ However, I will try to write my posts in English, because English is a global la
                 gratitude
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/gratitude/</id>
             <content type="html">
                 &lt;h1 id=&quot;gratitude&quot; tabindex=&quot;-1&quot;&gt;Gratitude&lt;/h1&gt;
@@ -2069,7 +2086,7 @@ However, I will try to write my posts in English, because English is a global la
                 footCare
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/footCare/</id>
             <content type="html">
                 &lt;h1 id=&quot;foot-care&quot; tabindex=&quot;-1&quot;&gt;Foot Care&lt;/h1&gt;
@@ -2086,7 +2103,7 @@ However, I will try to write my posts in English, because English is a global la
                 facialMask
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/facialMask/</id>
             <content type="html">
                 &lt;h1 id=&quot;facial-mask&quot; tabindex=&quot;-1&quot;&gt;Facial Mask&lt;/h1&gt;
@@ -2100,7 +2117,7 @@ However, I will try to write my posts in English, because English is a global la
                 faceScan
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/faceScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;face-scan&quot; tabindex=&quot;-1&quot;&gt;Face Scan&lt;/h1&gt;
@@ -2114,7 +2131,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeRelief
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/eyeRelief/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-relief&quot; tabindex=&quot;-1&quot;&gt;Eye Relief&lt;/h1&gt;
@@ -2131,7 +2148,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeDrop
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/eyeDrop/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-drop&quot; tabindex=&quot;-1&quot;&gt;Eye Drop&lt;/h1&gt;
@@ -2149,7 +2166,7 @@ However, I will try to write my posts in English, because English is a global la
                 english
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/english/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-english&quot; tabindex=&quot;-1&quot;&gt;Morning English&lt;/h1&gt;
@@ -2166,7 +2183,7 @@ However, I will try to write my posts in English, because English is a global la
                 diary
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/diary/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-diary&quot; tabindex=&quot;-1&quot;&gt;Morning Diary&lt;/h1&gt;
@@ -2182,7 +2199,7 @@ However, I will try to write my posts in English, because English is a global la
                 coffee
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/coffee/</id>
             <content type="html">
                 &lt;h1 id=&quot;coffee&quot; tabindex=&quot;-1&quot;&gt;Coffee&lt;/h1&gt;
@@ -2197,7 +2214,7 @@ However, I will try to write my posts in English, because English is a global la
                 cleaningHouse
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/cleaningHouse/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-cleaning-house&quot; tabindex=&quot;-1&quot;&gt;Morning Cleaning House&lt;/h1&gt;
@@ -2220,7 +2237,7 @@ However, I will try to write my posts in English, because English is a global la
                 brushHair
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/brushHair/</id>
             <content type="html">
                 &lt;h1 id=&quot;brush-hair&quot; tabindex=&quot;-1&quot;&gt;Brush hair&lt;/h1&gt;
@@ -2239,7 +2256,7 @@ However, I will try to write my posts in English, because English is a global la
                 bodyScan
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/bodyScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;body-scan&quot; tabindex=&quot;-1&quot;&gt;Body Scan&lt;/h1&gt;
@@ -2256,7 +2273,7 @@ However, I will try to write my posts in English, because English is a global la
                 arrangingDesk
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/arrangingDesk/</id>
             <content type="html">
                 &lt;h1 id=&quot;arranging-desk&quot; tabindex=&quot;-1&quot;&gt;Arranging Desk&lt;/h1&gt;
@@ -2274,7 +2291,7 @@ However, I will try to write my posts in English, because English is a global la
                 affirmation
                 
             </title>
-            <updated>2025-01-05T08:36:38Z</updated>
+            <updated>2025-01-05T08:36:57Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/affirmation/</id>
             <content type="html">
                 &lt;h1 id=&quot;affirmation&quot; tabindex=&quot;-1&quot;&gt;Affirmation&lt;/h1&gt;
