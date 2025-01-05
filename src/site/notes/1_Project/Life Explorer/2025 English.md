@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"lifeExplorer","dg-permalink":"1_Project/Life-Explorer/2025-English","created-date":"2025-01-03 1:31:59 pm","date":"2025-01-03","type":"plan","tags":["life","plan"],"aliases":null,"category":"English","dg-publish":true,"permalink":"/1_Project/Life-Explorer/2025-English/","dgPassFrontmatter":true,"noteIcon":"lifeExplorer"}
+{"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/2025-English","created-date":"2025-01-03 1:31:59 pm","date":"2025-01-03","type":"plan","tags":["life","plan"],"aliases":null,"category":"English","dg-publish":true,"permalink":"/1_Project/Life-Explorer/2025-English/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
 # **My Plan**

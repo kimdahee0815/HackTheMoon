@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"lifeExplorer","dg-permalink":"1_Project/2025-Annual-Plan","created-date":"2025-01-02 9:15:33 am","date":"2025-01-02","type":"plan","tags":["life","annual-plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/2025-Annual-Plan/","dgPassFrontmatter":true,"noteIcon":"lifeExplorer"}
+{"dg-note-icon":"life","dg-permalink":"1_Project/2025-Annual-Plan","created-date":"2025-01-02 9:15:33 am","date":"2025-01-02","type":"plan","tags":["life","annual-plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/2025-Annual-Plan/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
 # **2025 My Plans**

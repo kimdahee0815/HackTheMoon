@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"lifeExplorer","dg-permalink":"1_Project/Life-Explorer/2025-Routine","created-date":"2025-01-03 1:36:15 pm","date":"2025-01-03","type":"plan","tags":["life","plan"],"aliases":null,"category":"Daily-Routine","dg-publish":true,"permalink":"/1_Project/Life-Explorer/2025-Routine/","dgPassFrontmatter":true,"noteIcon":"lifeExplorer"}
+{"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/2025-Routine","created-date":"2025-01-03 1:36:15 pm","date":"2025-01-03","type":"plan","tags":["life","plan"],"aliases":null,"category":"Daily-Routine","dg-publish":true,"permalink":"/1_Project/Life-Explorer/2025-Routine/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
 # **My Plan**

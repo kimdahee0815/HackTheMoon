@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"lifeExplorer","dg-permalink":"1_Project/Life-Explorer/English-Book-List","created-date":"2025-01-03 4:01:40 pm","date":"2025-01-03","type":"plan","tags":["life","list","plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/Life-Explorer/English-Book-List/","dgPassFrontmatter":true,"noteIcon":"lifeExplorer"}
+{"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/English-Book-List","created-date":"2025-01-03 4:01:40 pm","date":"2025-01-03","type":"plan","tags":["life","list","plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/Life-Explorer/English-Book-List/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
 # **English Books I own**
