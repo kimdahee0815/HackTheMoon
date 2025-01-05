@@ -10,7 +10,7 @@
 실제로 귀신을 보면 무슨 기분일까?;;I wonder what it's like(what it feels like) to see a real ghost
 <!--SR:!2024-12-16,2,246-->
 나는 거는 어떤 기분일까?;;I wonder what it's like to fly
-<!--SR:!2024-12-18,3,250-->
+<!--SR:!2025-01-16,11,270-->
 총에 맞으면 어떤 기분일까?;;I wonder what it's like to get shot
 <!--SR:!2025-01-18,16,290-->
 전쟁터에 있는 것은 무슨 기분일까?;;I wonder what it's like to be in a warzone

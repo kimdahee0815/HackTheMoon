@@ -10,17 +10,17 @@
 참고로, 다음번에 이런 일이 생기면 나한테 먼저 말해줘요;;Just so you know, the next time something like this happens, just tell me first
 <!--SR:!2024-12-28,1,230-->
 앞으로를 위한 참고사항으로;;For future reference(formal)/Just so there's no confusion(misunderstanding)/Just so you're prepared
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-06,1,210-->
 
 (상대방을 주목시키며)수정된 사항에 대해 주목해서 보세요, 당신에 관한 것일 수도 있습니다;;Please take note of the changes/Notice the changes/I'd like to point out about that, they might be related to you/They might concern you.
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-06,1,210-->
 
 Take note/Take note of/Take note that
 
 다시한번 상기시켜드리자면(formal);;As a reminder
 <!--SR:!2024-12-31,4,270-->
 잊지 마세요(casual);;Don't forget/Keep in mind
-<!--SR:!2024-12-31,4,270-->
+<!--SR:!2025-01-07,2,250-->
 
 (여러명을 대상으로 얘기하면서 특정 일부를 지목할 때 사용, formal 할때 사용)여러분들 중 조금 늦게 들어와서 앞에 소개를 놓치신 분들은~;;For those of you who came a little late and missed the introduction~
 <!--SR:!2024-12-28,1,230-->
@@ -28,7 +28,7 @@ Take note/Take note of/Take note that
 그러고 보니까 흑인 오페라 가수는 난 본적이 없는 것 같네;;Come to think of it(Now that I think of it)/It just occured to me/I just realized, I don't think I've ever seen a black opera singer
 <!--SR:!2025-01-05,3,266-->
 그러고 보니 샐리의 생일이 다음주잖아;;It just occured to me/I just realized, Sally's birthday is next week
-<!--SR:!2025-01-05,2,230-->
+<!--SR:!2025-01-12,7,250-->
 
 
 

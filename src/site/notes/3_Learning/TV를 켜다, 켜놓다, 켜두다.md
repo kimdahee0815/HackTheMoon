@@ -17,7 +17,7 @@ TV를 켜두다;;Leave the TV (turned) on
 (어떤 행동을 해둔 채로 자리를 비우는 상황) 야, TV 켜놓을까?;;Hey, should I leave the TV on?
 <!--SR:!2024-12-25,15,297-->
 응 그냥 켜놔;;Yeah, just leave it on
-<!--SR:!2024-12-29,15,297-->
+<!--SR:!2025-03-09,63,317-->
 
 (행위가 이루어지는 이유나 목적의 여부) 실수로 TV를 켜놨어;;I accidentally left the TV on
 <!--SR:!2024-12-28,14,297-->

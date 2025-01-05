@@ -22,7 +22,7 @@
 너가 전적으로 믿을 수 없는 사람한테는 그 얘기를 안하는 것이 좋을 것 같아;;I don't think you should tell that to anyone who you can't full trust
 <!--SR:!2024-12-17,2,190-->
 지금도 좋은데, 나랑 공통점이 좀 더 많은 사람을 만나고 싶은 마음도 있어, 무슨 얘긴지 알지?;;It's great now, but I feel like I wanna meet someone who I have more in common with, do you know what I mean?
-<!--SR:!2024-12-31,17,250-->
+<!--SR:!2025-02-17,43,250-->
 어, 너의 친구로서 말하는 건데 - 사실 너랑 마음이 완전 잘 통하는 사람 같지는 않더라;;Yeah, as your friend - he actually doesn't seem like the kind of person who you can really connect with
 <!--SR:!2024-12-19,4,230-->
 일일이 다 알려줘야 하는 사람이랑 일하는 것은 이제 질색이야;;I'm sick and tired of(fed up with) working with someone who I have to explain every single thing to

@@ -16,7 +16,7 @@
 <!--SR:!2024-12-29,15,290-->
 
 나 여기 와본적 있는 것 같아;;This place looks really familiar, I think i've been here before
-<!--SR:!2024-12-16,1,210-->
+<!--SR:!2025-01-08,3,230-->
 
 2. 언제 까지 어디에 도착하다는 의미로 말하는 '가다', '오다'
 나 거기 2시까지 가야 돼;;I have to be there by 2

@@ -14,7 +14,7 @@
 난 너가 하라는 그대로 했어;;I did exactly what you told me to
 <!--SR:!2025-01-07,4,223-->
 상사가 나한테 한 지시대로 했어;;I followed the instructions that my boss gave me
-<!--SR:!2024-12-16,1,183-->
+<!--SR:!2025-01-06,1,163-->
 난 너가 시킨대로 했어;;I did it according to what you said(told me)
 <!--SR:!2024-12-17,2,183-->
 난 네가 시킨걸 모두 했어;;I did everything according to what you said
@@ -26,7 +26,7 @@
 나는 내가 늘 하던대로 했어;;I did what i've always done
 <!--SR:!2024-11-27,3,250-->
 난 늘 하는대로 했어;;I did what I always do
-<!--SR:!2024-12-15,1,183-->
+<!--SR:!2025-01-08,3,203-->
 난 그냥 지난 2주 동안 해왔던 대로 할게;;I'll just do what i've done for the past 2 weeks/I'll just do what i've been doing for the past 2 weeks
 <!--SR:!2024-12-22,8,250-->
 난 그냥 지금까지 해왔던 대로 할게;;I'll just do what i've been doing up to now

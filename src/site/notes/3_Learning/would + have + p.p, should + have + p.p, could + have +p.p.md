@@ -18,7 +18,7 @@
 그래도 말씀하시지 - 이거 말고도 시킬거 많았는데;;Still, you should have told us. There were tons of other things we could've ordered
 <!--SR:!2025-02-01,29,270-->
 그렇긴 한데 저는 진짜 다들 그냥 원하는걸 먹었으면 좋겠어요. 저는 진짜 상관 없어요;;I know what you mean, but honestly, I'd really prefer it if everyone just get what they want. It's really okay/I really don't mind/It's really not a problem
-<!--SR:!2025-01-05,2,210-->
+<!--SR:!2025-01-09,4,210-->
 
 
 

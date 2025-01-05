@@ -20,7 +20,7 @@
 저 때문에 취소하거나 그러진 말고요;;I don't want you to cancel or anything because of me
 <!--SR:!2024-12-22,7,250-->
 (혹시) 수리가 일찍 끝나면 합류할 수 있게 어디서 만나는지 알려주세요;;But let me know where you are hanging out so I can join you guys if the repairs (happen to) finish early
-<!--SR:!2024-12-16,2,230-->
+<!--SR:!2025-01-10,5,230-->
 
 
 
