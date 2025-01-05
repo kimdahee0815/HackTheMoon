@@ -2,7 +2,7 @@
 {"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/2025-Routine","created-date":"2025-01-03 1:36:15 pm","date":"2025-01-03","type":"plan","tags":["life","plan"],"aliases":null,"category":"Daily-Routine","dg-publish":true,"permalink":"/1_Project/Life-Explorer/2025-Routine/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
-# **My Plan**
+# <font color="#ff0000">My Plan</font>
 ## <font color="#9d0ab3">Monday</font>
 1. 5:00 AM - Get Up
 2. 5:01 AM - Make Bed
