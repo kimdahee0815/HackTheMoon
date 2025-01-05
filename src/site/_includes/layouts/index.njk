@@ -12,9 +12,8 @@
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     <div class="nightsky">
-      <div class="constellation">
-        <div class="meteorShower"></div>
-      </div> 
+      <div class="constellation"></div> 
+      <div class="meteorShower"></div>
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgEnableSearch === true%}
       <div class="nav-top" style="display: flex; justify-content: space-between; width:100%; align-items: center;">
@@ -128,7 +127,7 @@ function initStars(){
   const windowWidth = screen.width;
   const windowHeight = screen.height;
 
-  function getRandomValue(max: number): number {
+  function getRandomValue(max) {
     return Math.floor(Math.random() * max);
   }
 
