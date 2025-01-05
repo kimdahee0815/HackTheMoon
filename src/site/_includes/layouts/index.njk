@@ -159,7 +159,7 @@ function initStars(){
     let _t = getRandomValue(7);
     let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
   
-    star += "<span class=" + className + " style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+    star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
     getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
   }
   console.log(star)
