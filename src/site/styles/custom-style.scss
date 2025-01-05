@@ -677,7 +677,7 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     border-radius: 50%;
     background-color: white;
     position: absolute;
-    overflow: hidden;
+    overflow: scroll;
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
