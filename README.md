@@ -20,7 +20,8 @@ I gave it some keywords and run it a few times and it gave me thousands of ideas
 But, still, I have to choose the right one for me.<br /><br />
 And I found the name that sounds amazing, which was 'hack the moon'.<br />
 There is a story about how this is related to my name, but since that is not the point I'm just going to give you the link below! <br />
-[[Background story about how I became Diana]]<br /><br />
+https://kimdahee0815.github.io/0_Myself/Background-story-about-how-I-became-Diana/
+
 ## Let's Hack The Moon together!
 Let me show you the map before you explore this place.  <br />
 you can find all the things you need when you go to [[Hack The Moon Info]] page. 🫠  <br />
