@@ -3,7 +3,8 @@
 ---
 
 
-# My Love towards Greek Mythology
+# <font color="#ff0000">My Love towards Greek Mythology</font>
+
 I have always loved Greek Mythology since I was a child.
 
 I remember most of the stories about Greek Mythology, even my thesis was related to [^2]Prometheus (plus, Nietzsche and existentialism, which is another topics to talk about). 
@@ -15,7 +16,8 @@ The most rememberable story was about Eros and Psyche, and I've even visited lou
 I was in middle school back then, but this painting has been almost encarved in my memory because it was so beautiful to look at.
 ![Utilities/Images/Pasted image 20250105164853.jpeg](/img/user/Utilities/Images/Pasted%20image%2020250105164853.jpeg)
 
-# Artemis, the goddess of hunt
+# <font color="#ff0000">Artemis, the goddess of hunt</font>
+
 Anyways, back to my english name story,
 Among all of the goddesses, my favorite goddess has been Artemis[^1].
 ![Utilities/Images/Pasted image 20241028172405.jpeg](/img/user/Utilities/Images/Pasted%20image%2020241028172405.jpeg)
@@ -30,7 +32,8 @@ That name sounded so obvious, meaning it was too easy to guess about me. 🙄
 So, I looked up online, I found out that there was a name 'Diana', which is another name of Artemis.
 Now, That's how my English name has became Diana.  
   
-# My English Name and My Blog Name
+# <font color="#ff0000">My English Name and My Blog Name</font>
+
 You might ask here though, what does your english name story have anything to do with your blog name?
 
 ![Utilities/Images/Pasted image 20241028173605.jpeg](/img/user/Utilities/Images/Pasted%20image%2020241028173605.jpeg)
