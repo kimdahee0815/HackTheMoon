@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/Workout","created-date":"2025-01-05 7:24:34 am","date":"2025-01-05","type":"plan","tags":["life","plan"],"aliases":null,"category":["Health"],"dg-publish":true,"permalink":"/1_Project/Life-Explorer/Workout/","dgPassFrontmatter":true,"noteIcon":"life"}
+{"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/Workout","created-date":"2025-01-05 7:24:34 am","date":"2025-01-05","type":"plan","tags":["life","plan"],"aliases":null,"category":"Health","dg-publish":true,"permalink":"/1_Project/Life-Explorer/Workout/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
 # **My Plan**
