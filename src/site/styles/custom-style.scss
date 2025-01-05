@@ -186,6 +186,7 @@ body {
     --note-icon-saving: url(/img/saving.svg);
     --note-icon-lifeExplorer: url(/img/life-explorer.svg);
     --note-icon-faceScan: url(/img/faceScan.svg);
+    --note-icon-spanish: url(/img/spanish.svg);
     --note-icon-fallback: url(/img/icon.svg);
 }
 
@@ -647,4 +648,10 @@ body.filetree-note-icon .filename[data-note-icon="faceScan"]::before,
 body.links-note-icon .internal-link[data-note-icon="faceScan"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="faceScan"]::before {
     background-image: url(/img/faceScan.svg);
+}
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="spanish"]::before,
+body.filetree-note-icon .filename[data-note-icon="spanish"]::before,
+body.links-note-icon .internal-link[data-note-icon="spanish"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
+    background-image: url(/img/spanish.svg);
 }
