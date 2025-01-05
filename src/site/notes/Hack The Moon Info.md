@@ -6,11 +6,22 @@
 # Projects
 💼 Career
 
+- [[1_Project/Career/2025 Developing\|2025 Developing]]
+- [[1_Project/Career/Developing Book List\|Developing Book List]]
+- [[1_Project/Career/Developing Lectures\|Developing Lectures]]
 
 { .block-language-dataview}
 
 🧭 Life Explorer
 
+- [[1_Project/Life Explorer/2025 Diet\|2025 Diet]]
+- [[1_Project/Life Explorer/2025 Workout\|2025 Workout]]
+- [[1_Project/Life Explorer/2025 English\|2025 English]]
+- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
+- [[1_Project/Life Explorer/2025-2026 Spanish\|2025-2026 Spanish]]
+- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
+- [[1_Project/Life Explorer/English Book List\|English Book List]]
+- [[1_Project/2025 Annual Plan\|2025 Annual Plan]]
 
 { .block-language-dataview}
 
@@ -31,16 +42,16 @@
 
 🎧 English
 
+- [[3_Learning/도움이 되다를 영어로 표현하기 - help, helpful, support, supportive\|도움이 되다를 영어로 표현하기 - help, helpful, support, supportive]]
+- [[3_Learning/흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기\|흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기]]
+- [[3_Learning/IE 1 How the Pros Prepare for the IELTS\|IE 1 How the Pros Prepare for the IELTS]]
+- [[3_Learning/알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out\|알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out]]
+- [[3_Learning/notice, realize, recognize, tell, figure\|notice, realize, recognize, tell, figure]]
 - [[3_Learning/keep track of, keep up with, catch up on\|keep track of, keep up with, catch up on]]
 - [[3_Learning/어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기\|어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기]]
 - [[3_Learning/내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든\|내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든]]
-- [[3_Learning/which 관계대명사 - Part 2\|which 관계대명사 - Part 2]]
 - [[3_Learning/which 관계대명사 - Part 3 (in which, to which, from which)\|which 관계대명사 - Part 3 (in which, to which, from which)]]
-- [[3_Learning/which 관계 대명사 - Part 1\|which 관계 대명사 - Part 1]]
-- [[3_Learning/어려운 부탁을 할 때, 어려운 부탁을 받을 때\|어려운 부탁을 할 때, 어려운 부탁을 받을 때]]
-- [[3_Learning/참고로, 그러고보니까 - Part 3 of 3 \|참고로, 그러고보니까 - Part 3 of 3 ]]
-- [[3_Learning/FYI에 대해서 짧게 정리\|FYI에 대해서 짧게 정리]]
-- [[3_Learning/참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ]\|참고로 - 그나저나 - 그러고보니 - [ 참고로 Part 1 of 3 ] [ 영어회화 ]]]
+- [[3_Learning/which 관계대명사 - Part 2\|which 관계대명사 - Part 2]]
 
 { .block-language-dataview}
 
@@ -73,9 +84,9 @@
 
 🖥️ Web-Surfing
 
-- [[3_Learning/마사다 요새\|마사다 요새]]
 - [[3_Learning/통곡의 벽\|통곡의 벽]]
 - [[3_Learning/할라카\|할라카]]
+- [[3_Learning/마사다 요새\|마사다 요새]]
 - [[3_Learning/토라\|토라]]
 - [[3_Learning/네이팜 소녀\|네이팜 소녀]]
 - [[3_Learning/Character Alignment\|Character Alignment]]
@@ -85,8 +96,8 @@
 
 👤People
 
-- [[6_People/헨리 8세\|헨리 8세]]
 - [[6_People/엘리자베스 1세\|엘리자베스 1세]]
+- [[6_People/헨리 8세\|헨리 8세]]
 - [[6_People/유대인\|유대인]]
 - [[6_People/아브라함\|아브라함]]
 
@@ -145,8 +156,8 @@
 🎶 Music
 
 - [[9_Music/In Touch (feat. Charli Taft & Daul)\|In Touch (feat. Charli Taft & Daul)]]
-- [[9_Music/Sundays\|Sundays]]
 - [[9_Music/FOMO\|FOMO]]
+- [[9_Music/Sundays\|Sundays]]
 - [[9_Music/Cross Your Mind\|Cross Your Mind]]
 - [[9_Music/Defying Gravity\|Defying Gravity]]
 - [[9_Music/cheers (with Wiz Khalifa)\|cheers (with Wiz Khalifa)]]
@@ -169,21 +180,25 @@
 
 🗄️ Recent file updates
 
-- [[6_People/Overview/people\|people]]
-- [[3_Learning/Magic The Gathering Colors\|Magic The Gathering Colors]]
-- [[3_Learning/Overview/web-surfing\|web-surfing]]
-- [[6_People/아브라함\|아브라함]]
-- [[6_People/유대인\|유대인]]
-- [[6_People/엘리자베스 1세\|엘리자베스 1세]]
-- [[6_People/헨리 8세\|헨리 8세]]
-- [[5_Event/cgv 투썸플레이스\|cgv 투썸플레이스]]
-- [[5_Event/Overview/event\|event]]
-- [[3_Learning/Character Alignment\|Character Alignment]]
+- [[0_Myself/Background story about how I became Diana\|Background story about how I became Diana]]
+- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
+- [[1_Project/Life Explorer/2025-2026 Spanish\|2025-2026 Spanish]]
+- [[1_Project/Life Explorer/2025 Workout\|2025 Workout]]
+- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
+- [[1_Project/Life Explorer/2025 English\|2025 English]]
+- [[1_Project/Life Explorer/2025 Diet\|2025 Diet]]
+- [[1_Project/2025 Annual Plan\|2025 Annual Plan]]
+- [[1_Project/Life Explorer/English Book List\|English Book List]]
+- [[3_Learning/내운동을 일주일 따라해봤음 🙌 찐변화+후기 feat.일주일 홈트 프로그램\|내운동을 일주일 따라해봤음 🙌 찐변화+후기 feat.일주일 홈트 프로그램]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
+- [[3_Learning/Report/English-Podcast/2025-01-04 - IE 2 What Happens on IELTS Exam Day\|2025-01-04 - IE 2 What Happens on IELTS Exam Day]]
+- [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
+- [[4_Book/Report/2025-01-01 - 행동하지 않으면 인생은 바뀌지 않는다\|2025-01-01 - 행동하지 않으면 인생은 바뀌지 않는다]]
+- [[4_Book/행동하지 않으면 인생은 바뀌지 않는다\|행동하지 않으면 인생은 바뀌지 않는다]]
 - [[8_Movie & Drama/Carry-On\|Carry-On]]
 - [[4_Book/아주 작은 습관의 힘\|아주 작은 습관의 힘]]
 - [[4_Book/원씽(The One Thing)(60만 부 기념 스페셜 에디션)\|원씽(The One Thing)(60만 부 기념 스페셜 에디션)]]
@@ -192,16 +207,16 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 840
-    -   Daily Routines: 63
-    -   Daily Drawings: 6
+    -   File Count: 981
+    -   Daily Routines: 68
+    -   Daily Drawings: 8
     -   Class: 1
     -   Developing: 3
-    -   English: 49
+    -   English: 55
     -   Web-Surfing: 7
-    -   Career: 
-    -   Youtube: 12
-    -   Book: 4
+    -   Career: 3
+    -   Youtube: 26
+    -   Book: 5
     -   Event: 3
     -   Meeting: 
     -   Author: 
