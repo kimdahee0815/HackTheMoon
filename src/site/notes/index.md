@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-home":true,"dg-permalink":"index","title":"Home","permalink":"/index/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
-# WELCOME!
+# <font color="#ff0000">WELCOME!</font>
 ![hello_visitors-removebg-preview.png](/img/user/Utilities/Images/hello_visitors-removebg-preview.png)
 
 Hello, there! 😀  
@@ -11,7 +11,7 @@ This place is for sharing not only my knowledge and learning I got from my exper
 If you are wondering about who I am, there's a good chance that you are gonna get to know me by just reading my posts, since I am going to tell you lots of things happening in my life here. 
 Hopefully, you can enjoy the contents and get any useful/helpful insights or information you have been looking for. 🎈
 
-## WHAT DOES 'HACK THE MOON' MEAN?
+## <font color="#9d0ab3">WHAT DOES 'HACK THE MOON' MEAN?</font>
 Two steps before naming my blog,
 
 1. Googling 'Blog Name Ideas'
@@ -31,7 +31,7 @@ There is a story about how this is related to my name, but since that is not the
 
 
 
-## Let's Hack The Moon together!
+## <font color="#9d0ab3">Let's Hack The Moon together!</font>
 Let me show you the map before you explore this place.  
 you can find all the things you need when you go to [[Hack The Moon Info\|Hack The Moon Info]] page. 🫠  
 There, you can find 10 recent notes for each section.  
@@ -57,7 +57,7 @@ P.S. In case you are wondering about the reports for each note, they basically s
 The reports help me to track how I spend my time everyday and every week, so it helps me to reflect on my day or my whole week.  
 But I doubt that you are wondering about it(since they are useful for me not you guys), so I decided to leave that out in my blog. 😅
 
-#### DISCLAIMER
+#### <font color="#00b050">DISCLAIMER</font>
 Before you get into any posts..!  
 I am writing these posts in English, but my native language is Korean.  
 Sometimes, it is much easier for me to write posts in Korean than English.  
