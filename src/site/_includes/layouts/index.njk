@@ -167,12 +167,12 @@ function initStars(){
 
   let randomNum = 5000;
 
-  setTimeOut(function(){
+  setTimeout(function(){
     shootingStars();
   }, randomNum);
 
   function shootingStars(){
-    setTimeOut(shootingStars, randomNum);
+    setTimeout(shootingStars, randomNum);
     randomNum = getRandomArbitrary(5000, 10000);
     const _s = getRandomArbitrary(0, 3);
     let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
