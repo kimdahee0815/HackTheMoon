@@ -177,7 +177,7 @@ function initStars(){
     randomNum = getRandomArbitrary(5000, 10000);
     const _s = getRandomArbitrary(0, 4);
     let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
-    document.getElementByClassName('meteorShower')[0].innerHTML = shootingStar;
+    document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
     setTimeout(function(){
       document.getElementsByClassName('meteorShower')[0].innerHTML = "";
     }, 1000);
