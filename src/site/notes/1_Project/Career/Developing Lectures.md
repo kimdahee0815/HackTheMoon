@@ -2,7 +2,7 @@
 {"dg-note-icon":"career","dg-permalink":"1_Project/Career/Developing-Lectures","created-date":"2025-01-03 2:25:58 pm","date":"2025-01-03","type":"plan","tags":["career","list","plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/Career/Developing-Lectures/","dgPassFrontmatter":true,"noteIcon":"career"}
 ---
 
-# **Lectures I've Learned**
+# <font color="#ff0000">Lectures I've Learned</font>
 1. Udemy
 	1. Full Stack
 		1. [The Web Developer Bootcamp 2024](https://www.udemy.com/course-dashboard-redirect/?course_id=625204)
