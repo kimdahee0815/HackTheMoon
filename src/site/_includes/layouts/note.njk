@@ -133,5 +133,76 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}
+    <div class="nightsky"></div>
+    <div class="constellation"></div>
+    <div class="moon">
+      <div class="moonImg"></div>
+    </div>
+    <div class="meteorShower"></div>
+    <div class="trees">
+      <img src="https://raw.githubusercontent.com/interaminense/starry-sky/master/src/img/bgTree.png" alt="" />
+    </div>
   </body>
 </html>
+<script>
+function initStars(){
+  const windowWidth = screen.width;
+  const windowHeight = screen.height;
+
+  function getRandomValue(max: number): number {
+    return Math.floor(Math.random() * max);
+  }
+
+  function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
+  const style = ['style1', 'style2', 'style3'];
+  const opacity = ['opacity1', 'opacity1', 'opacity1', 'opacity2', 'opacity3'];
+  const twinkle = [
+    'twinkle1',
+    'twinkle1',
+    'twinkle1',
+    'twinkle2',
+    'twinkle2',
+    'twinkle3',
+    'twinkle4',
+  ];
+
+  let nightsky = document.querySelector(".constellation");
+  let star = "";
+  let numberOfStars = 250;
+  const x = getRandomValue(windowWidth);
+  const y = getRandomValue(windowHeight);
+
+  for(let i = 0; i < numberOfStars; i++){
+    const _s = getRandomValue(3);
+    const _o = getRandomValue(5);
+    const _t = getRandomValue(7);
+    const className = 'star ' + style[_s] + ' ' + opacity[_o] + ' ' + twinkle[_t];
+  
+    star += "<span class=className style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+    getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
+  }
+  
+  nightsky.innerHTML = star;
+
+  let randomNum = 5000;
+
+  setTimeOut(function(){
+    shootingStars();
+  }, randomNum);
+
+  function shootingStars(){
+    setTimeOut(shootingStars, randomNum);
+    randomNum = getRandomArbitrary(5000, 10000);
+    const _s = getRandomArbitrary(0, 4);
+    let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
+    document.getElementByClassName('meteorShower')[0].innerHTML = shootingStar;
+    setTimeout(function(){
+      document.getElementsByClassName('meteorShower')[0].innerHTML = "";
+    }, 1000);
+  }
+}
+window.onload = initStars;
+</script>
