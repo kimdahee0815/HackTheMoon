@@ -2,7 +2,7 @@
 {"dg-note-icon":"life","dg-permalink":"1_Project/Life-Explorer/English-Book-List","created-date":"2025-01-03 4:01:40 pm","date":"2025-01-03","type":"plan","tags":["life","list","plan"],"aliases":null,"dg-publish":true,"permalink":"/1_Project/Life-Explorer/English-Book-List/","dgPassFrontmatter":true,"noteIcon":"life"}
 ---
 
-# **English Books I own**
+# <font color="#ff0000">English Books I own</font>
 1. English Study
 	1. 17 네이티브 영어표현력 사전 - 이창수
 	2. 미국식 영작문 수업 - 최정숙
