@@ -11,7 +11,7 @@
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
-    {% if (window.localStorage.getItem("site-theme") === undefined) or (window.localStorage.getItem("site-theme") === "dark") %}
+    {% if (not window.localStorage.getItem("site-theme")) or (window.localStorage.getItem("site-theme") === "dark") %}
       <div class="nightsky">
         <div class="constellation"></div> 
         <div class="meteorShower"></div>
