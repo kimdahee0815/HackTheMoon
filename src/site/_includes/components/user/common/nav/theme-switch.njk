@@ -68,5 +68,7 @@
         setTheme(theme, true);
         window.localStorage.setItem('site-theme', theme);
         window.theme = theme;
+        window.__theme__ = {{ theme | dump | safe }};
+        location.reload(true);
     })
 </script>

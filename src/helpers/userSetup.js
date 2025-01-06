@@ -5,7 +5,12 @@ function userMarkdownSetup(md) {
 function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
-  eleventyConfig.addPassthroughCopy("/src/helpers/themeswitch.js");
+  eleventyConfig.addShortcode("expose", data => {
+    return `<script id="__EXPOSE__">
+        window.__DATA__=JSON.parse(${JSON.stringify(data)});
+        document.getElementById("__EXPOSE__").remove();
+    </script>`;
+})
 }
 exports.userMarkdownSetup = userMarkdownSetup;
 exports.userEleventySetup = userEleventySetup;

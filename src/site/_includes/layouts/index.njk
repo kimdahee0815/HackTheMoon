@@ -11,6 +11,7 @@
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
+      {% if (window.__theme__ === "dark") or (not window.__theme__)}
       <div class="nightsky">
         <div class="constellation"></div> 
         <div class="meteorShower"></div>
@@ -114,6 +115,105 @@
       <div class="moon">
         <div class="moonImg"></div>
       </div>
+      {% endif %}
+      {% if window.__theme__ === 'light' %}
+      {%include "components/notegrowthhistory.njk"%}
+      {% if settings.dgEnableSearch === true%}
+      <div class="nav-top" style="display: flex; justify-content: space-between; width:100%; align-items: center;">
+        <a href="/" style="text-decoration: none; display: block;">
+            <h1 style="text-align:left; margin:0; padding:20px;">{{meta.siteName}}</h1>
+        </a>
+        <div style="display:flex; justify-content: center">
+          {% include "components/searchButton.njk" %}
+        </div>
+      </div>
+      {%endif%}
+      {% if settings.dgEnableSearch === true %}
+        {%include "components/searchContainer.njk"%}
+      {% endif %}
+      {% macro menuItem(fileOrFolderName, fileOrFolder, step, currentPath) %}
+      {%if fileOrFolder.isNote or fileOrFolder.isFolder%}
+        <div x-show="isOpen" style="display:none" class="{{'filelist' if step>0}}">
+          {%if fileOrFolder.isNote and not fileOrFolder.hide %}
+              <div @click.stop class="notelink {{ 'active-note' if fileOrFolder.permalink === permalink}}">
+                {%- if not meta.noteIconsSettings.filetree -%}<i icon-name="sticky-note" aria-hidden="true"></i>{%- endif -%}
+                <a data-note-icon="{{fileOrFolder.noteIcon}}" style="text-decoration: none;" class="filename" href="{{fileOrFolder.permalink}}">{{fileOrFolder.name}} </a>
+              </div>
+          {% elif fileOrFolder.isFolder%}
+              <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('{{currentPath}}')}" @click.stop="isOpen=!isOpen">
+                <div class="foldername-wrapper align-icon">
+                  <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                  <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                  <span class="foldername">{{fileOrFolderName}}</span>
+                </div>
+                {% for fileOrFolderName, child in fileOrFolder %}
+                    {{menuItem(fileOrFolderName, child, step+1, (currentPath+"/"+fileOrFolderName))}}
+                {% endfor %}
+              </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endmacro %}
+    <div class="main-container">
+      {% if settings.dgShowFileTree !== true %}
+        {%include "components/navbar.njk"%}
+      {%else%}
+        {%include "components/filetree.njk"%}
+      {% endif %}
+      <main class="content cm-s-obsidian {{contentClasses}}" style="margin:-50px 0 0 0;">
+        <header>
+        {% if settings.dgShowInlineTitle === true %}
+          <h1>{{ noteTitle  }}</h1>
+        {% endif %}
+
+        <div class="header-meta">
+          {% if settings.dgShowTags === true and tags %}
+            <div class="header-tags">
+              {% for tag in tags %}
+                {% if tag != 'gardenEntry' and tag !='note' %}
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #{{tag}}
+                  </a>
+                {% endif %}
+              {% endfor %}
+           </div>
+          {% endif %}
+        </div>
+        {% for imp in dynamics.common.header %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.header %}
+          {% include imp %}
+        {% endfor %}
+        </header>
+        {% for imp in dynamics.common.beforeContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.beforeContent %}
+          {% include imp %}
+        {% endfor %}
+        {{ content | hideDataview | taggify | link | safe}}
+        {% for imp in dynamics.common.afterContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.afterContent %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.index.footer %}
+          {% include imp %}
+        {% endfor %}
+      </main>
+      {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+        {%include "components/sidebar.njk" %}
+      {%endif%}
+    </div>
+    {% if settings.dgLinkPreview === true %}
+      {%include "components/linkPreview.njk"%}
+    {% endif %}
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
+    {% endfor %}
+      {% endif %}
     </body>
   </html>
 
