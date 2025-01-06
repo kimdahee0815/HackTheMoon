@@ -99,9 +99,6 @@
         {% for imp in dynamics.index.footer %}
           {% include imp %}
         {% endfor %}
-        {% for imp in dynamics.common.footer %}
-          {% include imp %}
-        {% endfor %}
       </main>
       {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
         {%include "components/sidebar.njk" %}
@@ -110,14 +107,12 @@
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
-      </div>
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
+    {% endfor %}
     </div>
     <div class="moon">
       <div class="moonImg"></div>
-    </div>
-    
-    <div class="trees">
-      <img src="https://raw.githubusercontent.com/interaminense/starry-sky/master/src/img/bgTree.png" alt="" />
     </div>
     </body>
   </html>
@@ -162,7 +157,7 @@ function initStars(){
     star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
     getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
   }
-  console.log(star)
+
   nightsky.innerHTML = star;
 
   let randomNum = 5000;

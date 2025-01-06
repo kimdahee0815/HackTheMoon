@@ -15,9 +15,8 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     <div class="nightsky">
-      <div class="constellation">
-        <div class="meteorShower"></div>
-      </div> 
+      <div class="constellation"></div> 
+      <div class="meteorShower"></div>
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgEnableSearch === true%}
       <div class="nav-top">
@@ -113,9 +112,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% for imp in dynamics.notes.footer %}
           {% include imp %}
         {% endfor %}
-        {% for imp in dynamics.common.footer %}
-          {% include imp %}
-        {% endfor %}
         <script>
           let iframeEl = document.querySelector('.container-root > iframe');
           let iframeUrl = iframeEl.getAttribute('src');
@@ -137,7 +133,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}
-    </div>
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
+    {% endfor %}
     </div>
     <div class="moon">
       <div class="moonImg"></div>
