@@ -10,8 +10,8 @@ module.exports = {
       let themeStyle = globSync("src/site/styles/_theme.*.css")[0] || "";
       if (themeStyle) {
         themeStyle = themeStyle.split("site")[1];
+        console.log(themeStyle);
       }
-      console.log(themeStyle)
       if (data.tags.indexOf("gardenEntry") != -1) {
         return "layouts/index.njk";
       }
