@@ -1,5 +1,4 @@
 require("dotenv").config();
-const { globSync } = require("glob");
 const settings = require("../../helpers/constants");
 
 const allSettings = settings.ALL_NOTE_SETTINGS;
@@ -7,10 +6,8 @@ const allSettings = settings.ALL_NOTE_SETTINGS;
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      if ((data.tags.indexOf("gardenEntry") != -1) && (document.body.classList.contains('theme-dark'))) {
+      if (data.tags.indexOf("gardenEntry") != -1) {
         return "layouts/index.njk";
-      }else if((data.tags.indexOf("gardenEntry") != -1) && (document.body.classList.contains('theme-light'))){
-        return "layouts/lightthemeindex.njk";
       }
       return "layouts/note.njk";
     },
