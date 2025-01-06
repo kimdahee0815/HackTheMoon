@@ -2,7 +2,7 @@
 
 function userComputed(data) {
   return {
-    theme: window.localStorage.getItem('site-theme')
+    theme: Window.localStorage.getItem('site-theme')
   };
 }
 
