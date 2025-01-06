@@ -21,7 +21,7 @@
 <!--SR:!2024-12-16,1,130-->
 
 배운대로 해;;Just remember what you learned/Just remember what I taught you
-<!--SR:!2024-12-16,2,190-->
+<!--SR:!2025-01-10,4,190-->
 
 나는 내가 늘 하던대로 했어;;I did what i've always done
 <!--SR:!2024-11-27,3,250-->
@@ -30,7 +30,7 @@
 난 그냥 지난 2주 동안 해왔던 대로 할게;;I'll just do what i've done for the past 2 weeks/I'll just do what i've been doing for the past 2 weeks
 <!--SR:!2024-12-22,8,250-->
 난 그냥 지금까지 해왔던 대로 할게;;I'll just do what i've been doing up to now
-<!--SR:!2024-12-17,2,203-->
+<!--SR:!2025-01-10,4,203-->
 
 그냥 원래 계획대로 하자;;Let's just do what we were originally planning to do/Let's just stick to our (original) plan
 <!--SR:!2024-12-31,20,250-->

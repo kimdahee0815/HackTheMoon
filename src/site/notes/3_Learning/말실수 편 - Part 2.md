@@ -21,7 +21,7 @@
 그가 그녀에게 속상하게 하는 말을 했어;;He said some things that upset her
 <!--SR:!2025-01-17,38,290-->
 내가 그녀를 속상하게 할만한 말을 한 것 같아;;I think I said some things that upset her
-<!--SR:!2025-01-05,26,290-->
+<!--SR:!2025-01-19,13,270-->
 
 3. 원래 하지 않으려던 말을 실수로 내뱉었거나 얘기를 해놓고 보니 실수였던 걸로 판단이 되는 말실수
 실수로 내가 그녀에게 그걸 말했어;;I accidentally told her about that/I accidentally mentioned something
@@ -41,7 +41,7 @@
 말이 잘못 나왔어요;;That didn't come out right
 <!--SR:!2025-01-09,26,290-->
 어떻게 들렸을지는 아는데, 내가 그런 걸 의도한 건 아니었어;;i didn't mean for that to sound like it did
-<!--SR:!2024-12-26,16,250-->
+<!--SR:!2025-01-14,8,230-->
 
 5. 바보 같은 말실수
 내가 바보같은 걸 말했어;;I said something stupid

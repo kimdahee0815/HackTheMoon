@@ -13,7 +13,7 @@
 아니, 안 가봤어;;No, I haven't been there
 <!--SR:!2024-12-29,14,290-->
 아니 한번도 안 가봤어;;No, I've never been there
-<!--SR:!2024-12-29,15,290-->
+<!--SR:!2025-03-08,61,310-->
 
 나 여기 와본적 있는 것 같아;;This place looks really familiar, I think i've been here before
 <!--SR:!2025-01-08,3,230-->
@@ -27,7 +27,7 @@
 <!--SR:!2024-12-26,11,270-->
 
 얘 늦어도 2시에는 출발해야 된다니까 그때까지 안 오면 못 만날 수도 있어;;He says he has to leave by 2. so if you can't be here until then you might miss him
-<!--SR:!2024-12-30,16,290-->
+<!--SR:!2025-03-13,66,310-->
 
 
 

@@ -12,7 +12,7 @@
 참고로, 이거 내가 샀을 때는 거의 백만원 들었어;;Just so you know, this cost almost 1 million won when I bought it
 <!--SR:!2025-01-05,2,230-->
 모두가 알고 있으라고 하는 얘긴데, 그녀의 할머니가 돌아가셨어. 오늘 좀 얘가 조용하더라도 이상한 농담 하고 그러지마, 알겠지?;;Just so everybody knows, her grandmother just passed away. So even if she seems a little quiet today, don't make weird jokes, okay?
-<!--SR:!2024-12-30,3,250-->
+<!--SR:!2025-01-14,8,250-->
 
 참고로 저는 내일 아침 내내 회의에 참석을 해야하니까, 저랑 연락을 하시려면 돌아올때까지 기다리셔야 할 거에요;;On/As a side note, I'll be attending meetings all morning tomorrow. So, if you need to reach me, you'll have to wait until I get back
 <!--SR:!2024-12-28,1,230-->
@@ -21,7 +21,7 @@
 <!--SR:!2024-12-28,1,230-->
 
 한 가지 추가로;;One other thing
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-09,3,250-->
 
 그나저나;;by the way
 <!--SR:!2025-01-20,15,290-->

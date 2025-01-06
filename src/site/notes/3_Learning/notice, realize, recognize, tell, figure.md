@@ -16,7 +16,7 @@
 누구였어?;;who was it?
 <!--SR:!2025-01-06,4,270-->
 몰라, 난 못 알아보겠던데. 내가 아는 작가는 아니었던 것 같아;;I don't know, I didn't recognize her. I don't think she was any writer that I know
-<!--SR:!2025-01-05,3,250-->
+<!--SR:!2025-01-16,10,270-->
 
 
 

@@ -24,14 +24,14 @@
 경험을 더 많이 쌓을수록 쉬워질거야;;As you gain more experience, it's gonna get easier
 <!--SR:!2024-12-17,2,170-->
 이야기가 진행될수록(되면서), 점점 더 복잡해진다;;As the story progresses, it becomes more and more complicated./It becomes more complicated as the story progresses
-<!--SR:!2025-01-06,4,230-->
+<!--SR:!2025-01-18,12,250-->
 끝으로 갈수록 더 어려워졌어;;As I got closer to the end(Towards the end), it became more difficult
 <!--SR:!2025-01-08,28,270-->
 
 갈수록 어려워지는 것 같아;;I feel like it's becoming more and more difficult
 <!--SR:!2025-01-15,35,270-->
 이야기가 갈수록 좀 이상해져;;The story is becoming a little strange
-<!--SR:!2024-12-18,7,210-->
+<!--SR:!2025-01-22,16,210-->
 
 
 

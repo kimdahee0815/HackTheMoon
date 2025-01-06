@@ -8,12 +8,12 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/XUEnIZ_e7pE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 참고로, 다음번에 이런 일이 생기면 나한테 먼저 말해줘요;;Just so you know, the next time something like this happens, just tell me first
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-08,2,230-->
 앞으로를 위한 참고사항으로;;For future reference(formal)/Just so there's no confusion(misunderstanding)/Just so you're prepared
-<!--SR:!2025-01-06,1,210-->
+<!--SR:!2025-01-08,2,210-->
 
 (상대방을 주목시키며)수정된 사항에 대해 주목해서 보세요, 당신에 관한 것일 수도 있습니다;;Please take note of the changes/Notice the changes/I'd like to point out about that, they might be related to you/They might concern you.
-<!--SR:!2025-01-06,1,210-->
+<!--SR:!2025-01-07,1,190-->
 
 Take note/Take note of/Take note that
 

@@ -18,7 +18,7 @@
 운전 면허 연습을 받기 시작했어, 나 그거 오랫동한 하려고 했었어;;I started taking driving lessons, which i've been meaning to do for a while
 <!--SR:!2025-01-07,2,230-->
 미팅을 하는 동안 우리는 몇가지를 논의했는데, 그 중 대부분이 다음주에 다가오는 이벤트에 관한 것이었어요;;We discussed several things during the meeting, most of which were related to the upcoming event next week
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-09,3,250-->
 내가 봤을 때 우리에게는 3가지 옵션이 있는데, 그 어떤것도 좋은 건 아니야;;As far as I can tell, we have three options, none of which are very good
 <!--SR:!2024-12-28,1,230-->
 

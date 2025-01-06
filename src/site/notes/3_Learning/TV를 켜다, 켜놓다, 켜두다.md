@@ -27,7 +27,7 @@ TV를 켜두다;;Leave the TV (turned) on
 문 닫을까요?;;Should I close the door?
 <!--SR:!2024-12-24,14,290-->
 (현재 상태 유지 or 상태변화 후 유지) 아니오, 그냥 열어놓으세요;;No, just leave it open
-<!--SR:!2024-12-27,16,290-->
+<!--SR:!2025-03-12,65,310-->
 
 
 
