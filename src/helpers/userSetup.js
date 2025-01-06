@@ -7,7 +7,7 @@ function userEleventySetup(eleventyConfig) {
   // Feel free to add any plugin you want here instead of /.eleventy.js
   eleventyConfig.addShortcode("expose", data => {
     return `<script id="__EXPOSE__">
-        window.__DATA__=JSON.parse(${JSON.stringify(data)});
+        window.__theme__=JSON.parse(${JSON.stringify(data)});
         document.getElementById("__EXPOSE__").remove();
     </script>`;
 })
