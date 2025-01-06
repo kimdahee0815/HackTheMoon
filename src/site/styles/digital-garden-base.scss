@@ -171,7 +171,9 @@ ul.task-list {
     flex-direction: column;
     justify-content: flex-start;
     height: 87%;
-    margin-top: 20px;
+    @media screen and (max-width: 1615px) {
+        margin-top: 20px;
+    }
 }
 
 .toc {
