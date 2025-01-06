@@ -29,15 +29,31 @@
         document.getElementById('theme-switch').classList.remove(...toRemove);
     }
     function setTheme(theme, setIcon) {
+        const nightsky = document.querySelector('.nightsky');
+        const meteorShower = document.querySelector('.meteorShower');
+        const constellation = document.querySelector('.constellation');
+        const trees = document.querySelector('.trees');
+        const moon = document.querySelector('.moon');
+        const moonImg = document.querySelector('.moonImg');
         if (setIcon) {
             setThemeIcon(theme);
         }
         if (theme == 'dark') {
             document.body.classList.remove('theme-light');
-            document.body.classList.add('theme-dark');
+            document.body.classList.remove('theme-dark');
+            nightsky.classList.remove('hideForLightTheme');
+            meteorShower.classList.remove('hideForLightTheme');
+            constellation.classList.remove('hideForLightTheme');
+            trees.classList.remove('hideForLightTheme');
+            moonImg.classList.remove('hideForLightTheme');
         } else if (theme == "light") {
             document.body.classList.add('theme-light');
-            document.body.classList.remove('theme-dark');
+            document.body.classList.add('theme-dark');
+            nightsky.classList.add('hideForLightTheme');
+            meteorShower.classList.add('hideForLightTheme');
+            constellation.classList.add('hideForLightTheme');
+            trees.classList.add('hideForLightTheme');
+            moonImg.classList.add('hideForLightTheme');
         } else {
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
