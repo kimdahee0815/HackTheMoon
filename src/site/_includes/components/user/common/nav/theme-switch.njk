@@ -29,15 +29,45 @@
         document.getElementById('theme-switch').classList.remove(...toRemove);
     }
     function setTheme(theme, setIcon) {
+        const nightsky = document.querySelector('.nightsky');
+        const trees = document.querySelector('.trees');
         if (setIcon) {
             setThemeIcon(theme);
         }
         if (theme == 'dark') {
             document.body.classList.remove('theme-light');
             document.body.classList.add('theme-dark');
+            let darkThemeElementsStr = "";
+            const lightThemeElements = Array.from(document.body.children);
+            let lightThemeElementsStr = "";
+            for(let el of lightThemeElements){
+                lightThemeElementsStr += el.outerHTML;
+            }
+            darkThemeElementsStr = `<div class="nightsky">
+            <div class="constellation"></div>
+            <div class="meteorShower"></div>
+            ${lightThemeElementsStr}
+            <div class="trees">
+                <img src="https://raw.githubusercontent.com/interaminense/starry-sky/master/src/img/bgTree.png" alt="" />
+            </div>
+            </div>
+            <div class="moon">
+                <div class="moonImg"></div>
+            </div>`
+            document.body.replaceChildren();
+            document.body.insertAdjacentHTML('afterbegin', darkThemeElementsStr)
         } else if (theme == "light") {
             document.body.classList.add('theme-light');
             document.body.classList.remove('theme-dark');
+            const nightskyChildren = Array.from(nightsky.children);
+            const lightThemeElements = nightskyChildren.slice(2, nightskyChildren.length - 1);
+            let lightThemeElementsStr = "";
+            for(let el of lightThemeElements){
+                lightThemeElementsStr += el.outerHTML;
+            }
+            nightsky.remove();
+            document.body.insertAdjacentHTML('afterbegin', lightThemeElementsStr);
+            trees.remove();
         } else {
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
