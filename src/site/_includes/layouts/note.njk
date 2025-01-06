@@ -140,9 +140,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     <div class="moon">
       <div class="moonImg"></div>
     </div>
-    <div class="trees">
-      <img src="https://raw.githubusercontent.com/interaminense/starry-sky/master/src/img/bgTree.png" alt="" />
-    </div>
   </body>
 </html>
 <script>
@@ -150,7 +147,7 @@ function initStars(){
   const windowWidth = screen.width;
   const windowHeight = screen.height;
 
-  function getRandomValue(max: number): number {
+  function getRandomValue(max) {
     return Math.floor(Math.random() * max);
   }
 
@@ -177,29 +174,29 @@ function initStars(){
   const y = getRandomValue(windowHeight);
 
   for(let i = 0; i < numberOfStars; i++){
-    const _s = getRandomValue(3);
-    const _o = getRandomValue(5);
-    const _t = getRandomValue(7);
-    const className = 'star ' + style[_s] + ' ' + opacity[_o] + ' ' + twinkle[_t];
+    let _s = getRandomValue(3);
+    let _o = getRandomValue(5);
+    let _t = getRandomValue(7);
+    let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
   
-    star += "<span class=className style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+    star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
     getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
   }
-  
+
   nightsky.innerHTML = star;
 
   let randomNum = 5000;
 
-  setTimeOut(function(){
+  setTimeout(function(){
     shootingStars();
   }, randomNum);
 
   function shootingStars(){
-    setTimeOut(shootingStars, randomNum);
+    setTimeout(shootingStars, randomNum);
     randomNum = getRandomArbitrary(5000, 10000);
-    const _s = getRandomArbitrary(0, 4);
+    const _s = getRandomArbitrary(0, 3);
     let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
-    document.getElementByClassName('meteorShower')[0].innerHTML = shootingStar;
+    document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
     setTimeout(function(){
       document.getElementsByClassName('meteorShower')[0].innerHTML = "";
     }, 1000);
