@@ -115,7 +115,8 @@
       <div class="moon">
         <div class="moonImg"></div>
       </div>
-    {% elif window.localStorage.getItem("site-theme") === "light" %}
+    {% endif %}
+    {% if window.localStorage.getItem("site-theme") === "light" %}
       {%include "components/notegrowthhistory.njk"%}
       {% if settings.dgEnableSearch === true%}
       <div class="nav-top" style="display: flex; justify-content: space-between; width:100%; align-items: center;">
@@ -151,7 +152,7 @@
               </div>
           {% endif %}
         </div>
-      {%endif%}
+      {% endif %}
     {% endmacro %}
     <div class="main-container">
       {% if settings.dgShowFileTree !== true %}
