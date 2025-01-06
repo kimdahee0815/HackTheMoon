@@ -11,7 +11,7 @@
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
-    {% if window.localStorage.getItem('site-theme') === undefined | 'dark' %}
+    {% if (window.localStorage.getItem("site-theme") === undefined) or (window.localStorage.getItem("site-theme") === "dark") %}
       <div class="nightsky">
         <div class="constellation"></div> 
         <div class="meteorShower"></div>
@@ -115,7 +115,7 @@
       <div class="moon">
         <div class="moonImg"></div>
       </div>
-    {% elif window.localStorage.getItem('site-theme') == 'light' %}
+    {% elif window.localStorage.getItem("site-theme") === "light" %}
       {%include "components/notegrowthhistory.njk"%}
       {% if settings.dgEnableSearch === true%}
       <div class="nav-top" style="display: flex; justify-content: space-between; width:100%; align-items: center;">
