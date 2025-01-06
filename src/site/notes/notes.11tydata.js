@@ -6,8 +6,10 @@ const allSettings = settings.ALL_NOTE_SETTINGS;
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      if (data.tags.indexOf("gardenEntry") != -1) {
+      if ((data.tags.indexOf("gardenEntry") != -1) && (window.localStorage.getItem('site-theme') === 'dark' || undefined)) {
         return "layouts/index.njk";
+      }else if((data.tags.indexOf("gardenEntry") != -1) && (window.localStorage.getItem('site-theme') === 'dark' || undefined)){
+        return "layouts/lightthemeindex.njk";
       }
       return "layouts/note.njk";
     },
