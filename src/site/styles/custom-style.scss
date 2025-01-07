@@ -906,9 +906,8 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     }
   }
 
-#cover{
+.cover{
     position: fixed;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -919,6 +918,10 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     background: -webkit-linear-gradient(top, rgb(0,0,0) 50%, rgb(25, 19, 39)80%, rgb(43,32,72));
     z-index: 9999;
 }
+
+.hidden{
+    display: none;
+  }
 
   @keyframes fadeInFromLeft {
     0% {
@@ -931,6 +934,23 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     }
   } 
 
+  @keyframes fadeOutFromLeft {
+    0% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  } 
+
   .fadeInFromLeft-animation {
     animation: 3s fadeInFromLeft;
+    display: flex;
   }
+  .fadeOutFromLeft-animation{
+    animation: 2s fadeOutFromLeft;
+  }
+
+ 
