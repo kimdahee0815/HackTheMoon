@@ -58,12 +58,13 @@
                 meteorShower.classList.add('noMeteorShower');
                 trees.classList.add('noTrees');
                 trees.classList.remove('trees');
-            } else if(theme == 'auto' && window.localStorage.getItem('prevTheme') == 'light'){
+            } else if (theme == "light" && window.localStorage.getItem('prevTheme') == 'light') {
+                return;
+            } else if(theme == "auto" && window.localStorage.getItem('prevTheme') == 'light'){
                 theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-                setTheme(theme, false);
+                setTheme(theme, true);
             }
         }
-        
     }
 
     document.getElementById('theme-switch').addEventListener('click', function() {

@@ -183,6 +183,22 @@ function initStars(){
     }
 }
 
+function changeDisqusFontColor(){
+  const disqusThread = document.getElementById('disqus_thread');
+  if(window.localStorage.getItem('site-theme') == 'dark'){
+    disqusThread.style.color = '#fff";
+  }else if(window.localStorage.getItem('site-theme') == 'light'){
+    disqusThread.style.color = '#2a2e2e";
+  }else{
+    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    if(preferTheme == 'light'){
+      disqusThread.style.color = '#2a2e2e";
+    }else{
+      disqusThread.style.color = '#fff";
+    }
+  }
+}
+
 function init(){
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
@@ -208,7 +224,7 @@ function init(){
             }else if(theme == 'dark'){
                 window.localStorage.setItem('prevTheme', "auto");
             }
-            setTheme(theme, false);
+            setTheme(theme, true);
             window.localStorage.setItem('site-theme', "auto");
         }
     });
@@ -224,8 +240,9 @@ function init(){
         document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
         document.getElementById('hiddenCover').style.display = "none";
       },1501);
-  }, 500);
-  } 
+    }, 500);
+    } 
+  changeDisqusFontColor();
 }
 document.addEventListener("DOMContentLoaded", init);
 
