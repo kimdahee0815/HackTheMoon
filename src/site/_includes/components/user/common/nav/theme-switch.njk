@@ -31,7 +31,7 @@
     function setTheme(theme, setIcon) {
         const sky = document.getElementById('sky');
         const constellation = document.getElementById('constellation');
-        const meteoShower = document.getElementById('meteoShower');
+        const meteorShower = document.querySelector('.meteorShower');
         const trees = document.getElementById('trees');
         if (setIcon) {
             setThemeIcon(theme);
@@ -43,7 +43,7 @@
             sky.classList.remove('sky');
             constellation.classList.remove('noConstellation');
             constellation.classList.add('constellation');
-            meteoShower.classList.remove('noMeteoShower');
+            meteorShower.classList.remove('noMeteorShower');
             trees.classList.remove('noTrees');
             trees.classList.add('trees');
         } else if (theme == "light") {
@@ -53,7 +53,7 @@
             sky.classList.remove('nightsky');
             constellation.classList.add('noConstellation');
             constellation.classList.remove('constellation');
-            meteoShower.classList.add('noMeteoShower');
+            meteorShower.classList.add('noMeteorShower');
             trees.classList.add('noTrees');
             trees.classList.remove('trees');
         } else {
