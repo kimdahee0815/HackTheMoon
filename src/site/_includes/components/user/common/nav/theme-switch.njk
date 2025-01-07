@@ -37,7 +37,7 @@
             setThemeIcon(theme);
         }
         if(window.localStorage.getItem('prevTheme')){
-            if (theme == 'dark' && window.localStorage.getItem('prevTheme') == 'auto') {
+            if (theme == 'dark' && (window.localStorage.getItem('prevTheme') == 'auto' || window.localStorage.getItem('prevTheme') == 'light')) {
                 document.body.classList.remove('theme-light');
                 document.body.classList.add('theme-dark');
                 sky.classList.add('nightsky');
@@ -47,7 +47,7 @@
                 meteorShower.classList.remove('noMeteorShower');
                 trees.classList.remove('noTrees');
                 trees.classList.add('trees');
-            } else if (theme == "light") {
+            } else if (theme == "light" && window.localStorage.getItem('prevTheme') == 'dark') {
                 document.body.classList.add('theme-light');
                 document.body.classList.remove('theme-dark');
                 sky.classList.add('sky');
@@ -57,7 +57,7 @@
                 meteorShower.classList.add('noMeteorShower');
                 trees.classList.add('noTrees');
                 trees.classList.remove('trees');
-            } else {
+            } else if(theme == 'auto' && window.localStorage.getItem('prevTheme') == 'light'){
                 theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
                 setTheme(theme, false);
             }
@@ -65,7 +65,6 @@
         
     }
     let theme = window.localStorage.getItem('site-theme') || "dark";
-    setTheme(theme, true);
     window.theme = theme;
     window.localStorage.setItem('site-theme', theme);
 
