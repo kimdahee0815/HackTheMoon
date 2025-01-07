@@ -167,40 +167,44 @@ function initStars(){
     'twinkle4',
   ];
 
-  let nightsky = document.querySelector(".constellation");
-  let star = "";
-  let numberOfStars = 250;
-  const x = getRandomValue(windowWidth);
-  const y = getRandomValue(windowHeight);
+    let nightsky = document.querySelector(".constellation");
+    let star = "";
+    let numberOfStars = 250;
+    const x = getRandomValue(windowWidth);
+    const y = getRandomValue(windowHeight);
 
-  for(let i = 0; i < numberOfStars; i++){
-    let _s = getRandomValue(3);
-    let _o = getRandomValue(5);
-    let _t = getRandomValue(7);
-    let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
+    for(let i = 0; i < numberOfStars; i++){
+      let _s = getRandomValue(3);
+      let _o = getRandomValue(5);
+      let _t = getRandomValue(7);
+      let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
   
-    star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
-    getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
-  }
+      star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+      getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
+    }
 
-  nightsky.innerHTML = star;
+    nightsky.innerHTML = star;
 
-  let randomNum = 5000;
+    let randomNum = 5000;
 
-  setTimeout(function(){
-    shootingStars();
-  }, randomNum);
-
-  function shootingStars(){
-    setTimeout(shootingStars, randomNum);
-    randomNum = getRandomArbitrary(5000, 10000);
-    const _s = getRandomArbitrary(0, 3);
-    let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
-    document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
     setTimeout(function(){
-      document.getElementsByClassName('meteorShower')[0].innerHTML = "";
-    }, 1000);
-  }
+      if(window.localStorage.getItem('site-theme') == 'dark'){
+        shootingStars();
+      }
+    }, randomNum);
+
+    function shootingStars(){
+        setTimeout(shootingStars, randomNum);
+        randomNum = getRandomArbitrary(5000, 10000);
+        const _s = getRandomArbitrary(0, 3);
+        let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
+        document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
+        setTimeout(function(){ 
+           document.getElementsByClassName('meteorShower')[0].innerHTML = ""; 
+        }, 1000);
+    }
 }
-window.onload = initStars;
+if(window.localStorage.getItem('site-theme') == 'dark'){
+  initStars();
+}
 </script>
