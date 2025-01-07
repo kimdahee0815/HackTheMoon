@@ -242,7 +242,7 @@ function init(){
   }
   document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
-  document.getElementById("cover").style.display = "none";
+  setTimeout(()=> {document.getElementById("cover").style.display = "none"}, 5000);
 }
   </script>
   </body>
