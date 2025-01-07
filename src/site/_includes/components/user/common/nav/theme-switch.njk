@@ -65,7 +65,7 @@
         }
         
     }
-
+    setThemeIcon('dark');
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
         const settings = window.localStorage.getItem('site-theme');
         if (!settings || settings == "auto") {
