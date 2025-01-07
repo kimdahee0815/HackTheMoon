@@ -222,12 +222,15 @@ window.onload = () => {
   document.getElementById('hiddenCover').classList.remove('fadeOutFromLeft-animation');
   document.getElementById('hiddenCover').classList.add('fadeInFromLeft-animation');
  
-  if (document.getElementById('hiddenCover').classList.contains('fadeInFromLeft-animation')) {
-    document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
-    setTimeout(function(){ 
-      document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
-    },3000);
-  }
+  setTimeout(() => {
+    if (document.getElementById('hiddenCover').classList.contains('fadeInFromLeft-animation')) {
+      document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
+      setTimeout(function(){ 
+        document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
+      },3000);
+    }
+  }, 1000);
+ 
 }
 </script>
     </body>
