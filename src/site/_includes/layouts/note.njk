@@ -209,6 +209,11 @@ function initStars(){
     }
 }
 
+function changeDisqusFontColor(){
+  const disqusThread = document.getElementById('disqus_thread');
+  disqusThread.addAdjacentHTML('afterbegin', '<p></p>');
+}
+
 function init(){
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
@@ -250,8 +255,9 @@ function init(){
         document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
         document.getElementById('hiddenCover').style.display = "none";
       },1001);
-  }, 500);
-  } 
+    }, 500);
+    } 
+    changeDisqusFontColor();
   }
   document.addEventListener("DOMContentLoaded", init);
 
