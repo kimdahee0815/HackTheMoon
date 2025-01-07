@@ -140,9 +140,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     <div id="moon" class="moon">
       <div id="moonImg" class="moonImg"></div>
     </div>
-  </body>
-</html>
-<script>
+<script defer>
 function initStars(){
   const windowWidth = screen.width;
   const windowHeight = screen.height;
@@ -204,7 +202,8 @@ function initStars(){
         }, 1000);
     }
 }
-if(window.localStorage.getItem('site-theme') == 'dark'){
+let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && preferTheme == 'dark')){
   initStars();
 }
 function init(){
@@ -235,6 +234,8 @@ function init(){
             window.localStorage.setItem('site-theme', "auto");
         }
     });
-}
-window.onload = init;
-</script>
+  }
+  window.onload = init;
+  </script>
+  </body>
+</html>
