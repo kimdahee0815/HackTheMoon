@@ -245,11 +245,8 @@ function init(){
   }
   document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
-  setTimeout(()=> {
-    document.getElementById("cover").classList.remove('fadeInLeft-animation');
-    document.getElementById("cover").classList.add('fadeOutRight-animation');
-    document.getElementById("cover").style.display = "none"
-    }, 1000);
+  document.getElementById("cover").classList.remove('fadeInLeft-animation');
+  document.getElementById("cover").classList.add('fadeOutRight-animation');
 }
   </script>
   </body>
