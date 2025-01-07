@@ -167,7 +167,7 @@ function initStars(){
     'twinkle4',
   ];
 
-    let nightsky = document.querySelector(".constellation");
+    let constellation = document.querySelector(".constellation");
     let star = "";
     let numberOfStars = 250;
     const x = getRandomValue(windowWidth);
@@ -183,7 +183,7 @@ function initStars(){
       getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
     }
 
-    nightsky.innerHTML = star;
+    constellation.innerHTML = star;
 
     let randomNum = 5000;
 
