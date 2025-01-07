@@ -177,7 +177,9 @@ function initStars(){
       document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
     } 
     setTimeout(function(){
-      document.getElementsByClassName('meteorShower')?.[0].innerHTML = "";
+      if(document.getElementsByClassName('meteorShower')){
+        document.getElementsByClassName('meteorShower').[0].innerHTML = "";
+      }
     }, 1000);
   }
 }
