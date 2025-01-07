@@ -905,3 +905,13 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
       -webkit-transform: rotate(360deg);
     }
   }
+
+#cover{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 9999;
+}

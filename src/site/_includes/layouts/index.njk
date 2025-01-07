@@ -10,6 +10,7 @@
       {% include imp %}
     {% endfor %}
   </head>
+  <div id="cover"></div>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
       <div id="sky" class="nightsky">
         <div id="constellation" class="constellation"></div> 
@@ -212,6 +213,7 @@ function init(){
     }
 }
 document.addEventListener("DOMContentLoaded", init);
+window.onload = document.getElementById("cover").style.display = "none";
 </script>
     </body>
   </html>
