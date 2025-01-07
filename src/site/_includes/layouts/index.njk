@@ -220,14 +220,12 @@ function init(){
 document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
   if(window.localStorage.getItem('prevTheme')){
-    if(document.getElementById('hiddenCover').classList.contains('hidden')){
-      document.getElementById('hiddenCover').classList.remove('hidden');
-    }
+    document.getElementById('hiddenCover').style.display = "flex";
     setTimeout(() => {
       document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
       setTimeout(function(){ 
         document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
-        document.getElementById('hiddenCover').classList.add('hidden');
+        document.getElementById('hiddenCover').style.display = "none";
       },1001);
   }, 3500);
   } 
