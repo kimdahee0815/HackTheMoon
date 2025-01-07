@@ -219,18 +219,19 @@ function init(){
 }
 document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
-  document.getElementById('hiddenCover').classList.remove('fadeOutFromLeft-animation');
-  document.getElementById('hiddenCover').classList.add('fadeInFromLeft-animation');
+  if(window.localStorage.getItem('prevTheme')){
+    document.getElementById('hiddenCover').classList.remove('fadeOutFromLeft-animation'); 
+    document.getElementById('hiddenCover').classList.add('fadeInFromLeft-animation');
  
-  setTimeout(() => {
-    if (document.getElementById('hiddenCover').classList.contains('fadeInFromLeft-animation')) {
-      document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
-      setTimeout(function(){ 
-        document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
-      },1001);
-    }
-  }, 3500);
- 
+    setTimeout(() => {
+      if (document.getElementById('hiddenCover').classList.contains('fadeInFromLeft-animation')) {
+        document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
+        setTimeout(function(){ 
+          document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
+        },1001);
+      }
+    }, 3500);
+  } 
 }
 </script>
     </body>
