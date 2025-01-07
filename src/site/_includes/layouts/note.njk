@@ -242,10 +242,7 @@ function init(){
     if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && preferTheme == 'dark')){
       initStars();
     }
-  }
-  document.addEventListener("DOMContentLoaded", init);
-window.onload = () => {
-  if(window.localStorage.getItem('prevTheme')){
+      if(window.localStorage.getItem('prevTheme')){
     document.getElementById('hiddenCover').style.display = "flex";
     setTimeout(() => {
       document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
@@ -255,7 +252,9 @@ window.onload = () => {
       },1001);
   }, 3500);
   } 
-}
+  }
+  document.addEventListener("DOMContentLoaded", init);
+
   </script>
   </body>
 </html>
