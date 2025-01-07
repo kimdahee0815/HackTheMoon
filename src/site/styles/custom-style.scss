@@ -919,3 +919,18 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     background: -webkit-linear-gradient(top, rgb(0,0,0) 50%, rgb(25, 19, 39)80%, rgb(43,32,72));
     z-index: 9999;
 }
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }
