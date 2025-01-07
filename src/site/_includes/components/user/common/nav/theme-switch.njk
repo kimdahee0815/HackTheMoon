@@ -50,6 +50,7 @@
                 lightThemeElementsStr += el.outerHTML;
             }
             document.body.insertAdjacentHTML('afterbegin', lightThemeElementsStr);
+            nightsky.remove();
         } else {
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
