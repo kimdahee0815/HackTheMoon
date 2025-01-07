@@ -11,104 +11,6 @@
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
-       <script defer>
-function initStars(){
-  const windowWidth = screen.width;
-  const windowHeight = screen.height;
-
-  function getRandomValue(max) {
-    return Math.floor(Math.random() * max);
-  }
-
-  function getRandomArbitrary(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-  }
-
-  const style = ['style1', 'style2', 'style3'];
-  const opacity = ['opacity1', 'opacity1', 'opacity1', 'opacity2', 'opacity3'];
-  const twinkle = [
-    'twinkle1',
-    'twinkle1',
-    'twinkle1',
-    'twinkle2',
-    'twinkle2',
-    'twinkle3',
-    'twinkle4',
-  ];
-
-    let constellation = document.querySelector(".constellation");
-    let star = "";
-    let numberOfStars = 250;
-    const x = getRandomValue(windowWidth);
-    const y = getRandomValue(windowHeight);
-
-    for(let i = 0; i < numberOfStars; i++){
-      let _s = getRandomValue(3);
-      let _o = getRandomValue(5);
-      let _t = getRandomValue(7);
-      let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
-  
-      star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
-      getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
-    }
-
-    constellation.innerHTML = star;
-
-    let randomNum = 5000;
-
-    setTimeout(function(){
-      if(window.localStorage.getItem('site-theme') == 'dark'){
-        shootingStars();
-      }
-    }, randomNum);
-
-    function shootingStars(){
-        setTimeout(shootingStars, randomNum);
-        randomNum = getRandomArbitrary(5000, 10000);
-        const _s = getRandomArbitrary(0, 3);
-        let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
-        document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
-        setTimeout(function(){ 
-           document.getElementsByClassName('meteorShower')[0].innerHTML = ""; 
-        }, 1000);
-    }
-}
-let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && preferTheme == 'dark')){
-  initStars();
-}
-function init(){
-    let theme = window.localStorage.getItem('site-theme') || "dark";
-    if(theme == 'dark'){
-      setThemeIcon(theme);
-      initStars();
-    }
-    if(theme == 'light'){
-      setTheme(theme, true);
-    }
-    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-    if(theme == 'auto' && preferTheme == 'light'){
-       setTheme(theme, true);
-    }
-    window.theme = theme;
-    window.localStorage.setItem('site-theme', theme);
-
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
-        const settings = window.localStorage.getItem('site-theme');
-        if (!settings || settings == "auto") {
-            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-            if(theme == 'light'){
-                window.localStorage.setItem('prevTheme', "dark");
-            }else if(theme == 'dark'){
-                window.localStorage.setItem('prevTheme', "auto");
-            }
-            setTheme(theme, false);
-            window.localStorage.setItem('site-theme', "auto");
-        }
-    });
-}
-window.onload = init;
-</script>
       <div id="sky" class="nightsky">
         <div id="constellation" class="constellation"></div> 
         <div id="meteorShower" class="meteorShower"></div>
@@ -212,6 +114,104 @@ window.onload = init;
       <div id="moon" class="moon">
         <div id="moonImg" class="moonImg"></div>
       </div>
+       <script defer>
+function initStars(){
+  const windowWidth = screen.width;
+  const windowHeight = screen.height;
+
+  function getRandomValue(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
+  const style = ['style1', 'style2', 'style3'];
+  const opacity = ['opacity1', 'opacity1', 'opacity1', 'opacity2', 'opacity3'];
+  const twinkle = [
+    'twinkle1',
+    'twinkle1',
+    'twinkle1',
+    'twinkle2',
+    'twinkle2',
+    'twinkle3',
+    'twinkle4',
+  ];
+
+    let constellation = document.querySelector(".constellation");
+    let star = "";
+    let numberOfStars = 250;
+    const x = getRandomValue(windowWidth);
+    const y = getRandomValue(windowHeight);
+
+    for(let i = 0; i < numberOfStars; i++){
+      let _s = getRandomValue(3);
+      let _o = getRandomValue(5);
+      let _t = getRandomValue(7);
+      let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
+  
+      star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+      getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
+    }
+
+    constellation.innerHTML = star;
+
+    let randomNum = 5000;
+
+    setTimeout(function(){
+      if(window.localStorage.getItem('site-theme') == 'dark'){
+        shootingStars();
+      }
+    }, randomNum);
+
+    function shootingStars(){
+        setTimeout(shootingStars, randomNum);
+        randomNum = getRandomArbitrary(5000, 10000);
+        const _s = getRandomArbitrary(0, 3);
+        let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
+        document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
+        setTimeout(function(){ 
+           document.getElementsByClassName('meteorShower')[0].innerHTML = ""; 
+        }, 1000);
+    }
+}
+let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && preferTheme == 'dark')){
+  initStars();
+}
+function init(){
+    let theme = window.localStorage.getItem('site-theme') || "dark";
+    if(theme == 'dark'){
+      setThemeIcon(theme);
+      initStars();
+    }
+    if(theme == 'light'){
+      setTheme(theme, true);
+    }
+    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    if(theme == 'auto' && preferTheme == 'light'){
+       setTheme(theme, true);
+    }
+    window.theme = theme;
+    window.localStorage.setItem('site-theme', theme);
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
+        const settings = window.localStorage.getItem('site-theme');
+        if (!settings || settings == "auto") {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+            if(theme == 'light'){
+                window.localStorage.setItem('prevTheme', "dark");
+            }else if(theme == 'dark'){
+                window.localStorage.setItem('prevTheme', "auto");
+            }
+            setTheme(theme, false);
+            window.localStorage.setItem('site-theme', "auto");
+        }
+    });
+}
+window.onload = init;
+</script>
     </body>
   </html>
 
