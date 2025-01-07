@@ -893,14 +893,8 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     left: 0;
   }
 
-  .noTrees{
-    img{
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: none;
-    }
+  .noTrees img{
+    display: none;
   }
 
   @keyframes rotate {

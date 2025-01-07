@@ -29,14 +29,14 @@
         document.getElementById('theme-switch').classList.remove(...toRemove);
     }
     function setTheme(theme, setIcon) {
+        const sky = document.getElementById('sky');
+        const constellation = document.getElementById('constellation');
+        const shootingStar = document.getElementById('shootingStar');
+        const trees = document.getElementById('trees');
         if (setIcon) {
             setThemeIcon(theme);
         }
         if (theme == 'dark') {
-            const sky = document.querySelector('.sky');
-            const constellation = document.querySelector('.noConstellation');
-            const shootingStar = document.querySelector('.noShootingStar');
-            const trees = document.querySelector('.noTrees');
             document.body.classList.remove('theme-light');
             document.body.classList.add('theme-dark');
             sky.classList.add('nightsky');
@@ -48,10 +48,6 @@
             trees.classList.remove('noTrees');
             trees.classList.add('trees');
         } else if (theme == "light") {
-            const nightsky = document.querySelector('.nightsky');
-            const constellation = document.querySelector('.constellation');
-            const shootingStar = document.querySelector('.shootingStar');
-            const trees = document.querySelector('.trees');
             document.body.classList.add('theme-light');
             document.body.classList.remove('theme-dark');
             nightsky.classList.add('sky');
