@@ -211,12 +211,12 @@ function init(){
     if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && preferTheme == 'dark')){
       initStars();
     }
+    if(window.localStorage.getItem('site-theme') == 'light'){
+      document.getElementById("cover").style.background = '##fafafa';
+    }
 }
 document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
-  if(window.localStorage.getItem('site-theme') == 'light'){
-    document.getElementById("cover").style.background = '##fafafa';
-  }
   document.getElementById("cover").style.display = "none";
 }
 </script>
