@@ -931,9 +931,10 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     100% {
       transform: translateX(0%);
       opacity: 0;
+      display: none;
     }
   } 
 
   .fadeInOutFromRightToLeft-animation {
-    animation: 2s fadeInOutFromRightToLeft;
+    animation: 3s fadeInOutFromRightToLeft;
   }
