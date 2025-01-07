@@ -14,9 +14,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endfor %}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
-    <div class="nightsky">
-      <div class="constellation"></div> 
-      <div class="meteorShower"></div>
+    <div id="sky" class="nightsky">
+      <div id="constellation" class="constellation"></div> 
+      <div id="meteorShower" class="meteorShower"></div>
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgEnableSearch === true%}
       <div class="nav-top">
@@ -137,8 +137,8 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
     </div>
-    <div class="moon">
-      <div class="moonImg"></div>
+    <div id="moon" class="moon">
+      <div id="moonImg" class="moonImg"></div>
     </div>
   </body>
 </html>
