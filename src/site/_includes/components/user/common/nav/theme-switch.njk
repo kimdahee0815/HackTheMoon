@@ -47,6 +47,7 @@
                 meteorShower.classList.remove('noMeteorShower');
                 trees.classList.remove('noTrees');
                 trees.classList.add('trees');
+                initStars();
             } else if (theme == "light" && window.localStorage.getItem('prevTheme') == 'dark') {
                 document.body.classList.add('theme-light');
                 document.body.classList.remove('theme-dark');
