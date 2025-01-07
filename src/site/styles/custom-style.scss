@@ -916,6 +916,6 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     width: 100%;
     top: 0;
     left: 0;
-    background: #1b316c;
+    background: -webkit-linear-gradient(top, rgb(0,0,0) 50%, rgb(25, 19, 39)80%, rgb(43,32,72));
     z-index: 9999;
 }
