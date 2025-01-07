@@ -663,6 +663,12 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     position: absolute;
     overflow: scroll;
 }
+.sky{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: scroll;
+}
 
 .constellation{
     position: fixed;
@@ -671,6 +677,13 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     width: 100%;
     height: 100%;
     animation: rotate 600s infinite linear;
+}
+.noConstellation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .star {
@@ -787,6 +800,9 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     left: 2px;
     top: 0;
   }
+  .noShootingstar{
+    display: none;
+  }
 
 .shootingStar.style1 { animation-name: shootingStarStyle1; }
 .shootingStar.style2 { animation-name: shootingStarStyle2; }
@@ -875,6 +891,16 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+
+  .noTrees{
+    img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
   }
 
   @keyframes rotate {

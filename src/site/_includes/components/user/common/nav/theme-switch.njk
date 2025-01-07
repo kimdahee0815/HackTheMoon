@@ -33,33 +33,35 @@
             setThemeIcon(theme);
         }
         if (theme == 'dark') {
+            const sky = document.querySelector('.sky');
+            const constellation = document.querySelector('.noConstellation');
+            const shootingStar = document.querySelector('.noShootingStar');
+            const trees = document.querySelector('.noTrees');
             document.body.classList.remove('theme-light');
             document.body.classList.add('theme-dark');
-            const darkThemeHtmlStr = window.localStorage.getItem('dark-theme-html');
-            console.log(darkThemeHtmlStr);
-            while (document.body.hasChildNodes())
-            {
-                document.body.removeChild(document.body.firstChild);       
-            }
-            document.body.insertAdjacentHTML('afterbegin', darkThemeHtmlStr);
+            sky.classList.add('nightsky');
+            sky.classList.remove('sky');
+            constellation.classList.remove('noConstellation');
+            constellation.classList.add('constellation');
+            shootingStar.classList.remove('noShootingStar');
+            shootingStar.classList.add('shootingStar');
+            trees.classList.remove('noTrees');
+            trees.classList.add('trees');
         } else if (theme == "light") {
+            const nightsky = document.querySelector('.nightsky');
+            const constellation = document.querySelector('.constellation');
+            const shootingStar = document.querySelector('.shootingStar');
+            const trees = document.querySelector('.trees');
             document.body.classList.add('theme-light');
             document.body.classList.remove('theme-dark');
-            const nightsky = document.querySelector('.nightsky');
-            const nightskyChildren = Array.from(nightsky.children);
-            const lightThemeElements = nightskyChildren.slice(2, nightskyChildren.length - 1);
-            let lightThemeElementsStr = "";
-            for(let el of lightThemeElements){
-                lightThemeElementsStr += el.outerHTML;
-            }
-            const darkThemeBody = Array.from(document.body.children);
-            let darkThemeHtmlStr = "";
-            for(let el of darkThemeBody){
-                darkThemeHtmlStr += el.outerHTML;
-            }
-            window.localStorage.setItem('dark-theme-html', darkThemeHtmlStr);
-            document.body.insertAdjacentHTML('afterbegin', lightThemeElementsStr);
-            nightsky.remove();
+            nightsky.classList.add('sky');
+            nightsky.classList.remove('nightsky');
+            constellation.classList.add('noConstellation');
+            constellation.classList.remove('constellation');
+            shootingStar.classList.add('noShootingStar');
+            shootingStar.classList.remove('shootingStar');
+            trees.classList.add('noTrees');
+            trees.classList.remove('trees');
         } else {
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
@@ -76,7 +78,6 @@
         }
     });
     document.getElementById('theme-switch').addEventListener('click', function() {
-        console.log('click');
         let theme;
         if (window.theme == 'auto') {
             theme = 'dark';
