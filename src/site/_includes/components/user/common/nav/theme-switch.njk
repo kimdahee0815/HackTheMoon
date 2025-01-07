@@ -72,8 +72,14 @@
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
         const settings = window.localStorage.getItem('site-theme');
         if (!settings || settings == "auto") {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+            if(theme == 'light'){
+                window.localStorage.setItem('prevTheme', "dark");
+            }else if(theme == 'dark'){
+                window.localStorage.setItem('prevTheme', "auto");
+            }
+            setTheme(theme, false);
             window.localStorage.setItem('site-theme', "auto");
-            setTheme("auto", true);
         }
     });
     document.getElementById('theme-switch').addEventListener('click', function() {
