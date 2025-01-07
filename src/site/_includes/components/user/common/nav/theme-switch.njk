@@ -29,11 +29,6 @@
         document.getElementById('theme-switch').classList.remove(...toRemove);
     }
     function setTheme(theme, setIcon) {
-        const nightsky = document.querySelector('.nightsky');
-        const constellation = document.querySelector('.constellation');
-        const meteorShower = document.querySelector('.meteorShower');
-        const trees = document.querySelector('.trees');
-        const moon = document.querySelector('.moon');
         if (setIcon) {
             setThemeIcon(theme);
         }
@@ -50,6 +45,7 @@
         } else if (theme == "light") {
             document.body.classList.add('theme-light');
             document.body.classList.remove('theme-dark');
+            const nightsky = document.querySelector('.nightsky');
             const nightskyChildren = Array.from(nightsky.children);
             const lightThemeElements = nightskyChildren.slice(2, nightskyChildren.length - 1);
             let lightThemeElementsStr = "";
