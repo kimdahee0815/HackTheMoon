@@ -177,7 +177,9 @@ function initStars(){
         let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
         document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
         setTimeout(function(){
-            document.getElementsByClassName('meteorShower')[0].innerHTML = "";
+            if(window.localStorage.getItem('site-theme') == 'dark'){
+              document.getElementsByClassName('meteorShower')[0].innerHTML = "";
+            }
         }, 1000);
       }
     }
