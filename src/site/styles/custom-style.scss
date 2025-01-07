@@ -908,10 +908,13 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
 #cover{
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background: #000;
+    background: #fafafa;
     z-index: 9999;
 }
