@@ -9,7 +9,9 @@
     {% for imp in dynamics.index.head %}
       {% include imp %}
     {% endfor %}
-    <script defer>
+  </head>
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
+       <script defer>
 function initStars(){
   const windowWidth = screen.width;
   const windowHeight = screen.height;
@@ -107,8 +109,6 @@ function init(){
 }
 window.onload = init;
 </script>
-  </head>
-  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
       <div id="sky" class="nightsky">
         <div id="constellation" class="constellation"></div> 
         <div id="meteorShower" class="meteorShower"></div>
