@@ -63,8 +63,10 @@
         window.localStorage.setItem(prevTheme, theme);
     }
     let theme = window.localStorage.getItem('site-theme') || "dark";
-    if(theme == "light" && window.localStorage.getItem('prevTheme') == 'dark'){
-        setTheme(theme, true);
+    if(theme == "light" && window.localStorage.getItem('prevTheme') == "dark"){
+        setTheme('light', true);
+    }else if(theme == "dark" && window.localStorage.getItem('prevTheme') == "light"){
+        setTheme('dark', true);
     }
     setThemeIcon(theme);
     window.theme = theme;
