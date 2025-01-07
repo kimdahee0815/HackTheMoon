@@ -37,7 +37,7 @@
             setThemeIcon(theme);
         }
         if(window.localStorage.getItem('prevTheme')){
-            if (theme == 'dark') {
+            if (theme == 'dark' && window.localStorage.getItem('prevTheme') == 'auto') {
                 document.body.classList.remove('theme-light');
                 document.body.classList.add('theme-dark');
                 sky.classList.add('nightsky');
