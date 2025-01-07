@@ -10,7 +10,7 @@
       {% include imp %}
     {% endfor %}
   </head>
-  <div id="cover" class="fadeInUp-animation">
+  <div id="cover" class="fadeInLeft-animation">
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <dotlottie-player src="https://lottie.host/de011357-441a-46b6-adb4-644111f48887/VFBooHMMx9.lottie" background="transparent" speed="1" style="width: 600px; height: 600px; padding-top: 200px;" loop autoplay></dotlottie-player>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
@@ -219,7 +219,11 @@ function init(){
 }
 document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
-  setTimeout(()=> {document.getElementById("cover").style.display = "none"}, 1000);
+    setTimeout(()=> {
+    document.getElementById("cover").classList.remove('fadeInLeft-animation');
+    document.getElementById("cover").classList.add('fadeOutRight-animation');
+    document.getElementById("cover").style.display = "none"
+    }, 1000);
 }
 </script>
     </body>

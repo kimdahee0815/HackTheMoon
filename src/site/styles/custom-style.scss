@@ -930,7 +930,29 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
       opacity: 1;
     }
   }
-  
-  .fadeInUp-animation {
-    animation: 1.5s fadeInUp;
+  @keyframes fadeInLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  } 
+  @keyframes fadeOutRight {
+    100% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+    0% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+  } 
+  .fadeInLeft-animation {
+    animation: 1.5s fadeInLeft;
+  }
+  .fadeOutRight-animation {
+    animation: 1.5s fadeOutRight;
   }
