@@ -36,7 +36,7 @@
         if (setIcon) {
             setThemeIcon(theme);
         }
-        if (theme == 'dark') {
+        if (theme == 'dark' && prevTheme && prevTheme != theme) {
             document.body.classList.remove('theme-light');
             document.body.classList.add('theme-dark');
             sky.classList.add('nightsky');
@@ -62,12 +62,6 @@
         }
     }
     let theme = window.localStorage.getItem('site-theme') || "dark";
-    if(theme == "light" && window.localStorage.getItem('prevTheme') && theme != window.localStorage.getItem('prevTheme')){
-        setTheme('light', true);
-    }else if(theme == "dark" && window.localStorage.getItem('prevTheme') && theme != window.localStorage.getItem('prevTheme')){
-        setTheme('dark', true);
-    }
-
     setThemeIcon(theme);
     window.theme = theme;
     window.localStorage.setItem('site-theme', theme);
