@@ -41,7 +41,11 @@
             document.body.classList.remove('theme-light');
             document.body.classList.add('theme-dark');
             const darkThemeHtmlStr = window.localStorage.getItem('dark-theme-html');
-            document.body.replaceChildren();
+            console.log(darkThemeHtmlStr);
+            while (document.body.hasChildNodes())
+            {
+                document.body.removeChild(document.body.firstChild);       
+            }
             document.body.insertAdjacentHTML('afterbegin', darkThemeHtmlStr);
         } else if (theme == "light") {
             document.body.classList.add('theme-light');
