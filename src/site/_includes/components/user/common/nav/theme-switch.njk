@@ -40,12 +40,8 @@
         if (theme == 'dark') {
             document.body.classList.remove('theme-light');
             document.body.classList.add('theme-dark');
-            const darkThemeHtmlArr = JSON.parse(window.localStorage.getItem('dark-theme-html'));
+            const darkThemeHtmlStr = window.localStorage.getItem('dark-theme-html');
             document.body.replaceChildren();
-            let darkThemeHtmlStr = "";
-            for(let el of darkThemeHtmlArr){
-                darkThemeHtmlStr += el.outerHTML;
-            }
             document.body.insertAdjacentHTML('afterbegin', darkThemeHtmlStr);
         } else if (theme == "light") {
             document.body.classList.add('theme-light');
@@ -56,8 +52,12 @@
             for(let el of lightThemeElements){
                 lightThemeElementsStr += el.outerHTML;
             }
-            console.log(JSON.stringify(Array.from(document.body.children)))
-            window.localStorage.setItem('dark-theme-html', JSON.stringify(Array.from(document.body.children)));
+            const darkThemeBody = Array.from(document.body.children);
+            let darkThemeHtmlStr = "";
+            for(let el of darkThemeBody){
+                darkThemeHtmlStr += el.outerHTML;
+            }
+            window.localStorage.setItem('dark-theme-html', darkThemeHtmlStr);
             document.body.insertAdjacentHTML('afterbegin', lightThemeElementsStr);
             nightsky.remove();
         } else {
