@@ -143,28 +143,30 @@ function initStars(){
   ];
 
   let nightsky = document.querySelector(".constellation");
-  let star = "";
-  let numberOfStars = 250;
-  const x = getRandomValue(windowWidth);
-  const y = getRandomValue(windowHeight);
+  if(nightsky){
+      let star = "";
+      let numberOfStars = 250;
+      const x = getRandomValue(windowWidth);
+      const y = getRandomValue(windowHeight);
 
-  for(let i = 0; i < numberOfStars; i++){
-    let _s = getRandomValue(3);
-    let _o = getRandomValue(5);
-    let _t = getRandomValue(7);
-    let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
+      for(let i = 0; i < numberOfStars; i++){
+        let _s = getRandomValue(3);
+        let _o = getRandomValue(5);
+        let _t = getRandomValue(7);
+        let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
   
-    star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
-    getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
+        star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+        getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
+      }
+
+      nightsky.innerHTML = star;
+
+      let randomNum = 5000;
+
+      setTimeout(function(){
+        shootingStars();
+      }, randomNum);
   }
-
-  nightsky.innerHTML = star;
-
-  let randomNum = 5000;
-
-  setTimeout(function(){
-    shootingStars();
-  }, randomNum);
 
   function shootingStars(){
     setTimeout(shootingStars, randomNum);
