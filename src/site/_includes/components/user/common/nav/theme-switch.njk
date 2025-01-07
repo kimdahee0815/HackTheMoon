@@ -50,7 +50,6 @@
                 lightThemeElementsStr += el.outerHTML;
             }
             document.body.insertAdjacentHTML('afterbegin', lightThemeElementsStr);
-            trees.remove();
         } else {
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
