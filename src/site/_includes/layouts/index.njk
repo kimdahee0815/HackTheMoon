@@ -79,6 +79,7 @@ function init(){
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
       setThemeIcon(theme);
+      initStars();
     }
     if(theme == 'light'){
       setTheme(theme, true);
