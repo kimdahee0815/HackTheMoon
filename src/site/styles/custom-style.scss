@@ -920,39 +920,20 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     z-index: 9999;
 }
 
-@keyframes fadeInUp {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0%);
-      opacity: 1;
-    }
-  }
-  @keyframes fadeInLeft {
+  @keyframes fadeInOutFromRightToLeft {
     0% {
       transform: translateX(100%);
       opacity: 0;
     }
-    100% {
-      transform: translateX(0%);
-      opacity: 1;
+    50%{
+        opacity: 1
     }
-  } 
-  @keyframes fadeOutRight {
     100% {
-      transform: translateX(100%);
-      opacity: 1;
-    }
-    0% {
       transform: translateX(0%);
       opacity: 0;
     }
   } 
-  .fadeInLeft-animation {
-    animation: 1.5s fadeInLeft;
-  }
-  .fadeOutRight-animation {
-    animation: 1.5s fadeOutRight;
+
+  .fadeInOutFromRightToLeft-animation {
+    animation: 2s fadeInOutFromRightToLeft;
   }
