@@ -60,7 +60,6 @@
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
         }
-        window.localStorage.setItem('prevTheme', theme);
     }
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == "light" && window.localStorage.getItem('prevTheme') == "dark"){
@@ -68,6 +67,7 @@
     }else if(theme == "dark" && window.localStorage.getItem('prevTheme') == "light"){
         setTheme('dark', true);
     }
+    
     setThemeIcon(theme);
     window.theme = theme;
     window.localStorage.setItem('site-theme', theme);
@@ -80,6 +80,7 @@
         }
     });
     document.getElementById('theme-switch').addEventListener('click', function() {
+        window.localStorage.setItem('prevTheme', window.theme);
         let theme;
         if (window.theme == 'auto') {
             theme = 'dark';
