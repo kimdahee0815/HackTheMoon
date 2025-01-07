@@ -207,4 +207,34 @@ function initStars(){
 if(window.localStorage.getItem('site-theme') == 'dark'){
   initStars();
 }
+function init(){
+    let theme = window.localStorage.getItem('site-theme') || "dark";
+    if(theme == 'dark'){
+      setThemeIcon(theme);
+    }
+    if(theme == 'light'){
+      setTheme(theme, true);
+    }
+    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    if(theme == 'auto' && preferTheme == 'light'){
+       setTheme(theme, true);
+    }
+    window.theme = theme;
+    window.localStorage.setItem('site-theme', theme);
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
+        const settings = window.localStorage.getItem('site-theme');
+        if (!settings || settings == "auto") {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+            if(theme == 'light'){
+                window.localStorage.setItem('prevTheme', "dark");
+            }else if(theme == 'dark'){
+                window.localStorage.setItem('prevTheme', "auto");
+            }
+            setTheme(theme, false);
+            window.localStorage.setItem('site-theme', "auto");
+        }
+    });
+}
+window.onload = init;
 </script>
