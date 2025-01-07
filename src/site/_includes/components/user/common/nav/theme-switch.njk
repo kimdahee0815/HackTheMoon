@@ -60,10 +60,10 @@
             theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
             setTheme(theme, false);
         }
-        
+        window.localStorage.setItem(prevTheme, theme);
     }
     let theme = window.localStorage.getItem('site-theme') || "dark";
-    if(theme == "light"){
+    if(theme == "light" && window.localStorage.getItem('prevTheme') == 'dark'){
         setTheme(theme, true);
     }
     setThemeIcon(theme);
