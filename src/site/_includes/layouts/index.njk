@@ -172,7 +172,7 @@ function initStars(){
         setTimeout(shootingStars, randomNum);
         randomNum = getRandomArbitrary(5000, 10000);
         const _s = getRandomArbitrary(0, 3);
-        let shootingStar = "<div id="shootingStar" class='shootingStar " + style[_s] + "'></div>";
+        let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
         document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
         setTimeout(function(){ 
            document.getElementsByClassName('meteorShower')[0].innerHTML = ""; 
