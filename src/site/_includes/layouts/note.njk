@@ -245,12 +245,18 @@ function init(){
   }
   document.addEventListener("DOMContentLoaded", init);
 window.onload = () => {
-  setTimeout(() => {
+  if(window.localStorage.getItem('prevTheme')){
+    if(document.getElementById('hiddenCover').classList.contains('hidden')){
+      document.getElementById('hiddenCover').classList.remove('hidden');
+    }
+    setTimeout(() => {
       document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
       setTimeout(function(){ 
         document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
+        document.getElementById('hiddenCover').classList.add('hidden');
       },1001);
   }, 3500);
+  } 
 }
   </script>
   </body>
