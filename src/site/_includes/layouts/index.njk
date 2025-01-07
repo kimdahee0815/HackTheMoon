@@ -173,10 +173,10 @@ function initStars(){
     let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
     if(document.getElementsByClassName('meteorShower')){
       document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
-      setTimeout(function(){
-        document.getElementsByClassName('meteorShower')[0].innerHTML = "";
-      }, 1000);
-    }
+    } 
+    setTimeout(function(){
+      document.getElementsByClassName('meteorShower')?.[0].innerHTML = "";
+    }, 1000);
   }
 }
 window.onload = initStars;
