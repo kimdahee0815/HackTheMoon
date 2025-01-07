@@ -185,5 +185,7 @@ function initStars(){
     }
   } 
 }
-window.onload = initStars;
+if(window.localStorage.getItem('site-theme') == 'dark'){
+  initStars();
+}
 </script>
