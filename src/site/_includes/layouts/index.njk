@@ -171,10 +171,12 @@ function initStars(){
     randomNum = getRandomArbitrary(5000, 10000);
     const _s = getRandomArbitrary(0, 3);
     let shootingStar = "<div class='shootingStar " + style[_s] + "'></div>";
-    document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
-    setTimeout(function(){
-      document.getElementsByClassName('meteorShower')[0].innerHTML = "";
-    }, 1000);
+    if(document.getElementsByClassName('meteorShower')){
+      document.getElementsByClassName('meteorShower')[0].innerHTML = shootingStar;
+      setTimeout(function(){
+        document.getElementsByClassName('meteorShower')[0].innerHTML = "";
+      }, 1000);
+    }
   }
 }
 window.onload = initStars;
