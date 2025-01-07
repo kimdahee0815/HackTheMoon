@@ -206,7 +206,7 @@ function init(){
             window.localStorage.setItem('site-theme', "auto");
         }
     });
-    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+
     if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && preferTheme == 'dark')){
       initStars();
     }
