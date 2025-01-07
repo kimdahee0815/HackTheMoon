@@ -920,21 +920,17 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     z-index: 9999;
 }
 
-  @keyframes fadeInOutFromRightToLeft {
+  @keyframes fadeInFromLeft {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
       opacity: 0;
-    }
-    50%{
-        opacity: 1
     }
     100% {
       transform: translateX(0%);
-      opacity: 0;
-      display: none;
+      opacity: 1;
     }
   } 
 
-  .fadeInOutFromRightToLeft-animation {
-    animation: 3s fadeInOutFromRightToLeft;
+  .fadeInFromLeft-animation {
+    animation: 3s fadeInFromLeft;
   }
