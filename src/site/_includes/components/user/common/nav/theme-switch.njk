@@ -36,30 +36,33 @@
         if (setIcon) {
             setThemeIcon(theme);
         }
-        if (theme == 'dark' && window.localStorage.getItem('prevTheme') && window.localStorage.getItem('prevTheme') != theme) {
-            document.body.classList.remove('theme-light');
-            document.body.classList.add('theme-dark');
-            sky.classList.add('nightsky');
-            sky.classList.remove('sky');
-            constellation.classList.remove('noConstellation');
-            constellation.classList.add('constellation');
-            meteorShower.classList.remove('noMeteorShower');
-            trees.classList.remove('noTrees');
-            trees.classList.add('trees');
-        } else if (theme == "light") {
-            document.body.classList.add('theme-light');
-            document.body.classList.remove('theme-dark');
-            sky.classList.add('sky');
-            sky.classList.remove('nightsky');
-            constellation.classList.add('noConstellation');
-            constellation.classList.remove('constellation');
-            meteorShower.classList.add('noMeteorShower');
-            trees.classList.add('noTrees');
-            trees.classList.remove('trees');
-        } else {
-            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-            setTheme(theme, false);
+        if(window.localStorage.getItem('prevTheme')){
+            if (theme == 'dark') {
+                document.body.classList.remove('theme-light');
+                document.body.classList.add('theme-dark');
+                sky.classList.add('nightsky');
+                sky.classList.remove('sky');
+                constellation.classList.remove('noConstellation');
+                constellation.classList.add('constellation');
+                meteorShower.classList.remove('noMeteorShower');
+                trees.classList.remove('noTrees');
+                trees.classList.add('trees');
+            } else if (theme == "light") {
+                document.body.classList.add('theme-light');
+                document.body.classList.remove('theme-dark');
+                sky.classList.add('sky');
+                sky.classList.remove('nightsky');
+                constellation.classList.add('noConstellation');
+                constellation.classList.remove('constellation');
+                meteorShower.classList.add('noMeteorShower');
+                trees.classList.add('noTrees');
+                trees.classList.remove('trees');
+            } else {
+                theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+                setTheme(theme, false);
+            }
         }
+        
     }
     let theme = window.localStorage.getItem('site-theme') || "dark";
     setTheme(theme, true);
