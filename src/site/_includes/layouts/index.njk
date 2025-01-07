@@ -143,6 +143,7 @@ function initStars(){
   ];
 
   let nightsky = document.querySelector(".constellation");
+  let randomNum = 5000;
   if(nightsky){
       let star = "";
       let numberOfStars = 250;
@@ -160,8 +161,6 @@ function initStars(){
       }
 
       nightsky.innerHTML = star;
-
-      let randomNum = 5000;
 
       setTimeout(function(){
         shootingStars();
