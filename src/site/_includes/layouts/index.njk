@@ -236,11 +236,11 @@ function init(){
       initStars();
     }
     if(theme == 'light'){
-      setTheme(theme, false);
+      setTheme(theme, true);
     }
     let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
     if(theme == 'auto' && preferTheme == 'light'){
-       setTheme(theme, false);
+       setTheme(theme, true);
     }
     window.theme = theme;
     window.localStorage.setItem('site-theme', theme);
