@@ -260,7 +260,7 @@ function init(){
     let timezoneTheme = "";
     let today = new Date();
     let todayHours = today.getHours();
-    if(today.getMinutes() >= 46){
+    if(today.getMinutes() >= 50){
       timezoneTheme = 'dark';
     }else{
       timezoneTheme = 'light';
@@ -274,7 +274,7 @@ function init(){
       }
       let today = new Date();
       let todayHours = today.getHours();
-      if(today.getMinutes() >= 46){
+      if(today.getMinutes() >= 50){
         if(timezoneTheme !== 'dark'){
           setTheme('dark', false);
         }
