@@ -76,6 +76,8 @@
         return {graphData};
     }
 
+    const {graphData} = await fetchGraphData();
+
     document.getElementById('theme-switch').addEventListener('click', function() {
         window.localStorage.setItem('prevTheme', window.theme);
         let theme;
@@ -91,8 +93,6 @@
         window.theme = theme;
         const event = new Event('themeChanged');
         document.dispatchEvent(event);
-
-        const {graphData} = await fetchGraphData();
         renderLocalGraph(graphData, 1, false);
     })
 </script>
