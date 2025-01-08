@@ -850,6 +850,26 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 10s;
+    @media screen and (max-width: 1800px){
+        right: 24%;
+        top: 120px;
+    }
+    @media screen and (max-width: 1710px){
+        right: 23%;
+        top: 120px;
+    }
+    @media screen and (max-width: 1660px){
+        right: 22%;
+        top: 120px;
+    }
+    @media screen and (max-width: 1610px){
+        right: 24%;
+        top: 120px;
+    }
+    @media screen and (max-width: 1530px){
+        right: 25%;
+        top: 120px;
+    }
     @media screen and (max-width: 1360px){
         right: 10%;
         top: 120px;
