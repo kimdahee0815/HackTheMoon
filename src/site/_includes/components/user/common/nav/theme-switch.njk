@@ -62,7 +62,7 @@
                 return;
             } else if(theme == "auto" && window.localStorage.getItem('prevTheme') == 'light'){
                 theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-                setTheme(theme, true);
+                setTheme(theme, false);
             }
         }
         document.addEventListener("DOMContentLoaded", changeDisqusFontColor);
