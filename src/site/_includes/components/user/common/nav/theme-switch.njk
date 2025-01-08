@@ -78,6 +78,7 @@
         setTheme(theme, true);
         window.localStorage.setItem('site-theme', theme);
         window.theme = theme;
-        document.addEventListener("DOMContentLoaded", changeDisqusFontColor);
+        const event = new Event('themeChanged');
+        document.dispatchEvent(event);
     })
 </script>

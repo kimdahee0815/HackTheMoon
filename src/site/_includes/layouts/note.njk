@@ -253,22 +253,6 @@ function initStars(){
     }
 }
 
-function changeDisqusFontColor(){
-  const disqusThread = document.querySelector('#disqus_thread');
-  if(window.localStorage.getItem('site-theme') == 'dark'){
-    disqusThread.style.color = '#383A42';
-  }else if(window.localStorage.getItem('site-theme') == 'light'){
-    disqusThread.style.color = '#fff';
-  }else{
-    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-    if(preferTheme == 'light'){
-      disqusThread.style.color = '#383A42';
-    }else{
-      disqusThread.style.color = '#fff';
-    }
-  }
-}
-
 function init(){
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
@@ -315,7 +299,6 @@ function init(){
     } else {
       document.getElementById('hiddenCover').style.display = "none";
     }
-    changeDisqusFontColor();
   }
   document.addEventListener("DOMContentLoaded", init);
 
