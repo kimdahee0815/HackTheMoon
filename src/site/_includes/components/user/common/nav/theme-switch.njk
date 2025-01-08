@@ -1,5 +1,5 @@
 {# https://github.com/uroybd/topobon/blob/main/src/site/_includes/components/user/common/footer/001-floatingControls.njk #}
-<aside id="floating-control">
+<aside id="floating-control" @click="window.graph = renderLocalGraph(graphData, depth, fullScreen)">
     <a  id="linkedin" href="https://www.linkedin.com/in/dahee-kim-6aaa5b267/" target="_blank" rel="noopener noreferrer"><i  icon-name="linkedin" title="LinkedIn" aria-hidden="true" class="fa fa-linkedin-square" style="font-size:48px;color:#0077b5"></i></a>
     <a  id="github" href="https://github.com/kimdahee0815" target="_blank" rel="noopener noreferrer"><i  icon-name="github" title="Github" aria-hidden="true" style="font-size:48px;color:#651fff"></i></a>
     <span id="theme-switch">
