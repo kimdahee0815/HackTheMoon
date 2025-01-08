@@ -86,5 +86,7 @@
         window.theme = theme;
         const event = new Event('themeChanged');
         document.dispatchEvent(event);
+        const graphData = await fetch('/graph.json').then(res => res.json());
+        renderLocalGraph(graphData, 1, false);
     })
 </script>
