@@ -18,6 +18,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     <dotlottie-player src="https://lottie.host/de011357-441a-46b6-adb4-644111f48887/VFBooHMMx9.lottie" background="transparent" speed="1" style="width: 600px; height: 600px; padding-top: 200px;" loop autoplay></dotlottie-player>
     <script defer src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <dotlottie-player src="https://lottie.host/d8a598d6-4180-4f0c-b989-2f651a729ce4/WFEbVnKVKp.lottie" background="transparent" speed="1" style="width: 300px; height: 300px; padding-bottom: 150px; padding-left: 30px;" loop autoplay></dotlottie-player>
+    <div id="coverConstellation" class="constellation"></div> 
   </div>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     <div id="sky" class="nightsky">
@@ -147,6 +148,49 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       <div id="moonImg" class="moonImg"></div>
     </div>
         <script defer>
+        function initCoverStars(){
+        const windowWidth = screen.width;
+        const windowHeight = screen.height;
+
+        function getRandomValue(max) {
+          return Math.floor(Math.random() * max);
+        }
+
+        function getRandomArbitrary(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+      const style = ['style1', 'style2', 'style3'];
+      const opacity = ['opacity1', 'opacity1', 'opacity1', 'opacity2', 'opacity3'];
+      const twinkle = [
+        'twinkle1',
+        'twinkle1',
+        'twinkle1',
+        'twinkle2',
+        'twinkle2',
+        'twinkle3',
+        'twinkle4',
+      ];
+
+      let constellation = document.getElementById("coverConstellation");
+      let star = "";
+      let numberOfStars = 250;
+      const x = getRandomValue(windowWidth);
+      const y = getRandomValue(windowHeight);
+
+      for(let i = 0; i < numberOfStars; i++){
+        let _s = getRandomValue(3);
+        let _o = getRandomValue(5);
+        let _t = getRandomValue(7);
+        let className = "star " + style[_s] + " " + opacity[_o] + " " + twinkle[_t];
+
+        star += "<span class='" + className + "' style='animation-delay: ." + getRandomArbitrary(0, 9) + "s; left: " + 
+        getRandomArbitrary(0, windowWidth) + "px; top: " + getRandomArbitrary(0, windowHeight) + "px;'></span>"; 
+      }
+
+      constellation.innerHTML = star;
+
+    }
 function initStars(){
   const windowWidth = screen.width;
   const windowHeight = screen.height;
@@ -171,7 +215,7 @@ function initStars(){
     'twinkle4',
   ];
 
-    let constellation = document.querySelector(".constellation");
+    let constellation = document.getElementById("constellation");
     let star = "";
     let numberOfStars = 250;
     const x = getRandomValue(windowWidth);
@@ -259,14 +303,15 @@ function init(){
       initStars();
     }
     if(window.localStorage.getItem('prevTheme')){
-    document.getElementById('hiddenCover').style.display = "flex";
-    setTimeout(() => {
-      document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
-      setTimeout(function(){ 
-        document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
-        document.getElementById('hiddenCover').style.display = "none";
-      },1501);
-    }, 500);
+      initCoverStars();
+      document.getElementById('hiddenCover').style.display = "flex";
+      setTimeout(() => {
+        document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
+        setTimeout(function(){ 
+          document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
+          document.getElementById('hiddenCover').style.display = "none";
+        },1501);
+      }, 500);
     } else {
       document.getElementById('hiddenCover').style.display = "none";
     }
