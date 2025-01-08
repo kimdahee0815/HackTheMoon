@@ -263,9 +263,9 @@ function init(){
       initStars();
     }
     if(window.localStorage.getItem('prevTheme')){
+    initCoverStars();
     document.getElementById('hiddenCover').style.display = "flex";
     setTimeout(() => {
-      initCoverStars();
       document.getElementById('hiddenCover').classList.add('fadeOutFromLeft-animation');
       setTimeout(function(){ 
         document.getElementById('hiddenCover').classList.remove('fadeInFromLeft-animation');
