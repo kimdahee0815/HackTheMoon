@@ -3,7 +3,7 @@
 ---
 
 # <font color="#ff0000">WELCOME!</font>
-![hackthemoon-cover.png](/img/user/Utilities/Images/hackthemoon-cover.png)
+![hackthemoon-realcover.jpg](/img/user/Utilities/Images/hackthemoon-realcover.jpg)
 
 Hello, there! 😀  
 Welcome to my blog Hack The Moon! 🌙
