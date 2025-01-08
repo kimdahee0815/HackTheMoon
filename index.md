@@ -5,7 +5,7 @@ dg-permalink: index
 title: Home
 ---
 # <font color="#ff0000">WELCOME!</font>
-![[hello_visitors-removebg-preview.png]]
+![[hackthemoon-realcover.jpg]]
 
 Hello, there! 😀  
 Welcome to my blog Hack The Moon! 🌙

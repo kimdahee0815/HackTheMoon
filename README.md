@@ -1,6 +1,6 @@
 # WELCOME!
 
-<img width="302" alt="image" src="https://github.com/user-attachments/assets/ab8314f9-5b19-472c-96b6-cd08c861a65b">
+<img width="302" alt="image" src="https://github.com/user-attachments/assets/4abda4e6-1a79-4a05-8ef3-634e3e761558">
 
 Hello, there! 😀<br />
 Welcome to my blog Hack The Moon! 🌙<br />
