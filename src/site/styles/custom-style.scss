@@ -839,8 +839,8 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
   .moon {
     position: absolute;
-    right: 35%;
-    top: 100px;
+    right: 25%;
+    top: 70px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -851,7 +851,8 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     animation-iteration-count: infinite;
     animation-duration: 10s;
     @media screen and (max-width: 1360px){
-        right: 15%;
+        right: 10%;
+        top: 120px;
         background-color: #fff;
     }
     @media screen and (max-width: 900px){
