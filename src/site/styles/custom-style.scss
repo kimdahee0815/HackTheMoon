@@ -908,7 +908,7 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
 .cover{
     position: fixed;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -920,6 +920,9 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     z-index: 9999;
 }
 
+.hidden{
+    display: flex;
+}
 
   @keyframes fadeOutFromLeft {
     0% {
@@ -934,5 +937,4 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
   .fadeOutFromLeft-animation{
     animation: 1.5s fadeOutFromLeft;
-    display: flex;
   }
