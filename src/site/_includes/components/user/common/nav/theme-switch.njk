@@ -48,7 +48,7 @@
                 trees.classList.remove('noTrees');
                 trees.classList.add('trees');
                 initStars();
-            } else if (theme == "light" && window.localStorage.getItem('prevTheme') == 'dark') {
+            } else if (theme == "light" && (window.localStorage.getItem('prevTheme') == 'dark' || window.localStorage.getItem('prevTheme') == 'light')) {
                 document.body.classList.add('theme-light');
                 document.body.classList.remove('theme-dark');
                 sky.classList.add('sky');
@@ -58,8 +58,6 @@
                 meteorShower.classList.add('noMeteorShower');
                 trees.classList.add('noTrees');
                 trees.classList.remove('trees');
-            } else if (theme == "light" && window.localStorage.getItem('prevTheme') == 'light') {
-                return;
             } else if(theme == "auto" && window.localStorage.getItem('prevTheme') == 'light'){
                 theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
                 setTheme(theme, false);
