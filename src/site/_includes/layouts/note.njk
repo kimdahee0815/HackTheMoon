@@ -255,6 +255,7 @@ function initStars(){
 
 function changeDisqusFontColor(){
   const disqusThread = document.querySelector('#disqus_thread body');
+  disqusThread.insertAdjacentHTML('<p>ABC</p>');
   if(window.localStorage.getItem('site-theme') == 'dark'){
     disqusThread.classList.add('dark');
   }else if(window.localStorage.getItem('site-theme') == 'light'){
