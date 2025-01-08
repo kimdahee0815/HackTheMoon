@@ -952,11 +952,9 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
   @keyframes fadeOutFromLeft {
     0% {
-      transform: translateX(0%);
       opacity: 1;
     }
     100% {
-      transform: translateX(100%);
       opacity: 0;
     }
   } 
