@@ -71,6 +71,11 @@
         }
     }
 
+    async function fetchGraphData() {
+        const graphData = await fetch('/graph.json').then(res => res.json());
+        return {graphData};
+    }
+
     document.getElementById('theme-switch').addEventListener('click', function() {
         window.localStorage.setItem('prevTheme', window.theme);
         let theme;
@@ -86,7 +91,8 @@
         window.theme = theme;
         const event = new Event('themeChanged');
         document.dispatchEvent(event);
-        const graphData = await fetch('/graph.json').then(res => res.json());
+
+        const {graphData} = await fetchGraphData();
         renderLocalGraph(graphData, 1, false);
     })
 </script>
