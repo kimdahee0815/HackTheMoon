@@ -254,8 +254,6 @@ function initStars(){
 }
 
 function init(){
-    const event = new Event('themeChanged');
-    document.dispatchEvent(event);
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
       setThemeIcon(theme);
@@ -303,6 +301,10 @@ function init(){
     }
   }
   document.addEventListener("DOMContentLoaded", init);
+  window.onload = () => {
+    const event = new Event('themeChanged');
+    document.dispatchEvent(event);
+  }
   </script>
   </body>
 </html>

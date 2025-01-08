@@ -277,8 +277,10 @@ function init(){
     }
 }
 document.addEventListener("DOMContentLoaded", init);
-const event = new Event('themeChanged');
-document.dispatchEvent(event);
+window.onload = () => {
+    const event = new Event('themeChanged');
+    document.dispatchEvent(event);
+}
 </script>
     </body>
   </html>
