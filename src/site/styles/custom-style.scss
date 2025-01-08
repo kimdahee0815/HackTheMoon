@@ -908,7 +908,7 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
 .cover{
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -934,4 +934,5 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
 
   .fadeOutFromLeft-animation{
     animation: 1.5s fadeOutFromLeft;
+    display: flex;
   }
