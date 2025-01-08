@@ -260,7 +260,7 @@ function init(){
     let timezoneTheme = "";
     let today = new Date();
     let todayHours = today.getHours();
-    if((todayHours >= 20 && todayHours < 24) || (todayHours >= 0 && todayHours < 7)){
+    if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7) || today.getMinutes() >= 8){
       timezoneTheme = 'dark';
     }else{
       timezoneTheme = 'light';
@@ -274,7 +274,7 @@ function init(){
       }
       let today = new Date();
       let todayHours = today.getHours();
-      if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7)){
+      if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7) || today.getMinutes() >= 8){
         timezoneTheme = 'dark';
       }else{
         timezoneTheme = 'light';
@@ -295,7 +295,7 @@ function init(){
     window.theme = theme;
     window.localStorage.setItem('site-theme', theme);
   
-     if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && timezoneTheme == 'dark')){
+    if(window.localStorage.getItem('site-theme') == 'dark' || (window.localStorage.getItem('site-theme') == 'auto' && timezoneTheme == 'dark')){
       initStars();
     }
     if(window.localStorage.getItem('prevTheme')){
