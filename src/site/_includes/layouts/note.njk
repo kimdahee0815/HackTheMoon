@@ -210,17 +210,17 @@ function initStars(){
 }
 
 function changeDisqusFontColor(){
-  const disqusThread = document.getElementById('disqus_thread');
+  const disqusThread = document.getElementById('disqus_thread body');
   if(window.localStorage.getItem('site-theme') == 'dark'){
-    disqusThread.style.color = '#fff';
+    disqusThread.classList.add('dark');
   }else if(window.localStorage.getItem('site-theme') == 'light'){
-    disqusThread.style.color = '#2a2e2e';
+    disqusThread.classList.remove('dark');
   }else{
     let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
     if(preferTheme == 'light'){
-      disqusThread.style.color = '#2a2e2e';
+       disqusThread.classList.remove('dark');
     }else{
-      disqusThread.style.color = '#fff';
+       disqusThread.classList.add('dark');
     }
   }
 }
