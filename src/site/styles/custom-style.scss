@@ -661,7 +661,8 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     width: 100%;
     height: 100%;
     position: absolute;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .sky{
     width: 100%;
