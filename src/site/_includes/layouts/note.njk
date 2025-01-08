@@ -255,17 +255,16 @@ function initStars(){
 
 function changeDisqusFontColor(){
   const disqusThread = document.querySelector('#disqus_thread');
-  disqusThread.insertAdjacentHTML('afterbegin', '<p>ABC</p>');
   if(window.localStorage.getItem('site-theme') == 'dark'){
-    disqusThread.classList.add('dark');
+    disqusThread.style.color = '#383A42';
   }else if(window.localStorage.getItem('site-theme') == 'light'){
-    disqusThread.classList.remove('dark');
+    disqusThread.style.color = '#fff';
   }else{
     let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
     if(preferTheme == 'light'){
-       disqusThread.classList.remove('dark');
+      disqusThread.style.color = '#383A42';
     }else{
-       disqusThread.classList.add('dark');
+      disqusThread.style.color = '#fff';
     }
   }
 }
