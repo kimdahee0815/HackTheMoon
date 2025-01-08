@@ -228,8 +228,6 @@ function initStars(){
 }
 
 function init(){
-    const event = new Event('themeChanged');
-    document.dispatchEvent(event);
     let timer = "";
     let theme = window.localStorage.getItem('site-theme') || "dark";
 
@@ -250,14 +248,18 @@ function init(){
       }
       let today = new Date();
       let todayHours = today.getHours();
-      if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7) || today.getMinutes() >= 8){
+      if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7)){
         if(timezoneTheme !== 'dark'){
           setTheme('dark', false);
+          const event = new Event('themeChanged');
+          document.dispatchEvent(event);
         }
         timezoneTheme = 'dark';
       }else{
         if(timezoneTheme !== 'light'){
           setTheme('light', false);
+          const event = new Event('themeChanged');
+          document.dispatchEvent(event);
         }
         timezoneTheme = 'light';
       }
@@ -270,7 +272,10 @@ function init(){
       setTheme(theme, true);
     }
     if(theme == 'auto'){
-      timer = setInterval(changeTimezoneTheme, 60000);
+      setTheme(theme, true);
+      if(!timer){
+        timer = setInterval(changeTimezoneTheme, 60000);
+      }
     }
     
     window.theme = theme;

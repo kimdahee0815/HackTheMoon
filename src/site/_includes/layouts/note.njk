@@ -260,7 +260,7 @@ function init(){
     let timezoneTheme = "";
     let today = new Date();
     let todayHours = today.getHours();
-    if(today.getMinutes() >= 53){
+    if(today.getMinutes() >= 3){
       timezoneTheme = 'dark';
     }else{
       timezoneTheme = 'light';
@@ -274,14 +274,18 @@ function init(){
       }
       let today = new Date();
       let todayHours = today.getHours();
-      if(today.getMinutes() >= 53){
+      if(today.getMinutes() >= 3){
         if(timezoneTheme !== 'dark'){
           setTheme('dark', false);
+          const event = new Event('themeChanged');
+          document.dispatchEvent(event);
         }
         timezoneTheme = 'dark';
       }else{
         if(timezoneTheme !== 'light'){
           setTheme('light', false);
+          const event = new Event('themeChanged');
+          document.dispatchEvent(event);
         }
         timezoneTheme = 'light';
       }
