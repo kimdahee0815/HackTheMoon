@@ -63,7 +63,6 @@
                 setTheme(theme, false);
             }
         }
-        changeDisqusFontColor();
     }
 
     document.getElementById('theme-switch').addEventListener('click', function() {
@@ -79,5 +78,6 @@
         setTheme(theme, true);
         window.localStorage.setItem('site-theme', theme);
         window.theme = theme;
+        document.addEventListener("DOMContentLoaded", changeDisqusFontColor);
     })
 </script>
