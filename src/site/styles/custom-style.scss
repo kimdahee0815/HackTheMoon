@@ -853,9 +853,11 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     @media screen and (max-width: 1360px){
         right: 10%;
         top: 120px;
-        background-color: #fff;
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 1200px){
+        right: 7%;
+    }
+    @media screen and (max-width: 1100px){
         display:none;
     }
   }
