@@ -227,6 +227,22 @@ function initStars(){
     }
 }
 
+function changeDisqusFontColor(){
+  const disqusThread = document.querySelector('#disqus_thread body');
+  if(window.localStorage.getItem('site-theme') == 'dark'){
+    disqusThread.classList.add('dark');
+  }else if(window.localStorage.getItem('site-theme') == 'light'){
+    disqusThread.classList.remove('dark');
+  }else{
+    let preferTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    if(preferTheme == 'light'){
+       disqusThread.classList.remove('dark');
+    }else{
+       disqusThread.classList.add('dark');
+    }
+  }
+}
+
 function init(){
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
