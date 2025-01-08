@@ -920,10 +920,6 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     z-index: 9999;
 }
 
-.hidden{
-    display: flex;
-}
-
   @keyframes fadeOutFromLeft {
     0% {
       transform: translateX(0%);

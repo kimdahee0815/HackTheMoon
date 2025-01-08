@@ -13,7 +13,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
   </head>
-  <div id="hiddenCover" class="cover hidden">
+  <div id="hiddenCover" class="cover">
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <dotlottie-player src="https://lottie.host/de011357-441a-46b6-adb4-644111f48887/VFBooHMMx9.lottie" background="transparent" speed="1" style="width: 600px; height: 600px; padding-top: 200px;" loop autoplay></dotlottie-player>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
@@ -267,7 +267,9 @@ function init(){
         document.getElementById('hiddenCover').style.display = "none";
       },1501);
     }, 500);
-    } 
+    } else {
+      document.getElementById('hiddenCover').style.display = "none";
+    }
     changeDisqusFontColor();
   }
   document.addEventListener("DOMContentLoaded", init);
