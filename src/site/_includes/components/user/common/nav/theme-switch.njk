@@ -61,7 +61,7 @@
             } else if(theme == "auto" && window.localStorage.getItem('prevTheme') == 'light'){
                 let today = new Date();
                 let todayHours = today.getHours();
-                if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7)){
+                if(today.getMinutes() >= 26){
                     theme = 'dark';
                 }else{
                     theme = 'light';

@@ -250,11 +250,16 @@ function init(){
       }
       let today = new Date();
       let todayHours = today.getHours();
-      if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7)){
+      if((todayHours >= 18 && todayHours < 24) || (todayHours >= 0 && todayHours < 7) || today.getMinutes() >= 8){
+        if(timezoneTheme !== 'dark'){
+          setTheme('dark', false);
+        }
         timezoneTheme = 'dark';
       }else{
+        if(timezoneTheme !== 'light'){
+          setTheme('light', false);
+        }
         timezoneTheme = 'light';
-        setTheme('auto', true);
       }
     }
     if(theme == 'dark'){
