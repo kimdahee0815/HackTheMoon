@@ -228,6 +228,8 @@ function initStars(){
 }
 
 function init(){
+    const event = new Event('themeChanged');
+    document.dispatchEvent(event);
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
       setThemeIcon(theme);

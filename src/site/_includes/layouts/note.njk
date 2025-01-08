@@ -147,7 +147,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     <div id="moon" class="moon">
       <div id="moonImg" class="moonImg"></div>
     </div>
-        <script defer>
+    <script defer>
         function initCoverStars(){
         const windowWidth = screen.width;
         const windowHeight = screen.height;
@@ -254,6 +254,8 @@ function initStars(){
 }
 
 function init(){
+    const event = new Event('themeChanged');
+    document.dispatchEvent(event);
     let theme = window.localStorage.getItem('site-theme') || "dark";
     if(theme == 'dark'){
       setThemeIcon(theme);
@@ -301,8 +303,6 @@ function init(){
     }
   }
   document.addEventListener("DOMContentLoaded", init);
-  const event = new Event('themeChanged');
-  document.dispatchEvent(event);
   </script>
   </body>
 </html>
