@@ -120,15 +120,18 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           {% include imp %}
         {% endfor %}
         <script>
-          let iframeEl = document.querySelector('.container-root > iframe');
-          let iframeUrl = iframeEl.getAttribute('src');
-          if(iframeUrl.includes("spotify")){
-            iframeEl.classList.add('spotify');
-            iframeEl.classList.remove('youtube');
-          }else if(iframeUrl.includes("youtube")){
-             iframeEl.classList.remove('spotify');
-            iframeEl.classList.add('youtube');
-          }
+          let iframeElements = document.querySelectorAll('.container-root > iframe');
+          for(let iframeEl of iframeElements){
+            let iframeUrl = iframeEl.getAttribute('src');
+            if(iframeUrl.includes("spotify")){
+              iframeEl.classList.add('spotify');
+              iframeEl.classList.remove('youtube');
+            }
+            if(iframeUrl.includes("youtube")){
+              iframeEl.classList.remove('spotify');
+              iframeEl.classList.add('youtube');
+            }
+          }     
         </script>
       </main>
       {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
