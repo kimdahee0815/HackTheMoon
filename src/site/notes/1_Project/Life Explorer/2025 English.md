@@ -3,11 +3,11 @@
 ---
 
 # <font color="#ff0000">My Plan</font>
-1. 2025/01 ~ 2025/12
-	1. IELTS Overall 8.5 (All 8+) => <span style="background:#fdbfff">2025.12</span>
+1. 2025/01/13 ~ 2025/12
+	1. IELTS Overall 8.5 (All 8+) => 2025.12
 	2. Speaking
 		1. Speaking Practice using phrases I learned from Live Academy => Everyday 30 minutes
-		2. Practice with native speakers => Weekends Meet up
+		2. Practice with native speakers => Occasionally, weekends Meet up
 	3. Writing 
 		1. Writing English Diaries => Every evening 20 minutes
 	4. Reading
