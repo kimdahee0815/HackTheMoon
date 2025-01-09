@@ -34,7 +34,7 @@ In the end, Ethan gets to save his girlfriend and also prevents passengers from 
 
 
 
-## My Plot Interpretation 
+## <font color="#9d0ab3">My Plot Interpretation </font>
 I've read a review for Carry-On and I think the reviews are quite well-strucutured. They pointed out some points that I wanted to make while I was watching the movie.
 Especially I agree with the part where police story wasn't more developed and underbaked.  
 And for me it was quite interesting that the movie pivots around a security officer at the airport and normally main characters have well-known jobs. I liked that it gave me a fresh point of view from security officer at the airport, which I haven't even thought of as a subject for the stories. 
