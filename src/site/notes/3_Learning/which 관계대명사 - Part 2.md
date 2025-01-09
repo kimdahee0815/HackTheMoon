@@ -12,7 +12,7 @@
 나는 내가 뭘 하고 싶어했는지 확실하지 않았어, 사실 그게 내가 학교를 쉬고 싶었던 주된 이유였어;;I wasn't sure what I wanted to do, which was in fact the main reason that I wanted to take some time off school
 <!--SR:!2024-12-28,1,230-->
 그녀의 결혼식에 못 갈거 같아, 오 그리고 그건 내가 그녀와 예전에 사귀었던 거와는 전혀 상관이 없어;;I don't think I can go to her wedding, which by the way, it has nothing to do with the fact that we used to date
-<!--SR:!2025-01-08,3,250-->
+<!--SR:!2025-01-18,9,250-->
 우리는 우리가 원래 계획했던 것 보다 훨씬 많은 돈을 쓰게 되었어, 근데 내가 책임 졌다면 그 상황은 면할 수 있었다고 생각해;;We ended up spending a lot more than we had planned, which I think could've been avoided had I been in charge
 <!--SR:!2025-01-06,1,210-->
 운전 면허 연습을 받기 시작했어, 나 그거 오랫동한 하려고 했었어;;I started taking driving lessons, which i've been meaning to do for a while

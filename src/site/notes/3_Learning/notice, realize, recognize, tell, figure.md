@@ -10,7 +10,7 @@
 며칠 전에 서점에 갔는데 어떤 여자가 사람들한테 막 둘려쌓여 있는거야;;The other day, I was at the bookstore and I noticed a woman surrounded by a large crowd
 <!--SR:!2025-01-06,4,270-->
 무슨 상황이었는지 잘 몰라서 처음에는 그냥 직원 하나가 무료로 뭐 나눠주고 있구나라고 생각했는데 좀 더 가까이 가서 보니까 그 여자가 사람들한테 싸인을 해주고 있더라구;;It was hard to tell what was going on. So, at first, I (just) figured it was an employee handing out free stuff, but when I got a little closer, it looked like she was signing autographs
-<!--SR:!2025-01-05,3,250-->
+<!--SR:!2025-01-17,8,250-->
 거기가 서점이었으니까 어떤 유명한 작가가 팬들을 위해서 책싸인을 해주고 있구나 싶었지;;And since it was a bookstore, I realized that it could be a famous writer signing books for her fans
 <!--SR:!2025-01-05,3,250-->
 누구였어?;;who was it?

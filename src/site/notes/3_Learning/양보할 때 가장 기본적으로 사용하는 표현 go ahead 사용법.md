@@ -10,7 +10,7 @@
 오, 죄송해요. 먼저 하세요;;Oh, I'm sorry, go ahead.
 <!--SR:!2025-03-01,55,310-->
 아니에요. 먼저 하세요;;No no no, you go ahead
-<!--SR:!2024-12-25,14,290-->
+<!--SR:!2025-03-04,54,310-->
 아니에요, 진짜 괜찮아요. 급하거나 그런거 아니에요. 먼저 하세요;;No really, it's okay. I'm not in a hurry or anything. you go ahead.
 <!--SR:!2025-02-20,46,290-->
 

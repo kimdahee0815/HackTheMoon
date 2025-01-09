@@ -8,9 +8,9 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/1UldVaX1GXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 오, 너 로봇청소기 쓰는구나! 어때? 쓸만해?;;Oh, you got a robot cleaner! How is it? Is it any good?
-<!--SR:!2024-12-18,3,250-->
+<!--SR:!2025-01-20,11,270-->
 응. 스케쥴을 설정할수 있어서 그때그때 자기가 알아서 청소를 해주고, 스마트폰 앱을 이용해서 원격으로 조정할 수도 있어;;Yes, I can set up a schedule and it'll operate by itself and it let's me remote control it using an app on my phone
-<!--SR:!2024-12-16,1,210-->
+<!--SR:!2025-01-12,3,230-->
 그리고 쇼파랑 침대 밑에도 쉽게 들어갈 수 있어서 여러모로 시간도 많이 절약이 되고 수고를 많이 덜어주는 것 같아;;Plus, it can easily reach under the sofa and the bed so in a lot of ways it saves me a lot of time and trouble
 <!--SR:!2024-12-17,3,250-->
 그냥 집을 청소하기가 훨씬 수월해지더라구;;it simply makes it so much easier to keep the house clean

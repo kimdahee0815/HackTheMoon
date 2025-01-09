@@ -23,7 +23,7 @@
 로마 시대에 사는건 어땠을까;;I wonder what it was like to live in(during) the Roman Times
 <!--SR:!2025-01-13,11,270-->
 거기 가면 어떨까?;;i wonder what it's gonna be like there
-<!--SR:!2025-01-06,1,190-->
+<!--SR:!2025-01-10,1,170-->
 
 이 버튼을 누르면 어떻게 될까;;I wonder what happens if i push this button
 <!--SR:!2025-01-18,15,290-->

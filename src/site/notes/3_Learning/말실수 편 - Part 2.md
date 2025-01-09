@@ -13,7 +13,7 @@
 내가 말실수를 좀 많이 했어;;I said a lot of things I shouldn't have
 <!--SR:!2024-11-27,3,250-->
 그가 그녀한테 말실수를 좀 했어;;He said some things to her that he really shouldn't have
-<!--SR:!2025-01-05,3,210-->
+<!--SR:!2025-01-15,6,210-->
 걔가 좀 더 말조심을 했었어야지;;He should have been more careful with his words
 <!--SR:!2025-02-05,57,310-->
 
@@ -27,7 +27,7 @@
 실수로 내가 그녀에게 그걸 말했어;;I accidentally told her about that/I accidentally mentioned something
 <!--SR:!2025-03-25,81,270-->
 내가 바보같이 그 사람한테 내가 어디 산다고 얘기를 해버렸어;;I made the mistake of telling him where I live
-<!--SR:!2025-01-09,26,270-->
+<!--SR:!2025-04-16,97,290-->
 내가 바보같이 걔한테 내 전화번호를 줘버렸어;;I made the mistake of giving him my phone number
 <!--SR:!2025-01-24,41,290-->
 내가 바보같이 걔한테 이메일 주소를 알려줬어;;I made the stupid mistake of giving him my email address

@@ -8,7 +8,7 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/oQxmKdCJPrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 실제로 귀신을 보면 무슨 기분일까?;;I wonder what it's like(what it feels like) to see a real ghost
-<!--SR:!2024-12-16,2,246-->
+<!--SR:!2025-01-16,7,266-->
 나는 거는 어떤 기분일까?;;I wonder what it's like to fly
 <!--SR:!2025-01-16,11,270-->
 총에 맞으면 어떤 기분일까?;;I wonder what it's like to get shot

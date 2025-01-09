@@ -8,7 +8,7 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/lMYwgGoAWbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 난 걔가 시킨대로 했어;;I did what he said
-<!--SR:!2024-12-16,2,210-->
+<!--SR:!2025-01-10,1,190-->
 난 너가 시킨대로 했어;;I did what you said
 <!--SR:!2024-12-17,6,263-->
 난 너가 하라는 그대로 했어;;I did exactly what you told me to
@@ -24,7 +24,7 @@
 <!--SR:!2025-01-10,4,190-->
 
 나는 내가 늘 하던대로 했어;;I did what i've always done
-<!--SR:!2024-11-27,3,250-->
+<!--SR:!2025-01-17,8,250-->
 난 늘 하는대로 했어;;I did what I always do
 <!--SR:!2025-01-08,3,203-->
 난 그냥 지난 2주 동안 해왔던 대로 할게;;I'll just do what i've done for the past 2 weeks/I'll just do what i've been doing for the past 2 weeks

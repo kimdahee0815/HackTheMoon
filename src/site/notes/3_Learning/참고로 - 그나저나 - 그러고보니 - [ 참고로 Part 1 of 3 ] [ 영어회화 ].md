@@ -8,7 +8,7 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/u7wjngqimKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 참고로, 저는 화요일까지는 없을거에요;;Just so you know, I won't back until tuesday
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-11,2,230-->
 참고로, 이거 내가 샀을 때는 거의 백만원 들었어;;Just so you know, this cost almost 1 million won when I bought it
 <!--SR:!2025-01-05,2,230-->
 모두가 알고 있으라고 하는 얘긴데, 그녀의 할머니가 돌아가셨어. 오늘 좀 얘가 조용하더라도 이상한 농담 하고 그러지마, 알겠지?;;Just so everybody knows, her grandmother just passed away. So even if she seems a little quiet today, don't make weird jokes, okay?
@@ -18,7 +18,7 @@
 <!--SR:!2024-12-28,1,230-->
 
 정보가 일단 등록이 되면 수정하거나 고칠 수 없다는 사실을 알아두세요(명심하세요);;Keep in mind that you can't make any changes or corrections once the information is registered
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-12,3,250-->
 
 한 가지 추가로;;One other thing
 <!--SR:!2025-01-09,3,250-->
@@ -27,7 +27,7 @@
 <!--SR:!2025-01-20,15,290-->
 
 오, 그나저나, 여기 트레이시랑 최근에 연락된 사람 있나요?;;Oh, by the way, has anyone been in touch with Tracey recently?
-<!--SR:!2025-01-05,2,210-->
+<!--SR:!2025-01-15,6,230-->
 
 트레이시 얘기가 나와서 말인데, 그녀랑 오늘 말해본 사람 있어요? 오늘 저 하루종일 그녀와 연락하려고 했는데 안 되요;;Oh, Speaking of Tracey, has anyone spoken to her today? I've been trying to get in touch with her all day
 <!--SR:!2025-01-10,5,230-->

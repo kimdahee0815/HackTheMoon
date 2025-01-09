@@ -9,14 +9,14 @@
 
 1. 어디에 '가본', '와본' 경험에 대해서 말할 때
 너 거기 가봤어?;;Have you been there?
-<!--SR:!2024-12-31,16,290-->
+<!--SR:!2025-03-14,64,310-->
 아니, 안 가봤어;;No, I haven't been there
 <!--SR:!2024-12-29,14,290-->
 아니 한번도 안 가봤어;;No, I've never been there
 <!--SR:!2025-03-08,61,310-->
 
 나 여기 와본적 있는 것 같아;;This place looks really familiar, I think i've been here before
-<!--SR:!2025-01-08,3,230-->
+<!--SR:!2025-01-16,7,230-->
 
 2. 언제 까지 어디에 도착하다는 의미로 말하는 '가다', '오다'
 나 거기 2시까지 가야 돼;;I have to be there by 2

@@ -12,15 +12,15 @@
 우리는 옷 사이즈가 같아서 옷을 같이 입을 수 있는거야;;We can share the clothes because we wear the same size
 <!--SR:!2025-01-12,9,252-->
 (formal)오늘이 제인의 마지막 날이므로/이기에 일 끝나고 송별회를 할거야;;As this is Jane's last day, we're going to have a farewell party after work
-<!--SR:!2024-12-26,12,270-->
+<!--SR:!2025-02-23,45,290-->
 
 이메일을 확인하기 위해 컴퓨터를 켰어;;I turned on the computer (in order to - 너무 딱딱하게 들림) (because I needed/wanted) to check the email
 <!--SR:!2025-03-03,60,310-->
 내가 널 도와주기 위해서는 모든 정보가 다 필요해;;In order for me to help you, I need all the information / I need all the information (in order) for me to help you / You need to give me all the information (in order) for me to help you (if you want me to help you) - 주어 다름
-<!--SR:!2024-12-30,16,290-->
+<!--SR:!2025-03-16,66,310-->
 
 난 걔가 좋은 결정을 할 수 있게 조언을 좀 해줬어;;I gave her some advice so (that) she could make a good decision
-<!--SR:!2025-01-09,7,270-->
+<!--SR:!2025-02-05,27,290-->
 
 
 

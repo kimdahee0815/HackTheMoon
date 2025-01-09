@@ -13,20 +13,20 @@
 <!--SR:!2025-01-11,31,230-->
 
 하면 할수록 조금씩 감이 더 오는 것 같아;;I feel like I'm getting better at it each(every) time (I do/try it)
-<!--SR:!2024-12-23,9,224-->
+<!--SR:!2025-01-28,19,224-->
 무엇에 대한 감이 온다;;get the hang of it/get a feel for it
 <!--SR:!2025-01-04,20,250-->
 볼 때마다 조금씩 더 잘 이해 되는 거 같아;;I feel like I can understand it a little better each time I see(read/watch) it
 <!--SR:!2024-12-16,5,190-->
 
 시간이 지날수록 나아질거야;;As time goes by, it's gonna get better / It's gonna get better as time goes by
-<!--SR:!2025-01-07,23,264-->
+<!--SR:!2025-04-03,84,284-->
 경험을 더 많이 쌓을수록 쉬워질거야;;As you gain more experience, it's gonna get easier
 <!--SR:!2024-12-17,2,170-->
 이야기가 진행될수록(되면서), 점점 더 복잡해진다;;As the story progresses, it becomes more and more complicated./It becomes more complicated as the story progresses
 <!--SR:!2025-01-18,12,250-->
 끝으로 갈수록 더 어려워졌어;;As I got closer to the end(Towards the end), it became more difficult
-<!--SR:!2025-01-08,28,270-->
+<!--SR:!2025-03-26,76,270-->
 
 갈수록 어려워지는 것 같아;;I feel like it's becoming more and more difficult
 <!--SR:!2025-01-15,35,270-->

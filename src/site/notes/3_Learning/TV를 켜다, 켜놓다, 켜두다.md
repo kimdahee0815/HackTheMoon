@@ -10,7 +10,7 @@
 TV를 켜다;;Turn on the TV
 <!--SR:!2025-01-25,45,290-->
 TV를 켜놓다;;Keep the TV (turned) on
-<!--SR:!2024-12-30,16,297-->
+<!--SR:!2025-03-15,65,317-->
 TV를 켜두다;;Leave the TV (turned) on
 <!--SR:!2025-03-05,61,310-->
 
@@ -20,12 +20,12 @@ TV를 켜두다;;Leave the TV (turned) on
 <!--SR:!2025-03-09,63,317-->
 
 (행위가 이루어지는 이유나 목적의 여부) 실수로 TV를 켜놨어;;I accidentally left the TV on
-<!--SR:!2024-12-28,14,297-->
+<!--SR:!2025-03-09,59,317-->
 (의도 있음) 냄새가 너무 심해. 5분만 창문을 열어놔도 돼?;;It really stinks in here. Can I keep the window open for about 5 minutes?
-<!--SR:!2024-12-21,11,270-->
+<!--SR:!2025-02-08,30,270-->
 
 문 닫을까요?;;Should I close the door?
-<!--SR:!2024-12-24,14,290-->
+<!--SR:!2025-03-07,57,310-->
 (현재 상태 유지 or 상태변화 후 유지) 아니오, 그냥 열어놓으세요;;No, just leave it open
 <!--SR:!2025-03-12,65,310-->
 

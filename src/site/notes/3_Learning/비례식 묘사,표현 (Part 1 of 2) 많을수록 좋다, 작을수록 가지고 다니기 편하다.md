@@ -33,7 +33,7 @@
 작을수록 들고 다니기가 더 편해진다;;The smaller it is, the more convenient(easier) it is to carry around
 <!--SR:!2025-02-08,60,310-->
 작을수록 들고 다니기는 쉬워, 근데 그렇다고 해서 꼭 작을수록 좋은 것 만은 아니야;;The smaller it is, the easier it is to carry around, but that doesn't mean the smaller the better/that doesn't necessarily mean the smaller the better
-<!--SR:!2024-12-09,17,299-->
+<!--SR:!2025-03-20,70,319-->
 왜냐하면 작을수록 안에 넣고 다닐 수 있는 게 적어지니까;;Because the smaller it is, the less stuff you can carry in it
 <!--SR:!2024-12-21,6,250-->
 
