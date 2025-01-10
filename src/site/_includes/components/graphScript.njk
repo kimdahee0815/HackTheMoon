@@ -187,8 +187,6 @@
 </script>
 <div  x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
     <div class="graph-title-container">
-        <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-        <div class="commonninja_component pid-da95b119-6535-46ed-90b5-97d3cdb5a9ed"></div>
         {% include "components/user/common/nav/theme-switch.njk" %}
         <div class="graph-title">Connected Pages</div>
         <div id="graph-controls">
