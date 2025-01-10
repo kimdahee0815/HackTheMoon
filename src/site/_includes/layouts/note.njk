@@ -131,7 +131,15 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               iframeEl.classList.remove('spotify');
               iframeEl.classList.add('youtube');
             }
-          }     
+          }
+          iframeElements = document.querySelectorAll('iframe');
+          for(let iframeEl of iframeElements){
+            let iframeUrl = iframeEl.getAttribute('src');
+            if(iframeUrl.includes("youtube")){
+              iframeEl.setAttribute('width', 300);
+              iframeEl.setAttribute('height', 185);
+            }
+          }
         </script>
       </main>
       {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
