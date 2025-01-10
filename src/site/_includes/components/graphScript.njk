@@ -187,10 +187,6 @@
 </script>
 <div  x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
     <div class="graph-title-container">
-        <!-- SCM Music Player https://www.scmplayer.net -->
-        <script type="text/javascript" src="https://www.scmplayer.net/script.js" 
-            data-config="{'skin':'skins/cyber/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'Throwaway','url':'https://www.youtube.com/watch?v=Mu-Ul7LmI_A'},{'title':'Thinking about you','url':'https://www.youtube.com/watch?v=k_DtaPkflIg'},{'title':'Cheers','url':'https://www.youtube.com/watch?v=gEjiMEEFSGI'},{'title':'Toxic till the end','url':'https://www.youtube.com/watch?v=wCFVFdhJdCo'},{'title':'Hope','url':'https://www.youtube.com/watch?v=utsJjf9on9Y'},{'title':'Easy','url':'https://www.youtube.com/watch?v=b_1bA_413RY'}]}" ></script>
-        <!-- SCM Music Player script end -->
         {% include "components/user/common/nav/theme-switch.njk" %}
         <div class="graph-title">Connected Pages</div>
         <div id="graph-controls">
