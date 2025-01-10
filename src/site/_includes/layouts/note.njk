@@ -133,24 +133,24 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
             }
           }
           iframeElements = document.querySelectorAll('iframe');
-          for(let iframeEl of iframeElements){
-            let iframeUrl = iframeEl.getAttribute('src');
-            if(iframeUrl.includes("youtube")){
-              iframeEl.style.width = "100%";
-              let delay = 300;
-              let timer = null;
-              window.addEventListener('resize', function(){
-	              clearTimeout(timer);
-	              timer = setTimeout(function(){
-                  if (window.innerWidth <= 500) {
-      		          iframeEl.setAttribute('height', 270);
-   		            }else{
-                    iframeEl.setAttribute('height', 400);
-                  }
-	              }, delay);
-              });
-            }
-          }
+          let delay = 300;
+          let timer = null;
+          window.addEventListener('resize', function(){
+              clearTimeout(timer);
+              for(let iframeEl of iframeElements){
+                let iframeUrl = iframeEl.getAttribute('src');
+                if(iframeUrl.includes("youtube")){
+                iframeEl.style.width = "100%";
+                  timer = setTimeout(function(){
+                    if (window.innerWidth <= 500) {
+      		            iframeEl.setAttribute('height', 270);
+   		              }else{
+                      iframeEl.setAttribute('height', 400);
+                    }
+	                }, delay);
+                }
+              }    
+          });
         </script>
       </main>
       {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
