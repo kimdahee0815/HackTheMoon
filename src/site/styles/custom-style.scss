@@ -963,22 +963,3 @@ body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
   .fadeOutFromLeft-animation{
     animation: 0.4s fadeOutFromLeft;
   }
-
-  
-.iframeContainer{
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 56.25%;
-    margin-top: -28%;
-    iframe{
-        position: absolute;
-        width: 100%;
-    }
-}
-.spotify{
-    height: 56%;
-}
-.youtube{
-    height: 100%;
-}
