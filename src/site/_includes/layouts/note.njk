@@ -136,14 +136,10 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                   iframeEl.setAttribute("width", 100%);
                 }
           }
-          let delay = 300;
-          let timer = null;
           window.addEventListener('resize', function(){
-              clearTimeout(timer);
               for(let iframeEl of iframeElements){
                 let iframeUrl = iframeEl.getAttribute('src');
                 if(iframeUrl.includes("youtube")){
-                  timer = setTimeout(function(){
                     if (window.innerWidth <= 500) {
       		            iframeEl.setAttribute('height', 270);
    		              }else if (window.innerWidth <= 800) {
@@ -151,7 +147,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
    		              }else{
                       iframeEl.setAttribute('height', 400);
                     }
-	                }, delay);
                 }
               }    
           });
