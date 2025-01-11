@@ -130,6 +130,12 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
             }
           }
           iframeElements = document.querySelectorAll('iframe');
+          for(let iframeEl of iframeElements){
+            let iframeUrl = iframeEl.getAttribute('src');
+                if(iframeUrl.includes("youtube")){
+                  iframeEl.setAttribute("width", 100%);
+                }
+          }
           let delay = 300;
           let timer = null;
           window.addEventListener('resize', function(){
