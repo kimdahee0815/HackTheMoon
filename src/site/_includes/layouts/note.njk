@@ -125,7 +125,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           let timer = null;
           for(let iframeEl of iframeElements){
             let iframeUrl = iframeEl.getAttribute('src');
-            if(iframeUrl.includes("youtube")){
+            if(iframeUrl.includes("youtube") || iframeUrl.includes("spotify")){
             iframeEl.style.width = "100%";
             iframeEl.setAttribute('width', 100%);
             }
