@@ -120,18 +120,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           {% include imp %}
         {% endfor %}
         <script>
-          let iframeElements = document.querySelectorAll('.container-root > iframe');
-          for(let iframeEl of iframeElements){
-            let iframeUrl = iframeEl.getAttribute('src');
-            if(iframeUrl.includes("spotify")){
-              iframeEl.classList.add('spotify');
-              iframeEl.classList.remove('youtube');
-            }
-            if(iframeUrl.includes("youtube")){
-              iframeEl.classList.remove('spotify');
-              iframeEl.classList.add('youtube');
-            }
-          }
           let iframeElements = document.querySelectorAll('iframe');
           let delay = 300;
           let timer = null;
@@ -144,6 +132,8 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                   timer = setTimeout(function(){
                     if (window.innerWidth <= 500) {
       		            iframeEl.setAttribute('height', 270);
+   		              }else if (window.innerWidth <= 800) {
+      		            iframeEl.setAttribute('height', 315);
    		              }else{
                       iframeEl.setAttribute('height', 400);
                     }
