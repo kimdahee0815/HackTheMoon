@@ -128,10 +128,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                   iframeEl.setAttribute("height", 400);
                 }
           }
-          console.log(iframeElements)
+
           window.addEventListener('resize', function(){
               for(let iframeEl of iframeElements){
-                console.log(iframeEl);
                 let iframeUrl = iframeEl.getAttribute('src');
                 if(iframeUrl.includes("youtube")){
                     if (window.innerWidth <= 500) {
