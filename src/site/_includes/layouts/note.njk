@@ -120,16 +120,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           {% include imp %}
         {% endfor %}
         <script>
-          let iframeElements = document.querySelectorAll('iframe');
+          let iframeElements = document.querySelectorAll('.container-root iframe');
           let delay = 300;
           let timer = null;
-          for(let iframeEl of iframeElements){
-            let iframeUrl = iframeEl.getAttribute('src');
-            if(iframeUrl.includes("youtube") || iframeUrl.includes("spotify")){
-            iframeEl.style.width = "100%";
-            iframeEl.setAttribute('width', 100%);
-            }
-          }
           window.addEventListener('resize', function(){
               clearTimeout(timer);
               for(let iframeEl of iframeElements){
