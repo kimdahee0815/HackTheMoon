@@ -126,7 +126,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                 if(iframeUrl.includes("youtube")){
                   iframeEl.setAttribute("width", "100%");
                   if (window.innerWidth <= 500) {
-                    iframeEl.setAttribute("height", 270);
+                    iframeEl.setAttribute("height", 230);
                   }else if (window.innerWidth <= 800) {
       		            iframeEl.setAttribute('height', 315);
    		            }else{
@@ -140,7 +140,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                 let iframeUrl = iframeEl.getAttribute('src');
                 if(iframeUrl.includes("youtube")){
                     if (window.innerWidth <= 500) {
-      		            iframeEl.setAttribute('height', 270);
+      		            iframeEl.setAttribute('height', 230);
    		              }else if (window.innerWidth <= 800) {
       		            iframeEl.setAttribute('height', 315);
    		              }else{
