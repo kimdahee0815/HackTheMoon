@@ -44,7 +44,7 @@
 5. 5:10 AM ~ 5:30 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 20 mins
 6. 5:30 AM ~ 5:40 AM - To Do List check - 10 mins
 7. 5:40 AM ~ 5:50 AM - Stretching - 10 mins
-8. 5:50 AM ~ 5:00 AM - Affirmation, Visualization - 10 mins
+8. 5:50 AM ~ 6:00 AM - Affirmation, Visualization - 10 mins
 9. 6:00 AM ~ 6:30 AM - Reading Chicago Plan - 30 mins
 10. 6:30 AM ~ 7:00 AM - English Live Academy - 30 mins
 11. 7:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
@@ -108,7 +108,7 @@
 5. 5:10 AM ~ 5:30 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 20 mins
 6. 5:30 AM ~ 5:40 AM - To Do List check - 10 mins
 7. 5:40 AM ~ 5:50 AM - Stretching - 10 mins
-8. 5:50 AM ~ 5:00 AM - Affirmation, Visualization - 10 mins
+8. 5:50 AM ~ 6:00 AM - Affirmation, Visualization - 10 mins
 9. 6:00 AM ~ 6:30 AM - Reading Chicago Plan - 30 mins
 10. 6:30 AM ~ 7:00 AM - English Live Academy - 30 mins
 11. 7:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
