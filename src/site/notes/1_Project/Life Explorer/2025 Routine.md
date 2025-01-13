@@ -8,34 +8,33 @@
 2. 5:01 AM - Make Bed
 3. 5:05 AM - Drink Water & Probiotics
 4. 5:08 AM - Go to Bathroom
-5. 5:10 AM ~ 5:20 AM - Stretching - 10 mins
+5. 5:10 AM ~ 5:20 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
 6. 5:20 AM ~ 5:30 AM - Affirmation, Visualization - 10 mins
 7. 5:30 AM - Leave house to go to Swimming Pool
-8. 5:30 AM ~ 5:40 AM - English Podcast (IELTS 7+ or All Ears English) - 10 mins
-9. 5:40 AM ~ 5:50 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
-10. 6:00 AM ~ 7:00 AM - Swimming
-11. 7:30 AM ~ 7:50 AM - English Podcast (IELTS 7+ or All Ears English) - 20 mins
-12. 7:50 AM ~ 8:00 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
-13. 8:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
-14. 9:00 AM ~ 9:30 AM - Reading Chicago Plan - 30 mins
-15. 9:30 AM ~ 9:40 AM - To Do List check - 10 mins
-16. 9:40 AM - Morning Washing Dishes
-17. 9:50 AM - Morning Cleaning House
-18. 10:00 AM - Developing 
-19. 12:00 PM - Eat Lunch, Pantomona
-20. 12:40 PM - Afternoon Washing Dishes
-21. 1:00 PM - Developing
-22. 5:10 PM ~ 5:40 PM - English Live Academy - 30 mins
-23. 5:40 PM - Evening Cleaning House
-24. 6:00 PM - Dinner, MtoQueen
-25. 6:40 PM - Evening Washing Dishes
-26. 7:00 PM ~ 7:30 PM - Reading Chicago Plan - 30 mins
-27. 7:30 PM ~ 8:10 PM- Muscle Workout - 40 mins
-28. 9:00 PM ~ 9:30 PM - Spanish - 30 mins
-29. 9:30 PM ~ 9:40 PM - Meditation - 10 mins
-30. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
-31. 10:00 PM - Arranging Desk
-32. 10:00 PM - Go to Bed
+8. 5:30 AM ~ 5:50 AM - English Podcast (IELTS 7+ or All Ears English) - 20 mins
+9. 6:00 AM ~ 7:00 AM - Swimming
+10. 7:30 AM ~ 7:40 AM - English Podcast (IELTS 7+ or All Ears English) - 10 mins
+11. 7:50 AM ~ 8:00 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
+12. 8:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
+13. 9:00 AM ~ 9:30 AM - Reading Chicago Plan - 30 mins
+14. 9:30 AM ~ 9:40 AM - To Do List check - 10 mins
+15. 9:40 AM - Morning Washing Dishes
+16. 9:50 AM - Morning Cleaning House
+17. 10:00 AM - Developing 
+18. 12:00 PM - Eat Lunch, Pantomona
+19. 12:40 PM - Afternoon Washing Dishes
+20. 1:00 PM - Developing
+21. 5:10 PM ~ 5:40 PM - English Live Academy - 30 mins
+22. 5:40 PM - Evening Cleaning House
+23. 6:00 PM - Dinner, MtoQueen
+24. 6:40 PM - Evening Washing Dishes
+25. 7:00 PM ~ 7:30 PM - Reading Chicago Plan - 30 mins
+26. 7:30 PM ~ 8:10 PM- Muscle Workout - 40 mins
+27. 9:00 PM ~ 9:30 PM - Spanish - 30 mins
+28. 9:30 PM ~ 9:40 PM - Meditation - 10 mins
+29. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 20 mins
+30. 10:00 PM - Arranging Desk
+31. 10:00 PM - Go to Bed
 
 ## <font color="#9d0ab3">Tuesday</font>
 1. 5:00 AM - Get Up
@@ -49,8 +48,8 @@
 9. 6:00 AM ~ 6:30 AM - Reading Chicago Plan - 30 mins
 10. 6:30 AM ~ 7:00 AM - English Live Academy - 30 mins
 11. 7:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
-12. 7:40 AM - Cleaning House
-13. 7:50 AM - Washing Dishes
+12. 7:40 AM - Washing Dishes
+13. 7:50 AM - Cleaning House
 14. 8:00 AM - Developing
 15. 12:00 PM - Eat Lunch, Pantomona
 16. 12:40 PM - Washing Dishes
@@ -63,24 +62,23 @@
 23. 7:30 PM ~ 8:00 PM- Spanish - 30 mins
 24. 8:00 PM ~ 9:00 PM - Thinkstorm Meeting - 1 hour
 25. 9:00 PM ~ 9:40 PM - Muscle Workout - 40 mins
-26. 9:40 PM ~ 9:50 AM - Meditation - 10 mins
-27. 9:50 PM ~ 10:10 AM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
-28. 10:10 PM - Arranging Desk
-29. 10:10 PM - Go to Bed
+26. 10:00 PM ~ 10:10 PM - Meditation - 10 mins
+27. 10:10 PM ~ 10:20 PM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 10 mins
+28. 10:20 PM - Arranging Desk
+29. 10:20 PM - Go to Bed
 
 ## <font color="#9d0ab3">Wednesday</font>
 1. 5:00 AM - Get Up
 2. 5:01 AM - Make Bed
 3. 5:05 AM - Drink Water & Probiotics
 4. 5:08 AM - Go to Bathroom
-5. 5:10 AM ~ 5:20 AM - Stretching - 10 mins
+5. 5:10 AM ~ 5:20 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
 6. 5:20 AM ~ 5:30 AM - Affirmation, Visualization - 10 mins
 7. 5:30 AM - Leave house to go to Swimming Pool
-8. 5:30 AM ~ 5:40 AM - English Podcast (IELTS 7+ or All Ears English) - 10 mins
-9. 5:40 AM ~ 5:50 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
-10. 6:00 AM ~ 7:00 AM - Swimming
-11. 7:30 AM ~ 7:50 AM - English Podcast (IELTS 7+ or All Ears English) - 20 mins
-12. 7:50 AM ~ 8:00 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
+8. 5:30 AM ~ 5:50 AM - English Podcast (IELTS 7+ or All Ears English) - 20 mins
+9. 6:00 AM ~ 7:00 AM - Swimming
+10. 7:30 AM ~ 7:40 AM - English Podcast (IELTS 7+ or All Ears English) - 10 mins
+11. 7:50 AM ~ 8:00 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
 13. 8:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
 14. 9:00 AM ~ 9:30 AM - Reading Chicago Plan - 30 mins
 15. 9:30 AM ~ 9:40 AM - To Do List check - 10 mins
@@ -98,7 +96,7 @@
 27. 7:30 PM ~ 8:10 PM- Muscle Workout - 40 mins
 28. 9:00 PM ~ 9:30 PM - Spanish - 30 mins
 29. 9:30 PM ~ 9:40 PM - Meditation - 10 mins
-30. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
+30. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 20 mins
 31. 10:00 PM - Arranging Desk
 32. 10:00 PM - Go to Bed
 
@@ -128,7 +126,7 @@
 23. 7:30 PM ~ 8:10 PM - Muscle Workout - 40 mins
 24. 9:00 PM ~ 9:30 PM - Spanish - 30 mins
 25. 9:30 PM ~ 9:40 PM - Meditation - 30 mins
-26. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
+26. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 20 mins
 27. 10:00 PM - Arranging Desk
 28. 10:00 PM - Go to Bed
 
@@ -137,14 +135,13 @@
 2. 5:01 AM - Make Bed
 3. 5:05 AM - Drink Water & Probiotics
 4. 5:08 AM - Go to Bathroom
-5. 5:10 AM ~ 5:20 AM - Stretching - 10 mins
+5. 5:10 AM ~ 5:20 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
 6. 5:20 AM ~ 5:30 AM - Affirmation, Visualization - 10 mins
 7. 5:30 AM - Leave house to go to Swimming Pool
-8. 5:30 AM ~ 5:40 AM - English Podcast (IELTS 7+ or All Ears English) - 10 mins
-9. 5:40 AM ~ 5:50 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
-10. 6:00 AM ~ 7:00 AM - Swimming
-11. 7:30 AM ~ 7:50 AM - English Podcast (IELTS 7+ or All Ears English) - 20 mins
-12. 7:50 AM ~ 8:00 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
+8. 5:30 AM ~ 5:50 AM - English Podcast (IELTS 7+ or All Ears English) - 20 mins
+9. 6:00 AM ~ 7:00 AM - Swimming
+10. 7:30 AM ~ 7:40 AM - English Podcast (IELTS 7+ or All Ears English) - 10 mins
+11. 7:50 AM ~ 8:00 AM - Wants/Needs, Morning Diary, Body Scan, Face Scan - 10mins
 13. 8:00 AM - Eat Breakfast, MtoQueen, Pantomona, Omega3
 14. 9:00 AM ~ 9:30 AM - Reading Chicago Plan - 30 mins
 15. 9:30 AM ~ 9:40 AM - To Do List check - 10 mins
@@ -167,7 +164,7 @@
 32. 8:50 PM ~ 9:00 PM - Spanish - 10 mins
 33. 9:30 PM ~ 9:40 PM - Reading Chicago Plan - 10 mins
 34. 9:40 PM ~ 9:50 PM - Meditation - 10 mins
-35. 9:50 PM ~ 10:10 PM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
+35. 9:50 PM ~ 10:10 PM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 20 mins
 36. 10:10 PM - Arranging Desk
 37. 10:10 PM - Go to Bed
 
@@ -195,7 +192,7 @@
 21. 7:30 PM ~ 8:10 PM- Muscle Workout - 40 mins
 22. 9:00 PM ~ 9:30 PM - Spanish - 30 mins
 23. 9:30 PM ~ 9:40 PM - Meditation - 40 mins
-24. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
+24. 9:40 PM ~ 10:00 PM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 20 mins
 25. 10:00 PM - Arranging Desk
 26. 10:00 PM - Go to Bed
 
@@ -222,6 +219,6 @@
 20. 7:30 PM ~ 8:10 PM- Muscle Workout - 40 mins
 21. 9:00 PM ~ 9:30 PM - Spanish - 30 mins
 22. 9:30 PM ~ 9:40 AM - Meditation - 10 mins
-23. 9:40 PM ~ 10:00 AM - Saving, Evening Diary, Gratitude, Mood Tracker - 20 mins
+23. 9:40 PM ~ 10:00 AM - Saving, Evening Diary, Gratitude, Mood Tracker, TodoList - 20 mins
 24. 10:00 PM - Arranging Desk
 25. 10:00 PM - Go to Bed
