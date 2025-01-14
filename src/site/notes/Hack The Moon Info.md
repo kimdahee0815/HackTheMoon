@@ -6,18 +6,18 @@
 # Projects
 💼 Career
 
-- [[1_Project/Career/Developing Book List\|Developing Book List]]
 - [[1_Project/Career/2025 Developing\|2025 Developing]]
 - [[1_Project/Career/Developing Lectures\|Developing Lectures]]
+- [[1_Project/Career/Developing Book List\|Developing Book List]]
 
 { .block-language-dataview}
 
 🧭 Life Explorer
 
-- [[1_Project/Life Explorer/2025 Diet\|2025 Diet]]
 - [[1_Project/Life Explorer/2025 Workout\|2025 Workout]]
-- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
+- [[1_Project/Life Explorer/2025 Diet\|2025 Diet]]
 - [[1_Project/Life Explorer/2025 English\|2025 English]]
+- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
 - [[1_Project/Life Explorer/2025-2026 Spanish\|2025-2026 Spanish]]
 - [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
 - [[1_Project/Life Explorer/English Book List\|English Book List]]
@@ -54,8 +54,8 @@
 - [[3_Learning/도움이 되다를 영어로 표현하기 - help, helpful, support, supportive\|도움이 되다를 영어로 표현하기 - help, helpful, support, supportive]]
 - [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
 - [[3_Learning/흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기\|흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기]]
-- [[3_Learning/알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out\|알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out]]
 - [[3_Learning/IE 1 How the Pros Prepare for the IELTS\|IE 1 How the Pros Prepare for the IELTS]]
+- [[3_Learning/알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out\|알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out]]
 - [[3_Learning/notice, realize, recognize, tell, figure\|notice, realize, recognize, tell, figure]]
 - [[3_Learning/keep track of, keep up with, catch up on\|keep track of, keep up with, catch up on]]
 
@@ -92,9 +92,9 @@
 
 🖥️ Web-Surfing
 
-- [[3_Learning/통곡의 벽\|통곡의 벽]]
 - [[3_Learning/마사다 요새\|마사다 요새]]
 - [[3_Learning/할라카\|할라카]]
+- [[3_Learning/통곡의 벽\|통곡의 벽]]
 - [[3_Learning/토라\|토라]]
 - [[3_Learning/네이팜 소녀\|네이팜 소녀]]
 - [[3_Learning/Character Alignment\|Character Alignment]]
@@ -166,13 +166,13 @@
 - [[9_Music/Prologue\|Prologue]]
 - [[9_Music/Throwaway\|Throwaway]]
 - [[9_Music/In Touch (feat. Charli Taft & Daul)\|In Touch (feat. Charli Taft & Daul)]]
-- [[9_Music/Sundays\|Sundays]]
 - [[9_Music/FOMO\|FOMO]]
+- [[9_Music/Sundays\|Sundays]]
 - [[9_Music/Cross Your Mind\|Cross Your Mind]]
 - [[9_Music/Defying Gravity\|Defying Gravity]]
 - [[9_Music/cheers (with Wiz Khalifa)\|cheers (with Wiz Khalifa)]]
-- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
+- [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
 
 { .block-language-dataview}
 
@@ -188,6 +188,7 @@
 
 🗄️ Recent file updates
 
+- [[2_Routine/1_Daily/Overview/2025-01-14\|2025-01-14]]
 - [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
 - [[3_Learning/Siwon School Spanish1\|Siwon School Spanish1]]
 - [[4_Book/소크라테스의 변명\|소크라테스의 변명]]
@@ -197,17 +198,15 @@
 - [[3_Learning/Arrays Concept\|Arrays Concept]]
 - [[3_Learning/Big O\|Big O]]
 - [[3_Learning/can을 상황에 따라 다양한 형태로 표현하는걸 배워보자\|can을 상황에 따라 다양한 형태로 표현하는걸 배워보자]]
-- [[3_Learning/조건절, 가정법 문장 구성하기 복습\|조건절, 가정법 문장 구성하기 복습]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
+- [[3_Learning/IE 10 How to Mix It Up with Different IELTS English Accents\|IE 10 How to Mix It Up with Different IELTS English Accents]]
 - [[3_Learning/Arrays - Question 2 Container With Most Water (Medium)\|Arrays - Question 2 Container With Most Water (Medium)]]
 - [[8_Movie & Drama/Blue Is the Warmest Colour\|Blue Is the Warmest Colour]]
-- [[3_Learning/IE 1 How the Pros Prepare for the IELTS2\|IE 1 How the Pros Prepare for the IELTS2]]
 - [[4_Book/행동하지 않으면 인생은 바뀌지 않는다\|행동하지 않으면 인생은 바뀌지 않는다]]
-- [[4_Book/Report/2024-12-17 - 아주 작은 습관의 힘\|2024-12-17 - 아주 작은 습관의 힘]]
 - [[4_Book/아주 작은 습관의 힘\|아주 작은 습관의 힘]]
 - [[4_Book/원씽(The One Thing)(60만 부 기념 스페셜 에디션)\|원씽(The One Thing)(60만 부 기념 스페셜 에디션)]]
 - [[4_Book/콰이어트\|콰이어트]]
@@ -215,8 +214,8 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 1077
-    -   Daily Routines: 77
+    -   File Count: 1090
+    -   Daily Routines: 78
     -   Daily Drawings: 8
     -   Class: 3
     -   Developing: 8
