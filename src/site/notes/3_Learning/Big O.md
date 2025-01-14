@@ -164,7 +164,7 @@ function compressBoxesTwice(boxes, boxes2){
 ```
 
 - O(N * M + N) => O(N * M) 
-- [[3_Learning/Big O#Drop non-dominants\|Big O#Drop non-dominants]]
+- [[3_Learning/Big O#Simplifying Big O\|#Simplifying Big O#Different terms for inputs]]
 
 ### O(N!) 
 - Adding nested loop for every element that's being iterated
