@@ -8,7 +8,7 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/-Rla6eF24ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 이 주제들은 당신이 깊게 교육을 받은 흔한 주제들입니다;;These are very common topics in which you are all deeply educated
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-15,1,210-->
 우리는 경험이 전혀 없는 다양한 종류의 일에 관여가 되어 있었습니다;;We were involved in many different types of work in which we had absolutely no experience
 <!--SR:!2025-01-14,5,230-->
 

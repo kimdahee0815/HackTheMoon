@@ -8,7 +8,7 @@
 <div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/m5Wc87i4S_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 나는 활동적인 사람을 좋아해;;I like active people/ I like people who are active
-<!--SR:!2024-12-05,15,290-->
+<!--SR:!2025-03-18,63,310-->
 저는 너무 활동적인 사람은 좀 별로에요;;I don't like people who are too active
 <!--SR:!2025-02-19,66,317-->
 나는 열정적인 사람들을 좋아해;;I like passionate people/I like people who are passionate

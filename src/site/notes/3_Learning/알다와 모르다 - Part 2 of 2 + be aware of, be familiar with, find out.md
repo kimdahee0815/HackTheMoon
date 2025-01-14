@@ -12,7 +12,7 @@
 사무실에 도착하고 방금 알았어요;;I found out just now when I got to the office
 <!--SR:!2025-01-20,11,270-->
 괜찮아요 - 어떤 실수가 있어서 모두가 제시간에 통보를 받지 못한 모양이니, 이해합니다;;That's okay, Apparently(전해 들은 사실), there was some mistake and not everyone was notified (let someone know 비슷한 느낌) in time. So, we understand.
-<!--SR:!2025-01-07,4,270-->
+<!--SR:!2025-01-26,12,270-->
 자, 회의를 시작하기 전에 새로 온 멤버를 소개하고 싶습니다;;Okay, before we start our meeting, i want to introudce our new memeber
 <!--SR:!2025-01-06,3,250-->
 본사에서 부서이동을 했고요. 이곳에서 저희가 하는 일에 대해서는 잘 알고 있어요;;She has been transferred from Headquarters and she's very familiar with (경험, 지식과 노하우를 잘 알고 있음. know - 지식을 알다) what we do here

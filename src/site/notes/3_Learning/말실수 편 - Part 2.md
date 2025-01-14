@@ -41,7 +41,7 @@
 말이 잘못 나왔어요;;That didn't come out right
 <!--SR:!2025-01-09,26,290-->
 어떻게 들렸을지는 아는데, 내가 그런 걸 의도한 건 아니었어;;i didn't mean for that to sound like it did
-<!--SR:!2025-01-14,8,230-->
+<!--SR:!2025-01-18,4,210-->
 
 5. 바보 같은 말실수
 내가 바보같은 걸 말했어;;I said something stupid

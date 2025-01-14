@@ -28,7 +28,7 @@
 난 늘 하는대로 했어;;I did what I always do
 <!--SR:!2025-01-08,3,203-->
 난 그냥 지난 2주 동안 해왔던 대로 할게;;I'll just do what i've done for the past 2 weeks/I'll just do what i've been doing for the past 2 weeks
-<!--SR:!2024-12-22,8,250-->
+<!--SR:!2025-01-18,4,230-->
 난 그냥 지금까지 해왔던 대로 할게;;I'll just do what i've been doing up to now
 <!--SR:!2025-01-10,4,203-->
 

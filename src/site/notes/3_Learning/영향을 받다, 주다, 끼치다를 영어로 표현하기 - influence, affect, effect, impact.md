@@ -21,7 +21,7 @@
 
 have positive/negative effect on
 TV는 아이들에게 긍정적이고 부정적인 영향을 모두 끼칠 수 있다;;Television can have positive and negative effects on children/ Television can have both positive and negative effects on children
-<!--SR:!2025-01-10,4,270-->
+<!--SR:!2025-01-29,15,290-->
 
 영향의 정도가 굉장히 클 때 - impact
 

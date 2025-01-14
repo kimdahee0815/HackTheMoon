@@ -14,7 +14,7 @@
 그리고 쇼파랑 침대 밑에도 쉽게 들어갈 수 있어서 여러모로 시간도 많이 절약이 되고 수고를 많이 덜어주는 것 같아;;Plus, it can easily reach under the sofa and the bed so in a lot of ways it saves me a lot of time and trouble
 <!--SR:!2024-12-17,3,250-->
 그냥 집을 청소하기가 훨씬 수월해지더라구;;it simply makes it so much easier to keep the house clean
-<!--SR:!2024-12-17,2,230-->
+<!--SR:!2025-01-21,7,250-->
 
 
 

@@ -10,9 +10,9 @@
 저 모임에 못나갈 것 같아요;;I don't think i can make it to the gathering(get together / party)
 <!--SR:!2025-01-07,1,210-->
 그날 집 수리를 좀 하기로 했거든요;;I'm having some repairs done at my place that day
-<!--SR:!2025-01-10,1,190-->
+<!--SR:!2025-01-15,1,170-->
 지난 주 태풍으로 인해(formal, 원인과 결과 관계) (때문에) 집 곳곳에 망가진 곳이 좀 있어요;;There's some demage around the house due to(because of/from) the hurricane last week
-<!--SR:!2025-01-11,2,210-->
+<!--SR:!2025-01-20,6,230-->
 근데 다음 주가 연휴니까 그 전에 해결을 해야 될 것 같아서요;;Since next week is a holdiay week, I figured I should take care of it before then
 <!--SR:!2025-01-13,7,250-->
 미리 얘기를 안한 것은 언제가 될지 확실하지 않았어요;;The reason that i didn't tell you earlier was because i wasn't sure when it was gonna be

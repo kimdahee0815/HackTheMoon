@@ -15,10 +15,10 @@
 <!--SR:!2025-01-14,8,250-->
 
 참고로 저는 내일 아침 내내 회의에 참석을 해야하니까, 저랑 연락을 하시려면 돌아올때까지 기다리셔야 할 거에요;;On/As a side note, I'll be attending meetings all morning tomorrow. So, if you need to reach me, you'll have to wait until I get back
-<!--SR:!2024-12-28,1,230-->
+<!--SR:!2025-01-15,1,210-->
 
 정보가 일단 등록이 되면 수정하거나 고칠 수 없다는 사실을 알아두세요(명심하세요);;Keep in mind that you can't make any changes or corrections once the information is registered
-<!--SR:!2025-01-12,3,250-->
+<!--SR:!2025-01-26,12,270-->
 
 한 가지 추가로;;One other thing
 <!--SR:!2025-01-09,3,250-->

@@ -20,7 +20,7 @@
 
 2. 언제 까지 어디에 도착하다는 의미로 말하는 '가다', '오다'
 나 거기 2시까지 가야 돼;;I have to be there by 2
-<!--SR:!2024-12-18,3,250-->
+<!--SR:!2025-01-25,11,270-->
 몇시쯤에 올 것 같아?;;What time do you think you'll(are gonna) be here?
 <!--SR:!2024-12-22,7,250-->
 2시 반까지는 갈 수 있을 것 같아;;I think I can be there by two-thirty

@@ -18,7 +18,7 @@
 Take note/Take note of/Take note that
 
 다시한번 상기시켜드리자면(formal);;As a reminder
-<!--SR:!2024-12-31,4,270-->
+<!--SR:!2025-01-16,2,250-->
 잊지 마세요(casual);;Don't forget/Keep in mind
 <!--SR:!2025-01-16,7,270-->
 
@@ -28,7 +28,7 @@ Take note/Take note of/Take note that
 그러고 보니까 흑인 오페라 가수는 난 본적이 없는 것 같네;;Come to think of it(Now that I think of it)/It just occured to me/I just realized, I don't think I've ever seen a black opera singer
 <!--SR:!2025-01-20,11,286-->
 그러고 보니 샐리의 생일이 다음주잖아;;It just occured to me/I just realized, Sally's birthday is next week
-<!--SR:!2025-01-12,7,250-->
+<!--SR:!2025-02-01,18,250-->
 
 
 

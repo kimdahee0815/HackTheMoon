@@ -14,7 +14,7 @@
 응 조금 도움이 돼;;Yeah, it helps a little
 <!--SR:!2025-01-23,14,290-->
 도움이 됐니?;;Was it helpful?/Did it help?
-<!--SR:!2025-01-09,4,270-->
+<!--SR:!2025-01-28,14,290-->
 많이 얻었어, 얻은 게 많았어;;I got a lot out of it
 <!--SR:!2025-01-25,16,290-->
 한국어를 배우면서 많이 힘들었어. 하지만 학교에 있는 선생님들이 도움을 줬을 뿐 아니라 내 편이 되어서 응원해줬어;;I had a really hard time learning korean. But the teachers in school were very supportive of me/The teachers in school gave me a lot of support (They gave me extra attention)

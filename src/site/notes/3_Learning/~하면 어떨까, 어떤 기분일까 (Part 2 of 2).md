@@ -10,7 +10,7 @@
 (일반적인 관점에서 경험하는 인상/기분/느낌)부자가 되면 어떤 기분일까;;I wonder what it's like to be rich
 <!--SR:!2025-01-21,16,290-->
 부자가 되면 어떤 기분일까(개인적인 관점에서 경험하게 될 인상/기분/느낌);;I wonder what it would be like to be rich
-<!--SR:!2024-12-18,4,270-->
+<!--SR:!2025-01-29,15,290-->
 그녀랑 사귀면 어떨지 궁금해;;I wonder what it would be like to go out with her
 <!--SR:!2025-01-20,15,290-->
 (상상해낸 가정, 현실성 없음) 빛의 속도로 여행하는게 어떨지 궁금해;;I wonder what it would be like to travel at the speed of light

@@ -10,13 +10,13 @@
 걔 아직도 나한테 화 나있는 거 같은데 내가 뭘 잘못한건지 모르겠어;;I think she is still mad at(upset with/angry with,at) me but I don't know what I did wrong
 <!--SR:!2025-02-16,45,290-->
 너가 무슨 말을 잘못 한거 아니야?;;Maybe it's something you said/Could it be something you said?
-<!--SR:!2025-01-14,9,230-->
+<!--SR:!2025-02-04,21,230-->
 어, 뭐.. 그럴 수도 있지;;Yeah it could be
 <!--SR:!2025-01-16,32,272-->
 맞아, 너가 말조심을 좀 안하는 편이잖아;;yeah, you know, you tend to be a little careless with what you say/with your words/with the things you say
 <!--SR:!2025-01-27,43,290-->
 너가 또 무슨 말실수를 했나보지;;you must have said something you shouldn't have again
-<!--SR:!2025-01-11,27,270-->
+<!--SR:!2025-04-26,102,290-->
 
 
 
