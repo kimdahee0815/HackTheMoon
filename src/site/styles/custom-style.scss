@@ -270,6 +270,12 @@ body.links-note-icon .internal-link[data-note-icon="english"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="english"]::before {
     background-image: url(/img/english.svg);
 }
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="workout"]::before,
+body.filetree-note-icon .filename[data-note-icon="workout"]::before,
+body.links-note-icon .internal-link[data-note-icon="workout"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="workout"]::before {
+    background-image: url(/img/workout.svg);
+}
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="social"]::before,
 body.filetree-note-icon .filename[data-note-icon="social"]::before,
 body.links-note-icon .internal-link[data-note-icon="social"]::before,
@@ -378,12 +384,7 @@ body.links-note-icon .internal-link[data-note-icon="career"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="career"]::before {
     background-image: url(/img/career.svg);
 }
-body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="workout"]::before,
-body.filetree-note-icon .filename[data-note-icon="workout"]::before,
-body.links-note-icon .internal-link[data-note-icon="workout"]::before,
-body.backlinks-note-icon .backlink[data-note-icon="workout"]::before {
-    background-image: url(/img/workout.svg);
-}
+
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="fleeting"]::before,
 body.filetree-note-icon .filename[data-note-icon="fleeting"]::before,
 body.links-note-icon .internal-link[data-note-icon="fleeting"]::before,
