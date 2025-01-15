@@ -104,7 +104,7 @@ console.log(findTwoSumIndex([1,6], 7));
 
 
 
-### Developing References
+### <font color="#76923c">Developing References</font>
 ##### Developing Report
 [[3_Learning/Report/Developing/2025-01-14 - Arrays - Question 1 Google Interview Question Two Sum (Easy)\|2025-01-14 - Arrays - Question 1 Google Interview Question Two Sum (Easy) Report]]
 [[3_Learning/Report/Developing/Daily/2025-01-14 - Developing\|2025-01-14 - Developing Daily Report]]
