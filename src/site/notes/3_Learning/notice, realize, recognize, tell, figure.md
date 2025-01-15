@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-note-icon":"youtube","dg-permalink":"3_Learning/notice,-realize,-recognize,-tell,-figure","created-date":"2025-01-01 11:17:12 pm","date":"2025-01-01","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=gWC5OvQmSgY","img":"https://img.youtube.com/vi/gWC5OvQmSgY/0.jpg","permalink":"/3_Learning/notice,-realize,-recognize,-tell,-figure/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-publish":true,"dg-note-icon":"english","dg-permalink":"3_Learning/notice,-realize,-recognize,-tell,-figure","created-date":"2025-01-01 11:17:12 pm","date":"2025-01-01","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=gWC5OvQmSgY","img":"https://img.youtube.com/vi/gWC5OvQmSgY/0.jpg","permalink":"/3_Learning/notice,-realize,-recognize,-tell,-figure/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/notice, realize, recognize, tell, figure\|notice, realize, recognize, tell, figure]]
