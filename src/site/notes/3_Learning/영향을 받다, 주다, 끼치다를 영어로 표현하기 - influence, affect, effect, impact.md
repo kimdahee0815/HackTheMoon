@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"youtube","dg-permalink":"3_Learning/영향을-받다,-주다,-끼치다를-영어로-표현하기---influence,-affect,-effect,-impact","created-date":"2025-01-06 9:16:38 am","date":"2025-01-06","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=EdGw8snKc0Q","img":"https://img.youtube.com/vi/EdGw8snKc0Q/0.jpg","dg-publish":true,"permalink":"/3_Learning/영향을-받다,-주다,-끼치다를-영어로-표현하기---influence,-affect,-effect,-impact/","dgPassFrontmatter":true,"noteIcon":"youtube"}
+{"dg-note-icon":"english","dg-permalink":"3_Learning/영향을-받다,-주다,-끼치다를-영어로-표현하기---influence,-affect,-effect,-impact","created-date":"2025-01-06 9:16:38 am","date":"2025-01-06","type":"youtube","tags":["youtube","english","flashcards"],"aliases":null,"youtuber":"빨모쌤","channelName":"라이브 아카데미","link":"https://www.youtube.com/watch?v=EdGw8snKc0Q","img":"https://img.youtube.com/vi/EdGw8snKc0Q/0.jpg","dg-publish":true,"permalink":"/3_Learning/영향을-받다,-주다,-끼치다를-영어로-표현하기---influence,-affect,-effect,-impact/","dgPassFrontmatter":true,"noteIcon":"english"}
 ---
 
 # [[3_Learning/영향을 받다, 주다, 끼치다를 영어로 표현하기 - influence, affect, effect, impact\|영향을 받다, 주다, 끼치다를 영어로 표현하기 - influence, affect, effect, impact]]

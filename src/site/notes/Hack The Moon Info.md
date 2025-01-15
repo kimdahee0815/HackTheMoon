@@ -7,8 +7,8 @@
 💼 Career
 
 - [[1_Project/Career/2025 Developing\|2025 Developing]]
-- [[1_Project/Career/Developing Book List\|Developing Book List]]
 - [[1_Project/Career/Developing Lectures\|Developing Lectures]]
+- [[1_Project/Career/Developing Book List\|Developing Book List]]
 
 { .block-language-dataview}
 
@@ -16,10 +16,10 @@
 
 - [[1_Project/Life Explorer/2025 Workout\|2025 Workout]]
 - [[1_Project/Life Explorer/2025 Diet\|2025 Diet]]
-- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
 - [[1_Project/Life Explorer/2025 English\|2025 English]]
-- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
+- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
 - [[1_Project/Life Explorer/2025-2026 Spanish\|2025-2026 Spanish]]
+- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
 - [[1_Project/Life Explorer/English Book List\|English Book List]]
 - [[1_Project/2025 Annual Plan\|2025 Annual Plan]]
 
@@ -29,6 +29,10 @@
 
 💻 Developing
 
+- [[3_Learning/Arrays Concept\|Arrays Concept]]
+- [[3_Learning/Arrays - Question 1 Google Interview Question Two Sum (Easy)\|Arrays - Question 1 Google Interview Question Two Sum (Easy)]]
+- [[3_Learning/Hash Tables Concept\|Hash Tables Concept]]
+- [[3_Learning/Big O\|Big O]]
 - [[3_Learning/Dynamic Programming\|Dynamic Programming]]
 - [[3_Learning/Binary Search Tree\|Binary Search Tree]]
 
@@ -36,22 +40,24 @@
 
 📖 Books
 
+- [[4_Book/소크라테스의 변명1\|소크라테스의 변명1]]
+- [[4_Book/소크라테스의 변명\|소크라테스의 변명]]
 - [[4_Book/Minimal Word History for Adults These Days\|Minimal Word History for Adults These Days]]
 
 { .block-language-dataview}
 
 🎧 English
 
+- [[3_Learning/이제 막, 한동안, 당분간(은)\|이제 막, 한동안, 당분간(은)]]
 - [[3_Learning/~하는 경우가 많다 , 대부분의 경우, 어떨때는\|~하는 경우가 많다 , 대부분의 경우, 어떨때는]]
 - [[3_Learning/영향을 받다, 주다, 끼치다를 영어로 표현하기 - influence, affect, effect, impact\|영향을 받다, 주다, 끼치다를 영어로 표현하기 - influence, affect, effect, impact]]
 - [[3_Learning/도움이 되다를 영어로 표현하기 - help, helpful, support, supportive\|도움이 되다를 영어로 표현하기 - help, helpful, support, supportive]]
+- [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
 - [[3_Learning/흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기\|흔히 있는 기회가 아니야, 흔치 않은 기회야, 그럴 기회가 없었어 - 영어로 기회에 대해서 말하기]]
 - [[3_Learning/IE 1 How the Pros Prepare for the IELTS\|IE 1 How the Pros Prepare for the IELTS]]
 - [[3_Learning/알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out\|알다와 모르다 - Part 2 of 2 + be aware of, be familiar with, find out]]
 - [[3_Learning/notice, realize, recognize, tell, figure\|notice, realize, recognize, tell, figure]]
 - [[3_Learning/keep track of, keep up with, catch up on\|keep track of, keep up with, catch up on]]
-- [[3_Learning/어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기\|어쩔 수 없어, ~하는 수 밖에 없어 영어로 표현하기]]
-- [[3_Learning/내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든\|내가 생각했던거랑은 좀 달라 , 난 좀 더 ~한걸 생각하고 있었거든]]
 
 { .block-language-dataview}
 
@@ -59,6 +65,8 @@
 
 👩🏻‍🏫 Classes
 
+- [[3_Learning/Siwon School Spanish1\|Siwon School Spanish1]]
+- [[3_Learning/Siwon School Spanish\|Siwon School Spanish]]
 
 { .block-language-dataview}
 
@@ -96,8 +104,8 @@
 
 👤People
 
-- [[6_People/엘리자베스 1세\|엘리자베스 1세]]
 - [[6_People/헨리 8세\|헨리 8세]]
+- [[6_People/엘리자베스 1세\|엘리자베스 1세]]
 - [[6_People/유대인\|유대인]]
 - [[6_People/아브라함\|아브라함]]
 
@@ -135,16 +143,16 @@
 
 🎞️ Movies/Dramas Watched
 
+- [[8_Movie & Drama/Carry-On\|Carry-On]]
 - [[8_Movie & Drama/Wicked - Part 1\|Wicked - Part 1]]
 - [[8_Movie & Drama/Red Sparrow\|Red Sparrow]]
 - [[8_Movie & Drama/Sex Education\|Sex Education]]
 - [[8_Movie & Drama/Ragnarok\|Ragnarok]]
-- [[8_Movie & Drama/전, 란\|전, 란]]
 - [[8_Movie & Drama/페르시아 수업\|페르시아 수업]]
+- [[8_Movie & Drama/전, 란\|전, 란]]
 - [[8_Movie & Drama/Don't Move\|Don't Move]]
 - [[8_Movie & Drama/The Fall Guy\|The Fall Guy]]
 - [[8_Movie & Drama/Family Pack\|Family Pack]]
-- [[8_Movie & Drama/Fury\|Fury]]
 
 { .block-language-dataview}
 
@@ -155,16 +163,16 @@
 
 🎶 Music
 
+- [[9_Music/Prologue\|Prologue]]
+- [[9_Music/Throwaway\|Throwaway]]
 - [[9_Music/In Touch (feat. Charli Taft & Daul)\|In Touch (feat. Charli Taft & Daul)]]
-- [[9_Music/Sundays\|Sundays]]
 - [[9_Music/FOMO\|FOMO]]
+- [[9_Music/Sundays\|Sundays]]
 - [[9_Music/Cross Your Mind\|Cross Your Mind]]
 - [[9_Music/Defying Gravity\|Defying Gravity]]
 - [[9_Music/cheers (with Wiz Khalifa)\|cheers (with Wiz Khalifa)]]
 - [[9_Music/Phone Call - Eternal Sunshine of The Spotless Mind\|Phone Call - Eternal Sunshine of The Spotless Mind]]
 - [[9_Music/Bookstore - From Eternal Sunshine of The Spotless Mind\|Bookstore - From Eternal Sunshine of The Spotless Mind]]
-- [[9_Music/하루하루\|하루하루]]
-- [[9_Music/거짓말\|거짓말]]
 
 { .block-language-dataview}
 
@@ -180,24 +188,25 @@
 
 🗄️ Recent file updates
 
-- [[3_Learning/~하는 경우가 많다 , 대부분의 경우, 어떨때는\|~하는 경우가 많다 , 대부분의 경우, 어떨때는]]
-- [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
-- [[1_Project/Life Explorer/2025-2026 Spanish\|2025-2026 Spanish]]
-- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
-- [[1_Project/Career/2025 Developing\|2025 Developing]]
-- [[1_Project/Life Explorer/2025 Workout\|2025 Workout]]
-- [[1_Project/Life Explorer/2025 English\|2025 English]]
-- [[3_Learning/시키는 대로 하다, 계획대로 하다, 늘 하던 대로 하다 - (PART 2 of 2)\|시키는 대로 하다, 계획대로 하다, 늘 하던 대로 하다 - (PART 2 of 2)]]
-- [[3_Learning/영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현\|영화를 보고 뭐가 좋았는지 설명할 때 사용하게 되는 여러가지 기본 표현]]
-- [[3_Learning/이유와 목적에 대해서 말하기 - Part 1\|이유와 목적에 대해서 말하기 - Part 1]]
+- [[2_Routine/1_Daily/Overview/2025-01-14\|2025-01-14]]
+- [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
+- [[3_Learning/Siwon School Spanish1\|Siwon School Spanish1]]
+- [[4_Book/소크라테스의 변명\|소크라테스의 변명]]
+- [[4_Book/소크라테스의 변명1\|소크라테스의 변명1]]
+- [[3_Learning/Arrays - Question 1 Google Interview Question Two Sum (Easy)\|Arrays - Question 1 Google Interview Question Two Sum (Easy)]]
+- [[3_Learning/Hash Tables Concept\|Hash Tables Concept]]
+- [[3_Learning/Arrays Concept\|Arrays Concept]]
+- [[3_Learning/Big O\|Big O]]
+- [[3_Learning/can을 상황에 따라 다양한 형태로 표현하는걸 배워보자\|can을 상황에 따라 다양한 형태로 표현하는걸 배워보자]]
 
 { .block-language-dataview}
 
 🔖 Draft: need to check!
 
-- [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
+- [[3_Learning/IE 10 How to Mix It Up with Different IELTS English Accents\|IE 10 How to Mix It Up with Different IELTS English Accents]]
+- [[3_Learning/Arrays - Question 2 Container With Most Water (Medium)\|Arrays - Question 2 Container With Most Water (Medium)]]
+- [[8_Movie & Drama/Blue Is the Warmest Colour\|Blue Is the Warmest Colour]]
 - [[4_Book/행동하지 않으면 인생은 바뀌지 않는다\|행동하지 않으면 인생은 바뀌지 않는다]]
-- [[8_Movie & Drama/Carry-On\|Carry-On]]
 - [[4_Book/아주 작은 습관의 힘\|아주 작은 습관의 힘]]
 - [[4_Book/원씽(The One Thing)(60만 부 기념 스페셜 에디션)\|원씽(The One Thing)(60만 부 기념 스페셜 에디션)]]
 - [[4_Book/콰이어트\|콰이어트]]
@@ -205,20 +214,20 @@
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 1018
-    -   Daily Routines: 72
+    -   File Count: 1090
+    -   Daily Routines: 78
     -   Daily Drawings: 8
-    -   Class: 1
-    -   Developing: 3
-    -   English: 57
+    -   Class: 3
+    -   Developing: 8
+    -   English: 59
     -   Web-Surfing: 7
     -   Career: 3
     -   Youtube: 26
-    -   Book: 5
+    -   Book: 7
     -   Event: 3
     -   Meeting: 
     -   Author: 
     -   People: 4
     -   Stuff: 46
-    -   Movie/Drama: 11
-    -   Music: 18
+    -   Movie/Drama: 12
+    -   Music: 20
