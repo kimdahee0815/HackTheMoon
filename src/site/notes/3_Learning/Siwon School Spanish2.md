@@ -4,16 +4,16 @@
 
 
 # [[3_Learning/Siwon School Spanish2\|Siwon School Spanish2]]
-## X (에끼스)
+## <font color="#9d0ab3">X (에끼스)</font>
 1. ex 엑스 - 전 연인
 2. exacto 엑싹또 - 정확한
-## Y (예)
+## <font color="#9d0ab3">Y (예)</font>
 1. Y 이 - 그리고
 2. you 요 - 나 (tu y you 뚜 이 요 - 너와 나)
-## Z (쎄따)
+## <font color="#9d0ab3">Z (쎄따)</font>
 1. zumo (쑤모, 번데기발음 - 스페인) - 주스
 2. golazo 골라쏘 - 멋진 골
-## 강세규칙
+## <font color="#9d0ab3">강세규칙</font>
 1. 모음/S/N으로 끝나면 뒤에서 두번째 모음 강세 
 	1. vida (i 에 강세)
 	2. vamos (a 에 강세)
@@ -29,7 +29,7 @@
 4. 이중모음 (약모음 - I U, 강모음 - A E O)
 	1. gracias 그라씨아스 - (i - 약모음, a - 강모음 ia 는 모음 하나로 치고, 강세는 gra의 a에 붙는다)
 	2. gimnasio 힘나씨오 - (i - 약모음, o - 강모음 io 는 모음 하나로 치고, 강세는 gimna의 a에 붙는다)
-## Expression
+## <font color="#9d0ab3">Expression</font>
 1. Un zumo, por favor 운 쑤모 뽀르 파보르 - 주스 한 잔 주세요
 2. Un mojito, por favor 운 모히또 뽀르 파보르 - 모히또 한 잔 주세요
 3. Seul 쎄울 - 서울
