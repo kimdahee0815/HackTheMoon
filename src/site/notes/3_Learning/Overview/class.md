@@ -5,6 +5,8 @@
 # Class Overview
 | File                                                           | date         |
 | -------------------------------------------------------------- | ------------ |
+| [[3_Learning/Swimming\|Swimming]]                           | 2025. 1. 15. |
+| [[3_Learning/Siwon School Spanish2\|Siwon School Spanish2]] | 2025. 1. 15. |
 | [[3_Learning/Siwon School Spanish1\|Siwon School Spanish1]] | 2025. 1. 14. |
 | [[3_Learning/Siwon School Spanish\|Siwon School Spanish]]   | 2025. 1. 13. |
 
