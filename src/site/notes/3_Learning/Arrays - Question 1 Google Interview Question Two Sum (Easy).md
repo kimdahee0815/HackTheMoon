@@ -8,7 +8,7 @@
 Given an array of integers, return the indices of the two numbers that add up to a given target.
 ex. [1, 3, 7, 9, 2]  sum: 11 return 9, 2
 
-### <font color="#92d050">Verify the constraints</font>
+### <font color="#76923c">Verify the constraints</font>
 - Are all the numbers positive or can there be negatives? - All numbers are positive
 - Are there duplicate numbers in the array? - No, there are no duplicates
 - Will there always be a solution available? - No, there may not always be a solution 
@@ -18,17 +18,17 @@ ex. [1, 3, 7, 9, 2]  sum: 11 return 9, 2
 - Can there be multiple pairs that add up to the target? - No, only 1 pair of numbers will add up to the target
 	- ex. [1,3,7,9,2,4] sum:11 => 2,9 and 7,4
 
-### <font color="#92d050">Write out some test cases</font>
+### <font color="#76923c">Write out some test cases</font>
 - Best Test case [1, 3, 7, 9, 2] target = 11 [3, 4]
 - [1, 3, 7, 9, 2] target = 25 null
 - [] target = 1 null
 - array [5] target = 5 null
 - [1, 6] target = 7 [0, 1]
 
-### <font color="#92d050">Figure out a solution without code</font>
+### <font color="#76923c">Figure out a solution without code</font>
 - Using two loops to figure out the answer 
 
-### <font color="#92d050">Write out our solution in code</font>
+### <font color="#76923c">Write out our solution in code</font>
 #### <font color="#00b050">Using two loops (Brute Force)</font>
 ```run-js
 function findTwoSumIndex(array, target){
@@ -73,12 +73,12 @@ console.log(findTwoSumIndex([1,6], 7));
 ```
 - Time complexity: O(N)
 - Space complexity: O(N)
-### <font color="#92d050">Double check for errors</font>
-### <font color="#92d050">Test our code with our test cases</font>
-### <font color="#92d050">Analyze Space and Time Complexity</font>
+### <font color="#76923c">Double check for errors</font>
+### <font color="#76923c">Test our code with our test cases</font>
+### <font color="#76923c">Analyze Space and Time Complexity</font>
 
 ## <font color="#9d0ab3">Complexity Kinds</font>
-### <font color="#92d050">Polynomial Complexity</font>
+### <font color="#76923c">Polynomial Complexity</font>
 - O(LogN): Logarithmic
 - O(N): Linear
 - O(NLogN): Linearithmic
@@ -87,7 +87,7 @@ console.log(findTwoSumIndex([1,6], 7));
 
 - If there's anything that is dynamic inside of this complexity, it's in the baase, not in the exponent.
 
-### <font color="#92d050">Exponential Complexity</font>
+### <font color="#76923c">Exponential Complexity</font>
 - O(2^N): Exponential
 - O(!N): Factorial
 - O(N^N): Exponential
