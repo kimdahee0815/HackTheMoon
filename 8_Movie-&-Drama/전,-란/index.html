@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Arrays Concept</title>
+<title>전, 란</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -547,7 +547,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Arrays-Concept/">Arrays Concept </a>
+<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Arrays-Concept/">Arrays Concept </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1018,7 +1018,7 @@ CTRL + K
 <span class="foldername">8_Movie &amp; Drama</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/전,-란/">전, 란 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="movie" style="text-decoration:none" class="filename" href="/8_Movie-&amp;-Drama/전,-란/">전, 란 </a>
 </div>
 </div>
 </div>
@@ -1122,197 +1122,75 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="developing">Arrays Concept</h1>
+<h1 data-note-icon="movie">전, 란</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#developing
+#movie
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#entertainment
 </a>
 </div>
 </div>
 </header>
-<h1 id="3-learning-arrays-concept-arrays-concept" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Arrays-Concept/">Arrays Concept</a></h1>
-<h2 id="arrays" tabindex="-1">Arrays</h2>
-<p><img src="/img/user/Utilities/Images/Pasted%20image%2020250114082904.jpeg" alt="Utilities/Images/Pasted image 20250114082904.jpeg|300" width="300px"></p>
-<ul>
-<li>Similar to List</li>
-<li>Organizes data sequentially</li>
-<li>Stored in contiquous memory in order</li>
-</ul>
-<h3 id="arrays-methods" tabindex="-1">Arrays Methods</h3>
-<p><img src="/img/user/Utilities/Images/Pasted%20image%2020250114082930.jpeg" alt="Utilities/Images/Pasted image 20250114082930.jpeg|200" width="200px"></p>
-<ul>
-<li>lookup
-<ul>
-<li>find the element you are looking for. If you know the index of that element, big O is O(1).</li>
-<li>ex. find third element =&gt; array[2]</li>
-</ul>
-</li>
-<li>push
-<ul>
-<li>insert element from behind of the arrays. bigO is O(1).</li>
-<li>ex. array.push(1);</li>
-</ul>
-</li>
-<li>insert
-<ul>
-<li>you insert element but in specific location. Let's say you pushed element in the middle of array. Then you have to push other elements behind of the inserted element. This is where you have to iterate over elements and set pushed back indeces for every element. bigO is O(N), since you have to iterate over elements.</li>
-<li>ex. array=[1,2,3,4,6,7]; array.insert(4, 5); insert 5 to index 4 =&gt; array = [1,2,3,4,5,6,7]</li>
-</ul>
-</li>
-<li>delete
-<ul>
-<li>delete element in specific location. Same as above, you have to set changed index for every element. big O is O(N), since you have to iterate over elements.</li>
-<li>ex. array=[1,2,2,3,4,5]; array.delete(2, 2); delete 2 element from index 2=&gt; array = [1,2,3,4,5]</li>
-</ul>
-</li>
-</ul>
-<h4 id="array-example" tabindex="-1">Array Example</h4>
-<pre><code class="language-run-js">	const strings= ['a', 'b', 'c', 'd']; 
-	const numbers = [1,2,3,4,5];
-	// Variable array is somewhere in memory and the computer knows it.
-	// When I do array[2], i'm telling the computer, hey go to the array and grab the 3rd item from where the array is stored.
-
-	//push
-	strings.push('e'); //O(1)
-	console.log(strings);
-
-	//pop
-	strings.pop(); //O(1)
-	strings.pop(); //O(1)
-	console.log(strings);
-
-	//unshift
-	strings.unshift('x'); //O(N)
-	console.log(strings);
-
-	//splice
-	strings.splice(2, 0, 'alien'); //
-	console.log(strings)
-</code></pre>
-<ul>
-<li>strings array takes up 16 bytes totally. 4 bytes * 4 = 16 bytes of storage (1byte = 8bits, charcter needs 1 byte to store data)</li>
-<li>push
-<ul>
-<li>add element at the end of the array</li>
-<li>O(1)</li>
-</ul>
-</li>
-<li>append
-<ul>
-<li>add element at the end of the array</li>
-<li>But, if it is dynamic array, then this can be O(N). Since you have to loop over the elements and move these elements to different space so we can add more element. <a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Arrays-Concept/#array-kinds">#Array Kinds#Dynamic Array</a></li>
-</ul>
-</li>
-<li>pop
-<ul>
-<li>remove elemetn from the end of the array</li>
-<li>O(1)</li>
-</ul>
-</li>
-<li>unshift
-<ul>
-<li>add element at the beginning of the array</li>
-<li>When you add element, then all the other elements should be pushed back towards the end. indeces should be realigned agian. We have to iterate all over.</li>
-<li>O(N)</li>
-</ul>
-</li>
-<li>splice(start index, delete count, items)
-<ul>
-<li>you can delete and also add by this function.</li>
-<li>Add: splice(2,0,'alien') =&gt; go to index of 2, and delete no elements, add 'alien' element to that index place
-<ul>
-<li>you loop half of the elements, since you add element in the place of index 2. You loop after the index of 2. So, bigO would be O(N/2), but according to the rule of bigO <a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Big-O/#simplifying-big-o">Big O#Simplifying Big O#Remove Constants</a>, you get O(N).</li>
-</ul>
-</li>
-<li>Delete: splice(2,1) =&gt; delete 1 element from the index of 2
-<ul>
-<li>you delete index from index 2, and since the index 2 element is gone, all the other elements should be pulled back forwards. This means you have to iterate elements after the index of 2. you get O(N/2), but just like the case above, you get O(N).</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="array-kinds" tabindex="-1">Array Kinds</h2>
-<h3 id="static-array" tabindex="-1">Static Array</h3>
-<ul>
-<li>Whole array size is fixed, arrays are allocated in adjacent blocks of memory. You can't keep adding things on after the max array size.</li>
-<li>If you want to add more data after the max size, you copy the whole array and move whole array to different place and allocate more memories so that you can add more elements.</li>
-<li>C++, C ... (Low level languages) - Machine memory management, User have more control over memories so it can be faster</li>
-</ul>
-<h3 id="dynamic-array" tabindex="-1">Dynamic Array</h3>
-<ul>
-<li>append cab be O(N) according to Dynamic Array</li>
-<li>javascript (High level languages) - Automatic memory management, Machine takes chare of memory management so it can be slower</li>
-</ul>
-<h2 id="implementing-an-array" tabindex="-1">Implementing an Array</h2>
-<h3 id="how-to-build-array-from-the-beginning" tabindex="-1">How to build array from the beginning?</h3>
-<pre><code class="language-run-js">class MyArray{
-	constructor(){
-		this.length = 0;
-		this.data = {};
-	}
-	get(index){
-		return this.data[index];
-	}
-	push(item){
-		this.data[this.length] = item;
-		this.length++;
-		return this;
-	}
-	pop(){
-		const removedItem = this.data[this.length - 1];
-		delete this.data[this.length - 1];
-		this.length--;
-		return removedItem;
-	}
-	delete(index){
-		const item = this.data[index];
-		delete this.data[index];
-		for(let i = index + 1; i &lt; this.length; i++){
-			this.data[index] = this.data[i];
-			index++;
-		}
-		delete this.data[this.length - 1];
-		this.length--;
-		return item;
-	}
-	delete2(index){ //different method
-		const item = this.data[index];
-		this.shiftItems(index);
-		this.length--;
-		return item;
-	}
-	shiftItems(index){
-		for(let i = index; i &lt; this.length - 1; i++){
-			this.data[i] = this.data[i+1];
-		}
-		delete this.data[this.length - 1];
-	}
-}
-const array = new MyArray();
-console.log(array.push(3));
-console.log(array.push(5));
-console.log(array.get(0));
-console.log(array.get(1));
-console.log(array.pop());
-console.log(array)
-console.log(array.pop());
-console.log(array)
-console.log(array.push('a'));
-console.log(array.push('b'));
-console.log(array.push('c'));
-console.log(array.push('d'));
-console.log(array.delete(0));
-console.log(array)
-console.log(array.delete2(1));
-console.log(array)
-</code></pre>
-<h3 id="developing-references" tabindex="-1">Developing References</h3>
-<h5 id="developing-report" tabindex="-1">Developing Report</h5>
-<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-14 - Arrays Concept Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2025-01-14 - Developing Daily Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2025-01-3th - Developing Weekly Report</a></p>
+<h1 id="8-movie-and-amp-drama" tabindex="-1"><a class="internal-link" target="" data-note-icon="movie" href="/8_Movie-&-Drama/전,-란/">전, 란</a></h1>
+<h2 id="poster" tabindex="-1">Poster</h2>
+<p><img src="/img/user/Utilities/Images/bdc4df6b4389055ddb874e989d5fe9d0_MD5.jpg" alt="Utilities/Images/bdc4df6b4389055ddb874e989d5fe9d0_MD5.jpg"></p>
+<h2 id="memorable-pics-vid" tabindex="-1">Memorable Pics / Vid</h2>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020241201160430.jpeg" alt="Utilities/Images/Pasted image 20241201160430.jpeg"><br>
+주인공이 노비로서 죽여보라고 도발하는 모습</p>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020241201160755.jpeg" alt="Utilities/Images/Pasted image 20241201160755.jpeg"><br>
+겁쟁이에다가 답 없는 임금으로 나온 차승원</p>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020241201161403.jpeg" alt="Utilities/Images/Pasted image 20241201161403.jpeg"><br>
+양반집 아들 되시는 분.. 주인공이랑 어린시절부터 친구 먹었다<br>
+얘는 인성이 좀 괜찮음</p>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020241201161324.jpeg" alt="Utilities/Images/Pasted image 20241201161324.jpeg"></p>
+<h2 id="my-plot-interpretation" tabindex="-1">My Plot Interpretation</h2>
+<p>왜놈들이 쳐들어왔을 때의 시기를 다룬 영화이다<br>
+종노비들이 양반들에게 항상 당하던 수모를 갚아주기 위해 난을 일으키고, 판세를 뒤집어 엎으려고 한다<br>
+원래는 양반 가문이었는데 순식간에 노비로 전락해버렸던 주인공은, 어느 한집에 노비로 들어가게 되고 그 집 아들이 잘못할 때마다 대신하여 회초리로 맞는 모진 시련을 겪었지만, 기지를 발휘하여 그 집 아들에게 칼싸움 대련을 가르쳐 맞는 신세에서 벗어난다<br>
+나중에는 아들 대신 장원급제를 하여 어사화를 따서 주지만, 그 조건으로 노비를 풀어주겠다고 했던 약속을 그 집 아버지가 지키지 않는다<br>
+그래도 아들과 주인공은 서로 친한 친구 사이었다<br>
+그러나 어느날 노비들이 난을 일으켜 그 집에 전부 불을 지르고 아들의 일가족이 불에 타서 죽으면서 아들은 주인공이 그런 것으로 오해하고 주인공을 적으로 보게 된다<br>
+나중에 왜놈들을 잡아 임금에게 바치지만, 임금은 도리어 이들을 역적으로 몰고 가 죽이려고 하고 주인공은 정말로 역적이 되겠다며 다짐하고 부패한 임금에게 맞서려고 한다<br>
+슬프게도 아들은 왜놈에게 칼에 찔려 죽는다<br>
+주인공은 분노하여 그 왜놈을 죽인다<br>
+나중에 주인공과 주인공 무리는 행복하게 웃으면서 임금을 풍자한 연극을 보며 웃는 모습으로 영화는 끝난다</p>
+<p>실제로 임금이 자리에서 물러나 그가 나라를 다스리는 장면이 나왔다면 좋았을 것인데 왜인지 영화가 완저히 완성이 되지 않았다는 생각도 들었다<br>
+미완성 느낌이 폴폴<br>
+그래도 몰입감 있게 만든 영화였다<br>
+스토리라인은 조금 뻔하긴 했지만..!<br>
+아들이 죽어서 좀 아쉽다<br>
+아들까지 살았으면 해피엔딩인데..</p>
+<p>강동원이 연기를 잘한다는 생각이 들었다<br>
+그리고 여전히 잘 생겼구요ㅋㅋ<br>
+세월이 흘러도 얘는 뭐 아저씨가 아니야..<br>
+(갑자기 강동원이랑 나랑 사주 궁합을 재미로 본 게 생각난다<br>
+그 때 꽤 잘 나왔는데<br>
+거의 90퍼센트였나 그랬다)</p>
+<p>흠 어쨌든<br>
+차승원도 연기 잘하구..<br>
+정말 겁쟁이 임금 역할을 잘 소화해냈다</p>
+<p>아 여기서 내가 화난 포인트가 있다<br>
+여기서 나온 아들의 아내 되시는 분<br>
+양반처자인거 알지만 뭔 종놈을 그런식으로 하대하면 쓰나<br>
+너무 인성이 아니었다<br>
+솔직히 당해도 싸다 이런 느낌이었다<br>
+그리고 아들 아버지도 진짜..<br>
+너무 무서운 사람이었다<br>
+뭔 애를 죽을 때까지 때리냐<br>
+노비라고 해서 그런식으로 애들 죽이고 그러면 안 되지...<br>
+그리고 난 이해가 안 가는게 자기 아들 잘못 할 때마다 다른 애 때려서 죽이는게 정말 열불났다<br>
+뭔 사람이 그따구로 인성을 쳐먹었어ㅋㅋ</p>
+<p>전체적으로 스토리는 좀 뻔한 내용이긴 했지만<br>
+그래서 중간 중간에 좀 집중력이 흐트러졌다<br>
+그래도 뭐 킬링타임용으로 생각하면...</p>
+<h3 id="movie-drama-references" tabindex="-1">Movie / Drama References</h3>
+<h5 id="movie-drama-report" tabindex="-1">Movie / Drama Report</h5>
+<p><a class="internal-link is-unresolved" href="/404" target="">2024-11-03 - 전, 란 Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2024-11-03 - Movie &amp; Drama Daily Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2024-11-1th - Movie &amp; Drama Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -1368,33 +1246,17 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#3-learning-arrays-concept-arrays-concept">[[3_Learning/Arrays Concept|Arrays Concept]]</a>
+<li><a href="#8-movie-and-amp-drama">[[8_Movie & Drama/전, 란|전, 란]]</a>
 <ol>
-<li><a href="#arrays">Arrays</a>
+<li><a href="#poster">Poster</a>
+</li>
+<li><a href="#memorable-pics-vid">Memorable Pics / Vid</a>
+</li>
+<li><a href="#my-plot-interpretation">My Plot Interpretation</a>
 <ol>
-<li><a href="#arrays-methods">Arrays Methods</a>
+<li><a href="#movie-drama-references">Movie / Drama References</a>
 <ol>
-<li><a href="#array-example">Array Example</a>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a href="#array-kinds">Array Kinds</a>
-<ol>
-<li><a href="#static-array">Static Array</a>
-</li>
-<li><a href="#dynamic-array">Dynamic Array</a>
-</li>
-</ol>
-</li>
-<li><a href="#implementing-an-array">Implementing an Array</a>
-<ol>
-<li><a href="#how-to-build-array-from-the-beginning">How to build array from the beginning?</a>
-</li>
-<li><a href="#developing-references">Developing References</a>
-<ol>
-<li><a href="#developing-report">Developing Report</a>
+<li><a href="#movie-drama-report">Movie / Drama Report</a>
 </li>
 </ol>
 </li>
@@ -1408,8 +1270,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/3_Learning/Overview/developing/" data-note-icon="developing" class="backlink">developing</a>
-</div><div class="backlink-card"><a href="/Hack-The-Moon-Info/" data-note-icon="1" class="backlink">Hack The Moon Info</a>
+<div class="backlink-list"><div class="backlink-card"><a href="/Hack-The-Moon-Info/" data-note-icon="1" class="backlink">Hack The Moon Info</a>
 </div></div>
 </div>
 </div>
