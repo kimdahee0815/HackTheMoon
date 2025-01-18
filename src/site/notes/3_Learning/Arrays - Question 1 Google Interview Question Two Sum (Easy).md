@@ -79,6 +79,7 @@ console.log(findTwoSumIndex([1,6], 7));
 
 ## <font color="#9d0ab3">Complexity Kinds</font>
 ### <font color="#76923c">Polynomial Complexity</font>
+
 - O(LogN): Logarithmic
 - O(N): Linear
 - O(NLogN): Linearithmic
@@ -88,6 +89,7 @@ console.log(findTwoSumIndex([1,6], 7));
 - If there's anything that is dynamic inside of this complexity, it's in the baase, not in the exponent.
 
 ### <font color="#76923c">Exponential Complexity</font>
+
 - O(2^N): Exponential
 - O(!N): Factorial
 - O(N^N): Exponential
