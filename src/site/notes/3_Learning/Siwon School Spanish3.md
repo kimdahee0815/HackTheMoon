@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Siwon-School-Spanish3","created-date":"2025-01-16 9:03:55 pm","date":"2025-01-16","type":"class","tags":["class","spanish"],"aliases":null,"title":"Siwon School Spanish","courseName":"NEW 왕초보 탈출 파닉스","permalink":"/3_Learning/Siwon-School-Spanish3/","dgPassFrontmatter":true,"noteIcon":"class"}
+{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Siwon-School-Spanish3","created-date":"2025-01-16 9:03:55 pm","date":"2025-01-16","type":"class","tags":["class","spanish"],"aliases":null,"title":"Siwon School Spanish3","courseName":"NEW 왕초보 탈출 파닉스","permalink":"/3_Learning/Siwon-School-Spanish3/","dgPassFrontmatter":true,"noteIcon":"class"}
 ---
 
 
