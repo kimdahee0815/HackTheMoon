@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Swimming1","created-date":"2025-01-17 7:57:37 am","date":"2025-01-17","type":"class","tags":["class"],"aliases":null,"title":"Swimming","courseName":"인천여성가족재단 수영 6시","permalink":"/3_Learning/Swimming1/","dgPassFrontmatter":true,"noteIcon":"class"}
+{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Swimming1","created-date":"2025-01-17 7:57:37 am","date":"2025-01-17","type":"class","tags":["class"],"aliases":null,"title":"Swimming1","courseName":"인천여성가족재단 수영 6시","permalink":"/3_Learning/Swimming1/","dgPassFrontmatter":true,"noteIcon":"class"}
 ---
 
 
