@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Siwon-School-Spanish1","created-date":"2025-01-14 7:35:40 pm","date":"2025-01-14","type":"class","tags":["class","spanish"],"aliases":null,"title":"Siwon School Spanish","courseName":"NEW 왕초보 탈출 파닉스","permalink":"/3_Learning/Siwon-School-Spanish1/","dgPassFrontmatter":true,"noteIcon":"class"}
+{"dg-publish":true,"dg-note-icon":"class","dg-permalink":"3_Learning/Siwon-School-Spanish1","created-date":"2025-01-14 7:35:40 pm","date":"2025-01-14","type":"class","tags":["class","spanish"],"aliases":null,"title":"Siwon School Spanish1","courseName":"NEW 왕초보 탈출 파닉스","permalink":"/3_Learning/Siwon-School-Spanish1/","dgPassFrontmatter":true,"noteIcon":"class"}
 ---
 
 
@@ -73,8 +73,8 @@
 
 
 
-### Class References
-##### Class Report
+### <font color="#92d050">Class References</font>
+##### <font color="#00b0f0">Class Report</font>
 [[3_Learning/Report/Class/2025-01-14 - Siwon School Spanish1\|2025-01-14 - Siwon School Spanish1 Report]]
 [[3_Learning/Report/Class/Daily/2025-01-14 - Class\|2025-01-14 - Class Daily Report]]
 [[3_Learning/Report/Class/Weekly/2025-01-3th - Class\|2025-01-3th - Class Weekly Report]]
