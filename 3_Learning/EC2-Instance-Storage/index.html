@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok!</title>
+<title>EC2 Instance Storage</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -583,7 +583,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/EC2-Instance-Storage/">EC2 Instance Storage </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/EC2-Instance-Storage/">EC2 Instance Storage </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -863,7 +863,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/역대급-올인원-홈트루틴-20분.-이건-매일-해도-ok!/">역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok! </a>
+<div @click.stop class="notelink"><a data-note-icon="workout" style="text-decoration:none" class="filename" href="/3_Learning/역대급-올인원-홈트루틴-20분.-이건-매일-해도-ok!/">역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok! </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1354,25 +1354,301 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="workout">역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok!</h1>
+<h1 data-note-icon="developing">EC2 Instance Storage</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#youtube
-</a>
-<a class="tag" onclick="toggleTagSearch(this)">
-#workout
+#developing
 </a>
 </div>
 </div>
 </header>
-<h1 id="3-learning-20-ok-20-ok" tabindex="-1"><a class="internal-link" target="" data-note-icon="workout" href="/3_Learning/역대급-올인원-홈트루틴-20분.-이건-매일-해도-ok!/">역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok!</a></h1>
-<h2 id="monday-workout" tabindex="-1">Monday Workout</h2>
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/IsO0UF04dNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
-<h3 id="youtube-reference" tabindex="-1">Youtube Reference</h3>
-<h5 id="youtube-report" tabindex="-1">Youtube Report</h5>
-<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-05 - Youtube Daily Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2025-01-1th - Youtube Weekly Report</a></p>
+<h1 id="3-learning-ec-2-instance-storage-ec-2-instance-storage" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/EC2-Instance-Storage/">EC2 Instance Storage</a></h1>
+<h2 id="ebs-elastic-block-store" tabindex="-1">EBS(Elastic Block Store)</h2>
+<ul>
+<li><strong>Network USB Stick</strong> - might be a bit of latency because it is network</li>
+<li><strong>Network drive you can attach to your instances while they run</strong></li>
+<li>Allows your instances to persist data, even after their termination</li>
+<li>can only be mounted to <strong>one instance at a time (CCP level)</strong>
+<ul>
+<li>can be detached from EC2 instance and attached to another one quickly</li>
+</ul>
+</li>
+<li><strong>Specific Availability Zone</strong>
+<ul>
+<li>If you do snapshot, you can move it across zones</li>
+</ul>
+</li>
+<li>Free Tier : 30 GB of free EBS Storage of type General Purpose (SSD) or Magnetic per month</li>
+<li>Have a provisioned capacity (size in GBs and IOPS)
+<ul>
+<li>Billed for provisioned capacity</li>
+<li>can increase the capacity of the drive over time<br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020241101110008.jpeg" alt="Utilities/Images/Pasted image 20241101110008.jpeg"></li>
+</ul>
+</li>
+<li>Delete on Termination attribute
+<ul>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101110140.jpeg" alt="Utilities/Images/Pasted image 20241101110140.jpeg"></li>
+<li>controls EBS behavior when EC2 terminates</li>
+<li>can be controlled by the AWS console/AWS CLI</li>
+<li>By default, root EBS volume is deleted</li>
+<li>other attached EBS volumes are not deleted</li>
+</ul>
+</li>
+</ul>
+<h2 id="ebs-snapshot" tabindex="-1">EBS Snapshot</h2>
+<ul>
+<li><strong>backup of your EBS volume at a point in time</strong></li>
+<li>Not necessary to detach volume to do snapshot, but recommended</li>
+<li><strong>can copy snapshots across AZ or Region</strong><br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020241101110642.jpeg" alt="Utilities/Images/Pasted image 20241101110642.jpeg"></li>
+</ul>
+<h3 id="features" tabindex="-1">Features</h3>
+<ul>
+<li>EBS Snapshot Archive
+<ul>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101110818.jpeg" alt="Utilities/Images/Pasted image 20241101110818.jpeg"></li>
+<li>Move a snapshot to an archive tier that is 75% cheaper</li>
+<li>takes within 24 - 72 hours for restoring the archive</li>
+<li>can change storage tier</li>
+</ul>
+</li>
+<li>Recycle bin for EBS Snapshots
+<ul>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101110824.jpeg" alt="Utilities/Images/Pasted image 20241101110824.jpeg"></li>
+<li>retain deleted snapshots so you can recover them from accidental deletion</li>
+<li>Specify retention (1day - 1year)</li>
+</ul>
+</li>
+<li>Fast Snapshot Restore(FSR)
+<ul>
+<li>force full initialization of snapshot to have no latency on the first use</li>
+<li>when the snapshot is really big or when you need to initialize EBS volume or you need to instantiate very quickly</li>
+<li>costs a lot of money</li>
+</ul>
+</li>
+</ul>
+<h2 id="ami-amazon-machine-image" tabindex="-1">AMI(Amazon Machine Image)</h2>
+<ul>
+<li>what powers EBS instances</li>
+<li><strong>customization of an EC2 instance</strong></li>
+<li>add your own software, configuration, operating system, monitoring...</li>
+<li><strong>faster boot/configuration time because your software is pre-packaged</strong></li>
+<li><strong>built for a specific Region (can be copied across regions)</strong></li>
+<li>Kinds
+<ul>
+<li>Public AMI : AWS provided ex) Amazon Linux 2 AMI</li>
+<li>Your own AMI : make and maintain them yourself</li>
+<li>AWS Marketplace AMI : AMI made by someone else (potentially sells)</li>
+</ul>
+</li>
+<li>Process
+<ul>
+<li>Start EC2 instance and customize it</li>
+<li>Stop the instance (for data integrity)</li>
+<li>Build an AMI - also creates EBS snapshots</li>
+<li>Launch instances from other AMIs</li>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101111834.jpeg" alt="Utilities/Images/Pasted image 20241101111834.jpeg"></li>
+</ul>
+</li>
+</ul>
+<h2 id="ec-2-instance-store" tabindex="-1">EC2 Instance Store</h2>
+<ul>
+<li><strong>When you need high-performance hardware disk, use EC2 Instance Store</strong></li>
+<li>EBS - network drives with limited performance</li>
+<li>Better I/O Performance</li>
+<li><strong>EC2 Instance Store lose their storage if they're stopped (ephemeral)</strong></li>
+<li>Good for buffer/cache/scratch data/temporary content</li>
+<li>Not for long term storage</li>
+<li><strong>Risk of data if hardware fails</strong></li>
+<li>Backups and Replication are your responsibility!</li>
+</ul>
+<h2 id="ebs-volume-types" tabindex="-1">EBS Volume Types</h2>
+<ul>
+<li>6 types
+<ul>
+<li>gp2/gp3 (SSD) : General purpose SSD volume that balances price and performance for a wide variety of workloads</li>
+<li>io1/io2 Block Express (SSD) : Highest performance SSD volume for mission-critical low-latency or high-throughput workloads</li>
+<li>st1 (HDD) : Low cost HDD volume designed for frequently accessed, throughput-intensive workloads</li>
+<li>sc1 (HDD) : Lowest cost HDD volume designed for less frequently accessed workloads</li>
+</ul>
+</li>
+<li><strong>Size, Throughput, IOPS(I/O Ops Per Sec)</strong></li>
+<li><strong>Only gp2/gp3 and io1/io2 Block Express can be used as boot volumes</strong></li>
+</ul>
+<h3 id="general-purpose-ssd" tabindex="-1">General Purpose SSD</h3>
+<ul>
+<li><strong>Cost effective storage, low-latency</strong></li>
+<li>System boot volumes, Virtual desktops, Development and test environments</li>
+<li>1 GB - 16 TiB</li>
+<li>gp3
+<ul>
+<li>baseline of 3000 IOPS and throughput of 125 MiB/s</li>
+<li><strong>can increase IOPS up to 16000 and throughput up to 1000 MiB/s independently (not linked)</strong></li>
+</ul>
+</li>
+<li>gp2 (older version)
+<ul>
+<li>small gp2 volumes can burst IOPS to 3000</li>
+<li><strong>Size of volume and IOPS are linked, max IOPS is 16000</strong></li>
+<li><strong>if you increase IOPS(number of GBs on your volume), 3 IOPS per GB, means at 5334 GB we are at the max IOPS</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="provisioned-iops-piops-ssd" tabindex="-1">Provisioned IOPS(PIOPS) SSD</h3>
+<ul>
+<li>Critical business applications with sustained IOPS performance</li>
+<li>applications that need more than 16000 IOPS</li>
+<li><strong>Great for database workloads (sensitive to storage performance and consistency)</strong></li>
+<li>io1 (4 GiB - 16 TiB)
+<ul>
+<li>Max PIOPS: 64000 for Nitro EC2 instances &amp; 32000 for other</li>
+<li>can increase PIOPS independently from storage size</li>
+</ul>
+</li>
+<li>io2 Block Express (4 GiB - 64 TiB)
+<ul>
+<li>Sub-millisecond latency</li>
+<li>Max PIOPS : 256000 with an IOPS:GiB of 1000:1</li>
+</ul>
+</li>
+<li><strong>Supports EBS Multi-Attach</strong></li>
+</ul>
+<h3 id="hard-disk-drives-hdd" tabindex="-1">Hard Disk Drives HDD</h3>
+<ul>
+<li>Can't be a root volume</li>
+<li>125 GiB - 16 TiB</li>
+<li>st1
+<ul>
+<li><strong>Throughput Optimized HDD</strong></li>
+<li>Big data, data warehouses, log processing</li>
+<li><strong>Max throughput 500 MiB/s - max IOPS 500</strong></li>
+</ul>
+</li>
+<li>sc1
+<ul>
+<li>Cold HDD</li>
+<li>For data that is infrequently accessed</li>
+<li>Scenarios where lowest cost is important</li>
+<li><strong>Max throughput 250 MiB/s - max IOPS 250</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020241101114417.jpeg" alt="Utilities/Images/Pasted image 20241101114417.jpeg"></p>
+<h2 id="ebs-multi-attach-io1-io2-family" tabindex="-1">EBS Multi-Attach - io1/io2 family</h2>
+<ul>
+<li>Attach the same EBS volume to multiple EC2 instances <strong>in the same AZ</strong></li>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101114815.jpeg" alt="Utilities/Images/Pasted image 20241101114815.jpeg"></li>
+<li><strong>Each instance has full read &amp; write permissions to the high-performance volume</strong></li>
+<li>Use case
+<ul>
+<li><strong>higher application availability in clustered LInux applications (ex : Teradata)</strong></li>
+<li>Applications must manage concurrent write operations</li>
+</ul>
+</li>
+<li><strong>Up to 16 EC2 instances at a time</strong></li>
+<li>Must use a file system that's cluster-aware (not XFS, EX4, etc...)</li>
+</ul>
+<h2 id="efs-elastic-file-system" tabindex="-1">EFS(Elastic File System)</h2>
+<ul>
+<li><strong>Managed NFS(Network File System) that can be mounted on many EC2</strong></li>
+<li>EFS works with EC2 instances <strong>in multi-AZ</strong></li>
+<li>Highly available, scalable, expensive(3x gp2), pay per use (don't have to pay for capacity provisioned in advance)</li>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101115357.jpeg" alt="Utilities/Images/Pasted image 20241101115357.jpeg"></li>
+<li>Use case
+<ul>
+<li>content management</li>
+<li>data sharing</li>
+<li>wordpress</li>
+</ul>
+</li>
+<li>NFSv4.1 protocol</li>
+<li>uses security group to control access to EFS</li>
+<li><strong>Compatible with Linux based AMI (not windows)</strong></li>
+<li>Encryption at rest using KMS</li>
+<li>POSIX file system (~Linux) that has a standard file API</li>
+<li>File system scales automatically, pay-per-use for each GB</li>
+</ul>
+<h3 id="performance-and-amp-storage-classes" tabindex="-1">Performance &amp; Storage Classes</h3>
+<ul>
+<li>EFS Scale
+<ul>
+<li>1000s of concurrent NFS clients, 10 GB+ /s throughput</li>
+<li>Grow to Petabyte-scale network file system, automatically</li>
+</ul>
+</li>
+<li><strong>Performance Mode (set at EFS creation time)</strong>
+<ul>
+<li>General Purpose (default) - latency-sensitive use cases (web server, CMS, etc...)</li>
+<li>Max I/O - higher latency, throughput, highly parallel (big data, media processing)</li>
+</ul>
+</li>
+<li>**Throughput Mode
+<ul>
+<li>Bursting - 1TB = 50 MiB/s + burst of up to 100 MiB/s</li>
+<li>Provisioned - set your throughput regardless of storage size, ex:1 GiB/s for 1 TB Storage</li>
+<li>Elastic - automatically scales throughput up or down based on your workloads
+<ul>
+<li>Up to 3 GiB/s for reads and 1 GiB/s for writes</li>
+<li>Used for unpredictable workloads</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="storage-classes" tabindex="-1">Storage Classes</h3>
+<ul>
+<li>Storage Tiers (lifecycle management feature - move file after N days)
+<ul>
+<li>Standard : for frequently accessed files</li>
+<li>Infrequent Access(EFS-IA) : cost to retrieve files, lower price to store</li>
+<li>Archive : rarely accessed data (few times each year), 50% cheaper</li>
+<li>Implement <strong>lifecycle policies</strong> to move files between storage tiers</li>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020241101133411.jpeg" alt="Utilities/Images/Pasted image 20241101133411.jpeg"></li>
+</ul>
+</li>
+<li>Availability and durability
+<ul>
+<li>Standard : <strong>Multi-AZ, great for production</strong>, resistant to disaster</li>
+<li>One Zone: One AZ, great for dev, backup enabled by default, compatible with IA(EFS One-Zone IA)</li>
+</ul>
+</li>
+<li>Over 90% in cost savings</li>
+</ul>
+<h2 id="efs-vs-ebs" tabindex="-1">EFS vs EBS</h2>
+<h3 id="ebs" tabindex="-1">EBS</h3>
+<ol>
+<li>EBS Volumes
+<ol>
+<li>One instance at at a time (except multi-attach io1/io2)</li>
+<li>locked at the AZ level</li>
+<li>gp2: IO increase if the disk size increases</li>
+<li>gp3 &amp; io1 : increase IO independently</li>
+</ol>
+</li>
+<li>To migrate an EBS volume across AZ
+<ol>
+<li>Take a snapshot</li>
+<li>Restore the snapshot to another AZ</li>
+<li>EBS backups use IO and you shouldn't run them while your application is handling a lot of traffic</li>
+</ol>
+</li>
+<li>Root EBS volumes of instances get terminated by default if the EC2 instance gets terminated</li>
+</ol>
+<h3 id="efs" tabindex="-1">EFS</h3>
+<ol>
+<li>Mounting 100s instances across AZ</li>
+<li>EFS share website files (WordPress)</li>
+<li>Only for Linux Instances (POSIX)</li>
+<li>Has a higher price point than EBS</li>
+<li>Can leverage EFS-IA for cost savings</li>
+</ol>
+<h3 id="developing-references" tabindex="-1">Developing References</h3>
+<h5 id="developing-report" tabindex="-1">Developing Report</h5>
+<p><a class="internal-link is-unresolved" href="/404" target="">2024-11-01 - EC2 Instance Storage Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2024-11-01 - Developing Daily Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2024-11-1th - Developing Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -1428,13 +1704,49 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#3-learning-20-ok-20-ok">[[3_Learning/역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok!|역대급 올인원 홈트루틴 20분. 이건 매일 해도 ok!]]</a>
+<li><a href="#3-learning-ec-2-instance-storage-ec-2-instance-storage">[[3_Learning/EC2 Instance Storage|EC2 Instance Storage]]</a>
 <ol>
-<li><a href="#monday-workout">Monday Workout</a>
+<li><a href="#ebs-elastic-block-store">EBS(Elastic Block Store)</a>
+</li>
+<li><a href="#ebs-snapshot">EBS Snapshot</a>
 <ol>
-<li><a href="#youtube-reference">Youtube Reference</a>
+<li><a href="#features">Features</a>
+</li>
+</ol>
+</li>
+<li><a href="#ami-amazon-machine-image">AMI(Amazon Machine Image)</a>
+</li>
+<li><a href="#ec-2-instance-store">EC2 Instance Store</a>
+</li>
+<li><a href="#ebs-volume-types">EBS Volume Types</a>
 <ol>
-<li><a href="#youtube-report">Youtube Report</a>
+<li><a href="#general-purpose-ssd">General Purpose SSD</a>
+</li>
+<li><a href="#provisioned-iops-piops-ssd">Provisioned IOPS(PIOPS) SSD</a>
+</li>
+<li><a href="#hard-disk-drives-hdd">Hard Disk Drives HDD</a>
+</li>
+</ol>
+</li>
+<li><a href="#ebs-multi-attach-io1-io2-family">EBS Multi-Attach - io1/io2 family</a>
+</li>
+<li><a href="#efs-elastic-file-system">EFS(Elastic File System)</a>
+<ol>
+<li><a href="#performance-and-amp-storage-classes">Performance & Storage Classes</a>
+</li>
+<li><a href="#storage-classes">Storage Classes</a>
+</li>
+</ol>
+</li>
+<li><a href="#efs-vs-ebs">EFS vs EBS</a>
+<ol>
+<li><a href="#ebs">EBS</a>
+</li>
+<li><a href="#efs">EFS</a>
+</li>
+<li><a href="#developing-references">Developing References</a>
+<ol>
+<li><a href="#developing-report">Developing Report</a>
 </li>
 </ol>
 </li>
@@ -1448,8 +1760,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/3_Learning/Overview/youtube/" data-note-icon="youtube" class="backlink">youtube</a>
-</div></div>
+<div class="backlink-list"></div>
 </div>
 </div>
 </div>
