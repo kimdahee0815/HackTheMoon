@@ -3,14 +3,14 @@
     <title>Hack The Moon</title>
     <link href="https://kimdahee0815.github.io/feed.xml" rel="self" >
     <link href="https://kimdahee0815.github.io" >
-    <updated>2025-01-18T09:05:12Z</updated>
+    <updated>2025-01-18T09:05:20Z</updated>
     <id>https://kimdahee0815.github.io</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;font-color-ff0000-welcome-font&quot; tabindex=&quot;-1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;WELCOME!&lt;/font&gt;&lt;/h1&gt;
@@ -73,7 +73,7 @@ However, I will try to write my posts in English, because English is a global la
                 Hack The Moon Info
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/Hack-The-Moon-Info/</id>
             <content type="html">
                 &lt;h1 id=&quot;projects&quot; tabindex=&quot;-1&quot;&gt;Projects&lt;/h1&gt;
@@ -97,12 +97,12 @@ However, I will try to write my posts in English, because English is a global la
 &lt;h1 id=&quot;everyday-self-development&quot; tabindex=&quot;-1&quot;&gt;Everyday Self-Development&lt;/h1&gt;
 &lt;p&gt;💻 Developing&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays-Concept/&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays---Question-1-Google-Interview-Question-Two-Sum-(Easy)/&quot;&gt;Arrays - Question 1 Google Interview Question Two Sum (Easy)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Hash Tables Concept&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Big O&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Big-O/&quot;&gt;Big O&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Dynamic Programming&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Binary Search Tree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Binary-Search-Tree/&quot;&gt;Binary Search Tree&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;📖 Books&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
@@ -212,8 +212,8 @@ However, I will try to write my posts in English, because English is a global la
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;book&quot; href=&quot;https://kimdahee0815.github.io/4_Book/%EC%86%8C%ED%81%AC%EB%9D%BC%ED%85%8C%EC%8A%A4%EC%9D%98-%EB%B3%80%EB%AA%851/&quot;&gt;소크라테스의 변명1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays---Question-1-Google-Interview-Question-Two-Sum-(Easy)/&quot;&gt;Arrays - Question 1 Google Interview Question Two Sum (Easy)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Hash Tables Concept&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Big O&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays-Concept/&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Big-O/&quot;&gt;Big O&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;can을 상황에 따라 다양한 형태로 표현하는걸 배워보자&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;🔖 Draft: need to check!&lt;/p&gt;
@@ -258,7 +258,7 @@ However, I will try to write my posts in English, because English is a global la
                 youtube
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/youtube/</id>
             <content type="html">
                 &lt;h1 id=&quot;youtube-overview&quot; tabindex=&quot;-1&quot;&gt;Youtube Overview&lt;/h1&gt;
@@ -417,7 +417,7 @@ However, I will try to write my posts in English, because English is a global la
 &lt;td&gt;2024. 12. 29.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;workout&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%ED%97%88%EB%B2%85%EC%A7%80%EC%82%B4,-%EC%8A%B9%EB%A7%88%EC%82%B4,-%ED%9E%99%EB%94%A5,-%ED%95%98%EC%B2%B4%EC%9A%B4%EB%8F%99-%ED%95%9C%EB%B0%A9%EC%97%90-%ED%95%B4%EA%B2%B0,-%EC%95%A0%ED%94%8C%ED%9E%99-%EC%9D%BC%EB%93%B1%EA%B3%B5%EC%8B%A0-%EC%A4%91%EB%91%94%EA%B7%BC%EC%9A%B4%EB%8F%99/&quot;&gt;허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;img src=&quot;https://img.youtube.com/vi/Kymv9On2-VA/0.jpg&quot; alt=&quot;|100&quot; width=&quot;100px&quot; /&gt;&lt;/td&gt;
 &lt;td&gt;2024. 12. 29.&lt;/td&gt;
 &lt;/tr&gt;
@@ -717,7 +717,7 @@ However, I will try to write my posts in English, because English is a global la
                 web-surfing
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/web-surfing/</id>
             <content type="html">
                 &lt;h1 id=&quot;web-surfing-overview&quot; tabindex=&quot;-1&quot;&gt;Web-Surfing Overview&lt;/h1&gt;
@@ -776,7 +776,7 @@ However, I will try to write my posts in English, because English is a global la
                 english-podcast
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/english-podcast/</id>
             <content type="html">
                 &lt;h1 id=&quot;english-podcast-overview&quot; tabindex=&quot;-1&quot;&gt;English-Podcast Overview&lt;/h1&gt;
@@ -825,7 +825,7 @@ However, I will try to write my posts in English, because English is a global la
                 developing
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/developing/</id>
             <content type="html">
                 &lt;h1 id=&quot;developing-overview&quot; tabindex=&quot;-1&quot;&gt;Developing Overview&lt;/h1&gt;
@@ -838,7 +838,7 @@ However, I will try to write my posts in English, because English is a global la
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays-Concept/&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025. 1. 14.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -854,7 +854,7 @@ However, I will try to write my posts in English, because English is a global la
 &lt;td&gt;2025. 1. 14.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Big O&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Big-O/&quot;&gt;Big O&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025. 1. 13.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -862,7 +862,7 @@ However, I will try to write my posts in English, because English is a global la
 &lt;td&gt;2024. 11. 1.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;Binary Search Tree&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Binary-Search-Tree/&quot;&gt;Binary Search Tree&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2024. 10. 29.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -876,7 +876,7 @@ However, I will try to write my posts in English, because English is a global la
                 class
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/class/</id>
             <content type="html">
                 &lt;h1 id=&quot;class-overview&quot; tabindex=&quot;-1&quot;&gt;Class Overview&lt;/h1&gt;
@@ -923,7 +923,7 @@ However, I will try to write my posts in English, because English is a global la
                 career
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/3_Learning/Overview/career/</id>
             <content type="html">
                 &lt;h1 id=&quot;career-overview&quot; tabindex=&quot;-1&quot;&gt;Career Overview&lt;/h1&gt;
@@ -958,7 +958,7 @@ However, I will try to write my posts in English, because English is a global la
                 workout
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/workout/</id>
             <content type="html">
                 &lt;h1 id=&quot;workout&quot; tabindex=&quot;-1&quot;&gt;Workout&lt;/h1&gt;
@@ -972,7 +972,7 @@ However, I will try to write my posts in English, because English is a global la
                 water
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/water/</id>
             <content type="html">
                 &lt;h1 id=&quot;water&quot; tabindex=&quot;-1&quot;&gt;Water&lt;/h1&gt;
@@ -986,7 +986,7 @@ However, I will try to write my posts in English, because English is a global la
                 washingDishes
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/washingDishes/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-washing-dishes&quot; tabindex=&quot;-1&quot;&gt;Morning Washing Dishes&lt;/h1&gt;
@@ -1004,7 +1004,7 @@ However, I will try to write my posts in English, because English is a global la
                 wantsNeeds
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/wantsNeeds/</id>
             <content type="html">
                 &lt;h1 id=&quot;wants-and-amp-needs&quot; tabindex=&quot;-1&quot;&gt;Wants &amp;amp; Needs&lt;/h1&gt;
@@ -1018,7 +1018,7 @@ However, I will try to write my posts in English, because English is a global la
                 visualization
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/visualization/</id>
             <content type="html">
                 &lt;h1 id=&quot;visualization&quot; tabindex=&quot;-1&quot;&gt;Visualization&lt;/h1&gt;
@@ -1032,7 +1032,7 @@ However, I will try to write my posts in English, because English is a global la
                 todoList
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/todoList/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-todo-list&quot; tabindex=&quot;-1&quot;&gt;Morning Todo-List&lt;/h1&gt;
@@ -1048,7 +1048,7 @@ However, I will try to write my posts in English, because English is a global la
                 tea
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/tea/</id>
             <content type="html">
                 &lt;h1 id=&quot;tea&quot; tabindex=&quot;-1&quot;&gt;Tea&lt;/h1&gt;
@@ -1062,7 +1062,7 @@ However, I will try to write my posts in English, because English is a global la
                 stretching
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/stretching/</id>
             <content type="html">
                 &lt;h1 id=&quot;stretching&quot; tabindex=&quot;-1&quot;&gt;Stretching&lt;/h1&gt;
@@ -1076,7 +1076,7 @@ However, I will try to write my posts in English, because English is a global la
                 spanish
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/spanish/</id>
             <content type="html">
                 &lt;h1 id=&quot;spanish&quot; tabindex=&quot;-1&quot;&gt;Spanish&lt;/h1&gt;
@@ -1090,7 +1090,7 @@ However, I will try to write my posts in English, because English is a global la
                 snack
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/snack/</id>
             <content type="html">
                 &lt;h1 id=&quot;snack&quot; tabindex=&quot;-1&quot;&gt;Snack&lt;/h1&gt;
@@ -1104,7 +1104,7 @@ However, I will try to write my posts in English, because English is a global la
                 sleep
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/sleep/</id>
             <content type="html">
                 &lt;h1 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;&lt;/h1&gt;
@@ -1119,7 +1119,7 @@ However, I will try to write my posts in English, because English is a global la
                 skincare
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/skincare/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-skincare&quot; tabindex=&quot;-1&quot;&gt;Morning Skincare&lt;/h1&gt;
@@ -1135,7 +1135,7 @@ However, I will try to write my posts in English, because English is a global la
                 reading
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/reading/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-reading&quot; tabindex=&quot;-1&quot;&gt;Morning Reading&lt;/h1&gt;
@@ -1151,7 +1151,7 @@ However, I will try to write my posts in English, because English is a global la
                 probiotics
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/probiotics/</id>
             <content type="html">
                 &lt;h1 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;&lt;/h1&gt;
@@ -1166,7 +1166,7 @@ However, I will try to write my posts in English, because English is a global la
                 pantomona
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/pantomona/</id>
             <content type="html">
                 &lt;h1 id=&quot;pantomona&quot; tabindex=&quot;-1&quot;&gt;Pantomona&lt;/h1&gt;
@@ -1180,7 +1180,7 @@ However, I will try to write my posts in English, because English is a global la
                 omega3
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/omega3/</id>
             <content type="html">
                 &lt;h1 id=&quot;omega3&quot; tabindex=&quot;-1&quot;&gt;Omega3&lt;/h1&gt;
@@ -1194,7 +1194,7 @@ However, I will try to write my posts in English, because English is a global la
                 nails
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/nails/</id>
             <content type="html">
                 &lt;h1 id=&quot;nails&quot; tabindex=&quot;-1&quot;&gt;Nails&lt;/h1&gt;
@@ -1208,7 +1208,7 @@ However, I will try to write my posts in English, because English is a global la
                 meditation
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/meditation/</id>
             <content type="html">
                 &lt;h1 id=&quot;meditation&quot; tabindex=&quot;-1&quot;&gt;Meditation&lt;/h1&gt;
@@ -1222,7 +1222,7 @@ However, I will try to write my posts in English, because English is a global la
                 mToQueen
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/mToQueen/</id>
             <content type="html">
                 &lt;h1 id=&quot;m-to-queen&quot; tabindex=&quot;-1&quot;&gt;M to Queen&lt;/h1&gt;
@@ -1236,7 +1236,7 @@ However, I will try to write my posts in English, because English is a global la
                 gratitude
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/gratitude/</id>
             <content type="html">
                 &lt;h1 id=&quot;gratitude&quot; tabindex=&quot;-1&quot;&gt;Gratitude&lt;/h1&gt;
@@ -1250,7 +1250,7 @@ However, I will try to write my posts in English, because English is a global la
                 footCare
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/footCare/</id>
             <content type="html">
                 &lt;h1 id=&quot;foot-care&quot; tabindex=&quot;-1&quot;&gt;Foot Care&lt;/h1&gt;
@@ -1264,7 +1264,7 @@ However, I will try to write my posts in English, because English is a global la
                 facialMask
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/facialMask/</id>
             <content type="html">
                 &lt;h1 id=&quot;facial-mask&quot; tabindex=&quot;-1&quot;&gt;Facial Mask&lt;/h1&gt;
@@ -1278,7 +1278,7 @@ However, I will try to write my posts in English, because English is a global la
                 faceScan
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/faceScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;face-scan&quot; tabindex=&quot;-1&quot;&gt;Face Scan&lt;/h1&gt;
@@ -1292,7 +1292,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeRelief
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/eyeRelief/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-relief&quot; tabindex=&quot;-1&quot;&gt;Eye Relief&lt;/h1&gt;
@@ -1306,7 +1306,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeDrop
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/eyeDrop/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-drop&quot; tabindex=&quot;-1&quot;&gt;Eye Drop&lt;/h1&gt;
@@ -1320,7 +1320,7 @@ However, I will try to write my posts in English, because English is a global la
                 english
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/english/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-english&quot; tabindex=&quot;-1&quot;&gt;Morning English&lt;/h1&gt;
@@ -1336,7 +1336,7 @@ However, I will try to write my posts in English, because English is a global la
                 diary
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/diary/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-diary&quot; tabindex=&quot;-1&quot;&gt;Morning Diary&lt;/h1&gt;
@@ -1352,7 +1352,7 @@ However, I will try to write my posts in English, because English is a global la
                 coffee
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/coffee/</id>
             <content type="html">
                 &lt;h1 id=&quot;coffee&quot; tabindex=&quot;-1&quot;&gt;Coffee&lt;/h1&gt;
@@ -1366,7 +1366,7 @@ However, I will try to write my posts in English, because English is a global la
                 cleaningHouse
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/cleaningHouse/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-cleaning-house&quot; tabindex=&quot;-1&quot;&gt;Morning Cleaning House&lt;/h1&gt;
@@ -1382,7 +1382,7 @@ However, I will try to write my posts in English, because English is a global la
                 brushHair
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/brushHair/</id>
             <content type="html">
                 &lt;h1 id=&quot;brush-hair&quot; tabindex=&quot;-1&quot;&gt;Brush Hair&lt;/h1&gt;
@@ -1396,7 +1396,7 @@ However, I will try to write my posts in English, because English is a global la
                 bodyScan
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/bodyScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;body-scan&quot; tabindex=&quot;-1&quot;&gt;Body Scan&lt;/h1&gt;
@@ -1410,7 +1410,7 @@ However, I will try to write my posts in English, because English is a global la
                 arrangingDesk
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/arrangingDesk/</id>
             <content type="html">
                 &lt;h1 id=&quot;arranging-desk&quot; tabindex=&quot;-1&quot;&gt;Arranging Desk&lt;/h1&gt;
@@ -1424,7 +1424,7 @@ However, I will try to write my posts in English, because English is a global la
                 affirmation
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/4_Yearly/Overview/affirmation/</id>
             <content type="html">
                 &lt;h1 id=&quot;affirmation&quot; tabindex=&quot;-1&quot;&gt;Affirmation&lt;/h1&gt;
@@ -1438,7 +1438,7 @@ However, I will try to write my posts in English, because English is a global la
                 workout
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/workout/</id>
             <content type="html">
                 &lt;h1 id=&quot;workout&quot; tabindex=&quot;-1&quot;&gt;Workout&lt;/h1&gt;
@@ -1461,7 +1461,7 @@ However, I will try to write my posts in English, because English is a global la
                 water
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/water/</id>
             <content type="html">
                 &lt;h1 id=&quot;water&quot; tabindex=&quot;-1&quot;&gt;Water&lt;/h1&gt;
@@ -1489,7 +1489,7 @@ However, I will try to write my posts in English, because English is a global la
                 washingDishes
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/washingDishes/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-washing-dishes&quot; tabindex=&quot;-1&quot;&gt;Morning Washing Dishes&lt;/h1&gt;
@@ -1512,7 +1512,7 @@ However, I will try to write my posts in English, because English is a global la
                 wantsNeeds
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/wantsNeeds/</id>
             <content type="html">
                 &lt;h1 id=&quot;wants-and-amp-needs&quot; tabindex=&quot;-1&quot;&gt;Wants &amp;amp; Needs&lt;/h1&gt;
@@ -1528,7 +1528,7 @@ However, I will try to write my posts in English, because English is a global la
                 visualization
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/visualization/</id>
             <content type="html">
                 &lt;h1 id=&quot;visualization&quot; tabindex=&quot;-1&quot;&gt;Visualization&lt;/h1&gt;
@@ -1556,7 +1556,7 @@ However, I will try to write my posts in English, because English is a global la
                 todoList
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/todoList/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-todo-list&quot; tabindex=&quot;-1&quot;&gt;Morning Todo-List&lt;/h1&gt;
@@ -1578,7 +1578,7 @@ However, I will try to write my posts in English, because English is a global la
                 tea
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/tea/</id>
             <content type="html">
                 &lt;h1 id=&quot;tea&quot; tabindex=&quot;-1&quot;&gt;Tea&lt;/h1&gt;
@@ -1592,7 +1592,7 @@ However, I will try to write my posts in English, because English is a global la
                 stretching
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/stretching/</id>
             <content type="html">
                 &lt;h1 id=&quot;stretching&quot; tabindex=&quot;-1&quot;&gt;Stretching&lt;/h1&gt;
@@ -1615,7 +1615,7 @@ However, I will try to write my posts in English, because English is a global la
                 spanish
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/spanish/</id>
             <content type="html">
                 &lt;h1 id=&quot;spanish&quot; tabindex=&quot;-1&quot;&gt;Spanish&lt;/h1&gt;
@@ -1634,7 +1634,7 @@ However, I will try to write my posts in English, because English is a global la
                 snack
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/snack/</id>
             <content type="html">
                 &lt;h1 id=&quot;snack&quot; tabindex=&quot;-1&quot;&gt;Snack&lt;/h1&gt;
@@ -1650,7 +1650,7 @@ However, I will try to write my posts in English, because English is a global la
                 sleep
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/sleep/</id>
             <content type="html">
                 &lt;h1 id=&quot;sleep&quot; tabindex=&quot;-1&quot;&gt;Sleep&lt;/h1&gt;
@@ -1678,7 +1678,7 @@ However, I will try to write my posts in English, because English is a global la
                 skincare
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/skincare/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-skincare&quot; tabindex=&quot;-1&quot;&gt;Morning skincare&lt;/h1&gt;
@@ -1719,7 +1719,7 @@ However, I will try to write my posts in English, because English is a global la
                 reading
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/reading/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-reading&quot; tabindex=&quot;-1&quot;&gt;Morning Reading&lt;/h1&gt;
@@ -1747,7 +1747,7 @@ However, I will try to write my posts in English, because English is a global la
                 probiotics
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/probiotics/</id>
             <content type="html">
                 &lt;h1 id=&quot;probiotics&quot; tabindex=&quot;-1&quot;&gt;Probiotics&lt;/h1&gt;
@@ -1775,7 +1775,7 @@ However, I will try to write my posts in English, because English is a global la
                 pantomona
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/pantomona/</id>
             <content type="html">
                 &lt;h1 id=&quot;pantomona&quot; tabindex=&quot;-1&quot;&gt;Pantomona&lt;/h1&gt;
@@ -1802,7 +1802,7 @@ However, I will try to write my posts in English, because English is a global la
                 omega3
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/omega3/</id>
             <content type="html">
                 &lt;h1 id=&quot;omega3&quot; tabindex=&quot;-1&quot;&gt;Omega3&lt;/h1&gt;
@@ -1829,7 +1829,7 @@ However, I will try to write my posts in English, because English is a global la
                 nails
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/nails/</id>
             <content type="html">
                 &lt;h1 id=&quot;nails&quot; tabindex=&quot;-1&quot;&gt;Nails&lt;/h1&gt;
@@ -1842,7 +1842,7 @@ However, I will try to write my posts in English, because English is a global la
                 meditation
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/meditation/</id>
             <content type="html">
                 &lt;h1 id=&quot;meditation&quot; tabindex=&quot;-1&quot;&gt;Meditation&lt;/h1&gt;
@@ -1862,7 +1862,7 @@ However, I will try to write my posts in English, because English is a global la
                 mToQueen
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/mToQueen/</id>
             <content type="html">
                 &lt;h1 id=&quot;m-to-queen&quot; tabindex=&quot;-1&quot;&gt;M to Queen&lt;/h1&gt;
@@ -1888,7 +1888,7 @@ However, I will try to write my posts in English, because English is a global la
                 gratitude
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/gratitude/</id>
             <content type="html">
                 &lt;h1 id=&quot;gratitude&quot; tabindex=&quot;-1&quot;&gt;Gratitude&lt;/h1&gt;
@@ -1908,7 +1908,7 @@ However, I will try to write my posts in English, because English is a global la
                 footCare
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/footCare/</id>
             <content type="html">
                 &lt;h1 id=&quot;foot-care&quot; tabindex=&quot;-1&quot;&gt;Foot Care&lt;/h1&gt;
@@ -1932,7 +1932,7 @@ However, I will try to write my posts in English, because English is a global la
                 facialMask
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/facialMask/</id>
             <content type="html">
                 &lt;h1 id=&quot;facial-mask&quot; tabindex=&quot;-1&quot;&gt;Facial Mask&lt;/h1&gt;
@@ -1947,7 +1947,7 @@ However, I will try to write my posts in English, because English is a global la
                 faceScan
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/faceScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;face-scan&quot; tabindex=&quot;-1&quot;&gt;Face Scan&lt;/h1&gt;
@@ -1970,7 +1970,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeRelief
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/eyeRelief/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-relief&quot; tabindex=&quot;-1&quot;&gt;Eye Relief&lt;/h1&gt;
@@ -1995,7 +1995,7 @@ However, I will try to write my posts in English, because English is a global la
                 eyeDrop
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/eyeDrop/</id>
             <content type="html">
                 &lt;h1 id=&quot;eye-drop&quot; tabindex=&quot;-1&quot;&gt;Eye Drop&lt;/h1&gt;
@@ -2023,7 +2023,7 @@ However, I will try to write my posts in English, because English is a global la
                 english
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/english/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-english&quot; tabindex=&quot;-1&quot;&gt;Morning English&lt;/h1&gt;
@@ -2050,7 +2050,7 @@ However, I will try to write my posts in English, because English is a global la
                 diary
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/diary/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-diary&quot; tabindex=&quot;-1&quot;&gt;Morning Diary&lt;/h1&gt;
@@ -2078,7 +2078,7 @@ However, I will try to write my posts in English, because English is a global la
                 coffee
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/coffee/</id>
             <content type="html">
                 &lt;h1 id=&quot;coffee&quot; tabindex=&quot;-1&quot;&gt;Coffee&lt;/h1&gt;
@@ -2093,7 +2093,7 @@ However, I will try to write my posts in English, because English is a global la
                 cleaningHouse
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/cleaningHouse/</id>
             <content type="html">
                 &lt;h1 id=&quot;morning-cleaning-house&quot; tabindex=&quot;-1&quot;&gt;Morning Cleaning House&lt;/h1&gt;
@@ -2127,7 +2127,7 @@ However, I will try to write my posts in English, because English is a global la
                 brushHair
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/brushHair/</id>
             <content type="html">
                 &lt;h1 id=&quot;brush-hair&quot; tabindex=&quot;-1&quot;&gt;Brush hair&lt;/h1&gt;
@@ -2156,7 +2156,7 @@ However, I will try to write my posts in English, because English is a global la
                 bodyScan
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/bodyScan/</id>
             <content type="html">
                 &lt;h1 id=&quot;body-scan&quot; tabindex=&quot;-1&quot;&gt;Body Scan&lt;/h1&gt;
@@ -2182,7 +2182,7 @@ However, I will try to write my posts in English, because English is a global la
                 arrangingDesk
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/arrangingDesk/</id>
             <content type="html">
                 &lt;h1 id=&quot;arranging-desk&quot; tabindex=&quot;-1&quot;&gt;Arranging Desk&lt;/h1&gt;
@@ -2204,7 +2204,7 @@ However, I will try to write my posts in English, because English is a global la
                 affirmation
                 
             </title>
-            <updated>2025-01-18T09:04:57Z</updated>
+            <updated>2025-01-18T09:05:10Z</updated>
             <id>https://kimdahee0815.github.io/2_Routine/3_Monthly/Overview/affirmation/</id>
             <content type="html">
                 &lt;h1 id=&quot;affirmation&quot; tabindex=&quot;-1&quot;&gt;Affirmation&lt;/h1&gt;
@@ -3231,6 +3231,200 @@ However, I will try to write my posts in English, because English is a global la
         </entry>
         <entry>
             <title>
+                Arrays Concept
+                
+            </title>
+            <updated>2025-01-14T00:00:00Z</updated>
+            <id>https://kimdahee0815.github.io/3_Learning/Arrays-Concept/</id>
+            <content type="html">
+                &lt;h1 id=&quot;3-learning-arrays-concept-arrays-concept&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays-Concept/&quot;&gt;Arrays Concept&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;arrays&quot; tabindex=&quot;-1&quot;&gt;Arrays&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://kimdahee0815.github.io/img/user/Utilities/Images/Pasted%20image%2020250114082904.jpeg&quot; alt=&quot;Utilities/Images/Pasted image 20250114082904.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Similar to List&lt;/li&gt;
+&lt;li&gt;Organizes data sequentially&lt;/li&gt;
+&lt;li&gt;Stored in contiquous memory in order&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;arrays-methods&quot; tabindex=&quot;-1&quot;&gt;Arrays Methods&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://kimdahee0815.github.io/img/user/Utilities/Images/Pasted%20image%2020250114082930.jpeg&quot; alt=&quot;Utilities/Images/Pasted image 20250114082930.jpeg|200&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lookup
+&lt;ul&gt;
+&lt;li&gt;find the element you are looking for. If you know the index of that element, big O is O(1).&lt;/li&gt;
+&lt;li&gt;ex. find third element =&amp;gt; array[2]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;push
+&lt;ul&gt;
+&lt;li&gt;insert element from behind of the arrays. bigO is O(1).&lt;/li&gt;
+&lt;li&gt;ex. array.push(1);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;insert
+&lt;ul&gt;
+&lt;li&gt;you insert element but in specific location. Let&#39;s say you pushed element in the middle of array. Then you have to push other elements behind of the inserted element. This is where you have to iterate over elements and set pushed back indeces for every element. bigO is O(N), since you have to iterate over elements.&lt;/li&gt;
+&lt;li&gt;ex. array=[1,2,3,4,6,7]; array.insert(4, 5); insert 5 to index 4 =&amp;gt; array = [1,2,3,4,5,6,7]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;delete
+&lt;ul&gt;
+&lt;li&gt;delete element in specific location. Same as above, you have to set changed index for every element. big O is O(N), since you have to iterate over elements.&lt;/li&gt;
+&lt;li&gt;ex. array=[1,2,2,3,4,5]; array.delete(2, 2); delete 2 element from index 2=&amp;gt; array = [1,2,3,4,5]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;array-example&quot; tabindex=&quot;-1&quot;&gt;Array Example&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;	const strings= [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;]; 
+	const numbers = [1,2,3,4,5];
+	// Variable array is somewhere in memory and the computer knows it.
+	// When I do array[2], i&#39;m telling the computer, hey go to the array and grab the 3rd item from where the array is stored.
+
+	//push
+	strings.push(&#39;e&#39;); //O(1)
+	console.log(strings);
+
+	//pop
+	strings.pop(); //O(1)
+	strings.pop(); //O(1)
+	console.log(strings);
+
+	//unshift
+	strings.unshift(&#39;x&#39;); //O(N)
+	console.log(strings);
+
+	//splice
+	strings.splice(2, 0, &#39;alien&#39;); //
+	console.log(strings)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;strings array takes up 16 bytes totally. 4 bytes * 4 = 16 bytes of storage (1byte = 8bits, charcter needs 1 byte to store data)&lt;/li&gt;
+&lt;li&gt;push
+&lt;ul&gt;
+&lt;li&gt;add element at the end of the array&lt;/li&gt;
+&lt;li&gt;O(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;append
+&lt;ul&gt;
+&lt;li&gt;add element at the end of the array&lt;/li&gt;
+&lt;li&gt;But, if it is dynamic array, then this can be O(N). Since you have to loop over the elements and move these elements to different space so we can add more element. &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Arrays-Concept/#array-kinds&quot;&gt;#Array Kinds#Dynamic Array&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;pop
+&lt;ul&gt;
+&lt;li&gt;remove elemetn from the end of the array&lt;/li&gt;
+&lt;li&gt;O(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;unshift
+&lt;ul&gt;
+&lt;li&gt;add element at the beginning of the array&lt;/li&gt;
+&lt;li&gt;When you add element, then all the other elements should be pushed back towards the end. indeces should be realigned agian. We have to iterate all over.&lt;/li&gt;
+&lt;li&gt;O(N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;splice(start index, delete count, items)
+&lt;ul&gt;
+&lt;li&gt;you can delete and also add by this function.&lt;/li&gt;
+&lt;li&gt;Add: splice(2,0,&#39;alien&#39;) =&amp;gt; go to index of 2, and delete no elements, add &#39;alien&#39; element to that index place
+&lt;ul&gt;
+&lt;li&gt;you loop half of the elements, since you add element in the place of index 2. You loop after the index of 2. So, bigO would be O(N/2), but according to the rule of bigO &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Big-O/#simplifying-big-o&quot;&gt;Big O#Simplifying Big O#Remove Constants&lt;/a&gt;, you get O(N).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Delete: splice(2,1) =&amp;gt; delete 1 element from the index of 2
+&lt;ul&gt;
+&lt;li&gt;you delete index from index 2, and since the index 2 element is gone, all the other elements should be pulled back forwards. This means you have to iterate elements after the index of 2. you get O(N/2), but just like the case above, you get O(N).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;array-kinds&quot; tabindex=&quot;-1&quot;&gt;Array Kinds&lt;/h2&gt;
+&lt;h3 id=&quot;static-array&quot; tabindex=&quot;-1&quot;&gt;Static Array&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Whole array size is fixed, arrays are allocated in adjacent blocks of memory. You can&#39;t keep adding things on after the max array size.&lt;/li&gt;
+&lt;li&gt;If you want to add more data after the max size, you copy the whole array and move whole array to different place and allocate more memories so that you can add more elements.&lt;/li&gt;
+&lt;li&gt;C++, C ... (Low level languages) - Machine memory management, User have more control over memories so it can be faster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;dynamic-array&quot; tabindex=&quot;-1&quot;&gt;Dynamic Array&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;append cab be O(N) according to Dynamic Array&lt;/li&gt;
+&lt;li&gt;javascript (High level languages) - Automatic memory management, Machine takes chare of memory management so it can be slower&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;implementing-an-array&quot; tabindex=&quot;-1&quot;&gt;Implementing an Array&lt;/h2&gt;
+&lt;h3 id=&quot;how-to-build-array-from-the-beginning&quot; tabindex=&quot;-1&quot;&gt;How to build array from the beginning?&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;class MyArray{
+	constructor(){
+		this.length = 0;
+		this.data = {};
+	}
+	get(index){
+		return this.data[index];
+	}
+	push(item){
+		this.data[this.length] = item;
+		this.length++;
+		return this;
+	}
+	pop(){
+		const removedItem = this.data[this.length - 1];
+		delete this.data[this.length - 1];
+		this.length--;
+		return removedItem;
+	}
+	delete(index){
+		const item = this.data[index];
+		delete this.data[index];
+		for(let i = index + 1; i &amp;lt; this.length; i++){
+			this.data[index] = this.data[i];
+			index++;
+		}
+		delete this.data[this.length - 1];
+		this.length--;
+		return item;
+	}
+	delete2(index){ //different method
+		const item = this.data[index];
+		this.shiftItems(index);
+		this.length--;
+		return item;
+	}
+	shiftItems(index){
+		for(let i = index; i &amp;lt; this.length - 1; i++){
+			this.data[i] = this.data[i+1];
+		}
+		delete this.data[this.length - 1];
+	}
+}
+const array = new MyArray();
+console.log(array.push(3));
+console.log(array.push(5));
+console.log(array.get(0));
+console.log(array.get(1));
+console.log(array.pop());
+console.log(array)
+console.log(array.pop());
+console.log(array)
+console.log(array.push(&#39;a&#39;));
+console.log(array.push(&#39;b&#39;));
+console.log(array.push(&#39;c&#39;));
+console.log(array.push(&#39;d&#39;));
+console.log(array.delete(0));
+console.log(array)
+console.log(array.delete2(1));
+console.log(array)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;developing-references&quot; tabindex=&quot;-1&quot;&gt;Developing References&lt;/h3&gt;
+&lt;h5 id=&quot;developing-report&quot; tabindex=&quot;-1&quot;&gt;Developing Report&lt;/h5&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-14 - Arrays Concept Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-14 - Developing Daily Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-3th - Developing Weekly Report&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://kimdahee0815.github.io/3_Learning/Arrays-Concept/" >
+        </entry>
+        <entry>
+            <title>
                 Arrays - Question 2 Container With Most Water (Medium)
                 
             </title>
@@ -3564,6 +3758,405 @@ console.log(findTwoSumIndex([1,6], 7));
 
             </content>
             <link href="https://kimdahee0815.github.io/4_Book/소크라테스의-변명/" >
+        </entry>
+        <entry>
+            <title>
+                Big O
+                
+            </title>
+            <updated>2025-01-13T00:00:00Z</updated>
+            <id>https://kimdahee0815.github.io/3_Learning/Big-O/</id>
+            <content type="html">
+                &lt;h1 id=&quot;3-learning-big-o-big-o&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Big-O/&quot;&gt;Big O&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;what-is-good-code&quot; tabindex=&quot;-1&quot;&gt;What is Good Code?&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://kimdahee0815.github.io/img/user/Utilities/Images/Pasted%20image%2020250113100222.jpeg&quot; alt=&quot;Utilities/Images/Pasted image 20250113100222.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just like kitchen, we have to give coding instructions to computer&lt;/li&gt;
+&lt;li&gt;instructions can be different in various ways&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;readable&quot; tabindex=&quot;-1&quot;&gt;Readable&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Clean code that others can read that is maintainable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;scalable&quot; tabindex=&quot;-1&quot;&gt;Scalable&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Speed: As input grows bigger and bigger, How slow the algorithm or function gets&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Memory: As input grows bigger and bigger, How much space it takes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Heap: Where we store variables that we assign values to&lt;/li&gt;
+&lt;li&gt;Stack: Where we keep track of function calls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Readability and Scalability are both important. In some cases, writing clean code that is easier to understand for others can be more important than caring about Scalability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;example-code&quot; tabindex=&quot;-1&quot;&gt;Example Code&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const nemo = [&#39;nemo&#39;];
+
+function findNemo(array){
+	for(let i = 0; i &amp;lt; array.length; i++){
+		if(array[i] === &#39;nemo&#39;){
+			console.log(&#39;FOUND NEMO!&#39;);
+		}
+	}
+}
+findNemo(nemo);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&quot;question-to-ask&quot; tabindex=&quot;-1&quot;&gt;Question to Ask&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;How can we measure the big o or efficiency?&lt;/li&gt;
+&lt;li&gt;How long does it take to run a certain problem through a function or a task?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const nemo = [&#39;nemo&#39;];
+
+function findNemo(array){
+	let t0 = performance.now();
+	for(let i = 0; i &amp;lt; array.length; i++){
+		if(array[i] === &#39;nemo&#39;){
+			console.log(&#39;FOUND NEMO!&#39;);
+		}
+	}
+	let t1 = performance.now();
+	console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
+}
+findNemo(nemo);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const everyone = [&#39;dory&#39;, &#39;bruce&#39;, &#39;marlin&#39;, &#39;nemo&#39;, &#39;gill&#39;, &#39;bloat&#39;, &#39;nigel&#39;, &#39;squirt&#39;, &#39;darla&#39;, &#39;hank&#39;];
+
+function findNemo(array){
+	let t0 = performance.now();
+	for(let i = 0; i &amp;lt; array.length; i++){
+		if(array[i] === &#39;nemo&#39;){
+			console.log(&#39;FOUND NEMO!&#39;);
+		}
+	}
+	let t1 = performance.now();
+	console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
+}
+findNemo(everyone);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;There are not much of a difference between 10 loops and 1 loop!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const large = new Array(10000000).fill(&#39;nemo&#39;);
+
+function findNemo(array){
+	let t0 = performance.now();
+	for(let i = 0; i &amp;lt; array.length; i++){
+		if(array[i] === &#39;nemo&#39;){
+			//console.log(&#39;FOUND NEMO!&#39;);
+		}
+	}
+	let t1 = performance.now();
+	console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
+}
+findNemo(large);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;This takes long time.&lt;/li&gt;
+&lt;li&gt;Which code is more efficient and how can we reduce time to execute regardless of our computer differences?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;big-o&quot; tabindex=&quot;-1&quot;&gt;Big O&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://kimdahee0815.github.io/img/user/Utilities/Images/Pasted%20image%2020250113102901.jpeg&quot; alt=&quot;Utilities/Images/Pasted image 20250113102901.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When we grow bigger and bigger with our input, how much does the algorithm or function slow down?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;o-n-example&quot; tabindex=&quot;-1&quot;&gt;O(N) Example&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const large = new Array(10000000).fill(&#39;nemo&#39;);
+
+function findNemo(array){
+	let t0 = performance.now();
+	for(let i = 0; i &amp;lt; array.length; i++){
+		if(array[i] === &#39;nemo&#39;){
+			//console.log(&#39;FOUND NEMO!&#39;);
+		}
+	}
+	let t1 = performance.now();
+	console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
+}
+findNemo(large);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;This function loops 10000000 times. As inputs grow, loops increase by the same amount. O(N).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;o-1-example&quot; tabindex=&quot;-1&quot;&gt;O(1) Example&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;const boxes = new Array(100).fill(&#39;box&#39;);
+function compressFirstBox(boxes){
+	console.log(boxes[0]);
+}
+compressFirstBox(boxes);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;This function doesn&#39;t really get affected by the numbers of boxes, since it only logs first box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;const boxes = [0,1,2,3,4,5];
+function compressFirstBox(boxes){
+	console.log(boxes[0]); 
+	console.log(boxes[1]); 
+}
+compressFirstBox(boxes); //O(1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;This function doesn&#39;t really affected by the numbers of boxes, since it only logs first box and second box.&lt;/li&gt;
+&lt;li&gt;We call this function once, so big O is O(1).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;o-n-n-example&quot; tabindex=&quot;-1&quot;&gt;O(N * N) Example&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const boxes = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;];
+function logAllPairsOfArray(array) {
+  for (let i = 0; i &amp;lt; array.length; i++) { //O(2N)
+    for (let j = 0; j &amp;lt; array.length; j++) { //O(2 * N^2)
+      console.log(array[i], array[j])
+    }
+  }
+}
+
+logAllPairsOfArray(boxes)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;O(2 * N^2 + 2N) =&amp;gt; O(2 * N^2) =&amp;gt; O(N^2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function compressBoxesTwice(boxes, boxes2){
+	boxes.forEach(function(boxes){ //O(N)
+		console.log(boxes);	
+		boxes.forEach(function(boxes2){ //O(N * M)
+			console.log(boxes);	
+		})
+	})
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;O(N * M + N) =&amp;gt; O(N * M)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Big-O/#simplifying-big-o&quot;&gt;#Simplifying Big O#Different terms for inputs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;o-n&quot; tabindex=&quot;-1&quot;&gt;O(N!)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding nested loop for every element that&#39;s being iterated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-is-the-big-o-of-the-below-function&quot; tabindex=&quot;-1&quot;&gt;What is the Big O of the below function?&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function funChallenge(input) {
+  let a = 10;  
+  a = 50 + 3; //O(1)
+
+  for (let i = 0; i &amp;lt; input.length; i++) { //O(2N)
+    anotherFunction();  //O(N)
+    let stranger = true;  
+    a++; //O(N)
+  }
+  return a; 
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Answer: O(4N + 1) =&amp;gt; O(N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-is-the-big-o-of-the-below-function-1&quot; tabindex=&quot;-1&quot;&gt;What is the Big O of the below function?&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function anotherFunChallenge(input) {
+    let a = 5; 
+    let b = 10; 
+    let c = 50; 
+    for (let i = 0; i &amp;lt; input; i++) { // O(2N)
+      let x = i + 1; // O(N)
+      let y = i + 2; // O(N)
+      let z = i + 3; // O(N)
+
+    }
+    for (let j = 0; j &amp;lt; input; j++) { // O(2N)
+      let p = j * 2; // O(N)
+      let q = j * 2; // O(N)
+    }
+    let whoAmI = &amp;quot;I don&#39;t know&amp;quot;; 
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Answer: O(9N) =&amp;gt; O(N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;what-is-the-difference-between-big-o-big-omega-big-theta&quot; tabindex=&quot;-1&quot;&gt;What is the difference between big O, big Omega, big Theta?&lt;/h5&gt;
+&lt;p&gt;What is the mileage that your car gives?&lt;/p&gt;
+&lt;p&gt;So let&#39;s discuss different scenarios.&lt;/p&gt;
+&lt;p&gt;Let&#39;s say the car gives an average of 12 km/hr in Traffic, an average of 20 km/hr on Highway and an average of 16 km/hr in Normal City Traffic.&lt;/p&gt;
+&lt;p&gt;Traffic is your worst case, Highway is your best case and Normal City Traffic is your average case.&lt;/p&gt;
+&lt;p&gt;This is similar to the notations that we use for Algorithm runtime Analysis.&lt;/p&gt;
+&lt;p&gt;Omega Notation ( Ω ) gives the best case complexity (highway in above case), Big O Notation ( O ) gives the worst case complexity (traffic in above case) and Theta Notation ( θ ) gives the average case complexity of an algorithm (normal city traffic in above case).&lt;/p&gt;
+&lt;p&gt;Storytelling and real life examples make you understand concepts clearly.&lt;/p&gt;
+&lt;h2 id=&quot;simplifying-big-o&quot; tabindex=&quot;-1&quot;&gt;Simplifying Big O&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You don&#39;t have to caluclate every single details&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;worse-case&quot; tabindex=&quot;-1&quot;&gt;Worse Case&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;const everyone = [&#39;dory&#39;, &#39;bruce&#39;, &#39;marlin&#39;, &#39;nemo&#39;, &#39;gill&#39;, &#39;bloat&#39;, &#39;nigel&#39;, &#39;squirt&#39;, &#39;darla&#39;, &#39;hank&#39;];
+
+function findNemo(array){
+	let t0 = performance.now();
+	for(let i = 0; i &amp;lt; array.length; i++){
+		if(array[i] === &#39;nemo&#39;){
+			console.log(&#39;FOUND NEMO!&#39;);
+			break;
+		}
+	}
+	let t1 = performance.now();
+	console.log(`Call to find Nemo took ${t1 - t0} milliseconds`);
+}
+findNemo(everyone);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;In here, you don&#39;t have to run everyone array&#39;s every single elements. You can just stop when you found Nemo. This is more efficient, for sure.&lt;/li&gt;
+&lt;li&gt;&lt;font color=&quot;#ff0000&quot;&gt;But when you calcualte Big O, you always have to consider the worst case!  &lt;/font&gt;Since, the result can be always different depending on inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;remove-constants&quot; tabindex=&quot;-1&quot;&gt;Remove Constants&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function printFirstItemThenFirstHalfThenSayHi100Times(items) {
+    console.log(items[0]); 
+
+    var middleIndex = Math.floor(items.length / 2); //O(1)
+    var index = 0; 
+
+    while (index &amp;lt; middleIndex) { // O(N/2)
+        console.log(items[index]); 
+        index++; //O(N/2)
+    }
+
+    for (var i = 0; i &amp;lt; 100; i++) { //O(200)
+        console.log(&#39;hi&#39;); 
+    }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;O(N/2 + N/2 + 1 + 200) =&amp;gt; O(N/2 + 201) =&amp;gt; O(N/2) =&amp;gt; O(N) (Ignore variable assignments and small calcuations here)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function compressBoxesTwice(boxes){
+	boxes.forEach(function(boxes){ //O(N)
+		console.log(boxes);	
+	})
+	boxes.forEach(function(boxes){ //O(N)
+		console.log(boxes);	
+	})
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;O(2N) =&amp;gt; O(N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;different-terms-for-inputs&quot; tabindex=&quot;-1&quot;&gt;Different terms for inputs&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function compressBoxesTwice(boxes, boxes2){
+	boxes.forEach(function(boxes){ //O(N)
+		console.log(boxes);	
+	})
+	boxes.forEach(function(boxes2){ //O(M)
+		console.log(boxes);	
+	})
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;O(N + M)&lt;/li&gt;
+&lt;li&gt;There are two different inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;drop-non-dominants&quot; tabindex=&quot;-1&quot;&gt;Drop non-dominants&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;function printAllNumbersThenAllPairSums(numbers) {
+  console.log(&amp;quot;these are the numbers:&amp;quot;);
+  numbers.forEach(function(number) { //O(N)
+    console.log(number);
+  });
+
+  console.log(&amp;quot;and these are their sums:&amp;quot;);
+  numbers.forEach(function(firstNumber) { //O(N)
+    numbers.forEach(function(secondNumber) { //O(N^2)
+      console.log(firstNumber + secondNumber); //O(N^2)
+    });
+  });
+}
+
+printAllNumbersThenAllPairSums([1, 2, 3, 4, 5]); 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;O(2 x N^2 + 2N) =&amp;gt; O(2 x N^2) =&amp;gt; O(N^2)&lt;/li&gt;
+&lt;li&gt;N^2 is way more increasing than N. So, we remove non-dominants.&lt;/li&gt;
+&lt;li&gt;Ex. O(X^2 + 3X + 100 + X/2) =&amp;gt; O(X^2 + 7/2X + 100) =&amp;gt; O(X^2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-can-cause-time-in-a-function&quot; tabindex=&quot;-1&quot;&gt;What can cause time in a function?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Operations (+, -, x, /)&lt;/li&gt;
+&lt;li&gt;Comparisons (&amp;gt;, &amp;lt;, ==)&lt;/li&gt;
+&lt;li&gt;Looping (for, while)&lt;/li&gt;
+&lt;li&gt;Outside Function Call (funciton())&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-can-cause-space-complexity&quot; tabindex=&quot;-1&quot;&gt;What can cause Space complexity?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Variables&lt;/li&gt;
+&lt;li&gt;Data structures&lt;/li&gt;
+&lt;li&gt;Function call&lt;/li&gt;
+&lt;li&gt;Allocations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;space-complexity-example&quot; tabindex=&quot;-1&quot;&gt;Space Complexity Example&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;function booo(n){
+	for(let i = 0; i &amp;lt; n.length; i++){
+		console.log(&#39;boooooo!&#39;);
+	}
+}
+booo([1,2,3,4,5]);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;We can&#39;t control input we receives, we only can control what happens inside the function&lt;/li&gt;
+&lt;li&gt;We didn&#39;t add any space here. i = 0 assigning is the only thing that takes up memory. =&amp;gt; O(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-run-js&quot;&gt;function arrayOfHiNTimes(n){
+	let hiArray = [];
+	for(let i = 0; i &amp;lt; n; i++){
+		hiArray[i] = &#39;hi&#39;;
+	}
+	return hiArray;
+}
+console.log(arrayOfHiNTimes(6))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;We are assigning the array in this function, which is data structure.&lt;/li&gt;
+&lt;li&gt;We filled the array with N loops. =&amp;gt; O(N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;const array = [&#39;hi&#39;, &#39;my&#39;, &#39;post&#39;];
+array[0]; //O(1) =&amp;gt; Oldest tweet
+array[array.length - 1] // O(1) =&amp;gt; Newest tweet
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;const array=[
+	{
+		tweet: &#39;hi&#39;,
+		date: 2020
+	},
+	{
+		tweet: &#39;my&#39;,
+		date: 2021
+	},
+	{
+		tweet: &#39;post&#39;,
+		date: 2022
+	}
+]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;If you want to compare dates of tweets, then you have to compare each post for every other posts. =&amp;gt; O(N^2)&lt;/li&gt;
+&lt;li&gt;ex. &#39;hi&#39; post date =&amp;gt; &#39;my&#39;, &#39;post&#39;, &#39;my&#39; post date =&amp;gt; &#39;hi&#39;, &#39;post&#39;,  &#39;post&#39; post date =&amp;gt; &#39;hi&#39;, &#39;my&#39;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;&#39;asdfkl;waelij;awlerjawler&#39;.length; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;BigO depends on the language you are working with. Length function can iterate over each element all the way until the length finishes.&lt;/li&gt;
+&lt;li&gt;In case of Javascript, length is just a simple property of object. =&amp;gt; O(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;data-structure-and-algorithms&quot; tabindex=&quot;-1&quot;&gt;Data Structure and Algorithms?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Structure : ways to store data&lt;/li&gt;
+&lt;li&gt;Algorithms : functions or ways to use data structures to write our program&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;developing-references&quot; tabindex=&quot;-1&quot;&gt;Developing References&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.udemy.com/course/master-the-coding-interview-big-tech-faang-interviews/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Master the Coding Interview: Big Tech (FAANG) Interviews&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&quot;developing-report&quot; tabindex=&quot;-1&quot;&gt;Developing Report&lt;/h5&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-13 - Big O Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-13 - Developing Daily Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2025-01-3th - Developing Weekly Report&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://kimdahee0815.github.io/3_Learning/Big-O/" >
         </entry>
         <entry>
             <title>
@@ -5059,6 +5652,24 @@ I hope I can do it well 😄&lt;/p&gt;
 
             </content>
             <link href="https://kimdahee0815.github.io/3_Learning/🔥겨드랑이살,-부유방🔥빨리-빼는-10분-루틴-2주만-해보세요---Armpit-Fat-Workout/" >
+        </entry>
+        <entry>
+            <title>
+                허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동
+                
+            </title>
+            <updated>2024-12-29T00:00:00Z</updated>
+            <id>https://kimdahee0815.github.io/3_Learning/허벅지살,-승마살,-힙딥,-하체운동-한방에-해결,-애플힙-일등공신-중둔근운동/</id>
+            <content type="html">
+                &lt;h1 id=&quot;3-learning&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;workout&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/%ED%97%88%EB%B2%85%EC%A7%80%EC%82%B4,-%EC%8A%B9%EB%A7%88%EC%82%B4,-%ED%9E%99%EB%94%A5,-%ED%95%98%EC%B2%B4%EC%9A%B4%EB%8F%99-%ED%95%9C%EB%B0%A9%EC%97%90-%ED%95%B4%EA%B2%B0,-%EC%95%A0%ED%94%8C%ED%9E%99-%EC%9D%BC%EB%93%B1%EA%B3%B5%EC%8B%A0-%EC%A4%91%EB%91%94%EA%B7%BC%EC%9A%B4%EB%8F%99/&quot;&gt;허벅지살, 승마살, 힙딥, 하체운동 한방에 해결, 애플힙 일등공신 중둔근운동&lt;/a&gt;&lt;/h1&gt;
+&lt;div class=&quot;container-root&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;container-root&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kymv9On2-VA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;youtube-reference&quot; tabindex=&quot;-1&quot;&gt;Youtube Reference&lt;/h3&gt;
+&lt;h5 id=&quot;youtube-report&quot; tabindex=&quot;-1&quot;&gt;Youtube Report&lt;/h5&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2024-12-29 - Youtube Daily Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2024-12-5th - Youtube Weekly Report&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://kimdahee0815.github.io/3_Learning/허벅지살,-승마살,-힙딥,-하체운동-한방에-해결,-애플힙-일등공신-중둔근운동/" >
         </entry>
         <entry>
             <title>
@@ -7441,6 +8052,28 @@ Tourists use tram a lot&lt;/p&gt;
 
             </content>
             <link href="https://kimdahee0815.github.io/3_Learning/비례식-묘사,표현-(Part-1-of-2)-많을수록-좋다,-작을수록-가지고-다니기-편하다/" >
+        </entry>
+        <entry>
+            <title>
+                Binary Search Tree
+                
+            </title>
+            <updated>2024-10-29T00:00:00Z</updated>
+            <id>https://kimdahee0815.github.io/3_Learning/Binary-Search-Tree/</id>
+            <content type="html">
+                &lt;h1 id=&quot;3-learning-binary-search-tree-binary-search-tree&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;developing&quot; href=&quot;https://kimdahee0815.github.io/3_Learning/Binary-Search-Tree/&quot;&gt;Binary Search Tree&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;how-to-lookup&quot; tabindex=&quot;-1&quot;&gt;How to Lookup&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://kimdahee0815.github.io/img/user/Utilities/Images/Pasted%20image%2020241202004852.jpeg&quot; alt=&quot;Utilities/Images/Pasted image 20241202004852.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;how-to-remove&quot; tabindex=&quot;-1&quot;&gt;How to Remove&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://kimdahee0815.github.io/img/user/Utilities/Images/Pasted%20image%2020241202004908.jpeg&quot; alt=&quot;Utilities/Images/Pasted image 20241202004908.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;developing-references&quot; tabindex=&quot;-1&quot;&gt;Developing References&lt;/h3&gt;
+&lt;h5 id=&quot;developing-report&quot; tabindex=&quot;-1&quot;&gt;Developing Report&lt;/h5&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2024-10-29 - Binary Search Tree Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2024-10-29 - Developing Daily Report&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://kimdahee0815.github.io/404&quot; target=&quot;&quot;&gt;2024-10-5th - Developing Weekly Report&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://kimdahee0815.github.io/3_Learning/Binary-Search-Tree/" >
         </entry>
         <entry>
             <title>
