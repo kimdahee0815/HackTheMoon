@@ -5,8 +5,7 @@
 # [[3_Learning/영향을 받다, 주다, 끼치다를 영어로 표현하기 - influence, affect, effect, impact\|영향을 받다, 주다, 끼치다를 영어로 표현하기 - influence, affect, effect, impact]]
 
 
-<pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:9:21)</pre>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe width="560" height="315" src="https://www.youtube.com/embed/EdGw8snKc0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div></div>
 
 간접적인 영향 - influence
 그녀는 다른 많은 뮤지션들에게서 영향을 받았어요;;She was influenced by a lot of other musicians
