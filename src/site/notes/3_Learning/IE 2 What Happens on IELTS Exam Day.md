@@ -7,7 +7,7 @@
 ## <font color="#9d0ab3">IELTS Exam</font>
 - Do all 4 sections in one day
 	- Listening(30 mins, 10 mins to transfer answers)
-		- You will get test booklets and separate piece of paper that is your answersheet(<span style="background:#d2cbff">scantron sheet</span>)
+		- You will get test booklets and separate piece of paper that is your answersheet(<font color="#9d0ab3">scantron sheet</font>)
 		- You should stay centered and present when you transfer answers. Be careful not to mix up numbers and throws all the other numbers off. But, Having said that, 10 minutes is a long time to transfer your answers.
 	- Reading(1 hour)
 		- Stay in the same seat
@@ -26,7 +26,7 @@
 	- They use a lot of technology such as pictures, finger prints, passwords
 	- They take all the belongings of the candidates and organize them with nametags. And they put them in a separated room.
 	- You can ask for bathroom break, But only at specific times, only one person can go. You have to raise your hand to go to the bathroom and give your test booklets. Then, proctors or invigilators will follow you to the bathroom.
-	- <span style="background:#d2cbff">proctors</span> or <span style="background:#d2cbff">invigilator</span> is going to walk around the room and check your face and your information
+	- <font color="#9d0ab3">proctors</font> or <font color="#9d0ab3">invigilator</font> is going to walk around the room and check your face and your information
 - What to bring?
 	- Bring passport! (Your Identification)
 	- you are allowed to bring some water. It has to be a water bottle without label (rip the label off).
