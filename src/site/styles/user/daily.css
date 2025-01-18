@@ -1,0 +1,31 @@
+/*====================*/
+/* Daily Note Styling */
+/*====================*/
+.daily {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 20px !important;
+}
+
+/* Hide the frontmatter for Daily Notes*/
+.daily .frontmatter-container {
+    display: none;
+}
+
+/* Daily Note Date H5 Styling (🔹 Thursday 🔹 10th November 🔹 2022 🔹) */
+.daily h5 {
+    font-size: 1.25em;
+    /* color: #6e9ce4; */
+    border-width: 1px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+/* Daily Note Name H6 Styling (YYYY-MM-DD) */
+.daily h6 {
+    font-size: 1.75em;
+    /* color: #adcbf2; */
+    border-width: 1px;
+    padding-bottom: 3px;
+    text-align: center;
+}

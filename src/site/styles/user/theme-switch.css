@@ -1,0 +1,184 @@
+/* theme-change */
+#floating-control {
+    color: var(--link-color);
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-left:30px;
+    z-index: 9999;
+    .svg-icon,
+    i {
+        cursor: pointer;
+        height: 24px;
+        width: auto;
+    }
+    #theme-switch {
+        .light {
+            display: none;
+        }
+        .dark {
+            display: none;
+        }
+        .auto {
+            display: none;
+        }
+    }
+    #theme-switch.light {
+        .light {
+            display: inline;
+        }
+    }
+    #theme-switch.dark {
+        .dark {
+            display: inline;
+        }
+    }
+    #theme-switch.auto {
+        .auto {
+            display: inline;
+        }
+    }
+}
+
+@media screen and (min-width: 1560px) {
+    #floating-control {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1560px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 1.6vmax;
+        right: 18vmax;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 1.7vmax;
+        right: 19vmax;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 1.7vmax;
+        right: 20vmax;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 1.8vmax;
+        right: 21vmax;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 1.9vmax;
+        right: 22vmax;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 1.9vmax;
+        right: 23vmax;
+    }
+}
+@media screen and (max-width: 1250px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2vmax;
+        right: 24vmax;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2vmax;
+        right: 25vmax;
+    }
+}
+@media screen and (max-width: 1060px) {
+    #floating-control {     
+        display: flex;
+        position: fixed;
+        top: 2.1vmax;
+        right: 26vmax;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2.3vmax;
+        right: 27vmax;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2.3vmax;
+        right: 24vmax;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2.3vmax;
+        right: 24.5vmax;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #floating-control { 
+        display: flex;       
+        position: fixed;
+        top: 2vmax;
+        right: 8vmax;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2vmax;
+        right: 9.3vmax;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #floating-control {
+        display: flex;
+        position: fixed;
+        top: 2vmax;
+        right: 9.8vmax;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #floating-control {
+        display: none;
+    }
+}

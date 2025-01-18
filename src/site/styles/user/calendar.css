@@ -1,0 +1,50 @@
+/*==============================*/
+/* Display Daily Notes Calendar */
+/*==============================*/
+.calendar table {
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    background-color: #0d3d56;
+    border-radius: 10px;
+}
+
+.calendar thead {
+    background-color: #6295e3;
+}
+
+.calendar th {
+    color: rgb(225, 237, 237) !important;
+}
+
+.calendar table th:first-of-type {
+    border-top-left-radius: 6px;
+}
+.calendar table th:last-of-type {
+    border-top-right-radius: 6px;
+}
+
+.calendar .internal-link {
+    color: rgb(92, 154, 230);
+}
+
+.calendar .internal-link.is-unresolved {
+    color: rgb(162, 204, 206);
+}
+
+.calendar td strong {
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid #229ecf;
+    color: black !important;
+}
+
+.calendar mark {
+    /* color: #fd0707 !important; */
+    background: #0d3d56;
+}
+
+.calendar strong .internal-link {
+    color: #5c7fe1 !important;
+    /* background: #0d3d56; */
+}
