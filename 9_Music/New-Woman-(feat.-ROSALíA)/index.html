@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Hash Tables Concept</title>
+<title>New Woman (feat. ROSALÍA)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -579,7 +579,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Hash-Tables-Concept/">Hash Tables Concept </a>
+<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Hash-Tables-Concept/">Hash Tables Concept </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1128,7 +1128,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/New-Woman-(feat.-ROSALíA)/">New Woman (feat. ROSALÍA) </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/New-Woman-(feat.-ROSALíA)/">New Woman (feat. ROSALÍA) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1207,91 +1207,23 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="developing">Hash Tables Concept</h1>
+<h1 data-note-icon="music">New Woman (feat. ROSALÍA)</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#developing
+#music
 </a>
 </div>
 </div>
 </header>
-<h1 id="3-learning-hash-tables-concept-hash-tables-concept" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Hash-Tables-Concept/">Hash Tables Concept</a></h1>
-<h2 id="hash-tables-object-maps-hashes" tabindex="-1">Hash Tables, Object, Maps, Hashes</h2>
-<p><picture src="/img/user/Utilities/Images/Pasted%20image%2020250114132929.jpeg" alt="Utilities/Images/Pasted image 20250114132929.jpeg|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/C-8Cq1Dmx8-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/C-8Cq1Dmx8-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/C-8Cq1Dmx8-608.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/C-8Cq1Dmx8-608.jpeg"><img class="" src="/img/user/Utilities/Images/Pasted%20image%2020250114132929.jpeg" alt="Utilities/Images/Pasted image 20250114132929.jpeg|300" width="300px"></picture></p>
-<ul>
-<li>Key-Value pair
-<ul>
-<li>ex. basket.grapes = 10000;</li>
-<li>Hash Key goes into hash function and return an index where we stored value</li>
-</ul>
-</li>
-<li>Hash function map key to the memory address where we want to store our values</li>
-<li>Really fast data access. Usually O(1).</li>
-<li>Javascript Object is type of Hash Tables</li>
-</ul>
-<h3 id="what-is-a-hash-function" tabindex="-1">What is a Hash Function?</h3>
-<ul>
-<li>Function that generates a value of fixed length for each input that it gets
-<ul>
-<li>ex. SHA-256, SHA-1</li>
-</ul>
-</li>
-<li>Idempotent. Hash function is one way. If you give result value to anyone, It isn't possible to know what key was.</li>
-<li>Hash function takes time to process</li>
-</ul>
-<h3 id="hash-tables-functions" tabindex="-1">Hash Tables Functions</h3>
-<p><img src="/img/user/Utilities/Images/Pasted%20image%2020250114133825.jpeg" alt="Utilities/Images/Pasted image 20250114133825.jpeg|200" width="200px"></p>
-<ul>
-<li>Insert, lookup, delete, search bigO is all O(1). Because, you have the key assigned everything becomes very simple.</li>
-</ul>
-<h3 id="hash-tables-example" tabindex="-1">Hash Tables Example</h3>
-<pre><code class="language-run-js">	let user = {
-		age:  54,
-		name: 'kyle',
-		magic: true,
-		scream: function(){
-			console.log('ahhhhh!');
-		}
-	}
-	console.log(user.age); //lookup O(1)
-	user.spell = 'abra kadabra'; //Insert O(1)
-	console.log(user); 
-	user.scream(); //lookup O(1)
-
-</code></pre>
-<h2 id="hash-table-problem" tabindex="-1">Hash Table Problem</h2>
-<p><picture src="/img/user/Utilities/Images/Pasted%20image%2020250114134307.jpeg" alt="Utilities/Images/Pasted image 20250114134307.jpeg"><source media="(max-width:480px)" srcset="/img/optimized/NxpIRBBeJz-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/NxpIRBBeJz-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/NxpIRBBeJz-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/NxpIRBBeJz-700.jpeg"><img class="" src="/img/user/Utilities/Images/Pasted%20image%2020250114134307.jpeg" alt="Utilities/Images/Pasted image 20250114134307.jpeg" width=""></picture><br>
-<picture src="/img/user/Utilities/Images/Pasted%20image%2020250114134445.jpeg" alt="Utilities/Images/Pasted image 20250114134445.jpeg"><source media="(max-width:480px)" srcset="/img/optimized/oIluJptpL0-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/oIluJptpL0-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/oIluJptpL0-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oIluJptpL0-700.jpeg"><img class="" src="/img/user/Utilities/Images/Pasted%20image%2020250114134445.jpeg" alt="Utilities/Images/Pasted image 20250114134445.jpeg" width=""></picture></p>
-<ul>
-<li>Collision!
-<ul>
-<li>Hash Function can generate same memory space for different keys, since memory is limited</li>
-<li>When we put different data in the same memory space, we use linked list(separate chaining)</li>
-<li>You will get O(N/K). K = size of the hash table. In worst case scenario, K could be 1, which every data goes into same buckets. Then, bigO will be O(N).</li>
-</ul>
-</li>
-</ul>
-<h2 id="arrays-vs-hash-tables" tabindex="-1">Arrays vs Hash Tables</h2>
-<p><picture src="/img/user/Utilities/Images/Pasted%20image%2020250114135104.jpeg" alt="Utilities/Images/Pasted image 20250114135104.jpeg|500" width="500px"><source media="(max-width:480px)" srcset="/img/optimized/t66QPVB6tX-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/t66QPVB6tX-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/t66QPVB6tX-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/t66QPVB6tX-700.jpeg"><img class="" src="/img/user/Utilities/Images/Pasted%20image%2020250114135104.jpeg" alt="Utilities/Images/Pasted image 20250114135104.jpeg|500" width="500px"></picture></p>
-<ul>
-<li>Hash tables are great for searching, arrays are bad for searching</li>
-<li>keys can be picked in Hash Tables, but array's key is set(index).</li>
-<li>Hash tables data is all over the place, but arrays data will be contiguous</li>
-</ul>
-<h3 id="developing-references" tabindex="-1">Developing References</h3>
-<h5 id="developing-report" tabindex="-1">Developing Report</h5>
-<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-14 - Hash Tables Concept Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2025-01-14 - Developing Daily Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2025-01-3th - Developing Weekly Report</a></p>
+<h1 id="9-music-new-woman-feat-rosalia-new-woman-feat-rosalia" tabindex="-1"><a class="internal-link" target="" data-note-icon="music" href="/9_Music/New-Woman-(feat.-ROSALíA)/">New Woman (feat. ROSALIA)</a></h1>
+<p><img src="https://i.scdn.co/image/ab67616d00001e027c451a4f06288da6edf050c1" alt=""></p>
+<div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7ov3TDp5D00Rnu5R1viX4w?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
+<h3 id="music-references" tabindex="-1">Music References</h3>
+<h5 id="music-report" tabindex="-1">Music Report</h5>
+<p><a class="internal-link is-unresolved" href="/404" target="">2024-10-27 - New Woman (feat. ROSALíA) Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2024-10-27 - Music Daily Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2024-10-4th - Music Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -1347,27 +1279,11 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#3-learning-hash-tables-concept-hash-tables-concept">[[3_Learning/Hash Tables Concept|Hash Tables Concept]]</a>
+<li><a href="#9-music-new-woman-feat-rosalia-new-woman-feat-rosalia">[[9_Music/New Woman (feat. ROSALIA)|New Woman (feat. ROSALIA)]]</a>
 <ol>
-<li><a href="#hash-tables-object-maps-hashes">Hash Tables, Object, Maps, Hashes</a>
+<li><a href="#music-references">Music References</a>
 <ol>
-<li><a href="#what-is-a-hash-function">What is a Hash Function?</a>
-</li>
-<li><a href="#hash-tables-functions">Hash Tables Functions</a>
-</li>
-<li><a href="#hash-tables-example">Hash Tables Example</a>
-</li>
-</ol>
-</li>
-<li><a href="#hash-table-problem">Hash Table Problem</a>
-</li>
-<li><a href="#arrays-vs-hash-tables">Arrays vs Hash Tables</a>
-<ol>
-<li><a href="#developing-references">Developing References</a>
-<ol>
-<li><a href="#developing-report">Developing Report</a>
-</li>
-</ol>
+<li><a href="#music-report">Music Report</a>
 </li>
 </ol>
 </li>
@@ -1379,8 +1295,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/3_Learning/Overview/developing/" data-note-icon="developing" class="backlink">developing</a>
-</div><div class="backlink-card"><a href="/Hack-The-Moon-Info/" data-note-icon="1" class="backlink">Hack The Moon Info</a>
+<div class="backlink-list"><div class="backlink-card"><a href="/9_Music/Overview/music/" data-note-icon="music" class="backlink">music</a>
 </div></div>
 </div>
 </div>
