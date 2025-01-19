@@ -25,6 +25,7 @@ img {
     position: relative;
     min-width: 700px;
     max-width: 700px;
+    z-index: 3;
     @media screen and (max-width: 1630px) {
         margin-top: 75px;
     }
@@ -73,6 +74,7 @@ ul.task-list {
 
 .sidebar-main-container{
     width: 330px;
+    z-index: 9999;
     @media (max-width: 1360px) {
         display: none;
         width: 0;
@@ -487,7 +489,7 @@ ul.task-list {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 4;
     padding-left: var(--file-margins);
     display: flex;
     justify-content: space-between;
