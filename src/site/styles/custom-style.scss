@@ -187,6 +187,8 @@ body {
     --note-icon-lifeExplorer: url(/img/life-explorer.svg);
     --note-icon-faceScan: url(/img/faceScan.svg);
     --note-icon-spanish: url(/img/spanish.svg);
+    --note-icon-spanish: url(/img/question.svg);
+    --note-icon-spanish: url(/img/idea.svg);
     --note-icon-fallback: url(/img/moon.svg);
 }
 
@@ -655,6 +657,18 @@ body.filetree-note-icon .filename[data-note-icon="spanish"]::before,
 body.links-note-icon .internal-link[data-note-icon="spanish"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="spanish"]::before {
     background-image: url(/img/spanish.svg);
+}
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="question"]::before,
+body.filetree-note-icon .filename[data-note-icon="question"]::before,
+body.links-note-icon .internal-link[data-note-icon="question"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="question"]::before {
+    background-image: url(/img/question.svg);
+}
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="idea"]::before,
+body.filetree-note-icon .filename[data-note-icon="idea"]::before,
+body.links-note-icon .internal-link[data-note-icon="idea"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="idea"]::before {
+    background-image: url(/img/idea.svg);
 }
 
 .nightsky{
