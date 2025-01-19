@@ -3,6 +3,23 @@
 ---
 
 
+# Myself
+😎 Myself
+
+- [[0_Myself/Background story about how I became Diana\|Background story about how I became Diana]]
+
+{ .block-language-dataview}
+
+💡 Ideas
+
+
+{ .block-language-dataview}
+
+❓ Questions
+
+
+{ .block-language-dataview}
+
 # Projects
 💼 Career
 
@@ -16,11 +33,11 @@
 
 - [[1_Project/Life Explorer/2025 Diet\|2025 Diet]]
 - [[1_Project/Life Explorer/2025 Workout\|2025 Workout]]
-- [[1_Project/Life Explorer/2025 English\|2025 English]]
 - [[1_Project/Life Explorer/2025-2028 Book List\|2025-2028 Book List]]
+- [[1_Project/Life Explorer/2025 English\|2025 English]]
 - [[1_Project/Life Explorer/2025-2026 Spanish\|2025-2026 Spanish]]
-- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
 - [[1_Project/Life Explorer/English Book List\|English Book List]]
+- [[1_Project/Life Explorer/2025 Routine\|2025 Routine]]
 - [[1_Project/2025 Annual Plan\|2025 Annual Plan]]
 
 { .block-language-dataview}
@@ -43,6 +60,7 @@
 
 📖 Books
 
+- [[4_Book/무의식은 어떻게 나를 설계하는가\|무의식은 어떻게 나를 설계하는가]]
 - [[4_Book/소크라테스의 변명4\|소크라테스의 변명4]]
 - [[4_Book/소크라테스의 변명3\|소크라테스의 변명3]]
 - [[4_Book/소크라테스의 변명2\|소크라테스의 변명2]]
@@ -59,8 +77,8 @@
 
 - [[3_Learning/그렇게는 생각 안해봤는데 그것도 말 되네\|그렇게는 생각 안해봤는데 그것도 말 되네]]
 - [[3_Learning/과거완료, 현재 완료 + 진행\|과거완료, 현재 완료 + 진행]]
-- [[3_Learning/영어에서 완료시제는 언제 사용하는 것일까\|영어에서 완료시제는 언제 사용하는 것일까]]
 - [[3_Learning/IE 3 How to Build Your Brain Box for Listening on the IELTS Exam\|IE 3 How to Build Your Brain Box for Listening on the IELTS Exam]]
+- [[3_Learning/영어에서 완료시제는 언제 사용하는 것일까\|영어에서 완료시제는 언제 사용하는 것일까]]
 - [[3_Learning/IE 4 Skim Scan and Succeed on the IELTS Reading Section\|IE 4 Skim Scan and Succeed on the IELTS Reading Section]]
 - [[3_Learning/IE 5 How to Avoid the DANGERS of Speaking Part 1 on the IELTS\|IE 5 How to Avoid the DANGERS of Speaking Part 1 on the IELTS]]
 - [[3_Learning/언젠가는, 조만간에\|언젠가는, 조만간에]]
@@ -70,17 +88,21 @@
 
 { .block-language-dataview}
 
+🌍 Spanish
+
+- [[3_Learning/Siwon School Spanish4\|Siwon School Spanish4]]
+- [[3_Learning/Siwon School Spanish3\|Siwon School Spanish3]]
+- [[3_Learning/Siwon School Spanish2\|Siwon School Spanish2]]
+- [[3_Learning/Siwon School Spanish1\|Siwon School Spanish1]]
+- [[3_Learning/Siwon School Spanish\|Siwon School Spanish]]
+
+{ .block-language-dataview}
 # Resource Notes
 
 👩🏻‍🏫 Classes
 
-- [[3_Learning/Siwon School Spanish4\|Siwon School Spanish4]]
 - [[3_Learning/Swimming1\|Swimming1]]
-- [[3_Learning/Siwon School Spanish3\|Siwon School Spanish3]]
 - [[3_Learning/Swimming\|Swimming]]
-- [[3_Learning/Siwon School Spanish2\|Siwon School Spanish2]]
-- [[3_Learning/Siwon School Spanish1\|Siwon School Spanish1]]
-- [[3_Learning/Siwon School Spanish\|Siwon School Spanish]]
 
 { .block-language-dataview}
 
@@ -178,13 +200,13 @@
 🎶 Music
 
 - [[9_Music/On Your Mind (feat. Emi Choi)\|On Your Mind (feat. Emi Choi)]]
-- [[9_Music/Obliviate\|Obliviate]]
 - [[9_Music/You\|You]]
-- [[9_Music/Severus and Lily\|Severus and Lily]]
+- [[9_Music/Obliviate\|Obliviate]]
 - [[9_Music/Snape to Malfoy Manor\|Snape to Malfoy Manor]]
-- [[9_Music/The Knight Bus\|The Knight Bus]]
+- [[9_Music/Severus and Lily\|Severus and Lily]]
 - [[9_Music/Dumbledore's Army\|Dumbledore's Army]]
 - [[9_Music/Fireworks\|Fireworks]]
+- [[9_Music/The Knight Bus\|The Knight Bus]]
 - [[9_Music/The Quidditch World Cup\|The Quidditch World Cup]]
 - [[9_Music/Professor Umbridge\|Professor Umbridge]]
 
@@ -202,6 +224,8 @@
 
 🗄️ Recent file updates
 
+- [[4_Book/무의식은 어떻게 나를 설계하는가\|무의식은 어떻게 나를 설계하는가]]
+- [[3_Learning/참고로, 그러고보니까 - Part 3 of 3\|참고로, 그러고보니까 - Part 3 of 3]]
 - [[3_Learning/Arrays - Question 1 Google Interview Question Two Sum (Easy)\|Arrays - Question 1 Google Interview Question Two Sum (Easy)]]
 - [[3_Learning/Siwon School Spanish4\|Siwon School Spanish4]]
 - [[3_Learning/IE 2 What Happens on IELTS Exam Day\|IE 2 What Happens on IELTS Exam Day]]
@@ -210,8 +234,6 @@
 - [[4_Book/원씽(The One Thing)(60만 부 기념 스페셜 에디션)\|원씽(The One Thing)(60만 부 기념 스페셜 에디션)]]
 - [[4_Book/소크라테스의 변명1\|소크라테스의 변명1]]
 - [[3_Learning/Swimming1\|Swimming1]]
-- [[3_Learning/Swimming\|Swimming]]
-- [[3_Learning/Siwon School Spanish3\|Siwon School Spanish3]]
 
 { .block-language-dataview}
 
@@ -219,21 +241,23 @@
 
 - [[3_Learning/Arrays - Question 3 Trapping Rainwater\|Arrays - Question 3 Trapping Rainwater]]
 - [[8_Movie & Drama/Blue Is the Warmest Colour\|Blue Is the Warmest Colour]]
+- [[4_Book/현명한 존재는 무리에 섞이지 않는다\|현명한 존재는 무리에 섞이지 않는다]]
 - [[4_Book/행동하지 않으면 인생은 바뀌지 않는다\|행동하지 않으면 인생은 바뀌지 않는다]]
 
 { .block-language-dataview}
 
 -   〽️ Stats
-    -   File Count: 1195
+    -   File Count: 1201
     -   Daily Routines: 82
     -   Daily Drawings: 9
+    -   Myself: 2
     -   Class: 8
     -   Developing: 10
     -   English: 66
     -   Web-Surfing: 7
-    -   Career: 3
-    -   Youtube: 26
-    -   Book: 10
+    -   Career: 
+    -   Youtube: 3
+    -   Book: 12
     -   Event: 3
     -   Meeting: 
     -   Author: 
