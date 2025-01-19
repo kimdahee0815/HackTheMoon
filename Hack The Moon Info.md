@@ -6,6 +6,34 @@ cssclasses:
 dg-content-classes: dashboard
 ---
 
+# Myself
+😎 Myself
+
+```dataview
+	LIST
+	FROM "0_Myself"
+	WHERE !contains(tags, "idea") and !contains(tags,"question") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	SORT date DESC
+```
+
+💡 Ideas
+
+```dataview
+	LIST
+	FROM "0_Myself"
+	WHERE contains(tags, "idea") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	SORT date DESC
+```
+
+❓ Questions
+
+```dataview
+	LIST
+	FROM "0_Myself"
+	WHERE contains(tags, "question") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	SORT date DESC
+```
+
 # Projects
 💼 Career
 
@@ -57,6 +85,15 @@ dg-content-classes: dashboard
 	LIMIT 10
 ```
 
+🌍 Spanish
+
+```dataview
+	LIST
+	FROM ""
+	WHERE contains(tags, "spanish") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview") and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	SORT date DESC
+	LIMIT 10
+```
 # Resource Notes
 
 👩🏻‍🏫 Classes
@@ -64,7 +101,7 @@ dg-content-classes: dashboard
 ```dataview
 	LIST
 	FROM "3_Learning"
-	WHERE contains(tags, "class") and !contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
+	WHERE contains(tags, "class") and !contains(tags, "spanish") and !contains(tags, "developing") and file.folder != "Utilities/Templates" and !contains(tags, "report") and !contains(tags, "overview")  and !contains(file.folder, "src") and !contains(file.folder, "dist") and dg-publish = true
 	SORT date DESC
 	LIMIT 10
 ```
@@ -248,12 +285,13 @@ dg-content-classes: dashboard
     -   File Count: `$=dv.pages('""').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
     -   Daily Routines: `$=dv.pages('"2_Routine/1_Daily/Daily-Routine"').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
     -   Daily Drawings: `$=dv.pages('"2_Routine/1_Daily/Daily-Drawing"').where(p => {return p.file.path.indexOf("Utilities") === -1 && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}).length`
+    -   Myself: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("myself") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Class: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("class") && !p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Developing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("developing") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   English: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("english") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Web-Surfing: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("web-surfing") && !p.tags.contains("stuff") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("report") && !p.tags.contains("overview")  && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
-    -   Career: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("career") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
-    -   Youtube: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("youtube") && !p.tags.contains("english") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Career: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("career") && !p.tags.contains("plan") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
+    -   Youtube: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("youtube") && !p.tags.contains("english") && !p.tags.contains("workout") && !p.tags.contains("stretching") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Book: `$=dv.pages('""').where(p => { if(p.tags !== undefined) {return p.tags.contains("book") && !p.tags.contains("author") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Event: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("event") && !p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
     -   Meeting: `$=dv.pages('""').where(p => {if(p.tags !== undefined) {return p.tags.contains("meeting") && !p.tags.contains("report") && !p.tags.contains("daily-report")  && !p.tags.contains("weekly-report") && !p.tags.contains("overview") && p.file.folder !== "Utilities/Templates" && p.file.path.indexOf("node_modules") === -1 && p.file.path.indexOf("src") === -1 && p.file.path.indexOf("dist") === -1}}).length`
