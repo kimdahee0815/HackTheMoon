@@ -948,7 +948,13 @@ body.backlinks-note-icon .backlink[data-note-icon="idea"]::before {
       -webkit-transform: rotate(0deg);
        height: 100vh;
     }
-    50% {
+    25% {
+        height: 100vw;
+    }
+    50%{
+        height: 100vh;
+    }
+    75%{
         height: 100vw;
     }
     100% {
