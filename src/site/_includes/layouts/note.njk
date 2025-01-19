@@ -238,7 +238,7 @@ function initStars(){
 
     let constellation = document.getElementById("constellation");
     let star = "";
-    let numberOfStars = 250;
+    let numberOfStars = 350;
     const x = getRandomValue(windowWidth);
     const y = getRandomValue(windowHeight);
 
@@ -350,6 +350,7 @@ function init(){
     const event = new Event('themeChanged');
     document.dispatchEvent(event);
   }
+  window.addEventListener('resize', initStars);
   </script>
   </body>
 </html>
