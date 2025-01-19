@@ -29,8 +29,8 @@
 
 
 
-### Class References
-##### Class Report
+### <font color="#92d050">Class References</font>
+##### <font color="#41c9cb">Class Report</font>
 [[3_Learning/Report/Class/2025-01-20 - Swimming2\|2025-01-20 - Swimming2 Report]]
 [[3_Learning/Report/Class/Daily/2025-01-20 - Class\|2025-01-20 - Class Daily Report]]
 [[3_Learning/Report/Class/Weekly/2025-01-4th - Class\|2025-01-4th - Class Weekly Report]]
