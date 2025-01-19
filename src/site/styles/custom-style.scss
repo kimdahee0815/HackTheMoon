@@ -947,20 +947,20 @@ body.backlinks-note-icon .backlink[data-note-icon="idea"]::before {
   @keyframes rotate {
     0% {
       -webkit-transform: rotate(0deg);
-       height: 1200px;
+       height: 3000px;
     }
     25% {
-        height: 2350px;
+        height: 4000px;
     }
     50%{
-        height: 1200px;
+        height: 3000px;
     }
     75%{
-        height: 2350px;
+        height: 4000px;
     }
     100% {
       -webkit-transform: rotate(360deg);
-      height: 1200px;
+      height: 3000px;
     }
   }
 
