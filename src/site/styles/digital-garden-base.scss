@@ -96,14 +96,14 @@ ul.task-list {
         width: 0;
     }
     .graph {
-        width: 320px;
+        width: 330px;
         margin-top: -20px;
         @media (max-width: 1500px) {
             margin-top: 0;
         }
         #link-graph {
-            width: 320px;
-            height: 320px;
+            width: 330px;
+            height: 330px;
         }
 
         #graph-fs-btn {
