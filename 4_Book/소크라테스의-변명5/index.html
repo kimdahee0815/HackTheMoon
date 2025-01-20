@@ -73,7 +73,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-01-20T10:35:55.345Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-01-20T10:35:55.345Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-01-20T10:35:55.345Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-01-20T10:36:54.928Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-01-20T10:36:54.928Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-01-20T10:36:54.928Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <div class="main-container">
 <div class="filetree-sidebar-container" style="display:inline-block;margin-top:-20px" x-init="isDesktop = (window.innerWidth>=1615) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1615) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
 <div x-show.important="!isDesktop" style="display:none">
@@ -1438,16 +1438,16 @@ CTRL + K
 </div>
 </header>
 <h1 id="4-book-5-5" tabindex="-1"><a class="internal-link" target="" data-note-icon="book" href="/4_Book/소크라테스의-변명5/">소크라테스의 변명5</a></h1>
-<h2 id="cover" tabindex="-1">Cover</h2>
+<h2 id="font-color-9d0ab3-cover-font" tabindex="-1"><font color="#9d0ab3">Cover</font></h2>
 <p><img src="http://books.google.com/books/content?id=4_m-DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="cover"></p>
-<h2 id="reading-logs" tabindex="-1">Reading Logs</h2>
-<h3 id="크리톤" tabindex="-1">크리톤</h3>
-<h4 id="전제" tabindex="-1">전제</h4>
+<h2 id="font-color-9d0ab3-reading-logs-font" tabindex="-1"><font color="#9d0ab3">Reading Logs </font></h2>
+<h3 id="font-color-92d050-font" tabindex="-1"><font color="#92d050">크리톤</font></h3>
+<h4 id="font-color-00b050-font" tabindex="-1"><font color="#00b050">전제</font></h4>
 <ol>
 <li>해를 입히거나 보복하거나 악을 악으로 갚는 것은 옳지 못하다.</li>
 <li>인간은 자신을 속이고 잘못된 일을 하지 말고 자신이 옳다고 인정하는 일을 해야 한다.</li>
 </ol>
-<h4 id="주장" tabindex="-1">주장</h4>
+<h4 id="font-color-00b050-font-1" tabindex="-1"><font color="#00b050">주장</font></h4>
 <ol>
 <li>아테네인의 의사를 거스르고 감옥을 나간다면 자신은 나쁜 일을 하되는 것이다. 그리고 조금이라도 해를 끼쳐서는 안 될 사람들에게 나쁜 일을 하는 것이다.</li>
 <li>내가 감옥에서 도망가는 행동은 국법, 국가를 쓰러뜨리려고 하는 행위이다. 법의 결정을 힘을 발휘하지 하게 못하고 개인에 의해 무효가 되는 행위를 하는 것이기 때문이다.</li>
@@ -1466,19 +1466,19 @@ CTRL + K
 <li>법을 타락시키는 자는 젊은이와 인류의 어리석은 게층을 타락시키는 자이다.</li>
 <li>그러므로 나는 늙었음에도 조금 더 살겠다는 비열한 욕망 때문에 부끄러움도 없이 가장 신성한 법을 어기면서까지 이렇게까지 해서 살 보람이 없다.</li>
 </ol>
-<h3 id="파이돈" tabindex="-1">파이돈</h3>
+<h3 id="font-color-92d050-font-1" tabindex="-1"><font color="#92d050">파이돈</font></h3>
 <p>철학자라면 기꺼이 죽어야 하고, 인간은 자살을 해서는 안 된다.<br>
 죽으면 현명하고 선한 다른 신들에게로 가게 되고, 뒤에 남겨두고 사는 사람들보다 더 좋은 사람들에게로 떠나간다.<br>
 죽은 자에게도 무엇인가 아직 남아 있는 일이 있고, 예로부터 전해 오는 것처럼 착한 사람에게는 악한 사람보다 훨씬 좋은 일이 있다.<br>
 영혼은 저세상에 존재한다.</p>
-<h4 id="전제-1" tabindex="-1">전제</h4>
+<h4 id="font-color-00b050-font-2" tabindex="-1"><font color="#00b050">전제</font></h4>
 <ol>
 <li>신들은 우리 인간의 수호자이며, 우리 인간은 신의 소유물이다.</li>
 <li>죽는다는 것은 영혼과 육체의 분리의 완성이다. 영혼이 독립하고 육체에서 해방되고, 육체는 영혼에서 해방된다.</li>
 <li>반대되는 것을 갖고 있는 것은 모두 이 반대되는 것에서 생긴다. 모든 반대 관계에는 필연적으로 동일한 교체 관계가 있다. (ex. 어느 것이 더 큰 것이 되었다면, 그것은 더 작은 것이 된 다음에야 더 큰 것이 될 수 있다)</li>
 <li>모든 반대 관계에는 항상 진행되고 있는 두가지 생성 과정, 갑에서 을로, 을에서 갑으로 되돌아가는 가정이 있다. (ex. 분할과 결합, 냉각과 가열)</li>
 </ol>
-<h4 id="주장-1" tabindex="-1">주장</h4>
+<h4 id="font-color-00b050-font-3" tabindex="-1"><font color="#00b050">주장</font></h4>
 <ol>
 <li>신들이 명하지 않는 이상은 내가 스스로 죽는 것은 신의 노함을 사는 일이다.</li>
 <li>죽음과 생성 또한 반대 관계처럼 각기 반대되는 것에서 생기고, 두가지 생성 과정도 있을 것이다. 살아 있는 것은 죽은 것에서 생기고, 죽은 것은 살아 있는 것에서 생긴다. =&gt; 우리의 영혼은 저승에 존재한다.</li>
@@ -1486,8 +1486,8 @@ CTRL + K
 <li>그리고 생성이 직선으로만 진행되고 자연에는 보상이나 순환이 없다면, 모든 사물은 결국 같은 형태를 갖고 같은 상태에 놓이고, 따라서 사물의 생성은 있을 수가 없게 된다.</li>
 <li>우리가 태어나기 전에 얻은 지식(즉, 본질 그 자체)가 있는 이유와 그것을 상기할 수 있는 이유는 우리가 태어나기 전에 영혼이 있기 때문이다.</li>
 </ol>
-<h3 id="book-references" tabindex="-1">Book References</h3>
-<h5 id="book-report" tabindex="-1">Book Report</h5>
+<h3 id="font-color-92d050-book-references-font" tabindex="-1"><font color="#92d050">Book References</font></h3>
+<h5 id="font-color-41c9cb-book-report-font" tabindex="-1"><font color="#41c9cb">Book Report</font></h5>
 <p><a class="internal-link is-unresolved" href="/404" target="">2025-01-20 - 소크라테스의 변명5 Report</a><br>
 <a class="internal-link is-unresolved" href="/404" target="">2025-01-20 - Book Daily Report</a><br>
 <a class="internal-link is-unresolved" href="/404" target="">2025-01-4th - Book Weekly Report</a></p>
@@ -1548,29 +1548,29 @@ On this page
 <ol>
 <li><a href="#4-book-5-5">[[4_Book/소크라테스의 변명5|소크라테스의 변명5]]</a>
 <ol>
-<li><a href="#cover">Cover</a>
+<li><a href="#font-color-9d0ab3-cover-font">Cover</a>
 </li>
-<li><a href="#reading-logs">Reading Logs</a>
+<li><a href="#font-color-9d0ab3-reading-logs-font">Reading Logs</a>
 <ol>
-<li><a href="#크리톤">크리톤</a>
+<li><a href="#font-color-92d050-font">크리톤</a>
 <ol>
-<li><a href="#전제">전제</a>
+<li><a href="#font-color-00b050-font">전제</a>
 </li>
-<li><a href="#주장">주장</a>
+<li><a href="#font-color-00b050-font-1">주장</a>
 </li>
 </ol>
 </li>
-<li><a href="#파이돈">파이돈</a>
+<li><a href="#font-color-92d050-font-1">파이돈</a>
 <ol>
-<li><a href="#전제-1">전제</a>
+<li><a href="#font-color-00b050-font-2">전제</a>
 </li>
-<li><a href="#주장-1">주장</a>
+<li><a href="#font-color-00b050-font-3">주장</a>
 </li>
 </ol>
 </li>
-<li><a href="#book-references">Book References</a>
+<li><a href="#font-color-92d050-book-references-font">Book References</a>
 <ol>
-<li><a href="#book-report">Book Report</a>
+<li><a href="#font-color-41c9cb-book-report-font">Book Report</a>
 </li>
 </ol>
 </li>
