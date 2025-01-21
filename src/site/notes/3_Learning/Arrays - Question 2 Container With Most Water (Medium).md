@@ -86,13 +86,13 @@ You are given an array of positive integers where each integer represents the he
 	- p2 starts from last index
 	- Area starts from max width. Area = Math.min(height1, height2) x width, so for now we don't care about width, since width is going to be decreasing from now on. We care about height factor. The way we could increase height as much as possible is if we decrease the area's width by choosing the indicator(p1 or p2) that has smaller value and move it to next index. 
 		- ex. [6,9,3,4,5,8] => p1 = 6, p2 = 8. initial width = 5. 4 cases for moving indicator
-			- p1 move to index 1. height value for index 1 is bigger than height value for index 0. (6 -> 9)
+			- p1 move to index 1. if height value for index 1 is bigger than height value for index 0. (6 -> 9)
 				- width = 4 (decreased) height = 8 (increased) (9 > 8) => can be increased
-			- p1 move to index 1. height value for index 1 is smaller than height value for index 0. (6 -> 3)
+			- p1 move to index 1. if height value for index 1 is smaller than height value for index 0. (ex. 6 -> 3)
 				- width = 4 (decreased) height = 3 (decreased) (3 < 8) => decreased
-			- p2 move to index 4. height value for index 4 is bigger than height value for index 5. (8 -> 9)
+			- p2 move to index 4. if height value for index 4 is bigger than height value for index 5. (ex. 8 -> 9)
 				- width = 4 (decreased) height = 6 (no change) (6 < 9) => decreased
-			- p2 move to index 4. height value for index 4 is smaller than height value for index 5. (8 -> 5)
+			- p2 move to index 4. if height value for index 4 is smaller than height value for index 5. (8 -> 5)
 				- width = 4 (decreased) height = 5 (decreased) (6 > 5) => decreased
 			- Only possibility that the whole area can be increased is when we move indicator that has smaller height value in previous comparison to the next position.
 
