@@ -1,5 +1,5 @@
 ---
-{"dg-note-icon":"developing","dg-permalink":"3_Learning/Arrays---Question-3-Trapping-Rainwater","created-date":"2025-01-15 2:11:49 pm","date":"2025-01-15","type":"developing","tags":["developing"],"aliases":null,"title":"Arrays - Question 3 Trapping Rainwater","courseName":"Master the Coding Interview Big Tech (FAANG) Interviews","dg-publish":true,"permalink":"/3_Learning/Arrays---Question-3-Trapping-Rainwater/","dgPassFrontmatter":true,"noteIcon":"developing"}
+{"dg-note-icon":"developing","dg-permalink":"3_Learning/Arrays---Question-3-Trapping-Rainwater-(Hard)","created-date":"2025-01-15 2:11:49 pm","date":"2025-01-15","type":"developing","tags":["developing"],"aliases":null,"title":"Arrays - Question 3 Trapping Rainwater","courseName":"Master the Coding Interview Big Tech (FAANG) Interviews","dg-publish":true,"permalink":"/3_Learning/Arrays---Question-3-Trapping-Rainwater-(Hard)/","dgPassFrontmatter":true,"noteIcon":"developing"}
 ---
 
 
@@ -157,7 +157,7 @@ console.log(getTrappedRainWater([1,9,7,1,3,6,4,7,4,8,3,6,3,5,3,7])) //39
 
 ### Developing References
 ##### Developing Report
-[[3_Learning/Report/Developing/2025-01-15 - Arrays - Question 3 Trapping Rainwater\|2025-01-15 - Arrays - Question 3 Trapping Rainwater Report]]
+[[3_Learning/Report/Developing/2025-01-15 - Arrays - Question 3 Trapping Rainwater (Hard)\|2025-01-15 - Arrays - Question 3 Trapping Rainwater (Hard) Report]]
 [[3_Learning/Report/Developing/Daily/2025-01-15 - Developing\|2025-01-15 - Developing Daily Report]]
 [[3_Learning/Report/Developing/Weekly/2025-01-3th - Developing\|2025-01-3th - Developing Weekly Report]]
 
