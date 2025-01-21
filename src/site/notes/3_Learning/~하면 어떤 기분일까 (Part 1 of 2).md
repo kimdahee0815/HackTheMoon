@@ -25,7 +25,7 @@
 어떨지(가정);;What it would be like
 <!--SR:!2025-01-30,12,270-->
 어떨지(미래);;What it's gonna be like
-<!--SR:!2025-01-19,16,290-->
+<!--SR:!2025-01-28,8,270-->
 어땠을지(과거가정);;What it would have been like
 <!--SR:!2025-01-25,7,250-->
 

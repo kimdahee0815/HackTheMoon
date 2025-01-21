@@ -10,7 +10,7 @@
 야, 우리 옷 사이즈가 같으니까 옷을 같이 입는건 어때?;;Hey, since we wear the same size, how about we share our clothes?
 <!--SR:!2025-01-30,25,270-->
 우리는 옷 사이즈가 같아서 옷을 같이 입을 수 있는거야;;We can share the clothes because we wear the same size
-<!--SR:!2025-01-16,11,272-->
+<!--SR:!2025-02-20,31,272-->
 (formal)오늘이 제인의 마지막 날이므로/이기에 일 끝나고 송별회를 할거야;;As this is Jane's last day, we're going to have a farewell party after work
 <!--SR:!2025-02-06,31,270-->
 
@@ -20,7 +20,7 @@
 <!--SR:!2025-03-11,64,310-->
 
 난 걔가 좋은 결정을 할 수 있게 조언을 좀 해줬어;;I gave her some advice so (that) she could make a good decision
-<!--SR:!2025-01-16,7,270-->
+<!--SR:!2025-02-15,26,290-->
 
 
 

@@ -20,7 +20,7 @@
 뭐, 배울점이 그렇게 많은 사람 같지는 않더라;;Well, he surely doesn't seem like the kind of a person who you can learn a lot from
 <!--SR:!2025-02-03,31,270-->
 너가 전적으로 믿을 수 없는 사람한테는 그 얘기를 안하는 것이 좋을 것 같아;;I don't think you should tell that to anyone who you can't full trust
-<!--SR:!2025-01-03,1,170-->
+<!--SR:!2025-01-22,2,190-->
 지금도 좋은데, 나랑 공통점이 좀 더 많은 사람을 만나고 싶은 마음도 있어, 무슨 얘긴지 알지?;;It's great now, but I feel like I wanna meet someone who I have more in common with, do you know what I mean?
 <!--SR:!2025-03-04,58,270-->
 어, 너의 친구로서 말하는 건데 - 사실 너랑 마음이 완전 잘 통하는 사람 같지는 않더라;;Yeah, as your friend - he actually doesn't seem like the kind of person who you can really connect with

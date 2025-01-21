@@ -25,7 +25,7 @@
 작을 수록 가격이 더 비싸져;;The smaller it is, the more expensive it gets
 <!--SR:!2025-02-04,56,310-->
 작을 수록 더 편해져;;The smaller it is, the more convenient it gets
-<!--SR:!2025-01-19,40,290-->
+<!--SR:!2025-06-30,161,310-->
 기능이 많을수록 좋아;;the more functions it has(there are), the better it is
 <!--SR:!2025-01-29,45,290-->
 기능이 많을수록 더 편리해져;;the more functions it has, the more convenient it is

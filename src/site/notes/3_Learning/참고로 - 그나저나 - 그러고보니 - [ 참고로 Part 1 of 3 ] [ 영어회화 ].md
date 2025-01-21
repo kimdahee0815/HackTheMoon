@@ -15,7 +15,7 @@
 <!--SR:!2025-02-19,32,270-->
 
 참고로 저는 내일 아침 내내 회의에 참석을 해야하니까, 저랑 연락을 하시려면 돌아올때까지 기다리셔야 할 거에요;;On/As a side note, I'll be attending meetings all morning tomorrow. So, if you need to reach me, you'll have to wait until I get back
-<!--SR:!2025-01-16,1,210-->
+<!--SR:!2025-01-22,2,210-->
 
 정보가 일단 등록이 되면 수정하거나 고칠 수 없다는 사실을 알아두세요(명심하세요);;Keep in mind that you can't make any changes or corrections once the information is registered
 <!--SR:!2025-01-21,12,270-->
@@ -27,7 +27,7 @@
 <!--SR:!2025-02-02,16,290-->
 
 오, 그나저나, 여기 트레이시랑 최근에 연락된 사람 있나요?;;Oh, by the way, has anyone been in touch with Tracey recently?
-<!--SR:!2025-01-20,11,270-->
+<!--SR:!2025-03-01,40,290-->
 
 트레이시 얘기가 나와서 말인데, 그녀랑 오늘 말해본 사람 있어요? 오늘 저 하루종일 그녀와 연락하려고 했는데 안 되요;;Oh, Speaking of Tracey, has anyone spoken to her today? I've been trying to get in touch with her all day
 <!--SR:!2025-02-25,41,290-->

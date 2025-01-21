@@ -12,7 +12,7 @@
 그래서 익숙해질 때까지는 모든 내용을 일일이 다 기억할 필요는 없고요;;So until you get used to it, don't worry too much about keeping track of every little detail
 <!--SR:!2025-01-26,12,276-->
 전체적인 내용만 따라간다고 생각하세요;;Just try to keep up with the overall flow
-<!--SR:!2025-01-18,2,250-->
+<!--SR:!2025-01-25,5,250-->
 그리고 회의 전체가 녹음되니까 놓친 내용이 있으면 끝나고 확인할 수 있어요;;And the meetings are entirely recorded, so you can catch up on anything you might have missed afterwards
 <!--SR:!2025-01-27,11,276-->
 

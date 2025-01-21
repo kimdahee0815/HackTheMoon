@@ -18,7 +18,7 @@
 Take note/Take note of/Take note that
 
 다시한번 상기시켜드리자면(formal);;As a reminder
-<!--SR:!2025-01-17,14,290-->
+<!--SR:!2025-03-17,56,310-->
 잊지 마세요(casual);;Don't forget/Keep in mind
 <!--SR:!2025-01-19,14,290-->
 

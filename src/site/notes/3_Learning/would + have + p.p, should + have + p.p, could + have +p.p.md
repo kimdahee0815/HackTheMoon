@@ -10,7 +10,7 @@
 이거 좀 먹어봐요. 맛있어요;;Try this, it's good
 <!--SR:!2025-02-22,48,305-->
 아뇨 전 됐어요. 제가 사실은 해물을 잘 안먹거든요;;Thanks, but I'm good. Actually I don't really eat seafood
-<!--SR:!2025-01-17,2,210-->
+<!--SR:!2025-01-26,6,230-->
 정말요? 왜 아무말도 안 했어요? 다른거 시켰을텐데;;Really? Why didn't you say anything? We would have gotten something else
 <!--SR:!2025-01-20,3,230-->
 아니에요. 진짜 괜찮아요. 다른거 다 잘 먹고 있어요;;No no, it's really okay. I'm really enjoying everything else

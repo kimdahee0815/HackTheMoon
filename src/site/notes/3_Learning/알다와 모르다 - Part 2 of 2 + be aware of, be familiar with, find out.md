@@ -10,7 +10,7 @@
 늦어서 죄송하지만 저는 회의 일정이 조정된 줄 몰랐어요;;I'm sorry I'm late, but I wasn't aware - 공식적인 정보가 전달이 되지 않았다는 의미 내포(I didn't know - 일반적 지식을 모름) that the meeting had been rescheduled
 <!--SR:!2025-01-19,10,270-->
 사무실에 도착하고 방금 알았어요;;I found out just now when I got to the office
-<!--SR:!2025-01-17,12,270-->
+<!--SR:!2025-01-26,6,250-->
 괜찮아요 - 어떤 실수가 있어서 모두가 제시간에 통보를 받지 못한 모양이니, 이해합니다;;That's okay, Apparently(전해 들은 사실), there was some mistake and not everyone was notified (let someone know 비슷한 느낌) in time. So, we understand.
 <!--SR:!2025-01-21,12,270-->
 자, 회의를 시작하기 전에 새로 온 멤버를 소개하고 싶습니다;;Okay, before we start our meeting, i want to introudce our new memeber

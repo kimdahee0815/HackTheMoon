@@ -22,7 +22,7 @@
 나 거기 2시까지 가야 돼;;I have to be there by 2
 <!--SR:!2025-01-21,12,270-->
 몇시쯤에 올 것 같아?;;What time do you think you'll(are gonna) be here?
-<!--SR:!2025-01-20,14,250-->
+<!--SR:!2025-03-09,48,270-->
 2시 반까지는 갈 수 있을 것 같아;;I think I can be there by two-thirty
 <!--SR:!2025-02-14,42,290-->
 
