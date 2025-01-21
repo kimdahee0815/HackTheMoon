@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Arrays Concept</title>
+<title>Arrays - Question 3 Trapping Rainwater</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -598,11 +598,11 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Arrays---Question-3-Trapping-Rainwater/">Arrays - Question 3 Trapping Rainwater </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Arrays---Question-3-Trapping-Rainwater/">Arrays - Question 3 Trapping Rainwater </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Arrays-Concept/">Arrays Concept </a>
+<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Arrays-Concept/">Arrays Concept </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1461,7 +1461,7 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="developing">Arrays Concept</h1>
+<h1 data-note-icon="developing">Arrays - Question 3 Trapping Rainwater</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
@@ -1470,191 +1470,158 @@ CTRL + K
 </div>
 </div>
 </header>
-<h1 id="3-learning-arrays-concept-arrays-concept" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Arrays-Concept/">Arrays Concept</a></h1>
-<h2 id="arrays" tabindex="-1">Arrays</h2>
-<p><picture src="/img/user/Utilities/Images/Pasted%20image%2020250114082904.jpeg" alt="Utilities/Images/Pasted image 20250114082904.jpeg|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/HQS3vqJ76v-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/HQS3vqJ76v-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/HQS3vqJ76v-616.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/HQS3vqJ76v-616.jpeg"><img class="" src="/img/user/Utilities/Images/Pasted%20image%2020250114082904.jpeg" alt="Utilities/Images/Pasted image 20250114082904.jpeg|300" width="300px"></picture></p>
+<h1 id="3-learning-arrays-question-3-trapping-rainwater-arrays-question-3-trapping-rainwater" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Arrays---Question-3-Trapping-Rainwater/">Arrays - Question 3 Trapping Rainwater</a></h1>
+<h2 id="font-color-9d0ab3-question-font" tabindex="-1"><font color="#9d0ab3">Question</font></h2>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020250115141625.jpeg" alt="Utilities/Images/Pasted image 20250115141625.jpeg"><br>
+Given an array of integers representing an elevation map where the width of each bar is 1, return how much rainwater can be trapped.</p>
+<h3 id="font-color-76923c-verify-the-constraints-font" tabindex="-1"><font color="#76923c">Verify the constraints</font></h3>
+<ol>
+<li>Do the left and right sides of the graph count as walls? - No, the sides are not walls. <img src="/img/user/Utilities/Images/Pasted%20image%2020250115142031.jpeg" alt="Utilities/Images/Pasted image 20250115142031.jpeg"></li>
+<li>Will there be negative integers as well? - No, assume all integers are positive.</li>
+</ol>
+<h3 id="font-color-76923c-write-out-some-test-cases-font" tabindex="-1"><font color="#76923c">Write out some test cases</font></h3>
+<ol>
+<li>[3,4,3] 0</li>
+<li>[] 0</li>
+<li>array [3] 0</li>
+<li>[0,1,0,2,1,0,3,1,0,1,2] 8</li>
+<li>[3,4,2,3] 1</li>
+</ol>
+<h3 id="font-color-76923c-figure-out-a-solution-without-code-font" tabindex="-1"><font color="#76923c">Figure out a solution without code</font></h3>
+<p>ex. [0,1,0,2,1,0,3,1,0,1,2]</p>
 <ul>
-<li>Similar to List</li>
-<li>Organizes data sequentially</li>
-<li>Stored in contiquous memory in order</li>
+<li>loop over elements until the height is higher than max height value, stop the loop for a second and calculate the area. Then, set max value to newly created max value and loop until the next max value comes up.</li>
 </ul>
-<h3 id="arrays-methods" tabindex="-1">Arrays Methods</h3>
-<p><picture src="/img/user/Utilities/Images/Pasted%20image%2020250114082930.jpeg" alt="Utilities/Images/Pasted image 20250114082930.jpeg|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/orR2OVYxHq-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/orR2OVYxHq-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/orR2OVYxHq-675.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/orR2OVYxHq-675.jpeg"><img class="" src="/img/user/Utilities/Images/Pasted%20image%2020250114082930.jpeg" alt="Utilities/Images/Pasted image 20250114082930.jpeg|200" width="200px"></picture></p>
-<ul>
-<li>lookup
-<ul>
-<li>find the element you are looking for. If you know the index of that element, big O is O(1).</li>
-<li>ex. find third element =&gt; array[2]</li>
-</ul>
-</li>
-<li>push
-<ul>
-<li>insert element from behind of the arrays. bigO is O(1).</li>
-<li>ex. array.push(1);</li>
-</ul>
-</li>
-<li>insert
-<ul>
-<li>you insert element but in specific location. Let's say you pushed element in the middle of array. Then you have to push other elements behind of the inserted element. This is where you have to iterate over elements and set pushed back indeces for every element. bigO is O(N), since you have to iterate over elements.</li>
-<li>ex. array=[1,2,3,4,6,7]; array.insert(4, 5); insert 5 to index 4 =&gt; array = [1,2,3,4,5,6,7]</li>
-</ul>
-</li>
-<li>delete
-<ul>
-<li>delete element in specific location. Same as above, you have to set changed index for every element. big O is O(N), since you have to iterate over elements.</li>
-<li>ex. array=[1,2,2,3,4,5]; array.delete(2, 2); delete 2 element from index 2=&gt; array = [1,2,3,4,5]</li>
-</ul>
-</li>
-</ul>
-<h4 id="array-example" tabindex="-1">Array Example</h4>
-<pre><code class="language-run-js">	const strings= ['a', 'b', 'c', 'd']; 
-	const numbers = [1,2,3,4,5];
-	// Variable array is somewhere in memory and the computer knows it.
-	// When I do array[2], i'm telling the computer, hey go to the array and grab the 3rd item from where the array is stored.
+<pre><code class="language-run-js">function getTrappedRainWater(array){
+  let leftHeight = 0;
+  let leftHeightIndex = 0;
+  let secondMaxIndex = 0;
+  let walls = 0;
+  let trappedWater = 0;
+  let wallsPoint = [];
+  let wallsEndPoint = [];
+  let point = 0;
+  let secondMax = 0;
 
-	//push
-	strings.push('e'); //O(1)
-	console.log(strings);
+  for(let i = 0; i &lt; array.length-1; i++){
+    if(wallsPoint.length === 0){ //initWall
+      if(array[i] &gt; array[i+1]){
+        wallsPoint.push(i);
+        leftHeight = array[i];
+        leftHeightIndex = i;
+      }
+    }else if((array[i-1] &lt; array[i] &amp;&amp; array[i] &gt;= array[i+1])){//walls
+      if(leftHeight &lt;= array[i]){
+        wallsPoint.push(i);
+        leftHeight = array[i];
+        leftHeightIndex = i;
+        wallsEndPoint = [];
+        secondMax = 0;
+      }else{
+        if(secondMax &lt; array[i]){
+          secondMax = array[i];
+          wallsEndPoint=[];
+        }
+        if(wallsEndPoint.length !== 0){
+          if(array[wallsEndPoint[wallsEndPoint.length - 1]] &lt; array[i]){
+            wallsEndPoint = wallsEndPoint.slice(0, wallsEndPoint.length-1)
+          }
+        }
+        wallsEndPoint.push(i);
+      }
+    }else{
+      if(secondMax &lt; array[i]){
+        secondMax = array[i]
+      }
+    }
+  }
 
-	//pop
-	strings.pop(); //O(1)
-	strings.pop(); //O(1)
-	console.log(strings);
+  if(array[array.length-1] &lt; leftHeight &amp;&amp; wallsEndPoint.length !== 0){
+    wallsEndPoint.push(array.length-1);
+    while(leftHeightIndex !== wallsEndPoint[wallsEndPoint.length - 1]){
+      let lookupArr = wallsEndPoint.filter(p =&gt; p &gt; leftHeightIndex);
+      if(lookupArr.length &gt; 1){
+        secondMaxIndex = lookupArr.reduce( function (previous, current) {
+          return array[previous] &gt; array[current] ? previous:current;
+        });
+      }else{
+        break;
+      }
+      let tempArr = wallsEndPoint.slice();
+      let point = 0;
+      for(let i = 0; wallsEndPoint[i]&lt;secondMaxIndex;i++){
+        if(wallsEndPoint[i] === secondMaxIndex){
+          break;
+        }
+        
+        if(array[wallsEndPoint[i]] &lt; array[secondMaxIndex]){
+          tempArr.splice(point, 1)
+          point--;
+        }
+        point++;
+      }
+      wallsEndPoint = tempArr;
+      leftHeightIndex = secondMaxIndex;
+    }
+    wallsEndPoint = wallsEndPoint.slice(0, wallsEndPoint.length - 1)
+    wallsPoint.push(...wallsEndPoint)
+  }
 
-	//unshift
-	strings.unshift('x'); //O(N)
-	console.log(strings);
+  if(array[array.length-1] &gt; array[array.length-2]){ //endWall
+    wallsPoint.push(array.length-1);
+  }
 
-	//splice
-	strings.splice(2, 0, 'alien'); //
-	console.log(strings)
-</code></pre>
-<ul>
-<li>strings array takes up 16 bytes totally. 4 bytes * 4 = 16 bytes of storage (1byte = 8bits, charcter needs 1 byte to store data)</li>
-<li>push
-<ul>
-<li>add element at the end of the array</li>
-<li>O(1)</li>
-</ul>
-</li>
-<li>append
-<ul>
-<li>add element at the end of the array</li>
-<li>But, if it is dynamic array, then this can be O(N). Since you have to loop over the elements and move these elements to different space so we can add more element. <a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Arrays-Concept/#array-kinds">#Array Kinds#Dynamic Array</a></li>
-</ul>
-</li>
-<li>pop
-<ul>
-<li>remove elemetn from the end of the array</li>
-<li>O(1)</li>
-</ul>
-</li>
-<li>unshift
-<ul>
-<li>add element at the beginning of the array</li>
-<li>When you add element, then all the other elements should be pushed back towards the end. indeces should be realigned agian. We have to iterate all over.</li>
-<li>O(N)</li>
-</ul>
-</li>
-<li>splice(start index, delete count, items)
-<ul>
-<li>you can delete and also add by this function.</li>
-<li>Add: splice(2,0,'alien') =&gt; go to index of 2, and delete no elements, add 'alien' element to that index place
-<ul>
-<li>you loop half of the elements, since you add element in the place of index 2. You loop after the index of 2. So, bigO would be O(N/2), but according to the rule of bigO <a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Big-O/#simplifying-big-o">Big O#Simplifying Big O#Remove Constants</a>, you get O(N).</li>
-</ul>
-</li>
-<li>Delete: splice(2,1) =&gt; delete 1 element from the index of 2
-<ul>
-<li>you delete index from index 2, and since the index 2 element is gone, all the other elements should be pulled back forwards. This means you have to iterate elements after the index of 2. you get O(N/2), but just like the case above, you get O(N).</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="array-kinds" tabindex="-1">Array Kinds</h2>
-<h3 id="static-array" tabindex="-1">Static Array</h3>
-<ul>
-<li>Whole array size is fixed, arrays are allocated in adjacent blocks of memory. You can't keep adding things on after the max array size.</li>
-<li>If you want to add more data after the max size, you copy the whole array and move whole array to different place and allocate more memories so that you can add more elements.</li>
-<li>C++, C ... (Low level languages) - Machine memory management, User have more control over memories so it can be faster</li>
-</ul>
-<h3 id="dynamic-array" tabindex="-1">Dynamic Array</h3>
-<ul>
-<li>append cab be O(N) according to Dynamic Array</li>
-<li>javascript (High level languages) - Automatic memory management, Machine takes chare of memory management so it can be slower</li>
-</ul>
-<h2 id="implementing-an-array" tabindex="-1">Implementing an Array</h2>
-<h3 id="how-to-build-array-from-the-beginning" tabindex="-1">How to build array from the beginning?</h3>
-<pre><code class="language-run-js">class MyArray{
-	constructor(){
-		this.length = 0;
-		this.data = {};
-	}
-	get(index){
-		return this.data[index];
-	}
-	push(item){
-		this.data[this.length] = item;
-		this.length++;
-		return this;
-	}
-	pop(){
-		const removedItem = this.data[this.length - 1];
-		delete this.data[this.length - 1];
-		this.length--;
-		return removedItem;
-	}
-	delete(index){
-		const item = this.data[index];
-		delete this.data[index];
-		for(let i = index + 1; i &lt; this.length; i++){
-			this.data[index] = this.data[i];
-			index++;
-		}
-		delete this.data[this.length - 1];
-		this.length--;
-		return item;
-	}
-	delete2(index){ //different method
-		const item = this.data[index];
-		this.shiftItems(index);
-		this.length--;
-		return item;
-	}
-	shiftItems(index){
-		for(let i = index; i &lt; this.length - 1; i++){
-			this.data[i] = this.data[i+1];
-		}
-		delete this.data[this.length - 1];
-	}
+  for(let i = wallsPoint[0]+1; i &lt; array.length; i++){
+      if(i === Number(array.length - 1)){
+        if(array[i] &gt; array[i-1]){
+          let width = i - wallsPoint[point];
+          let height = Math.min(array[i], array[wallsPoint[point]]);
+          trappedWater += width * height - (walls+height);
+        }
+        break;
+      }
+
+      if(i === wallsPoint[point+1]){//walls
+        let width = i - wallsPoint[point];
+        let height = Math.min(array[i], array[wallsPoint[point]]);
+        trappedWater += width * height - (walls+height);
+        walls = 0;
+        point++;
+      }else{
+        let minHeight = Math.min(array[wallsPoint[point]], array[wallsPoint[point+1]]);
+        if(array[i] &lt;= minHeight){
+          walls+= array[i];
+        }else{
+          walls+= minHeight;
+        }
+      }
+  }
+
+  return trappedWater;
 }
-const array = new MyArray();
-console.log(array.push(3));
-console.log(array.push(5));
-console.log(array.get(0));
-console.log(array.get(1));
-console.log(array.pop());
-console.log(array)
-console.log(array.pop());
-console.log(array)
-console.log(array.push('a'));
-console.log(array.push('b'));
-console.log(array.push('c'));
-console.log(array.push('d'));
-console.log(array.delete(0));
-console.log(array)
-console.log(array.delete2(1));
-console.log(array)
+
+console.log(getTrappedRainWater([0,1,0,2,1,0,3,1,0,1,2])) //8
+console.log(getTrappedRainWater([4,2,0,3,2,5])) //9
+console.log(getTrappedRainWater([0,1,0,2,1,0,1,3,2,1,2,1])) //6
+console.log(getTrappedRainWater([3,4,3])) //0
+console.log(getTrappedRainWater([3,4,2,3])) //1
+console.log(getTrappedRainWater([5,5,1,7,1,1,5,2,7,6])) //23
+console.log(getTrappedRainWater([])) //0
+console.log(getTrappedRainWater([0,1,2,0,3,0,1,2,0,0,4,2,1,2,5,0,1,2,0,2])) //26
+console.log(getTrappedRainWater([2,8,5,5,6,1,7,4,5])) //12
+console.log(getTrappedRainWater([4,2,0,3,2,5])) //9
+console.log(getTrappedRainWater([9,6,8,8,5,6,3])) //3
+console.log(getTrappedRainWater([9,2,9,3,2,2,1,4,8])) //35
+console.log(getTrappedRainWater([9,8,3,2,3,3,4,5,7,3])) //22
+console.log(getTrappedRainWater([4,3,8,3,1,5,9,9,0,4,3,4,7])) //33
+console.log(getTrappedRainWater([1,9,7,1,3,6,4,7,4,8,3,6,3,5,3,7])) //39
+
+
 </code></pre>
 <h3 id="developing-references" tabindex="-1">Developing References</h3>
 <h5 id="developing-report" tabindex="-1">Developing Report</h5>
-<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-14 - Arrays Concept Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2025-01-14 - Developing Daily Report</a><br>
+<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-15 - Arrays - Question 3 Trapping Rainwater Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-15 - Developing Daily Report</a><br>
 <a class="internal-link is-unresolved" href="/404" target="">2025-01-3th - Developing Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
@@ -1711,29 +1678,15 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#3-learning-arrays-concept-arrays-concept">[[3_Learning/Arrays Concept|Arrays Concept]]</a>
+<li><a href="#3-learning-arrays-question-3-trapping-rainwater-arrays-question-3-trapping-rainwater">[[3_Learning/Arrays - Question 3 Trapping Rainwater|Arrays - Question 3 Trapping Rainwater]]</a>
 <ol>
-<li><a href="#arrays">Arrays</a>
+<li><a href="#font-color-9d0ab3-question-font">Question</a>
 <ol>
-<li><a href="#arrays-methods">Arrays Methods</a>
-<ol>
-<li><a href="#array-example">Array Example</a>
+<li><a href="#font-color-76923c-verify-the-constraints-font">Verify the constraints</a>
 </li>
-</ol>
+<li><a href="#font-color-76923c-write-out-some-test-cases-font">Write out some test cases</a>
 </li>
-</ol>
-</li>
-<li><a href="#array-kinds">Array Kinds</a>
-<ol>
-<li><a href="#static-array">Static Array</a>
-</li>
-<li><a href="#dynamic-array">Dynamic Array</a>
-</li>
-</ol>
-</li>
-<li><a href="#implementing-an-array">Implementing an Array</a>
-<ol>
-<li><a href="#how-to-build-array-from-the-beginning">How to build array from the beginning?</a>
+<li><a href="#font-color-76923c-figure-out-a-solution-without-code-font">Figure out a solution without code</a>
 </li>
 <li><a href="#developing-references">Developing References</a>
 <ol>
@@ -1751,8 +1704,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/3_Learning/Overview/developing/" data-note-icon="developing" class="backlink">developing</a>
-</div><div class="backlink-card"><a href="/Hack-The-Moon-Info/" data-note-icon="1" class="backlink">Hack The Moon Info</a>
+<div class="backlink-list"><div class="backlink-card"><a href="/Hack-The-Moon-Info/" data-note-icon="1" class="backlink">Hack The Moon Info</a>
 </div></div>
 </div>
 </div>
