@@ -24,7 +24,7 @@ ex. [0,1,0,2,1,0,3,1,0,1,2]
 
 - loop over elements until the height is higher than max height value, stop the loop for a second and calculate the area. Then, set max value to newly created max value and loop until the next max value comes up. 
 - What if the height is lower than max height value and we reached the end of the array? That's the exception case. We just find the secondMax constantly and if loop reached secondMax height value then we move maxHeight to secondMaxHeight value.
-### <font color="#76923c">Write out our solution in code(Brute Froce solution)</font>
+### <font color="#76923c">Write out our solution in code(Brute Force solution)</font>
 ```run-js
 function getTrappedRainWater(array){
   let leftHeight = 0;
