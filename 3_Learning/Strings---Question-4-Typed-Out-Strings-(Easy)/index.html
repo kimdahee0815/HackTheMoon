@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Ceiling Games</title>
+<title>Strings - Question 4 Typed Out Strings (Easy)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -730,7 +730,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Strings---Question-4-Typed-Out-Strings-(Easy)/">Strings - Question 4 Typed Out Strings (Easy) </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Strings---Question-4-Typed-Out-Strings-(Easy)/">Strings - Question 4 Typed Out Strings (Easy) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1342,7 +1342,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Ceiling-Games/">Ceiling Games </a>
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/Ceiling-Games/">Ceiling Games </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1489,23 +1489,195 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="music">Ceiling Games</h1>
+<h1 data-note-icon="developing">Strings - Question 4 Typed Out Strings (Easy)</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#music
+#developing
 </a>
 </div>
 </div>
 </header>
-<h1 id="9-music-ceiling-games-ceiling-games" tabindex="-1"><a class="internal-link" target="" data-note-icon="music" href="/9_Music/Ceiling-Games/">Ceiling Games</a></h1>
-<p><img src="https://i.scdn.co/image/ab67616d00001e025c31c2a42a670aef0c883c43" alt=""></p>
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3ATRPvWFMu2F1U8b1Bh7ep?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
-<h3 id="music-references" tabindex="-1">Music References</h3>
-<h5 id="music-report" tabindex="-1">Music Report</h5>
-<p><a class="internal-link is-unresolved" href="/404" target="">2024-10-28 - Ceiling Games Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2024-10-28 - Music Daily Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2024-10-5th - Music Weekly Report</a></p>
+<h1 id="3-learning-strings-question-4-typed-out-strings-easy-strings-question-4-typed-out-strings-easy" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Strings---Question-4-Typed-Out-Strings-(Easy)/">Strings - Question 4 Typed Out Strings (Easy)</a></h1>
+<h2 id="font-color-9d0ab3-question-font" tabindex="-1"><font color="#9d0ab3">Question</font></h2>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020250121143111.jpeg" alt="Utilities/Images/Pasted image 20250121143111.jpeg|200" width="200px"><br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020250121143148.jpeg" alt="Utilities/Images/Pasted image 20250121143148.jpeg|400" width="400px"><br>
+Given two strings S and T, return if they equal when both are typed out. Any '#' that appears in the string counts as a backspace.</p>
+<h3 id="font-color-76923c-verify-the-constraints-font" tabindex="-1"><font color="#76923c">Verify the constraints</font></h3>
+<ol>
+<li>What happens when two #'s appear beside each other? - Delete the two values before the first #<br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020250121143238.jpeg" alt="Utilities/Images/Pasted image 20250121143238.jpeg|200" width="200px"></li>
+<li>What happens to # when there is no character to remove? - It deletes nothing then, just like backspace would.<br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020250121143408.jpeg" alt="Utilities/Images/Pasted image 20250121143408.jpeg|200" width="200px"></li>
+<li>Are two empty strings equal to each other? - Yes, consider two empty strings as equal<br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020250121143549.jpeg" alt="Utilities/Images/Pasted image 20250121143549.jpeg|500" width="500px"></li>
+<li>Does case sensitvity matter? - Yes, it does. 'a' doesn't equal 'A'.</li>
+</ol>
+<h3 id="font-color-76923c-write-out-some-test-cases-font" tabindex="-1"><font color="#76923c">Write out some test cases</font></h3>
+<ol>
+<li>&quot;a###b&quot;</li>
+<li>S: &quot;x#y#z#&quot;, T: &quot;a#&quot;</li>
+<li>&quot;ab##&quot;</li>
+<li>S: &quot;ab#c&quot;, T: &quot;#a####b##c&quot;</li>
+</ol>
+<h3 id="font-color-76923c-figure-out-a-solution-without-code-font" tabindex="-1"><font color="#76923c">Figure out a solution without code</font></h3>
+<ul>
+<li>remove previous letter that was typed before when it meets letter '#'.</li>
+<li>case 1 : current index = 0</li>
+<li>case 2 : current index = string.length - 1</li>
+<li>case 3 : current index is between case1 and case2</li>
+</ul>
+<h3 id="font-color-76923c-write-out-our-solution-in-code-font" tabindex="-1"><font color="#76923c">Write out our solution in code</font></h3>
+<h4 id="solution-1" tabindex="-1">Solution 1</h4>
+<pre><code class="language-run-js">function removeLetterSharp(S, T){
+  let i = 0;
+  let j = 0;
+  while(i &lt; S.length){
+    if(S[i] === &quot;#&quot;){
+      if(i &gt;= 1 &amp;&amp; i &lt; S.length - 1){
+        S = S.slice(0, i-1) + S.slice(i+1);
+        i-=2;
+      }else if(i===0){
+        S = S.slice(1);
+        i--;
+      }else{
+        S = S.slice(0, i-1);
+      }
+    }
+    i++;
+  }
+  while(j &lt; T.length){
+    if(T[j] === &quot;#&quot;){
+      if(j &gt;= 1 &amp;&amp; j &lt; T.length - 1){
+        T = T.slice(0, j-1) + T.slice(j+1);
+        j-=2;
+      }else if(j===0){
+        T = T.slice(1);
+        j--;
+      }else{
+        T = T.slice(0, j-1);
+      }
+    }
+    j++;
+  }
+  console.log(S, T)
+  if(S === T){
+    return true;
+  }
+  return false;
+}
+
+console.log(removeLetterSharp(&quot;ab#c&quot;, &quot;#a####b##c&quot;)) //false
+console.log(removeLetterSharp(&quot;ab#z&quot;, &quot;az#z&quot;)) //true
+console.log(removeLetterSharp(&quot;abc#d&quot;, &quot;acc#c&quot;)) //false
+console.log(removeLetterSharp(&quot;x#y#z#&quot;, &quot;a#&quot;)) //true
+console.log(removeLetterSharp(&quot;a###b&quot;, &quot;b&quot;)) //true
+console.log(removeLetterSharp(&quot;Ab#z&quot;, &quot;ab#z&quot;)) //false
+</code></pre>
+<h4 id="solution-2" tabindex="-1">Solution 2</h4>
+<pre><code class="language-run-js">function removeLetterSharp(S, T){
+  let i = 0;
+  let j = 0;
+  let SArr = [];
+  let TArr = [];
+  while(i &lt; S.length){
+    if(S[i] === &quot;#&quot;){
+	if(i &gt;= 1){
+	      SArr.pop();
+	}
+    }else{
+        SArr.push(S[i]);
+    }
+    i++;
+  }
+  while(j &lt; T.length){
+    if(T[j] === &quot;#&quot;){
+	    if(j &gt;= 1){
+		    TArr.pop();
+	    }
+    }else{
+	    TArr.push(T[j]);
+    }
+    j++;
+  }
+  console.log(S, T)
+  if(SArr.join(&quot;&quot;) === TArr.join(&quot;&quot;)){
+    return true;
+  }
+  return false;
+}
+
+console.log(removeLetterSharp(&quot;ab#c&quot;, &quot;#a####b##c&quot;)) //false
+console.log(removeLetterSharp(&quot;ab#z&quot;, &quot;az#z&quot;)) //true
+console.log(removeLetterSharp(&quot;abc#d&quot;, &quot;acc#c&quot;)) //false
+console.log(removeLetterSharp(&quot;x#y#z#&quot;, &quot;a#&quot;)) //true
+console.log(removeLetterSharp(&quot;a###b&quot;, &quot;b&quot;)) //true
+console.log(removeLetterSharp(&quot;Ab#z&quot;, &quot;ab#z&quot;)) //false
+</code></pre>
+<h4 id="solution-3" tabindex="-1">Solution 3</h4>
+<ul>
+<li>Utilize the original strings</li>
+<li>Use two pointer technique</li>
+<li>Start from the end of the strings</li>
+</ul>
+<pre><code class="language-run-js">function removeLetterSharp (s, t){
+	let len = t.length;
+	let p = s.length - 1;
+	let q = t.length - 1;
+	if(s.length &gt; t.length){
+		len = s.length;
+	}
+	while(p &gt;= 0 || q &gt;= 0){
+		if(s[p] === t[q]){
+			if(s[p] === &quot;#&quot;){
+				p-=2;
+				q-=2;
+			}else{
+				p--;
+				q--;
+			}
+		}else{
+			if(s[p] === &quot;#&quot;){
+				p-=2;
+			}else if(t[q] === &quot;#&quot;){
+				q-=2;
+			}else{
+				return false;
+			}
+		}
+	}
+	return true;
+}
+
+console.log(removeLetterSharp(&quot;ab#c&quot;, &quot;#a####b##c&quot;)); //false
+console.log(removeLetterSharp(&quot;ab#z&quot;, &quot;az#z&quot;)); //true 
+console.log(removeLetterSharp(&quot;abc#d&quot;, &quot;acc#c&quot;)); //false 
+console.log(removeLetterSharp(&quot;x#y#z#&quot;, &quot;a#&quot;)); //true 
+console.log(removeLetterSharp(&quot;a###b&quot;, &quot;b&quot;)); //true 
+console.log(removeLetterSharp(&quot;Ab#z&quot;, &quot;ab#z&quot;)); //false
+</code></pre>
+<h3 id="font-color-76923c-double-check-for-errors-font" tabindex="-1"><font color="#76923c">Double check for errors</font></h3>
+<h3 id="font-color-76923c-test-our-code-with-our-test-cases-font" tabindex="-1"><font color="#76923c">Test our code with our test cases</font></h3>
+<h3 id="font-color-76923c-analyze-space-and-time-complexity-font" tabindex="-1"><font color="#76923c">Analyze Space and Time Complexity</font></h3>
+<ul>
+<li>Solution 1
+<ul>
+<li>Time Complexity : O(A + B)</li>
+<li>Space Complexity : O(1)</li>
+</ul>
+</li>
+<li>Solution 2
+<ul>
+<li>Time Complexity : O(A + B)</li>
+<li>Space Complexity : O(A + B)</li>
+</ul>
+</li>
+</ul>
+<h3 id="developing-references" tabindex="-1">Developing References</h3>
+<h5 id="developing-report" tabindex="-1">Developing Report</h5>
+<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-21 - Strings - Question 4 Typed Out Strings (Easy) Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-21 - Developing Daily Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-4th - Developing Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -1561,11 +1733,37 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#9-music-ceiling-games-ceiling-games">[[9_Music/Ceiling Games|Ceiling Games]]</a>
+<li><a href="#3-learning-strings-question-4-typed-out-strings-easy-strings-question-4-typed-out-strings-easy">[[3_Learning/Strings - Question 4 Typed Out Strings (Easy)|Strings - Question 4 Typed Out Strings (Easy)]]</a>
 <ol>
-<li><a href="#music-references">Music References</a>
+<li><a href="#font-color-9d0ab3-question-font">Question</a>
 <ol>
-<li><a href="#music-report">Music Report</a>
+<li><a href="#font-color-76923c-verify-the-constraints-font">Verify the constraints</a>
+</li>
+<li><a href="#font-color-76923c-write-out-some-test-cases-font">Write out some test cases</a>
+</li>
+<li><a href="#font-color-76923c-figure-out-a-solution-without-code-font">Figure out a solution without code</a>
+</li>
+<li><a href="#font-color-76923c-write-out-our-solution-in-code-font">Write out our solution in code</a>
+<ol>
+<li><a href="#solution-1">Solution 1</a>
+</li>
+<li><a href="#solution-2">Solution 2</a>
+</li>
+<li><a href="#solution-3">Solution 3</a>
+</li>
+</ol>
+</li>
+<li><a href="#font-color-76923c-double-check-for-errors-font">Double check for errors</a>
+</li>
+<li><a href="#font-color-76923c-test-our-code-with-our-test-cases-font">Test our code with our test cases</a>
+</li>
+<li><a href="#font-color-76923c-analyze-space-and-time-complexity-font">Analyze Space and Time Complexity</a>
+</li>
+<li><a href="#developing-references">Developing References</a>
+<ol>
+<li><a href="#developing-report">Developing Report</a>
+</li>
+</ol>
 </li>
 </ol>
 </li>
@@ -1577,8 +1775,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/9_Music/Overview/music/" data-note-icon="music" class="backlink">music</a>
-</div></div>
+<div class="backlink-list"></div>
 </div>
 </div>
 </div>
