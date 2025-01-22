@@ -33,7 +33,7 @@ Given two strings S and T, return if they equal when both are typed out. Any '#'
 
 
 ### <font color="#76923c">Write out our solution in code</font>
-#### Solution 1
+#### <font color="#00b050">Solution 1</font>
 ```run-js
 function removeLetterSharp(S, T){
   let i = 0;
@@ -80,7 +80,7 @@ console.log(removeLetterSharp("x#y#z#", "a#")) //true
 console.log(removeLetterSharp("a###b", "b")) //true
 console.log(removeLetterSharp("Ab#z", "ab#z")) //false
 ```
-#### Solution 2
+#### <font color="#00b050">Solution 2</font>
 ```run-js
 function removeLetterSharp(S, T){
   let i = 0;
@@ -136,27 +136,8 @@ console.log(removeLetterSharp("Ab#z", "ab#z")) //false
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Developing References
-##### Developing Report
+### <font color="#92d050">Developing References</font>
+##### <font color="#41c9cb">Developing Report</font>
 [[3_Learning/Report/Developing/2025-01-21 - Strings - Question 4 Typed Out Strings (Easy)\|2025-01-21 - Strings - Question 4 Typed Out Strings (Easy) Report]]
 [[3_Learning/Report/Developing/Daily/2025-01-21 - Developing\|2025-01-21 - Developing Daily Report]]
 [[3_Learning/Report/Developing/Weekly/2025-01-4th - Developing\|2025-01-4th - Developing Weekly Report]]
