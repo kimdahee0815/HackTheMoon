@@ -121,47 +121,7 @@ console.log(removeLetterSharp("x#y#z#", "a#")) //true
 console.log(removeLetterSharp("a###b", "b")) //true
 console.log(removeLetterSharp("Ab#z", "ab#z")) //false
 ```
-#### Solution 3
-- Utilize the original strings
-- Use two pointer technique
-- Start from the end of the strings
-```run-js
-function removeLetterSharp (s, t){
-	let len = t.length;
-	let p = s.length - 1;
-	let q = t.length - 1;
-	if(s.length > t.length){
-		len = s.length;
-	}
-	while(p >= 0 || q >= 0){
-		if(s[p] === t[q]){
-			if(s[p] === "#"){
-				p-=2;
-				q-=2;
-			}else{
-				p--;
-				q--;
-			}
-		}else{
-			if(s[p] === "#"){
-				p-=2;
-			}else if(t[q] === "#"){
-				q-=2;
-			}else{
-				return false;
-			}
-		}
-	}
-	return true;
-}
 
-console.log(removeLetterSharp("ab#c", "#a####b##c")); //false
-console.log(removeLetterSharp("ab#z", "az#z")); //true 
-console.log(removeLetterSharp("abc#d", "acc#c")); //false 
-console.log(removeLetterSharp("x#y#z#", "a#")); //true 
-console.log(removeLetterSharp("a###b", "b")); //true 
-console.log(removeLetterSharp("Ab#z", "ab#z")); //false
-```
 ### <font color="#76923c">Double check for errors</font>
 ### <font color="#76923c">Test our code with our test cases</font>
 ### <font color="#76923c">Analyze Space and Time Complexity</font>
