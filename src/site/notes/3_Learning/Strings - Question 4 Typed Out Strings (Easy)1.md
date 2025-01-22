@@ -86,8 +86,8 @@ console.log(removeLetterSharp("Ab#z", "ab#z")); //false
 
 
 
-### Class References
-##### Class Report
+### <font color="#92d050">Class References</font>
+##### <font color="#41c9cb">Class Report</font>
 [[3_Learning/Report/Developing/2025-01-22 - Strings - Question 4 Typed Out Strings (Easy)1\|2025-01-22 - Strings - Question 4 Typed Out Strings (Easy)1 Report]]
 [[3_Learning/Report/Developing/Daily/2025-01-22 - Developing\|2025-01-22 - Developing Daily Report]]
 [[3_Learning/Report/Developing/Weekly/2025-01-4th - Developing\|2025-01-4th - Developing Weekly Report]]
