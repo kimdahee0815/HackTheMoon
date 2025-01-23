@@ -4,7 +4,7 @@
 
 
 # [[3_Learning/Basics and Reverse A Linked List\|Basics and Reverse A Linked List]]
-## Question
+## <font color="#9d0ab3">Question</font>
 ![Utilities/Images/Pasted image 20250123140240.jpeg](/img/user/Utilities/Images/Pasted%20image%2020250123140240.jpeg)
 Given a linked list, return it in reverse.
 
