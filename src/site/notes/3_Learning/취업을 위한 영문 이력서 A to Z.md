@@ -30,9 +30,9 @@
 ## <font color="#9d0ab3">Resume Top 5 Tips</font>
 - <font color="#ff0000">Know the basic</font>
 	- ![Utilities/Images/Pasted image 20250123193936.jpeg|200](/img/user/Utilities/Images/Pasted%20image%2020250123193936.jpeg)
-- Have strategy
+- <font color="#245bdb">Have strategy</font>
 	- ![Utilities/Images/Pasted image 20250123194427.jpeg|200](/img/user/Utilities/Images/Pasted%20image%2020250123194427.jpeg)
-- Match skill with job description
+- <font color="#245bdb">Match skill with job description</font>
 	- According to job description, change your resume! 
 	- Know what is important (<font color="#ff0000">주 업무가 제일 위에</font>)
 	- ![Utilities/Images/Pasted image 20250123194735.jpeg|400](/img/user/Utilities/Images/Pasted%20image%2020250123194735.jpeg)
@@ -40,14 +40,14 @@
 	- ![Utilities/Images/Pasted image 20250123195119.jpeg|200](/img/user/Utilities/Images/Pasted%20image%2020250123195119.jpeg)
 	- ex. ![Utilities/Images/Pasted image 20250123195327.jpeg|300](/img/user/Utilities/Images/Pasted%20image%2020250123195327.jpeg)
 	- ex. ![Utilities/Images/Pasted image 20250123195615.jpeg|300](/img/user/Utilities/Images/Pasted%20image%2020250123195615.jpeg)
-	- #### ATS (Application Tracking System)![Utilities/Images/Pasted image 20250123195913.jpeg|400](/img/user/Utilities/Images/Pasted%20image%2020250123195913.jpeg)
+	- #### <font color="#00b050">ATS (Application Tracking System)</font>![Utilities/Images/Pasted image 20250123195913.jpeg|400](/img/user/Utilities/Images/Pasted%20image%2020250123195913.jpeg)
 	- You should pass ATS first! 
-	- #### Use ChatGPT!
-- Write work experience, not job description
+	- #### <font color="#00b050">Use ChatGPT!</font>
+- <font color="#245bdb">Write work experience, not job description</font>
 	- ![Utilities/Images/Pasted image 20250123200933.jpeg](/img/user/Utilities/Images/Pasted%20image%2020250123200933.jpeg)
 	- ![Utilities/Images/Pasted image 20250123201125.jpeg|300](/img/user/Utilities/Images/Pasted%20image%2020250123201125.jpeg)
 	- ![Utilities/Images/Pasted image 20250123201144.jpeg](/img/user/Utilities/Images/Pasted%20image%2020250123201144.jpeg)
-- STUDY each company
+- <font color="#245bdb">STUDY each company</font>
 	- Business News - 보도자료, 본사 임원의 인터뷰, 현직자 (ex. linkedin)
 	- Product - 제품 사용해보기, 경쟁력 분석, 웨비나 참여
 	- Customers - 고객 사례 기사, 후기글
