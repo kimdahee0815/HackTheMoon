@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>The Way</title>
+<title>Jest Mocking</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -706,7 +706,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Jest-Mocking/">Jest Mocking </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Jest-Mocking/">Jest Mocking </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1522,7 +1522,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/The-Way/">The Way </a>
+<div @click.stop class="notelink"><a data-note-icon="music" style="text-decoration:none" class="filename" href="/9_Music/The-Way/">The Way </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1557,23 +1557,138 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="music">The Way</h1>
+<h1 data-note-icon="developing">Jest Mocking</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#music
+#developing
 </a>
 </div>
 </div>
 </header>
-<h1 id="9-music-the-way-the-way" tabindex="-1"><a class="internal-link" target="" data-note-icon="music" href="/9_Music/The-Way/">The Way</a></h1>
-<p><img src="https://i.scdn.co/image/ab67616d00001e02ea28881e9e363244a4a2347b" alt=""></p>
-<div class="container-root"><span></span></div><div><div class="container-root"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0S4RKPbRDA72tvKwVdXQqe?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></div>
-<h3 id="music-references" tabindex="-1">Music References</h3>
-<h5 id="music-report" tabindex="-1">Music Report</h5>
-<p><a class="internal-link is-unresolved" href="/404" target="">2024-10-27 - The Way Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2024-10-27 - Music Daily Report</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">2024-10-4th - Music Weekly Report</a></p>
+<h1 id="3-learning-jest-mocking-jest-mocking" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Jest-Mocking/">Jest Mocking</a></h1>
+<h2 id="font-color-9d0ab3-what-is-mocking-font" tabindex="-1"><font color="#9d0ab3">What is mocking?</font></h2>
+<ul>
+<li>When you do the unit test and you need to test the specific parts of your layer, you use mocking.</li>
+<li>The parts where the layer depends on could be replaced with mocking functions.</li>
+</ul>
+<h2 id="font-color-9d0ab3-functions-font" tabindex="-1"><font color="#9d0ab3">Functions</font></h2>
+<h3 id="font-color-92d050-jest-fn-font" tabindex="-1"><font color="#92d050">jest.fn</font></h3>
+<h4 id="font-color-00b050-mock-return-value-value-font" tabindex="-1"><font color="#00b050">mockReturnValue(value)</font></h4>
+<ul>
+<li>set what value should be returned</li>
+</ul>
+<pre><code class="language-js">// make mock function
+const mockFn = jest.fn();
+
+// mock is empty function so default return value is undefined
+mockFn(); // undefined
+mockFn(1); // undefined
+mockFn([1, 2], { a: &quot;b&quot; }); // undefined
+
+// set mock return value
+mockFn.mockReturnValue(&quot;I am a mock!&quot;); // I am a mock!
+</code></pre>
+<pre><code class="language-js">const mock = jest.fn();
+
+mock.mockReturnValue(42);
+mock(); // 42
+
+mock.mockReturnValue(63);
+mock(); // 63
+</code></pre>
+<h4 id="font-color-00b050-mock-implementation-value-font" tabindex="-1"><font color="#00b050">mockImplementation(value)</font></h4>
+<ul>
+<li>Originally, there is nothing inside of mock function.</li>
+<li>MockImplementation is making the mock function that really functions!</li>
+</ul>
+<pre><code class="language-js">//empty mock function
+const mockFn = jest.fn();
+
+// Make mock function that really works
+mockFn.mockImplementation( (name) =&gt; `I am ${name}!` ); 
+
+console.log(mockFn(&quot;Dale&quot;)); // I am Dale!
+</code></pre>
+<pre><code class="language-js">// You can also use jest.fn directly, this way is used a lot since it is more understandable
+const mockFn = jest.fn( (name) =&gt; `I am ${name}!` );
+
+console.log(mockFn(&quot;Dale&quot;)); // I am Dale!
+</code></pre>
+<h4 id="font-color-00b050-mock-resolved-value-value-mock-rejected-value-value-font" tabindex="-1"><font color="#00b050">mockResolvedValue(value) / mockRejectedValue(value)</font></h4>
+<ul>
+<li>When you wanna use async function and get the resolved value or rejected value, you use mockResolvedValue or mockRejectedValue</li>
+<li>It remembers how it was called and remember the parameters that was used. You can check how many times they were called or with what parmeters were called by toBeCalledTimes or toBeCalledWith.</li>
+</ul>
+<pre><code class="language-js">test('async resolve test', async () =&gt; {
+  const asyncMock = jest.fn().mockResolvedValue(43);
+
+  await asyncMock(); // 43
+});
+
+test('async reject test', async () =&gt; {
+  const asyncMock = jest.fn().mockRejectedValue(new Error('Async error'));
+
+  await asyncMock(); // throws &quot;Async error&quot;
+});
+</code></pre>
+<pre><code class="language-js">test(&quot;mock Test&quot;, () =&gt; {
+   const mockFn = jest.fn();
+   mockFn.mockImplementation(name =&gt; `I am ${name}`);
+     
+   mockFn(&quot;a&quot;);
+   mockFn([&quot;b&quot;, &quot;c&quot;]);
+   
+   expect(mockFn).toBeCalledTimes(2); // How many times called? -&gt; 2
+   expect(mockFn).toBeCalledWith(&quot;a&quot;); // called with a? -&gt; true
+   expect(mockFn).toBeCalledWith([&quot;b&quot;, &quot;c&quot;]); // called with array? -&gt; true
+})
+</code></pre>
+<h3 id="font-color-92d050-jest-mock-font" tabindex="-1"><font color="#92d050">jest.mock</font></h3>
+<ul>
+<li>jest.fun() : you should set all the mocking functions respectively</li>
+<li>jest.mock() : make it a group and mock every functions inside all at once</li>
+</ul>
+<pre><code class="language-js">jest.mock('../models/user'); // objects exported from ../models/user.js group mocking
+const User = require('../models/user'); // every elements from ../models/user.js are mocked
+
+User.findOrCreate().mockReturnValue() // we can use right away without using jest.fn() 
+</code></pre>
+<h3 id="font-color-92d050-jest-spy-on-font" tabindex="-1"><font color="#92d050">jest.spyOn</font></h3>
+<ul>
+<li>Don't mock the function, we are using the function itself</li>
+<li>can get the result using the function</li>
+</ul>
+<pre><code class="language-js">test('spyOn Test', () =&gt; {
+   // object
+   const calculator = {
+      add: (a, b) =&gt; a + b, // method
+   };
+
+   // add spyon to calculator.add() method 
+   const spyFn = jest.spyOn(calculator, 'add');
+
+   // method execution
+   const result = calculator.add(2, 3);
+
+   expect(spyFn).toBeCalledTimes(1); // How many times? -&gt; 1
+   expect(spyFn).toBeCalledWith(2, 3); // with what parameters? -&gt; parameter 2, 3
+   expect(result).toBe(5); // return value is 5? -&gt; true
+});
+</code></pre>
+<h3 id="font-color-92d050-developing-references-font" tabindex="-1"><font color="#92d050">Developing References</font></h3>
+<p><a href="https://velog.io/@jay2u8809/Jest-%ED%95%A8%EC%88%98%EB%A5%BC-Mocking-%ED%95%B4%EB%B3%B4%EC%9E%90-jest.spyOn" target="_blank" class="external-link">https://velog.io/@jay2u8809/Jest-함수를-Mocking-해보자-jest.spyOn</a><br>
+<a href="https://fly.io/docs/reference/enveloop/" target="_blank" class="external-link">https://fly.io/docs/reference/enveloop/</a><br>
+<a href="https://chrisboakes.com/mocking-javascript-class-inner-functions-with-jest/" target="_blank" class="external-link">https://chrisboakes.com/mocking-javascript-class-inner-functions-with-jest/</a><br>
+<a href="https://jestjs.io/docs/es6-class-mocks#calling-jestmockdocsenjest-objectjestmockmodulename-factory-options-with-the-module-factory-parameter" target="_blank" class="external-link">https://jestjs.io/docs/es6-class-mocks#calling-jestmockdocsenjest-objectjestmockmodulename-factory-options-with-the-module-factory-parameter</a><br>
+<a href="https://4sii.tistory.com/623" target="_blank" class="external-link">https://4sii.tistory.com/623</a><br>
+<a href="https://www.daleseo.com/jest-mock-modules/" target="_blank" class="external-link">https://www.daleseo.com/jest-mock-modules/</a><br>
+<a href="https://inpa.tistory.com/entry/JEST-%F0%9F%93%9A-%EB%AA%A8%ED%82%B9-mocking-jestfn-jestspyOn#mockreturnvaluevalue" target="_blank" class="external-link">https://inpa.tistory.com/entry/JEST-📚-모킹-mocking-jestfn-jestspyOn#mockreturnvaluevalue</a><br>
+<a href="https://minoo.medium.com/%EB%B2%88%EC%97%AD-jest-mocks%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4-34f75b0f7dbe" target="_blank" class="external-link">https://minoo.medium.com/번역-jest-mocks에-대한-이해-34f75b0f7dbe</a></p>
+<h5 id="font-color-41c9cb-developing-report-font" tabindex="-1"><font color="#41c9cb">Developing Report</font></h5>
+<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-20 - Jest Mocking Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-20 - Developing Daily Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-4th - Developing Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -1629,11 +1744,31 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#9-music-the-way-the-way">[[9_Music/The Way|The Way]]</a>
+<li><a href="#3-learning-jest-mocking-jest-mocking">[[3_Learning/Jest Mocking|Jest Mocking]]</a>
 <ol>
-<li><a href="#music-references">Music References</a>
+<li><a href="#font-color-9d0ab3-what-is-mocking-font">What is mocking?</a>
+</li>
+<li><a href="#font-color-9d0ab3-functions-font">Functions</a>
 <ol>
-<li><a href="#music-report">Music Report</a>
+<li><a href="#font-color-92d050-jest-fn-font">jest.fn</a>
+<ol>
+<li><a href="#font-color-00b050-mock-return-value-value-font">mockReturnValue(value)</a>
+</li>
+<li><a href="#font-color-00b050-mock-implementation-value-font">mockImplementation(value)</a>
+</li>
+<li><a href="#font-color-00b050-mock-resolved-value-value-mock-rejected-value-value-font">mockResolvedValue(value) / mockRejectedValue(value)</a>
+</li>
+</ol>
+</li>
+<li><a href="#font-color-92d050-jest-mock-font">jest.mock</a>
+</li>
+<li><a href="#font-color-92d050-jest-spy-on-font">jest.spyOn</a>
+</li>
+<li><a href="#font-color-92d050-developing-references-font">Developing References</a>
+<ol>
+<li><a href="#font-color-41c9cb-developing-report-font">Developing Report</a>
+</li>
+</ol>
 </li>
 </ol>
 </li>
@@ -1645,8 +1780,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/9_Music/Overview/music/" data-note-icon="music" class="backlink">music</a>
-</div></div>
+<div class="backlink-list"></div>
 </div>
 </div>
 </div>
