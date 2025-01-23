@@ -96,8 +96,8 @@
 
 
 
-### Class References
-##### Class Report
+### <font color="#92d050">Class References</font>
+##### <font color="#41c9cb">Class Report</font>
 [[3_Learning/Report/Class/2025-01-23 - Siwon School Spanish8\|2025-01-23 - Siwon School Spanish8 Report]]
 [[3_Learning/Report/Class/Daily/2025-01-23 - Class\|2025-01-23 - Class Daily Report]]
 [[3_Learning/Report/Class/Weekly/2025-01-4th - Class\|2025-01-4th - Class Weekly Report]]
