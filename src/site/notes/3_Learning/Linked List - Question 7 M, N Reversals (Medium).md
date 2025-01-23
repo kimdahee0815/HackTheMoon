@@ -100,8 +100,8 @@ console.log(printList(reverseMtoNLinkedList(linkedList2, 1,1)));
 
 
 
-### Developing References
-##### Developing Report
+### <font color="#92d050">Developing References</font>
+##### <font color="#41c9cb">Developing Report</font>
 [[3_Learning/Report/Developing/2025-01-23 - Linked List - Question 7 M, N Reversals (Medium)\|2025-01-23 - Linked List - Question 7 M, N Reversals (Medium) Report]]
 [[3_Learning/Report/Developing/Daily/2025-01-23 - Developing\|2025-01-23 - Developing Daily Report]]
 [[3_Learning/Report/Developing/Weekly/2025-01-4th - Developing\|2025-01-4th - Developing Weekly Report]]
