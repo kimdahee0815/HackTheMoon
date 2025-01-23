@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>English Book List</title>
+<title>Linked Lists Concept</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -192,7 +192,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="life" style="text-decoration:none" class="filename" href="/1_Project/Life-Explorer/English-Book-List/">English Book List </a>
+<div @click.stop class="notelink"><a data-note-icon="life" style="text-decoration:none" class="filename" href="/1_Project/Life-Explorer/English-Book-List/">English Book List </a>
 </div>
 </div>
 </div>
@@ -698,7 +698,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Linked-Lists-Concept/">Linked Lists Concept </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="developing" style="text-decoration:none" class="filename" href="/3_Learning/Linked-Lists-Concept/">Linked Lists Concept </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1521,87 +1521,80 @@ CTRL + K
 <script>let clickEl=document.querySelector(".navbar > .navbar-inner > span"),navbarBtn=document.querySelector(".filetree-sidebar > .navbar-inner > span"),overlay=document.querySelector(".fullpage-overlay");clickEl.addEventListener("click",(function(){let e=document.querySelector(".filetree-sidebar");e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar")})),navbarBtn.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),overlay.addEventListener("click",(function(){let e=document.querySelector(".show-filetree-sidebar");e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar")})),window.addEventListener("resize",(function(){if(window.outerWidth>=1615){let e=document.querySelector(".show-filetree-sidebar");e&&(e.classList.remove("show-filetree-sidebar"),e.classList.add("filetree-sidebar"))}else{let e=document.querySelector(".filetree-sidebar");e&&(e.classList.add("show-filetree-sidebar"),e.classList.remove("filetree-sidebar"))}}))</script>
 <main class="content cm-s-obsidian" style="margin:-50px 0 0 0">
 <header>
-<h1 data-note-icon="life">English Book List</h1>
+<h1 data-note-icon="developing">Linked Lists Concept</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#life
-</a>
-<a class="tag" onclick="toggleTagSearch(this)">
-#list
-</a>
-<a class="tag" onclick="toggleTagSearch(this)">
-#plan
+#developing
 </a>
 </div>
 </div>
 </header>
-<h1 id="font-color-ff0000-english-books-i-own-font" tabindex="-1"><font color="#ff0000">English Books I own</font></h1>
-<ol>
-<li>English Study
-<ol>
-<li>17 네이티브 영어표현력 사전 - 이창수</li>
-<li>미국식 영작문 수업 - 최정숙</li>
-<li>하명옥의 영어일기 - 하명옥</li>
-<li>TOEIC Speaking 공식기본서 - YBM</li>
-<li>TOEFL Listening - Hackers</li>
-<li>TOEFL Speaking - Hackers</li>
-<li>TOEFL Writing - Hackers</li>
-<li>TOEFL Reading - Hackers</li>
-<li>TOEFL Writing Intermediate - Hackers</li>
-<li>토마토 TOEFL iBT Listening</li>
-<li>TOEFL Speaking - ePlan 어학원</li>
-<li>고득점 TOEFL 스터디 기본반 R &amp; L - ePlan 어학원</li>
-<li>고득점 실전 TOEFL 하 - ePlan 어학원</li>
-<li>Mastering TOEFL Writing Integrated Task - JIHYUN LEE</li>
-<li>Hackers TOEFL Speaking 후반부 - 이수련</li>
-<li>TOEFL 숙어 &amp; 단어 (유인물)</li>
-<li>해커스 텝스 Reading - David Cho</li>
-<li>Hackers Vocabulary - David Cho</li>
-<li>Point Teps 15일만에 끝내기 - 유니스 정</li>
-<li>Real English Expression 7권 - Christina KIM</li>
-</ol>
+<h1 id="3-learning-linked-lists-concept-linked-lists-concept" tabindex="-1"><a class="internal-link" target="" data-note-icon="developing" href="/3_Learning/Linked-Lists-Concept/">Linked Lists Concept</a></h1>
+<h2 id="array-vs-linked-list" tabindex="-1">Array vs Linked List</h2>
+<h3 id="array" tabindex="-1">Array</h3>
+<ul>
+<li>Static Array needs to double up the array to create more memories (O(N))</li>
+<li>Bad performance when you have to shift indeces over for insert or delete</li>
+</ul>
+<h3 id="hash-table" tabindex="-1">Hash Table</h3>
+<ul>
+<li>data structure is not ordered</li>
+</ul>
+<h3 id="linked-list" tabindex="-1">Linked List</h3>
+<p><img src="/img/user/Utilities/Images/Pasted%20image%2020250123135446.jpeg" alt="Utilities/Images/Pasted image 20250123135446.jpeg"><br>
+<img src="/img/user/Utilities/Images/Pasted%20image%2020250123132857.jpeg" alt="Utilities/Images/Pasted image 20250123132857.jpeg"></p>
+<ul>
+<li>data is in order</li>
+<li>traversing takes time to read data since memory is scattered</li>
+</ul>
+<h4 id="call-by-reference-change-the-data-inside-of-object" tabindex="-1">call by reference (change the data inside of object)</h4>
+<pre><code class="language-run-js">let obj1 = {a:true};
+let obj2 = obj1;
+obj1.a = 'booya';
+console.log('1', obj1);
+console.log('2', obj2);
+</code></pre>
+<h4 id="call-by-reference-delete-object" tabindex="-1">call by reference (delete object)</h4>
+<pre><code class="language-run-js">let obj1 = {a:true};
+let obj2 = obj1;
+delete obj1 //don't delete the object, since obj2 is still referencing obj1. 
+console.log('1', obj1);
+console.log('2', obj2);
+</code></pre>
+<pre><code class="language-run-js">let obj1 = {a:true};
+obj1 = undefined;
+delete obj1 //delete the obj1 data in memory since there is not reference to this data
+console.log(obj1)
+</code></pre>
+<h2 id="linked-lists-kinds" tabindex="-1">Linked Lists Kinds</h2>
+<h3 id="singly-linked-list" tabindex="-1">Singly Linked List</h3>
+<ul>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020250123132941.jpeg" alt="Utilities/Images/Pasted image 20250123132941.jpeg">
+<ul>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020250123133701.jpeg" alt="Utilities/Images/Pasted image 20250123133701.jpeg|200" width="200px"></li>
+<li>Simple implementation</li>
+<li>less memory</li>
+<li>delte and insert is a bit faster than doubly linked list</li>
+<li>No way to know the previous node, can't traverse from the back to front</li>
+</ul>
 </li>
-<li>English Books
-<ol>
-<li>The year of magical thinking - Joan Didion</li>
-<li>The Fault In Our Stars - John Green</li>
-<li>The complete Persepolis - Marjane Satrapi</li>
-<li>Outliers - Malcolm Gladwell</li>
-<li>Never Let Me Go - Kazuo Ishiguro</li>
-<li>The Glass Menagerie - Tenessee Williams</li>
-<li>A Midsummer Night's Dream - Shakespeare</li>
-<li>Mythos - Stephen Fry</li>
-<li>Percy Jackson and the Lightning Thief - Rick Riordan</li>
-<li>The Little Prince - Antoine de Saint - Exupery</li>
-<li>Diary of a Wimpy Kid 1 - Kinney</li>
-<li>Diary of a Wimpy Kid Rodrick Rules 2 - Kinney</li>
-<li>Diary of a Wimpy Kid The Last Straw 3 - Kinney</li>
-<li>The Adventures of Tom Sawyer - Mark Twain</li>
-<li>The Freaky Joe Club The case of the smiling shark - P. J. Mcmahon</li>
-<li>Little Woman - Louisa May Alcott</li>
-<li>Who moved my cheese? - Dr Spencer Johnson</li>
-<li>The Jungle Book - Rudyard Kipling</li>
-<li>Doctor Dolittle - Hugh Lofting</li>
-<li>A Christmas Carol - Charles Dickens</li>
-<li>The Swiss Family Robinson - Johann Wyss</li>
-<li>Harry Potter And The Sorcerer's stone - J. K. Rowling</li>
-<li>Harry Potter And The Chamber of Secrets - J. K. Rowling</li>
-<li>Harry Potter And The Prisoner of Azkaban - J. K. Rowling</li>
-<li>Harry Potter And The Goblet of Fire - J. K. Rowling</li>
-<li>Harry Potter And The Order of the Phoenix - J. K. Rowling</li>
-<li>Harry Potter And The Half-Blood Prince - J. K. Rowling</li>
-<li>Harry Potter And The Deathly Hallows - J. K. Rowling</li>
-<li>Frankenstein 1818 text - Mary Shelley</li>
-<li>Robinson Crusoe - Daniel Defoe</li>
-<li>The Noteook - Nicholas Sparks</li>
-<li>Les Miserables - Victor Hugo</li>
-<li>The Sheltering Desert - Henno Martin</li>
-<li>River Boy - Tim Bowler</li>
-<li>The Giver - Lois Lowry</li>
-</ol>
+</ul>
+<h3 id="doubly-linked-list" tabindex="-1">Doubly Linked List</h3>
+<ul>
+<li><img src="/img/user/Utilities/Images/Pasted%20image%2020250123134848.jpeg" alt="Utilities/Images/Pasted image 20250123134848.jpeg">
+<ul>
+<li>can traverse from the front and from the back</li>
+<li>requires more memory or storage</li>
+<li>fairly complex to implement</li>
+</ul>
 </li>
-</ol>
+</ul>
+<h3 id="developing-references" tabindex="-1">Developing References</h3>
+<h5 id="developing-report" tabindex="-1">Developing Report</h5>
+<p><a class="internal-link is-unresolved" href="/404" target="">2025-01-23 - Linked Lists Concept Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-23 - Developing Daily Report</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">2025-01-4th - Developing Weekly Report</a></p>
 <div class="content"><div id="disqus_thread"></div></div>
 <script>!function(){var e=document,t=e.createElement("script");t.src="https://hackthemoon.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}(),document.addEventListener("themeChanged",(function(e){"undefined"!=typeof DISQUS&&DISQUS.reset({reload:!0,config:disqus_config})}))</script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -1657,7 +1650,39 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#font-color-ff0000-english-books-i-own-font">English Books I own</a>
+<li><a href="#3-learning-linked-lists-concept-linked-lists-concept">[[3_Learning/Linked Lists Concept|Linked Lists Concept]]</a>
+<ol>
+<li><a href="#array-vs-linked-list">Array vs Linked List</a>
+<ol>
+<li><a href="#array">Array</a>
+</li>
+<li><a href="#hash-table">Hash Table</a>
+</li>
+<li><a href="#linked-list">Linked List</a>
+<ol>
+<li><a href="#call-by-reference-change-the-data-inside-of-object">call by reference (change the data inside of object)</a>
+</li>
+<li><a href="#call-by-reference-delete-object">call by reference (delete object)</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#linked-lists-kinds">Linked Lists Kinds</a>
+<ol>
+<li><a href="#singly-linked-list">Singly Linked List</a>
+</li>
+<li><a href="#doubly-linked-list">Doubly Linked List</a>
+</li>
+<li><a href="#developing-references">Developing References</a>
+<ol>
+<li><a href="#developing-report">Developing Report</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
 </li>
 </ol>
 </nav>
@@ -1665,8 +1690,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><a href="/Hack-The-Moon-Info/" data-note-icon="1" class="backlink">Hack The Moon Info</a>
-</div></div>
+<div class="backlink-list"></div>
 </div>
 </div>
 </div>
