@@ -88,7 +88,9 @@ console.log(printList(reverseMtoNLinkedList(linkedList, 1,4)));
 console.log(printList(reverseMtoNLinkedList(linkedList2, 1,1)));
 ```
 
-
+### <font color="#76923c">Analyze Space and Time Complexity</font>
+- Time Complexity: O(N)
+- Space Complexity:
 
 
 
