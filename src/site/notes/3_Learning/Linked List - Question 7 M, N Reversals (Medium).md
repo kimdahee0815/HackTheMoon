@@ -22,6 +22,11 @@ Given a linked list and numbers m and n, return it back with only positions m to
 - apply reverse linked list function and set start and end point
 
 ### <font color="#76923c">Write out our solution in code</font>
+1. We need to keep track of the value before the index m, so that this value can connect to the linked list that was reversed
+2. we also need to keep track of the value of index m, so that we set the previous node when the linked list reversion is finished 
+3. if we reach index n, then the current value is pointing to the reversed linked list (m to n). we should connect the value that was saved before index m to this current reversed linked list. 
+4. previous node should be now set with node saved in number 2 process.
+
 ```run-js
 class LinkedListNode{
 	constructor(val, next = null){
